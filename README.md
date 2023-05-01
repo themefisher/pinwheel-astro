@@ -1,7 +1,7 @@
 <h1 align=center>Pinwheel Astro</h1>
-<p align=center>Pinwheel is a feature-rich, minimal, highly customizable, easy-to-use free Astro SAAS theme.</p>
-<h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow">Demo</a></h2>
-
+<p align=center>Pinwheel is a free multipurpose SaaS theme built with Astro and TailwindCSS.</p>
+<h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-pinwheel-astro-vercel-app/kmaxqwa7rx?form_factor=desktop">Page Speed (95+)</a>
+</h2>
 <p align=center>
   <a href="https://github.com/withastro/astro/releases/tag/astro%402.0.11" alt="Contributors">
     <img src="https://img.shields.io/static/v1?label=ASTRO&message=2.0&color=000&logo=astro" />
