@@ -1,0 +1,53 @@
+---
+import { Image } from "@astrojs/image/components";
+import { AiFillCheckCircle } from "react-icons/ai/index.js";
+const { feature_service } = Astro.props;
+---
+
+<div class="gx-5 row mt-16 items-center">
+  <div class="lg:col-6 lg:order-2">
+    <div class="relative">
+      <Image
+        height={354}
+        width={476}
+        class="w-full object-contain"
+        src={feature_service.image}
+        alt=""
+      />
+    </div>
+  </div>
+  <div class="mt-6 lg:col-6 lg:order-1 lg:mt-0">
+    <div>
+      <h2 class="lg:text-4xl">{feature_service.title}</h2>
+      <p class="mt-4">{feature_service.description}</p>
+      <ul class="mt-6 text-dark lg:-ml-4">
+        {
+          feature_service.list &&
+            feature_service.list.map((list: any) => (
+              <li class="mb-2 flex items-center rounded px-4">
+                <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                {list}
+              </li>
+            ))
+        }
+      </ul>
+    </div>
+    <div class="mt-11 flex flex-wrap">
+      {
+        feature_service.buttons.map(
+          (button: any) =>
+            button.enable && (
+              <a
+                class={`btn m-3 ml-0 block sm:inline-block ${
+                  button.outline ? "btn-outline-primary" : "btn-primary"
+                } `}
+                href={button.link}
+              >
+                {button.label}
+              </a>
+            )
+        )
+      }
+    </div>
+  </div>
+</div>

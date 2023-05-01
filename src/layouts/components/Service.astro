@@ -1,0 +1,76 @@
+---
+import HomepageTab from "@layouts/function-components/HomepageTab";
+import VideoComponent from "@layouts/function-components/VideoComponent";
+import { AiFillCheckCircle } from "react-icons/ai/index.js";
+import { Image } from "@astrojs/image/components";
+const { service } = Astro.props;
+const { homepage_tab, our_service } = service;
+---
+
+<section class="section services">
+  <div class="container">
+    <HomepageTab client:load homepage_tab={homepage_tab} />
+    {
+      our_service.map((item: any, index: number) => (
+        <div class="gx-5 row mt-12 items-center lg:mt-0">
+          <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
+            {item.image && (
+              <div class="relative">
+                <Image
+                  class="w-full object-contain"
+                  alt="service"
+                  width={667}
+                  height={498}
+                  src={item.image}
+                />
+                <Image
+                  class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
+                  src="/images/shape-2.png"
+                  alt=""
+                  height={147}
+                  width={151}
+                />
+              </div>
+            )}
+            {item.video && (
+              <VideoComponent
+                client:load
+                src={item.video.thumbnail}
+                height={370}
+                width={700}
+                title={item.title}
+                video_id={item.video.video_id}
+                video_width="w-[700px]"
+                video_height="h-[370px]"
+              />
+            )}
+          </div>
+          <div
+            class={`mt-6 lg:col-5 lg:mt-0 ${
+              index % 2 === 0 ? "order-1" : "order-0"
+            }`}
+          >
+            <div class="text-container">
+              <h2 class="lg:text-4xl">{item.title}</h2>
+              <p class="mt-4">{item.description}</p>
+              {item.button && item.button.enable && (
+                <a class="btn btn-white mt-6" href={item.button.link}>
+                  {item.button.label}
+                </a>
+              )}
+              <ul class="mt-6 text-dark lg:-ml-4">
+                {item.list &&
+                  item.list.map((list: any) => (
+                    <li class="mb-2 flex items-center rounded px-4">
+                      <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                      {list}
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

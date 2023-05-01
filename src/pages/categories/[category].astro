@@ -1,0 +1,59 @@
+---
+import BlogCategories from "@components/blog/BlogCategories.astro";
+import Blogs from "@components/Blogs.astro";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import config from "@config/config.json";
+import Base from "@layouts/Base.astro";
+import { getSinglePage } from "@lib/contentParser.astro";
+import { getTaxonomy } from "@lib/taxonomyParser.astro";
+import taxonomyFilter from "@lib/utils/taxonomyFilter";
+import { slugify, humanize } from "@lib/utils/textConverter";
+
+const categories = await getTaxonomy(config.settings.blog_folder, "categories");
+export async function getStaticPaths() {
+  const categories = await getTaxonomy(
+    config.settings.blog_folder,
+    "categories"
+  );
+  return categories.map((item) => {
+    const category = slugify(item);
+    return {
+      params: { category },
+      props: {
+        item,
+      },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const { item } = Astro.props;
+
+const posts = await getSinglePage(config.settings.blog_folder);
+const filterByTags = taxonomyFilter(posts, "categories", category);
+const page_data = {
+  index_title: "Categories",
+  slug: item,
+};
+---
+
+<Base title={category}>
+  <Shape />
+  <section class="page-hero pb-8 pt-16">
+    <div class="container">
+      <div class="page-hero-content mx-auto max-w-[883px] text-center">
+        <PageHeader page_data={page_data} />
+        <h1 class="h2 mb-14 text-center">
+          Showing posts from <span class="text-primary">{humanize(item)}</span> category
+        </h1>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <BlogCategories categories={categories} />
+      <Blogs posts={filterByTags} />
+    </div>
+  </section>
+</Base>

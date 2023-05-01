@@ -1,0 +1,68 @@
+---
+import Blogs from "@components/Blogs.astro";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import config from "@config/config.json";
+import Base from "@layouts/Base.astro";
+import Pagination from "@layouts/components/Pagination.astro";
+import { getSinglePage } from "@lib/contentParser.astro";
+import { sortByDate } from "@lib/utils/sortFunctions";
+import { getEntryBySlug } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getSinglePage(config.settings.blog_folder);
+  const totalPages = Math.ceil(posts.length / config.settings.pagination);
+  const paths = [];
+
+  for (let i = 1; i < totalPages; i++) {
+    paths.push({
+      params: {
+        slug: (i + 1).toString(),
+      },
+    });
+  }
+  return paths;
+}
+const blogIndex = await getEntryBySlug<any, string>(
+  config.settings.blog_folder,
+  "_index"
+);
+const { slug } = Astro.params;
+const posts = await getSinglePage(config.settings.blog_folder);
+const sortedPosts = sortByDate(posts);
+const recentPost = sortedPosts.filter((item) => !item.data.featured);
+const totalPages = Math.ceil(recentPost.length / config.settings.pagination);
+const currentPage = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
+const indexOfLastPost = currentPage * config.settings.pagination;
+const indexOfFirstPost = indexOfLastPost - config.settings.pagination;
+const currentPosts = recentPost.slice(indexOfFirstPost, indexOfLastPost);
+const page_data = {
+  index_title: blogIndex.data.title,
+  slug: `page / ${slug}`,
+};
+---
+
+<Base
+  title={blogIndex.data.title}
+  meta_title={blogIndex.data.meta_title}
+  description={blogIndex.data.description}
+  image={blogIndex.data.image}
+>
+  <Shape />
+  <section class="page-hero pt-16">
+    <div class="container">
+      <PageHeader page_data={page_data} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="h4 mb-4">Recent Posts</h2>
+      <Blogs posts={currentPosts} />
+      <Pagination
+        section={config.settings.blog_folder}
+        totalPages={totalPages}
+        currentPage={currentPage}
+      />
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,12 @@
+---
+const { data } = Astro.props;
+const { Content } = await data.render();
+---
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <Content />
+    </div>
+  </div>
+</section>

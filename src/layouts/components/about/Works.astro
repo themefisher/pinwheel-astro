@@ -1,0 +1,49 @@
+---
+import { Image } from "@astrojs/image/components";
+import Button from "@shortcodes/Button";
+const {
+  features: { title, button, features_list },
+} = Astro.props;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row items-center justify-between">
+      <div class="md:col-5">
+        <h2 class="text-center md:text-left" set:html={title} />
+      </div>
+      {
+        button.enable && (
+          <div class="mt-6 text-center md:col-3 md:mt-0 md:text-right">
+            <a class="btn btn-primary" href={button.link}>
+              {button.label}
+            </a>
+          </div>
+        )
+      }
+    </div>
+    <div class="row mt-14">
+      {
+        features_list.map((item: any, i: number) => (
+          <div class="mb-8 sm:col-6 lg:col-4">
+            <div class="rounded-xl bg-white p-6 shadow-lg lg:p-8">
+              <div class="gradient-number relative inline-block">
+                <span class="bg-gradient absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                  {i > 8 ? i + 1 : `0${i + 1}`}
+                </span>
+                <Image
+                  height={90}
+                  width={90}
+                  src="/images/gradient-number-bg.png"
+                  alt=""
+                />
+              </div>
+              <h4 class="my-6">{item.title}</h4>
+              <p>{item.content}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

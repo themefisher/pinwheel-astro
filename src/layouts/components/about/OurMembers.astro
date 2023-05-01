@@ -1,0 +1,44 @@
+---
+import { Image } from "@astrojs/image/components";
+const {
+  members: { title, description, member_list },
+} = Astro.props;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto text-center lg:col-6">
+        <h2>{title}</h2>
+        <p class="mt-4">
+          {description}
+        </p>
+      </div>
+    </div>
+    <div class="row mt-12 justify-center">
+      <div class="lg:col-10">
+        <div class="row">
+          {
+            member_list.map((item: any) => (
+              <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
+                <div class="member-avatar inline-flex justify-center">
+                  <Image
+                    height={112}
+                    width={112}
+                    class="rouded-full h-28 w-28"
+                    src={item.image}
+                    alt=""
+                  />
+                </div>
+                <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
+                  <h5 class="font-primary">{item.name}</h5>
+                  <p class="mt-1.5">{item.field}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

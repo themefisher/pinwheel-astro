@@ -1,0 +1,53 @@
+---
+import Blogs from "@components/Blogs.astro";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import BlogCategories from "@components/blog/BlogCategories.astro";
+import FeaturedBlog from "@components/blog/FeaturedBlog.astro";
+import config from "@config/config.json";
+import Base from "@layouts/Base.astro";
+import Pagination from "@layouts/components/Pagination.astro";
+import Cta from "@layouts/partials/Cta.astro";
+import { getSinglePage } from "@lib/contentParser.astro";
+import { getTaxonomy } from "@lib/taxonomyParser.astro";
+import { sortByDate } from "@lib/utils/sortFunctions";
+import { getEntryBySlug } from "astro:content";
+
+const { blog_folder } = config.settings;
+const blogIndex = await getEntryBySlug<any, string>(blog_folder, "_index");
+const posts = await getSinglePage(blog_folder);
+const categories = await getTaxonomy(config.settings.blog_folder, "categories");
+const sortedPosts = sortByDate(posts);
+const featuredPost = sortedPosts.filter((item) => item.data.featured);
+const recentPost = sortedPosts.filter((item) => !item.data.featured);
+const totalPages = Math.ceil(recentPost.length / config.settings.pagination);
+const currentPosts = recentPost.slice(0, config.settings.pagination);
+---
+
+<Base
+  title={blogIndex.data.title}
+  meta_title={blogIndex.data.meta_title}
+  description={blogIndex.data.description}
+  image={blogIndex.data.image}
+>
+  <Shape />
+  <section class="page-hero pt-16">
+    <div class="container">
+      <PageHeader page_data={blogIndex.data} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <FeaturedBlog posts={featuredPost} />
+      <BlogCategories categories={categories} />
+      <h2 class="h4 mb-4">Recent Posts</h2>
+      <Blogs posts={currentPosts} />
+      <Pagination
+        section={blog_folder}
+        currentPage={1}
+        totalPages={totalPages}
+      />
+    </div>
+  </section>
+  <Cta />
+</Base>

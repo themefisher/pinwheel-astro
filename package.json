@@ -1,0 +1,53 @@
+{
+  "name": "pinwheel-astro",
+  "version": "1.0.0",
+  "author": "themefisher",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.19",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "json": "node scripts/jsonGenerator.js",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.16.6",
+    "@astrojs/mdx": "^0.19.0",
+    "@astrojs/rss": "^2.4.0",
+    "astro": "^2.3.2",
+    "astro-auto-import": "^0.3.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "disqus-react": "^1.1.5",
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^4.3.0",
+    "react-feather": "^2.0.10",
+    "react-icons": "^4.8.0",
+    "react-lite-youtube-embed": "^2.3.52",
+    "react-youtube": "^10.1.0",
+    "remark-collapse": "^0.1.2",
+    "remark-toc": "^8.0.1",
+    "shufflejs": "^6.1.0",
+    "swiper": "^9.2.4"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^2.1.1",
+    "@astrojs/sitemap": "^1.2.2",
+    "@astrojs/tailwind": "^3.1.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/marked": "^4.0.8",
+    "@types/react": "^18.2.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.8.0",
+    "prettier-plugin-tailwindcss": "^0.2.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.1",
+    "sharp": "^0.32.1",
+    "tailwind-bootstrap-grid": "^5.0.1",
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -1,0 +1,74 @@
+---
+import { Image } from "@astrojs/image/components";
+import dateFormat from "@lib/utils/dateFormat";
+import readingTime from "@lib/utils/readingTime";
+import Disqus from "./function-components/Disqus";
+
+import { humanize, slugify } from "@lib/utils/textConverter";
+import {
+  FaRegCalendarAlt,
+  FaRegClock,
+  FaRegFolder,
+  FaRegUserCircle,
+} from "react-icons/fa/index.js";
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<section class="section blog-single">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-10">
+        <Image
+          class="w-full rounded-xl"
+          src={post.data.image}
+          alt=""
+          width={920}
+          height={450}
+        />
+      </div>
+      <div class="mt-10 max-w-[810px] lg:col-9">
+        <h1 class="h2">
+          {post.data.title}
+        </h1>
+        <div class="mb-5 mt-6 flex items-center space-x-2">
+          <ul class="mb-4">
+            <li class="mr-4 inline-block">
+              <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
+              {humanize(post.data.author)}
+            </li>
+
+            <li class="mr-4 inline-block">
+              <FaRegCalendarAlt className={"mr-2 -mt-1 inline-block"} />
+              {dateFormat(post.data.date)}
+            </li>
+            <li class="mr-4 inline-block">
+              <FaRegClock className={"mr-2 -mt-1 inline-block"} />
+              {readingTime(post.body)}
+            </li>
+            <li class="mr-4 inline-block">
+              <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
+              {
+                post.data.categories.map((category: string, index: number) => (
+                  <a
+                    href={`/categories/${slugify(category)}`}
+                    class="hover:text-primary"
+                  >
+                    {humanize(category)}
+                    {index !== post.data.categories.length - 1 && ","}
+                  </a>
+                ))
+              }
+            </li>
+          </ul>
+        </div>
+
+        <div class="content">
+          <Content />
+        </div>
+        <Disqus client:load />
+      </div>
+    </div>
+  </div>
+</section>

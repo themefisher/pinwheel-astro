@@ -1,0 +1,22 @@
+---
+import FeatureBanner from "@components/features/FeatureBanner.astro";
+import ProjecManagement from "@components/features/ProjecManagement.astro";
+import Shape from "@components/Shape.astro";
+import Base from "@layouts/Base.astro";
+import Cta from "@layouts/partials/Cta.astro";
+import { getEntryBySlug } from "astro:content";
+
+const features = await getEntryBySlug("features", "index");
+---
+
+<Base
+  title={features.data.title}
+  meta_title={features.data.meta_title}
+  description={features.data.description}
+  image={features.data.image}
+>
+  <Shape />
+  <FeatureBanner features={features.data} />
+  <ProjecManagement features={features.data} />
+  <Cta />
+</Base>

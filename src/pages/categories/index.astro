@@ -1,0 +1,29 @@
+---
+import Blogs from "@components/Blogs.astro";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import BlogCategories from "@components/blog/BlogCategories.astro";
+import config from "@config/config.json";
+import Base from "@layouts/Base.astro";
+import { getSinglePage } from "@lib/contentParser.astro";
+import { getTaxonomy } from "@lib/taxonomyParser.astro";
+
+const { blog_folder } = config.settings;
+const posts = await getSinglePage(blog_folder);
+const categories = await getTaxonomy(blog_folder, "categories");
+---
+
+<Base title={"categories"}>
+  <Shape />
+  <section class="page-hero pb-14 pt-16">
+    <div class="container">
+      <PageHeader page_data={{ title: "Categories" }} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <BlogCategories categories={categories} />
+      <Blogs posts={posts} />
+    </div>
+  </section>
+</Base>

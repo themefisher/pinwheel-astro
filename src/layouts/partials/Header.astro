@@ -1,0 +1,144 @@
+---
+import Logo from "@components/Logo.astro";
+import menu from "@config/menu.json";
+
+export interface ChildNavigationLink {
+  name: string;
+  url: string;
+}
+
+export interface NavigationLink {
+  name: string;
+  url: string;
+  hasChildren?: boolean;
+  children?: ChildNavigationLink[];
+}
+
+const { main }: { main: NavigationLink[] } = menu;
+const { pathname } = Astro.url;
+---
+
+<header class="header">
+  <nav class="navbar container">
+    <!-- logo -->
+    <div class="order-0">
+      <Logo />
+    </div>
+    <!-- navbar toggler -->
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      id="show-button"
+      for="nav-toggle"
+      class="order-2 flex cursor-pointer items-center lg:order-1 lg:hidden"
+    >
+      <svg class="h-6 fill-current" viewBox="0 0 20 20">
+        <title>Menu Open</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+    </label>
+    <label
+      id="hide-button"
+      for="nav-toggle"
+      class="order-2 hidden cursor-pointer items-center lg:order-1"
+    >
+      <svg class="h-6 fill-current" viewBox="0 0 20 20">
+        <title>Menu Close</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    <!-- /navbar toggler -->
+
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden w-full lg:order-1 lg:flex lg:w-auto lg:space-x-2"
+    >
+      {
+        main.map((menu) => (
+          <>
+            {menu.hasChildren ? (
+              <li
+                class="nav-item nav-dropdown group relative cursor-pointer "
+                id="dropdown-button"
+              >
+                <span
+                  class={`nav-link inline-flex items-center ${
+                    menu.children?.map(({ url }) => url).includes(pathname) ||
+                    menu.children
+                      ?.map(({ url }) => `${url}/`)
+                      .includes(pathname)
+                      ? "active"
+                      : ""
+                  }`}
+                >
+                  {menu.name}
+                  <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                  </svg>
+                </span>
+                <ul
+                  id="dropdown"
+                  class="nav-dropdown-list mx-auto hidden duration-300 lg:invisible lg:absolute lg:block lg:h-auto lg:w-[13.5rem] lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100"
+                >
+                  {menu.children?.map((child) => (
+                    <li class="nav-dropdown-item">
+                      <a
+                        href={child.url}
+                        class={`nav-dropdown-link block ${
+                          (pathname === `${child.url}/` ||
+                            pathname === child.url) &&
+                          "text-primary"
+                        }`}
+                      >
+                        {child.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li class="nav-item">
+                <a
+                  href={menu.url}
+                  class={`nav-link inline-block lg:block ${
+                    (pathname === `${menu.url}/` || pathname === menu.url) &&
+                    "active"
+                  }`}
+                >
+                  {menu.name}
+                </a>
+              </li>
+            )}
+          </>
+        ))
+      }
+      <li class="nav-item mt-2 lg:hidden">
+        <a class="btn btn-white btn-sm border-border" href="/signin">
+          Sing Up Now</a
+        >
+      </li>
+    </ul>
+    <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
+      <a class="btn btn-white btn-sm" href="/signin"> Sing Up Now</a>
+    </div>
+  </nav>
+</header>
+<script is:inline>
+  const button = document.getElementById("dropdown-button");
+  button.addEventListener("click", () => {
+    const dropdown = document.getElementById("dropdown");
+    dropdown.classList.toggle(dropdown.style === "hidden" ? "block" : "hidden");
+  });
+
+  //sticky header
+  const header = document.querySelector(".header");
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    if (scrollY > 0) {
+      header.classList.add("header-sticky");
+    } else {
+      header.classList.remove("header-sticky");
+    }
+  });
+</script>

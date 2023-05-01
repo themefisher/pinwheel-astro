@@ -1,0 +1,52 @@
+---
+import { markdownify } from "@lib/utils/textConverter";
+const { gallery } = Astro.props;
+const { title, images } = gallery;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-center text-center">
+      <div class="col-8">
+        <h2 set:html={markdownify(title)} />
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="row" id="photo-gallery">
+        {
+          images.map((image: any) => (
+            <div class="picture-item col-6 mt-12">
+              {" "}
+              <img class="w-full" src={image} alt="" />
+            </div>
+          ))
+        }
+
+        <div class="js-shuffle-sizer col-1"></div>
+      </div>
+      <img
+        class="absolute -bottom-5 -left-5 -z-[1]"
+        src="images/shape-2.png"
+        alt=""
+      />
+      <img
+        class="absolute -right-5 bottom-20 -z-[1] h-16 w-16"
+        src="images/shape.png"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
+
+<script>
+  import Shuffle from "shufflejs";
+  const element = document.getElementById("photo-gallery");
+  const sizer = element.querySelector(".js-shuffle-sizer");
+  // Assumes you're using the UMD version of Shuffle (for example, from unpkg.com).
+  const shuffleInstance = new Shuffle(element, {
+    itemSelector: ".picture-item",
+    sizer: sizer,
+    columnWidth: 1,
+  });
+</script>
