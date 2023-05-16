@@ -33,7 +33,7 @@ const { title, index_title, page_title, slug, content } = page_data || {};
             <a href={`/${slugify(index_title)}`} class="text-primary">
               {index_title}
             </a>{" "}
-            / {page_title ? page_title : humanize(slug)}
+            / {page_title ? page_title : humanize(slug.replace("page /", ""))}
           </span>
         ) : (
           <span class="text-sm leading-none">/ {title}</span>

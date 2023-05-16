@@ -25,7 +25,7 @@ export async function getStaticPaths() {
 }
 const blogIndex = await getEntryBySlug<any, string>(
   config.settings.blog_folder,
-  "_index"
+  "-index"
 );
 const { slug } = Astro.params;
 const posts = await getSinglePage(config.settings.blog_folder);

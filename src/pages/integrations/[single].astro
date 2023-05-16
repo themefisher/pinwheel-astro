@@ -8,7 +8,7 @@ import { humanize, markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 const integraionsIndex = await getEntryBySlug<any, string>(
   "integrations",
-  "_index"
+  "-index"
 );
 export async function getStaticPaths() {
   const integrations = await getSinglePage("integrations");
@@ -48,7 +48,7 @@ const page_data = {
     <div class="container">
       <div class="lg:gx-4 row">
         <div class="mx-auto lg:col-8">
-          <div class="rounded-xl bg-white p-7 shadow-lg lg:px-12 lg:py-[60px]">
+          <div class="lg:py-[60px] rounded-xl bg-white p-7 shadow-lg lg:px-12">
             <div class="mb-8 px-4 text-center">
               <Image
                 class="mx-auto"

@@ -10,7 +10,7 @@ import CareerBenifits from "@layouts/function-components/CareerBenifits";
 import JobPosts from "@layouts/function-components/JobPosts";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
-const careerIndex = await getEntryBySlug<any, string>("careers", "_index");
+const careerIndex = await getEntryBySlug<any, string>("careers", "-index");
 const { benifits, career, image } = careerIndex.data;
 const categories = await getTaxonomy("careers", "categories");
 const jobposts = await getSinglePage("careers");
@@ -42,7 +42,7 @@ const page_data = {
             class="w-full rounded"
           />
           <Image
-            class="absolute -left-[8%] bottom-[12%] z-[-1] h-20 w-20 -rotate-90 lg:-left-8 lg:bottom-4 lg:h-[150px] lg:w-[150px]"
+            class="lg:h-[150px] lg:w-[150px] absolute -left-[8%] bottom-[12%] z-[-1] h-20 w-20 -rotate-90 lg:-left-8 lg:bottom-4"
             src="/images/shape.png"
             height={130}
             width={130}

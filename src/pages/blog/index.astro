@@ -14,7 +14,7 @@ import { sortByDate } from "@lib/utils/sortFunctions";
 import { getEntryBySlug } from "astro:content";
 
 const { blog_folder } = config.settings;
-const blogIndex = await getEntryBySlug<any, string>(blog_folder, "_index");
+const blogIndex = await getEntryBySlug<any, string>(blog_folder, "-index");
 const posts = await getSinglePage(blog_folder);
 const categories = await getTaxonomy(config.settings.blog_folder, "categories");
 const sortedPosts = sortByDate(posts);

@@ -9,7 +9,7 @@ import { getTaxonomy } from "@lib/taxonomyParser.astro";
 import { getEntryBySlug } from "astro:content";
 const integraionsIndex = await getEntryBySlug<any, string>(
   "integrations",
-  "_index"
+  "-index"
 );
 const categories = await getTaxonomy("integrations", "categories");
 const integrations = await getSinglePage("integrations");

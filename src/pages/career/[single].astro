@@ -7,7 +7,7 @@ import { getSinglePage } from "@lib/contentParser.astro";
 import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 
-const careerIndex: any = await getEntryBySlug("careers", "_index");
+const careerIndex: any = await getEntryBySlug("careers", "-index");
 const careers = await getSinglePage("careers");
 export async function getStaticPaths() {
   const careers = await getSinglePage("careers");
@@ -48,7 +48,7 @@ const page_data = {
       <div class="lg:gx-4 row">
         <div class="lg:col-8">
           <div
-            class="content rounded-xl bg-white p-7 shadow-lg lg:px-12 lg:py-[60px]"
+            class="content lg:py-[60px] rounded-xl bg-white p-7 shadow-lg lg:px-12"
           >
             <Content />
           </div>
