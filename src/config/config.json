@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "Coneio Exim",
+    "base_url": "",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "favicon": "/images/favicon.jpg",
+    "logo": "/images/logo.jpg",
+    "logo_width": "60",
+    "logo_height": "45",
+    "logo_text": "Coneio"
   },
 
   "settings": {

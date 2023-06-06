@@ -1,17 +1,17 @@
 ---
 title: How It Works
-page_title: our structured approach helps you navigate uncertainties
+page_title: Our structured approach helps you navigate uncertainties
 
 
 # perfomance
 perfomance:
-  - title: market profetionals
+  - title: Market profetionals
     description: Encourage frequent & timely recognition integrating with communication tools
     image: "/images/how-it-work/results.png"
-  - title: measurable results
+  - title: Measurable results
     description: Encourage frequent & timely recognition integrating with communication tools
     image: "/images/how-it-work/market-professionals.png"
-  - title: international award
+  - title: International award
     description: Encourage frequent & timely recognition integrating with communication tools
     image: "/images/how-it-work/awards.png"
 # works

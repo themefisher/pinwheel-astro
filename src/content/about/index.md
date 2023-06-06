@@ -2,9 +2,7 @@
 title: "About"
 page_title: "About our company"
 buttons:
-  - label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+  
   - label: Learn More
     link: "#"
     outline: true
@@ -40,10 +38,7 @@ gallery:
 ## our works
 features:
   title: The six core work <br /> drive everything do
-  button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+  
   features_list:
     - title: Accessibility
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
