@@ -13,25 +13,25 @@ key_features:
   title: "The Highlighting Part Of Our Franchise"
   description: We manage all your marketing hassle and help you in scaling your practice to a national level
   feature_list:
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "tag"  #icon package react-feather-icon [https://feathericons.com/]
       title: Branding
       content: Our brand name gives you a wider appearance.
-    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "shopping-bag"  #icon package react-feather-icon [https://feathericons.com/]
       title: Marketing
       content: We handle all your markeing needs and keep promoting you on different platforms.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "search"  #icon package react-feather-icon [https://feathericons.com/]
       title: Google Business
       content: We manage and optimize your google business platform and make sure that you always rank among the top search results
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "instagram"  #icon package react-feather-icon [https://feathericons.com/]
       title: Social Media Creatives
       content: We will continuously deisn creatives secifically curated for you and publish it on google so that you get a wider reach and the same will be provided to you which you can publish on your personal social media account.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "thumbs-up"  #icon package react-feather-icon [https://feathericons.com/]
       title: Best Deals
       content: We will always try to give you best possible discounts on medicines and ayurvedic products. 
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
       title: Web Page
       content: We will create your very own web page so that anyone who wishes to opt for an online consultation with can directly come to that link and book their online consultation.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "book-open"  #icon package react-feather-icon [https://feathericons.com/]
       title: Blogs
       content: You will be given the option to publish blogs on our website which will be added to your very own web page. 
 
