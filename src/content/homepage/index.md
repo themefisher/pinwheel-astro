@@ -34,6 +34,9 @@ key_features:
     - icon: "book-open"  #icon package react-feather-icon [https://feathericons.com/]
       title: Blogs
       content: You will be given the option to publish blogs on our website which will be added to your very own web page. 
+    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Clinic Design
+      content: We will help you with your clinic design if required.
 
 #service
 service:
