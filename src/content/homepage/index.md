@@ -2,7 +2,7 @@
 banner:
   title: "AYURVEDIC CLINIC FRANCHISE"
   content: "Apna Health affords you the autonomy to become one of our franchisees. Our accomplished specialists provide the requisite guidance and assistance to enable you to operate the business independently."
-  image: /images/clinic-image.png
+  image: /images/clinic-store.png
   button:
     label: Become A Franchise
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -63,14 +63,14 @@ service:
         - Help you reach a wider audience
         - No one like apna health
   
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+    - title: Get In Touch
+      description: Fill in the form to get in touch with our executive and take the first step. Upon filling  up the form you will be recieving a call from our executive & our Franchise brochure that outlines the requirements and benefits of the franchise will be shared with you.
       video:
-        thumbnail: "/images/intro-thumbnail.png"
+        thumbnail: "/images/clinic-interior.png"
         video_id: "g3-VxLQO7do"
       button:
-        label: Know About Us
-        link: "#"
+        label: Inquire Now
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfvtAo2_TPiUOEW1JpeaMFbU-M1Qzfeo8WuS5P1bCAbQAHWHA/viewform"
         enable: true
 
 #testimonial
