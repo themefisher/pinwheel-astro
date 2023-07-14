@@ -3,6 +3,8 @@ banner:
   title: "Ayurvedic Clinic Franchise"
   content: "Apna Health affords you the autonomy to become one of our franchisees. Our accomplished specialists provide the requisite guidance and assistance to enable you to operate the business independently."
   image: /images/clinic-eg.png
+  image_width: "500",
+  image_height: "500",
   button:
     label: Become A Franchise
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
