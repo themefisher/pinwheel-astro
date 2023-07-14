@@ -41,8 +41,12 @@ key_features:
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    title: Get in touch
+    description: Fill in the form to get in touch with our executive and take the first step. Upon filling up the form you will be recieving a call from our executive & our Franchise brochure that outlines the requirements and benefits of the franchise will be shared with you.
+    button:
+    label: Inquire Now
+    link: "<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvtAo2_TPiUOEW1JpeaMFbU-M1Qzfeo8WuS5P1bCAbQAHWHA/viewform?embedded=true" width="640" height="1575" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>"
+    enable: true
     tab_list:
         - title: Habit building essential choose habit
           icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
