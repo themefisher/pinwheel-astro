@@ -75,29 +75,29 @@ service:
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Our doctors have nice things to say about us
+  description: Meet our Doctors
   testimonial_list:
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-6.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
+    - author: Dr. Rajeev Ranjan
+      avatar: "/images/users/rajeev-ranjan.jpg"
+      organization: Apna Health - Shree Chitkamal Ayurvedic & Panchakarma Clinic Gaya
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Apna Health has helped me gaining popularity and helped me reach a wider audience.
+    - author: Dr. Neera Sharma
+      avatar: "/images/users/user-6.png"
+      organization: Namah - Apna Health Ayurvedic & Neurotherapy Clinic, Roorkee
+      rating: five
+      content: Apna Health has helped me a lot in making my clinics presence online. They even designed a logo for me in the beginning and I get creatives every week for advertisement.
+    - author: Dr. Rajnish Kaushal
+      avatar: "/images/users/user-2.png"
+      organization: H.R - Apna Health Ayurvedic Clinic
+      rating: five
+      content: Partnering with Apna Health was probably the best decision that I took and I am really happy with the service that I am getting.
+    - author: Dr. Harikrishna
+      avatar: "/images/users/user-3.png"
+      organization: Sahasra - Apna Health Ayurvedic & Panchakarma Clinic
+      rating: five
+      content: Ankush had helped me a lot in the whole procedure from deciding my clinic's name to the logo design and the interior design of my clinic. He was so patient with the design, he would change the design as I would say and the best part is I got such beautiful design within my budget. Very happy with Apna Health.
     - author: David Cameron
       avatar: "/images/users/user-4.png"
       organization: meta limited
