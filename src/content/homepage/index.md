@@ -1,48 +1,39 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "Ayurvedic Clinic Franchise"
+  content: "Apna Health affords you the autonomy to become one of our franchisees. Our accomplished specialists provide the requisite guidance and assistance to enable you to operate the business independently."
   image: /images/banner-img.png
   button:
-    label: Download The Theme
+    label: Become A Franchise
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "The Highlighting Part Of Our Franchise"
+  description: We manage all your marketing hassle and help you in scaling your practice to a national level
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Branding
+      content: Our brand name gives you a wider appearance.
     - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Marketing
+      content: We handle all your markeing needs and keep promoting you on different platforms.
     - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Google Business
+      content: We manage and optimize your google business platform and make sure that you always rank among the top search results
     - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Social Media Creatives
+      content: We will continuously deisn creatives secifically curated for you and publish it on google so that you get a wider reach and the same will be provided to you which you can publish on your personal social media account.
     - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Best Deals
+      content: We will always try to give you best possible discounts on medicines and ayurvedic products. 
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Web Page
+      content: We will create your very own web page so that anyone who wishes to opt for an online consultation with can directly come to that link and book their online consultation.
     - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Blogs
+      content: You will be given the option to publish blogs on our website which will be added to your very own web page. 
 
 #service
 service:
