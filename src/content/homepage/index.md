@@ -79,17 +79,17 @@ testimonial:
   description: Meet our Doctors
   testimonial_list:
     - author: Dr. Rajeev Ranjan
-      avatar: "/images/users/rajeev-ranjan.jpg"
+      avatar: "/images/users/rajeev-ranjan.png"
       organization: Apna Health - Shree Chitkamal Ayurvedic & Panchakarma Clinic Gaya
       rating: five
       content: Apna Health has helped me gaining popularity and helped me reach a wider audience.
     - author: Dr. Neera Sharma
-      avatar: "/images/users/user-6.png"
+      avatar: "/images/users/neera-sharma.png"
       organization: Namah - Apna Health Ayurvedic & Neurotherapy Clinic, Roorkee
       rating: five
       content: Apna Health has helped me a lot in making my clinics presence online. They even designed a logo for me in the beginning and I get creatives every week for advertisement.
     - author: Dr. Rajnish Kaushal
-      avatar: "/images/users/user-2.png"
+      avatar: "/images/users/rajnish-kaushal.png"
       organization: H.R - Apna Health Ayurvedic Clinic
       rating: five
       content: Partnering with Apna Health was probably the best decision that I took and I am really happy with the service that I am getting.
@@ -98,29 +98,4 @@ testimonial:
       organization: Sahasra - Apna Health Ayurvedic & Panchakarma Clinic
       rating: five
       content: Ankush had helped me a lot in the whole procedure from deciding my clinic's name to the logo design and the interior design of my clinic. He was so patient with the design, he would change the design as I would say and the best part is I got such beautiful design within my budget. Very happy with Apna Health.
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
 ---
