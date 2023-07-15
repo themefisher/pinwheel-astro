@@ -1,80 +1,85 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
-  image: /images/banner-img.png
-  button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+  title: "Track, manage & maintain every single asset in your organization."
+  content:
+      Ensure asset reliability and availability. \
+      
+      Predict maintenance and automate maintainence scheduling.
+  image: /images/banner-img-water.png
+  buttons:
+    - label: Get started
+      link: "https://themefisher.com/astro-themes/pinwheel-astro"
+      enable: true
+    - label: Learn More
+      link: "#"
+      outline: true
+      enable: true
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "What you get with Reliable.Assets"
+  description: Whether you are a small or medium size business or a large enterprise, Reliable.Assets has features to meet your specific requirements..
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Multi-site, multi-location asset hierarchy
+      content: Centrally manage all assets & their hierarchies across multiple sites and multiple locations within a site.
     - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Track and optimize asset lifecycle
+      content: Right from asset aquisition to its end of life, track every stage og every asset to optimize its value.
     - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Manage inventory
+      content: Keep stock of spareparts, materials and tools required to ensure timely availability for workorder completion.
     - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Automate maintenance
+      content: Create job & maintenance plans and automate work order creation based on time based & meter based frequencies.
     - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Manage workorders 
+      content: Track workorders to completion based on priority and ensure required inventory on time.
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: Insights & analytics
+      content: Get insights at an organization, site or individual asset level. Make informed decisions.
 
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    title: What to expect when working with us?
+    description: We understand how important it is for all your assets to function all the time. Here are tools and services we offer.
     tab_list:
-        - title: Habit building essential choose habit
+        - title: Configurable, easy-to-use tools
           icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/sells-by-country.png"
-        - title: Get an overview of Habit Calendars.
+        - title: Safe, enterprise-grade platform
           icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/collaboration.png"
-        - title: Start building with Habitify platform
+        - title: Robust data and deeper insights
+          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
+          image: "/images/sells-by-country.png"
+        - title: Continuous innovation
+          icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
+          image: "/images/sells-by-country.png"
+        - title: Increased ROI
+          icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
+          image: "/images/collaboration.png"
+        - title: Our legendary support
           icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/sells-by-country.png"
 
   our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+    - title: Ready to see what Reliable.Assets can do for you?
+      desctiption: See how quickly our asset reliability software can boost your organization’s efficiency and achieve operational excellence.
       image: "/images/collaboration.png"
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+        - Quickly make data-driven decisions
+        - Simplify your day-to-day work
+        - Switch from reactive to proactive mode
+    
+    - title: See it in action
+      description: Streamline processes, reduce costs and extend the life of assets and equipment in your organization.
       video:
         thumbnail: "/images/intro-thumbnail.png"
         video_id: "g3-VxLQO7do"
       button:
-        label: Know About Us
+        label: Learn more
         link: "#"
         enable: true
 

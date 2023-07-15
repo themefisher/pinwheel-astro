@@ -1,4 +1,4 @@
-<h1 align=center>Pinwheel Astro</h1>
+<h1 align=center>Reliable.Assets</h1>
 <p align=center>Pinwheel is a free multipurpose SaaS theme built with Astro, TailwindCSS and TypeScript with 17+ pre-designed pages.</p>
 <h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow"> 👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-pinwheel-astro-vercel-app/kmaxqwa7rx?form_factor=desktop"> Page Speed (95+) 🚀 </a>
 </h2>

@@ -1,7 +1,7 @@
 ---
 import { Image } from "@astrojs/image/components";
-const { benifits } = Astro.props;
-const { title, description, benifit_list } = benifits;
+const { benefits } = Astro.props;
+const { title, description, benefit_list } = benefits;
 ---
 
 <!-- Benefits -->
@@ -17,7 +17,7 @@ const { title, description, benifit_list } = benifits;
     </div>
     <div class="row mt-14 text-center">
       {
-        benifit_list.map((item: any) => (
+        benefit_list.map((item: any) => (
           <div class="sm:col-6 lg:col-4 mb-10">
             <Image
               class="mx-auto w-24"

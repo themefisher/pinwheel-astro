@@ -2,26 +2,26 @@
 import { markdownify } from "@lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
 const { banner } = Astro.props;
-const { title, button, image, content } = banner;
+const { title, buttons, image, content } = banner;
 ---
 
 <section class="section banner relative">
   <div class="container">
     <div class="row items-center">
-      <div class="lg:col-6">
+      <div class="lg:col-7">
         <h1 class="banner-title" set:html={markdownify(title)} />
 
         <p class="mt-6" set:html={markdownify(content)} />
 
-        {
-          button.enable && (
-            <a class="btn btn-white mt-8" href={button.link}>
-              {button.label}
-            </a>
-          )
-        }
+        {buttons.map((button: any) =>
+            button?.enable && (
+              <a class={`btn m-3 block sm:inline-block ${button?.outline ? "btn-outline-primary" : "btn-primary"} `}
+                href={button?.link} >
+                {button?.label}
+              </a>
+            ))}
       </div>
-      <div class="lg:col-6">
+      <div class="lg:col-5">
         <Image
           class="w-full object-contain"
           alt="banner"

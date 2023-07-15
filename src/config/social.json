@@ -2,9 +2,9 @@
   "facebook": "https://facebook.com/",
   "twitter": "https://twitter.com/",
   "instagram": "",
-  "youtube": "",
+  "youtube": "https://youtube.com/",
   "linkedin": "https://linkedin.com/",
-  "github": "",
+  "github": "https://github.com/",
   "gitlab": "",
   "medium": "",
   "codepen": "",
@@ -25,6 +25,6 @@
   "email": "",
   "phone": "",
   "address": "",
-  "skype": "https://skype.com/",
+  "skype": "",
   "website": ""
 }

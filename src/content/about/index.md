@@ -2,7 +2,7 @@
 title: "About"
 page_title: "About our company"
 buttons:
-  - label: Download The Theme
+  - label: Get started
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
   - label: Learn More

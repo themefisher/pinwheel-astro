@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
+    "title": "Reliable.Assets",
     "base_url": "https://reliableassets.github.io",
     "base_path": "/site",
     "trailing_slash": false,
@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "Reliable.Assets"
   },
 
   "settings": {
@@ -18,10 +18,10 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Helping organizations realize full asset value & achieve operational excellence.",
+    "description": "Whether you are a small or medium size business or a large enterprise, Reliable.Assets has features to meet your specific requirements..",
     "button": {
-      "label": "Download The Theme",
+      "label": "Get started",
       "link": "https://themefisher.com/astro-themes/pinwheel-astro"
     }
   },
@@ -33,17 +33,17 @@
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "footer_description": "Ready to start your asset reliability journey to achieve high performance?",
+    "email": "info@reliableassets.com",
+    "location": "E519, The Island, Wakad, Pune-MH",
+    "phone": "+91 9850994321",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2023"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Reliable assets",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "Reliable.Assets"
   }
 }

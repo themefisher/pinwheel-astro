@@ -4,14 +4,13 @@ import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
-// import CareerBenifits from "@components/career/CareerBenifits.astro";
 import { Image } from "@astrojs/image/components";
-import CareerBenifits from "@layouts/function-components/CareerBenifits";
+import CareerBenefits from "@layouts/function-components/CareerBenefits";
 import JobPosts from "@layouts/function-components/JobPosts";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
 const careerIndex = await getEntryBySlug<any, string>("careers", "-index");
-const { benifits, career, image } = careerIndex.data;
+const { benefits, career, image } = careerIndex.data;
 const categories = await getTaxonomy("careers", "categories");
 const jobposts = await getSinglePage("careers");
 const page_data = {
@@ -59,8 +58,7 @@ const page_data = {
       </div>
     </div>
   </section>
-  <!-- <CareerBenifits benifits={benifits} /> -->
-  <CareerBenifits benifits={benifits} client:load />
+  <CareerBenefits benefits={benefits} client:load />
   <JobPosts
     client:load
     categories={categories}

@@ -17,10 +17,6 @@
       "url": "/features"
     },
     {
-      "name": "How It Works",
-      "url": "/how-it-works"
-    },
-    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
@@ -31,25 +27,11 @@
         },
 
         {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
           "name": "Pricing",
           "url": "/pricing"
         },
         {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
+          "name": "What's new",
           "url": "/changelog"
         },
         {
@@ -74,11 +56,11 @@
       "url": "/contact"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Pricing",
+      "url": "/pricing"
     },
     {
-      "name": "Changelog",
+      "name": "What's new",
       "url": "/changelog"
     }
   ]

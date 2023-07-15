@@ -16,10 +16,10 @@ const { title, description, feature_list } = key_features;
   />
   <div class="container">
     <div class="row justify-between text-center lg:text-start">
-      <div class="lg:col-5">
-        <h2 set:html={markdownify(title)} />
+      <div class="lg:col-4">
+        <h3 class=text-light" set:html={markdownify(title)} />
       </div>
-      <div class="mt-6 lg:col-5 lg:mt-0">
+      <div class="mt-6 lg:col-7 lg:mt-0">
         <p set:html={markdownify(description)} />
       </div>
     </div>
