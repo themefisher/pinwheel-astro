@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
-    "base_path": "/",
+    "base_url": "https://reliableassets.github.io",
+    "base_path": "/site",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
