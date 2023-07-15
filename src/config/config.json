@@ -2,7 +2,7 @@
   "site": {
     "title": "Reliable.Assets",
     "base_url": "https://reliableassets.github.io",
-    "base_path": "/site",
+    "base_path": "",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
