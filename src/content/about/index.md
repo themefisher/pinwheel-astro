@@ -15,19 +15,19 @@ counter:
   - name: "Customers"
     number: 25
     messurment: M
-    color: "#A3A1FB"
+    color: "#187ab6"
   - name: "Customers"
     number: 440
     messurment: M
-    color: "#5EE2A0"
+    color: "#008956"
   - name: "Customers"
     number: 50
     messurment: K
-    color: "#FE6019"
+    color: "#faee48"
   - name: "Customers"
     number: 20
     messurment: K
-    color: "#FEC163"
+    color: "#ec2b3d"
     
 # Gallery
 gallery:
