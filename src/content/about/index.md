@@ -1,6 +1,6 @@
 ---
 title: "About"
-page_title: "About our company"
+page_title: "About CODEVSN"
 buttons:
   - label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -12,19 +12,19 @@ buttons:
 
 # counter
 counter:
-  - name: "Customers"
-    number: 25
+  - name: "Social Media Post"
+    number: 2000
     messurment: M
     color: "#187ab6"
-  - name: "Customers"
-    number: 440
+  - name: "Volunteers"
+    number: 500
     messurment: M
     color: "#008956"
-  - name: "Customers"
-    number: 50
+  - name: "Civic Projects"
+    number: 32
     messurment: K
     color: "#faee48"
-  - name: "Customers"
+  - name: "Sub Small Grants"
     number: 20
     messurment: K
     color: "#ec2b3d"
@@ -39,23 +39,35 @@ gallery:
 
 ## our works
 features:
-  title: The six core work <br /> drive everything do
+  title: Collectif des Volontaires du Senegal
   button:
-    label: Download The Theme
+    label: Liste of member
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
   features_list:
-    - title: Accessibility
+    - logo: "/images/about/logo/BANLIEUEUP.png"
+      title: Banlieueup
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Empowerement
+    - logo: "/images/about/logo/CORPSAFRICZ.png"
+      title: Corpsafricz
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Excellence
+    - logo: "/images/about/logo/DECLIC.png"
+      title: Declic
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
+    - logo: "/images/about/logo/Empire-des-enfants.png"
+      title: Empire des enfants
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
+    - logo: "/images/about/logo/REVOCAP.png"
+      title: Revocap
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
+    - logo: "/images/about/logo/ROYUKAAY.png"
+      title: Royukaay
+      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - logo: "/images/about/logo/SENVIE.png"
+      title: SENVIE
+      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - logo: "/images/about/logo/TEAM-NIINTCHE.png"
+      title: Team Niintche
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
     
 
