@@ -1,6 +1,7 @@
 ---
 import { Image } from "@astrojs/image/components";
 import Button from "@shortcodes/Button";
+import { IoLogoSteam } from "react-icons/io5";
 const {
   features: { title, button, features_list },
 } = Astro.props;
@@ -28,13 +29,10 @@ const {
           <div class="mb-8 sm:col-6 lg:col-4">
             <div class="rounded-xl bg-white p-6 shadow-lg lg:p-8">
               <div class="gradient-number relative inline-block">
-                <span class="bg-gradient absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                  {i > 8 ? i + 1 : `0${i + 1}`}
-                </span>
                 <Image
-                  height={90}
-                  width={90}
-                  src="/images/gradient-number-bg.png"
+                  height={100}
+                  width={100}
+                  src={item.logo}
                   alt=""
                 />
               </div>
