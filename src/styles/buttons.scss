@@ -3,11 +3,11 @@
 }
 
 .btn-primary {
-  @apply cursor-pointer rounded-[50px] border-0 bg-gradient-to-tl text-center font-medium text-white hover:shadow-[0px_5px_30px_rgba(256,238,72,0.5)];
+  @apply cursor-pointer rounded-[50px] border-0 bg-gradient-to-tl text-center font-medium text-white hover:shadow-[0px_5px_30px_rgba(0,135,84,0.5)];
 }
 
 .btn-outline-primary {
-  @apply relative rounded-[50px] border-primary bg-transparent text-center capitalize text-dark hover:bg-transparent hover:text-white hover:shadow-[0px_5px_30px_rgba(250,238,72,0.5)] hover:before:opacity-100;
+  @apply relative rounded-[50px] border-primary bg-transparent text-center capitalize text-dark hover:bg-transparent hover:text-white hover:shadow-[0px_5px_30px_rgba(0,135,84,0.5)] hover:before:opacity-100;
   &::before {
     @apply absolute bottom-0 left-0 right-0 top-0 -z-[1] rounded-[inherit] bg-gradient-to-tl opacity-0 transition-[inherit] content-[""];
   }
