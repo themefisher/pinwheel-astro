@@ -1,12 +1,12 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Accueil",
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "À Propos",
+      "url": "/a-propos"
     },
     {
       "name": "News",
@@ -66,8 +66,8 @@
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "À Propos",
+      "url": "/a-propos"
     },
     {
       "name": "Contact",
