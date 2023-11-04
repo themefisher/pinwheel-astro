@@ -29,7 +29,7 @@ const { posts } = Astro.props;
               ))}
             </div>
             <h3 class="h4 card-title">
-              <a href={`/blog/${item.slug}`}>{item.data.title}</a>
+              <a href={`/actualites/${item.slug}`}>{item.data.title}</a>
             </h3>
             <p class="mb-4 text-text">
               {plainify(item.body?.slice(0, Number(summary_length)))}...

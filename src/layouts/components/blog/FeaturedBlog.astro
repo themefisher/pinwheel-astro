@@ -8,7 +8,7 @@ const { summary_length } = config.settings;
 const { posts } = Astro.props;
 ---
 
-<h2 class="h4 mb-4">Featured Posts</h2>
+<h2 class="h4 mb-4">À la une</h2>
 <div class="featured-posts row">
   {
     posts.map((post: any) => (
@@ -30,7 +30,7 @@ const { posts } = Astro.props;
               ))}
             </div>
             <h3 class="h4 card-title">
-              <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+              <a href={`/actualites/${post.slug}`}>{post.data.title}</a>
             </h3>
             <p class="mb-4 text-text">
               {plainify(post.body?.slice(0, Number(summary_length)))}...
