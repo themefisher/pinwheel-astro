@@ -77,6 +77,16 @@ service:
         link: "/a-propos"
         enable: true
 
+#Partener
+partner:
+  title: Nos Partenaires Engagés
+  content: Nous collaborons avec des partenaires locaux et internationaux pour renforcer notre impact. Ensemble, nous œuvrons pour un Sénégal meilleur.
+  image: "/images/banner-partner.png"
+  button:
+    label: Découvrir Nos Partenaires
+    link: "/contact"
+    enable: true
+
 #testimonial
 testimonial:
   title: Inspirations Engagées
