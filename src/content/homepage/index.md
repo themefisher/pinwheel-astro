@@ -50,13 +50,13 @@ service:
     title: Notre mission
     description: Promouvoir et développer la citoyenneté active et le développement des territoires à travers le volontariat et les activités de services à la communauté.
     tab_list:
-        - title: Habit building essential choose habit
+        - title: Créer un impact positif en soutenant le développement local
           icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/sells-by-country.png"
-        - title: Get an overview of Habit Calendars.
+        - title: Nous œuvrons pour l'éducation, la lutte contre la pauvreté, et bien plus encore.
           icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/collaboration.png"
-        - title: Start building with Habitify platform
+        - title: Rejoignez-nous pour contribuer à un Sénégal plus fort, solidaire et prospère.
           icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/sells-by-country.png"
 
