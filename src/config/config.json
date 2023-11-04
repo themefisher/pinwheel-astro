@@ -14,7 +14,7 @@
   "settings": {
     "pagination": 6,
     "summary_length": 100,
-    "blog_folder": "blog"
+    "blog_folder": "actualites"
   },
 
   "call_to_action": {
