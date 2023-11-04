@@ -18,11 +18,11 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Devenez le Changement Devenez Volontaire !",
+    "description": "Prêt à agir ? Rejoignez-nous en tant que volontaire au CODEVS et faites la différence dans votre communauté. Ensemble, nous pouvons créer un avenir meilleur.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Devenir Volontaire",
+      "link": "/contact"
     }
   },
 
