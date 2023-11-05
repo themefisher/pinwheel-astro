@@ -21,7 +21,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
                   } btn btn-sm cursor-pointer`}
                   onClick={() => setTab("")}
                 >
-                  All Categories
+                  Toutes catégories
                 </span>
               </li>
               {categories.map((category, i) => (
