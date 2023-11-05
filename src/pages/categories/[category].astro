@@ -33,7 +33,7 @@ const { item } = Astro.props;
 const posts = await getSinglePage(config.settings.blog_folder);
 const filterByTags = taxonomyFilter(posts, "categories", category);
 const page_data = {
-  index_title: "Categories",
+  index_title: "Catégories",
   slug: item,
 };
 ---
