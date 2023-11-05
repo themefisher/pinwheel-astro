@@ -9,22 +9,37 @@
       "url": "/a-propos"
     },
     {
+      "name": "Membres",
+      "url": "",
+      "hasChildren":true,
+      "children": [
+        {
+          "name": "Associations",
+          "url": "/associations"
+        },
+        {
+          "name": "Volontaires",
+          "url": "/integrations"
+        }
+      ]
+    },
+    {
       "name": "Actualités",
       "url": "/actualites"
-    },
-    {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "How It Works",
-      "url": "/how-it-works"
     },
     {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
       "children": [
+        {
+          "name": "Features",
+          "url": "/features"
+        },
+        {
+          "name": "How It Works",
+          "url": "/how-it-works"
+        },
         {
           "name": "Career",
           "url": "/career"
