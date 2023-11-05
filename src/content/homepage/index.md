@@ -95,27 +95,22 @@ testimonial:
     - author: Fatou Sall
       avatar: "/images/users/user-5.png"
       organization: meta limited
-      rating: four
       content: Le volontariat m'a permis de contribuer à la construction de notre communauté. Chaque action compte, et je suis fière de faire partie du changement.
     - author: Moussa Badji
       avatar: "/images/users/user-6.png"
       organization: meta limited
-      rating: four
       content: En tant que volontaire, j'ai appris l'importance de la solidarité. Notre travail a un impact réel sur les vies des personnes que nous aidons.
     - author: Aïssatou Diallo
       avatar: "/images/users/user-2.png"
       organization: meta limited
-      rating: three
       content: Le volontariat m'a ouvert les yeux sur les besoins de notre communauté. C'est une expérience enrichissante qui m'a fait grandir en tant que citoyenne.
     - author: Mamadou NDiaye
       avatar: "/images/users/user-3.png"
       organization: meta limited
-      rating: five
       content: Ensemble, nous pouvons accomplir de grandes choses. Le volontariat nous unit et nous aide à réaliser des projets qui font la différence.
     - author: Ndeye Faye
       avatar: "/images/users/user-4.png"
       organization: meta limited
-      rating: five
       content: Le volontariat, c'est l'opportunité de redonner à notre communauté. C'est une source de fierté et de satisfaction personnelle.
     - author: Modou Toure
       avatar: "/images/users/user-1.png"
@@ -125,16 +120,13 @@ testimonial:
     - author: Amina Ka
       avatar: "/images/users/user-5.png"
       organization: meta limited
-      rating: five
       content: Le volontariat est un moyen de créer des liens forts avec les autres volontaires. Ensemble, nous sommes une force positive pour notre pays.
     - author: Issa Diop
       avatar: "/images/users/user-3.png"
       organization: meta limited
-      rating: five
       content: Chaque jour en tant que volontaire apporte de nouvelles opportunités d'apprentissage. Je suis reconnaissant de cette expérience inspirante.
     - author: Khady Mboup
       avatar: "/images/users/user-2.png"
       organization: meta limited
-      rating: five
       content: Je suis convaincue que le volontariat est la clé du progrès. En tant que volontaire, je travaille pour un Sénégal plus fort et plus solidaire.
 ---
