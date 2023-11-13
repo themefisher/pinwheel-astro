@@ -42,33 +42,36 @@ features:
   title: Membres Fondateurs
   button:
     label: Liste des membres
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    link: "/associations"
     enable: true
   features_list:
-    - logo: "/images/about/logo/BANLIEUEUP.png"
-      title: Banlieueup
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/CORPSAFRICZ.png"
-      title: Corpsafricz
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/DECLIC.png"
-      title: Declic
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/Empire-des-enfants.png"
-      title: Empire des enfants
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/REVOCAP.png"
-      title: Revocap
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/ROYUKAAY.png"
-      title: Royukaay
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/SENVIE.png"
-      title: SENVIE
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - logo: "/images/about/logo/TEAM-NIINTCHE.png"
-      title: Team Niintche
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - logo: "/images/about/fonder/djibbril-boccoum.jpg"
+      title: Djibbril Boccoum
+      content: Titre
+    - logo: "/images/about/fonder/mouhammad-ciss.jpg"
+      title: Mouhammad Ciss
+      content: Titre
+    - logo: "/images/about/fonder/alhassane-diagne.jpg"
+      title: Alhassane Diagne
+      content: Titre
+    - logo: "/images/about/fonder/mamadou-diakhate-niintche.jpg"
+      title: Mamadou Diakhaté Niintche
+      content: Titre
+    - logo: "/images/about/fonder/edouard-mendis.jpg"
+      title: Edouard Mendis
+      content: Titre
+    - logo: "/images/about/fonder/seydina-mouhamadou-ndiaye.jpg"
+      title: Seydina Mouhamadou Ndiaye
+      content: Titre
+    - logo: "/images/about/fonder/marieme-soda-ndiaye.jpg"
+      title: Marième Soda Ndiaye
+      content: Titre
+    - logo: "/images/about/fonder/coumba-sarr.jpg"
+      title: Coumba Sarr
+      content: Titre
+    - logo: "/images/about/fonder/yaye-fatou-k-sarr.jpg"
+      title: Yaye Fatou K. Sarr
+      content: Titre
     
 
 ## members
