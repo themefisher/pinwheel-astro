@@ -59,10 +59,12 @@ const page_data = {
               />
               <h1 class="mt-6">{post.data.title}</h1>
               <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
-              <a class="btn btn-primary mt-8 px-10" href={post.data.button.link}
-                >{humanize(post.data.button.label)}
-                {humanize(post.data.name)}</a
-              >
+              {post.data.button && 
+                <a class="btn btn-primary mt-8 px-10" href={post.data.button.link} target="_blank">
+                  {humanize(post.data.button.label)}
+                  {humanize(post.data.name)}
+                </a>
+              }
             </div>
             <div class="content"><Content /></div>
           </div>
