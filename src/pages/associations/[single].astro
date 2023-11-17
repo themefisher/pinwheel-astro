@@ -2,6 +2,7 @@
 import { Image } from "@astrojs/image/components";
 import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
+import Social from "@components/Social.astro";
 import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { humanize, markdownify } from "@lib/utils/textConverter";
@@ -28,6 +29,12 @@ const page_data = {
   index_title: integraionsIndex.data.title,
   slug: post.slug,
 };
+
+const socialJson: { [key: string]: string } = {};
+
+post.data.sociales?.forEach(({ name, link }) => {
+  socialJson[name] = `${link}/`;
+});
 ---
 
 <Base
@@ -57,8 +64,11 @@ const page_data = {
                 height={80}
                 width={80}
               />
-              <h1 class="mt-6">{post.data.title}</h1>
+              <!-- <h1 class="mt-6">{post.data.title}</h1> -->
               <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
+              <div class="mt-0">
+                {socialJson && <Social source={socialJson} className="social-icons mt-2 lg:mt-4" />}
+              </div>
               {post.data.button && 
                 <a class="btn btn-primary mt-8 px-10" href={post.data.button.link} target="_blank">
                   {humanize(post.data.button.label)}
