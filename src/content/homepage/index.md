@@ -13,36 +13,33 @@ key_features:
   title: "Nos domaines d'action"
   description: Ces ODD reflètent les domaines d'action du Collectif des Volontaires du Sénégal et son engagement en faveur du développement durable.
   feature_list:
-    - icon: "activity"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Fin de la Pauvreté
-      content: Lutte contre la pauvreté à la base
-    - icon: "smile"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Faim Zéro
-      content: Nourrir les communautés locales
     - icon: "heart"  #icon package react-feather-icon [https://feathericons.com/]
       title: Bonne Santé et Bien-Être
-      content: Promouvoir des vies saines
+      content: 0%
     - icon: "book"  #icon package react-feather-icon [https://feathericons.com/]
       title: Éducation de Qualité
-      content: Soutien à l'éducation pour tous
+      content: 0%
     - icon: "users"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Égalité des Sexes
-      content: Promotion de l'égalité des sexes
-    - icon: "droplet"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Eau Propre et Assainissement
-      content: Accès à l'eau potable et à l'assainissement
-    - icon: "zap"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Énergie Propre et d'Accès pour Tous
-      content: Favoriser l'accès à l'énergie propre
-    - icon: "briefcase"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Travail Décent et Croissance Économique
-      content: Création d'opportunités d'emploi dignes
-    - icon: "home"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Villes et Communautés Durables
-      content: Amélioration des conditions de vie urbaines
+      title: Inégalités Réduites
+      content: 0%
     - icon: "cloud"  #icon package react-feather-icon [https://feathericons.com/]
       title: Lutte contre les Changements Climati ues
-      content: Contribuer à la protection de l'env ronnement
+      content: 0%
+    - icon: "smile"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Paix, justice et institutions efficaces
+      content: 0%
+    - icon: "droplet"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Partenariats pour la réalisation des objectifs
+      content: 0%
+    - icon: "briefcase"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Travail Décent et Croissance Économique
+      content: 0%
+    - icon: "zap"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Vie Terrestre
+      content: 0%
+    - icon: "home"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Villes et Communautés Durables
+      content: 0%
 
 #service
 service:
