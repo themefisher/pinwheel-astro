@@ -89,41 +89,24 @@ testimonial:
   title: Inspirations Engagées
   description: Découvrez les expériences inspirantes de nos volontaires dévoués qui œuvrent pour un Sénégal meilleur
   testimonial_list:
-    - author: Fatou Sall
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      content: Le volontariat m'a permis de contribuer à la construction de notre communauté. Chaque action compte, et je suis fière de faire partie du changement.
-    - author: Moussa Badji
-      avatar: "/images/users/user-6.png"
-      organization: meta limited
-      content: En tant que volontaire, j'ai appris l'importance de la solidarité. Notre travail a un impact réel sur les vies des personnes que nous aidons.
-    - author: Aïssatou Diallo
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      content: Le volontariat m'a ouvert les yeux sur les besoins de notre communauté. C'est une expérience enrichissante qui m'a fait grandir en tant que citoyenne.
-    - author: Mamadou NDiaye
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
-      content: Ensemble, nous pouvons accomplir de grandes choses. Le volontariat nous unit et nous aide à réaliser des projets qui font la différence.
-    - author: Ndeye Faye
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
-      content: Le volontariat, c'est l'opportunité de redonner à notre communauté. C'est une source de fierté et de satisfaction personnelle.
-    - author: Modou Toure
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: En tant que volontaire, j'ai découvert le pouvoir de l'action collective. Nous travaillons main dans la main pour bâtir un avenir meilleur.
-    - author: Amina Ka
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      content: Le volontariat est un moyen de créer des liens forts avec les autres volontaires. Ensemble, nous sommes une force positive pour notre pays.
-    - author: Issa Diop
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
-      content: Chaque jour en tant que volontaire apporte de nouvelles opportunités d'apprentissage. Je suis reconnaissant de cette expérience inspirante.
-    - author: Khady Mboup
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      content: Je suis convaincue que le volontariat est la clé du progrès. En tant que volontaire, je travaille pour un Sénégal plus fort et plus solidaire.
+    - author: Yaye Fatou Kiné Sarr
+      avatar: "/images/users/yaye-fatou-kine-sarr.png"
+      organization: Co-fondateur CODEVS, COO Simplon
+      content: Le volontariat m'a permis d'avoir de l'impact social au quotidien. De plus, il a contribué à la construction de ma carrière professionnelle. Je suis fière de ce que j'ai appris et accompli.
+    - author: El Hadji Mouhamadou Mansour Faye
+      avatar: "/images/users/el-hadji-mouhamadou-mansour-faye.png"
+      organization: Volontaire CODEVS, Enseignant à l'école Franco-Sénégalaise. Site Dial-Diop
+      content: Le volontariat m'a permis de mieux servir ma communauté et de mieux comprendre le sens du don de soi pour rendre service. Il m'a aussi permis à mieux contribuer à la vie de ma collectivité.
+    - author: Adama Diaw
+      avatar: "/images/users/adama-diaw.png"
+      organization: Volontaire Team Niitche
+      content: Le volontariat m'a inspiré le sens des responsabilités sociales en encourageant les individus à prendre conscience des problèmes auxquels la société est confrontée, mais aussi l'empathie et la compassion envers les autres et cela m'a beaucoup aider à développer une compréhension plus profonde des réalités vécues par différentes personnes.
+    - author: Richard Badiel
+      avatar: "/images/users/richard-badiel.png"
+      organization: Volontaire de Solidarité Internationale (VSI) chargé d'appui Consortium Jeunesse Sénégal
+      content: Le volontariat pour moi est ce cadre qui m'a permis dévélopper mes compétences et de contribuer à la résolution des problèmes d'autonomisation, d'éducation et d'engagement des jeunes du Sénégal.
+    - author: Harouna Diallo
+      avatar: "/images/users/harouna-diallo.png"
+      organization: Volontaire Team Niiche
+      content: En tant que bénévole actif de la team niintche , j'ai joué un rôle significatif dans la création d'un environnement éducatif propice, contribuant ainsi à la scolarisation réussie de milliers d'enfants et à l'essor de leur avenir prometteur.
 ---
