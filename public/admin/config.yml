@@ -1,9 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   repo: senegalx/codevsn # Path to your Github repository
   branch: main # Branch to update (master by default)
-
-local_backend: true
 
 media_folder: "public/images/uploads" # Folder where user uploaded files should go
 public_folder: "/images/uploads"
