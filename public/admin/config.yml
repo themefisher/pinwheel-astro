@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: senegalx/codevsn # Path to your Github repository
+  branch: main # Branch to update (master by default)
+
+local_backend: true
+
+media_folder: "public/images/uploads" # Folder where user uploaded files should go
+public_folder: "/images/uploads"
+
+logo_url: /images/logo.png
+
+slug: { { slug } }
+
+collections: # A list of collections the CMS should be able to edit
+  - label: Actualités # Label used in the UI for the collection
+    label_singular: actualite # Label for singular post
+    name: actualites # Name of the collection used for various functionality in the CMS
+    folder: /src/content/actualites # Where each new post with .md should be saved
+    create: true # Allows users to create new items in the collection
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Auteur", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string} }
+      - { label: "À la une", name: "featured", widget: "boolean" }
+      - { label: "Brouillon", name: "draft", widget: "boolean" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
