@@ -76,27 +76,41 @@ features:
 
 ## members
 members:
-  title: CODIR
+  title: Bureau Exécutif
   description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
+    - name: Seydina Mouhamadou Ndiaye
+      field: Président
+      image: "/images/about/fonder/seydina-mouhamadou-ndiaye.png"
+    - name: Alhassane Diagne
+      field: Vice Président
+      image: "/images/about/fonder/alhassane-diagne.png"
+    - name: Marieme Soda Ndiaye
+      field: Secrétaire Général
+      image: "/images/about/fonder/marieme-soda-ndiaye.png"
+    - name: Khadim Dème
+      field: Trésorier Général
+      image: "/images/about/technique/khadim-deme-tresorier.png"
+
+membersTechnique:
+  title: Coordination Technique
+  description: La coordination technique assure la gestion administrative et la mise en œuvre des projets du CODEVS.
+  member_list:
+    - name: Seynabou Fall
+      field: Coordination Générale
+      image: "/images/about/technique/seynabou-fall.png"
+    - name: Ousmane Coly
+      field: Coordination administrative et financière
+      image: "/images/about/technique/ousmane-coly.png"
+    - name: Seydina Mouhamadou Ndiaye
+      field: Stratégie et Développement
+      image: "/images/about/fonder/seydina-mouhamadou-ndiaye.png"
+    - name: Binta Mamadou Gueye
+      field: Administration Contenu web
+      image: "/images/about/technique/binta-mamadou-gueye.png"
+    - name: Mohamed Gorgui Ndoye
+      field: Communication
+      image: "/images/about/technique/mohamed-gorgui-ndoye.png"
 ---
 Le CODEVS est une association regroupant des acteurs et des associations
 communautaires locales de base dans le but de promouvoir le volontariat, le
