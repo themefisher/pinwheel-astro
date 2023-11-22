@@ -9,7 +9,7 @@ import Base from "@layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
 
 const about = await getEntryBySlug("a-propos", "index");
-const { counter, gallery, features, members } = about.data;
+const { counter, gallery, features, members, membersTechnique } = about.data;
 const page_data = {
   ...about.data,
   content: about.body,
@@ -36,6 +36,8 @@ const page_data = {
       <Works features={features} />
       <!-- our members -->
       <OurMembers members={members} />
+      <!-- our members technique -->
+      <OurMembers members={membersTechnique} />
     </div>
   </section>
 </Base>
