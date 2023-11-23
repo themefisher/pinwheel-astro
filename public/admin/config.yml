@@ -11,6 +11,171 @@ logo_url: /images/logo.png
 slug: { { slug } }
 
 collections: # A list of collections the CMS should be able to edit
+  - label: Pages
+    name: pages
+    files:
+      - label: Accueil
+        name: homepage
+        file: /src/content/homepage/index.md
+        fields:
+          - {label: "Bannière", name: "banner", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Contenu", name: "content", widget: "text"},
+                {label: "Image", name: "image", widget: "image"},
+                {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                fields: [
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"},
+                  {label: "Activation", name: "enable", widget: "boolean"}]}
+              ]
+            }
+          - {label: "Domaines", name: "key_features", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Description", name: "description", widget: "text"},
+                {label: "ODD", name: "feature_list", widget: "list", summary: "{{fields.title}}", fields: [
+                  {label: "Icône", name: "icon", widget: "string"},
+                  {label: "Nom", name: "title", widget: "string"},
+                  {label: "Pourcentage", name: "percentage", widget: "number"},
+                  {label: "Activités", name: "activities", widget: "number"},
+                  {label: "Couleur", name: "color", widget: "string"}]}]
+            }
+          - {label: "CODEVAN", name: "service", widget: "object", collapsed: true,
+              fields: [
+                {label: "Mission", name: "homepage_tab", widget: "object", collapsed: true,
+                fields: [
+                  {label: "Titre", name: "title", widget: "string"},
+                  {label: "Description", name: "description", widget: "text"},
+                  {label: "ODD", name: "tab_list", widget: "list", summary: "{{fields.title}}", fields: [
+                    {label: "Nom", name: "title", widget: "string"},
+                    {label: "Icône", name: "icon", widget: "string"},
+                    {label: "Image", name: "image", widget: "image"}]}]
+                },
+                {label: "Vision & Valeur", name: "our_service", widget: "object", collapsed: true,
+                fields: [
+                  {label: "ODD", name: "tab_list", widget: "list", summary: "{{fields.title}}", fields: [
+                    {label: "Titre", name: "title", widget: "string"},
+                    {label: "Description", name: "description", widget: "text"},
+                    {label: "Image", name: "image", widget: "image"},
+                    {label: "Vision", name: "list", widget: "list", summary: "{{fields.title}}", field: {name: "title", widget: "string"}},
+                    {label: "Vidéo", name: "video", widget: "object", collapsed: true,
+                      fields: [
+                        {label: "Image", name: "thumbnail", widget: "image"},
+                        {label: "video id", name: "video_id", widget: "string"}]},
+                    {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                      fields: [
+                        {label: "Label", name: "label", widget: "string"},
+                        {label: "Lien", name: "link", widget: "string"},
+                      {label: "Activation", name: "enable", widget: "boolean"}]}
+                    ]}]
+                }]
+              }
+          - {label: "Partenaires", name: "partner", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Contenu", name: "content", widget: "text"},
+                {label: "Image", name: "image", widget: "image"},
+                {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                fields: [
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"},
+                  {label: "Activation", name: "enable", widget: "boolean"}]}
+              ]
+            }
+          - {label: "Témoignage", name: "testimonial", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Contenu", name: "description", widget: "text"},
+                {label: "Témoignages", name: "testimonial_list", widget: "list", summary: "{{fields.author}}", collapsed: true,
+                fields: [
+                  {label: "Auteur", name: "author", widget: "string"},
+                  {label: "Photo", name: "avatar", widget: "image"},
+                  {label: "organisation", name: "organization", widget: "string"},
+                  {label: "Contenu", name: "content", widget: "text"}]}
+              ]
+            }
+      - label: À Propos
+        name: a-propos
+        file: /src/content/a-propos/index.md
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Titre page", name: "page_title", widget: "string"}
+          - {label: "Boutons", name: "buttons", widget: "list", summary: "{{fields.label}}", collapsed: true,
+              fields: [
+                {label: "Nom", name: "label", widget: "string"},
+                {label: "Lien", name: "link", widget: "string"}]}
+          - {label: "Chiffres clés", name: "counter", widget: "list", summary: "{{fields.name}}", collapsed: true,
+              fields: [
+                {label: "Nom", name: "name", widget: "string"},
+                {label: "Chiffre", name: "number", widget: "number"},
+                {label: "Unité", name: "messurment", widget: "string"},
+                {label: "Couleur", name: "color", widget: "color", allowInput: true}]}
+          - {label: "Galerie Photos", name: "gallery", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Images", name: "images", widget: "list", field: {name: image, widget: image}}]}
+          - {label: "Membres Fondateurs", name: "features", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                fields: [
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"},
+                  {label: "Activation", name: "enable", widget: "boolean"}]},
+                {label: "Membres", name: "features_list", widget: "list", summary: "{{fields.title}}", collapsed: true,
+                fields: [
+                  {label: "Photo", name: "logo", widget: "image"},
+                  {label: "Nom", name: "title", widget: "string"},
+                  {label: "Titre", name: "content", widget: "text"}]}
+              ]
+            }
+          - {label: "Bureau Exécutif", name: "members", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Description", name: "description", widget: "text"},
+                {label: "Membres", name: "member_list", widget: "list", summary: "{{fields.name}}", collapsed: true,
+                fields: [
+                  {label: "Nom", name: "name", widget: "string"},
+                  {label: "Titre", name: "field", widget: "string"},
+                  {label: "Photo", name: "image", widget: "image"}]}
+              ]
+            }
+          - {label: "Coordination Technique", name: "membersTechnique", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Description", name: "description", widget: "text"},
+                {label: "Membres", name: "member_list", widget: "list", summary: "{{fields.name}}", collapsed: true,
+                fields: [
+                  {label: "Nom", name: "name", widget: "string"},
+                  {label: "Titre", name: "field", widget: "string"},
+                  {label: "Photo", name: "image", widget: "image"}]}
+              ]
+            }
+          - { label: "Contenu", name: "body", widget: "markdown" }
+
+      - label: Contact
+        name: contact
+        file: /src/content/contact/index.md
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Titre page", name: "page_title", widget: "string"}
+  - label: Associations # Label used in the UI for the collection
+    name: associations # Name of the collection used for various functionality in the CMS
+    folder: /src/content/associations # Where each new post with .md should be saved
+    create: true # Allows users to create new items in the collection
+    fields:
+      - { label: "Nom", name: "name", widget: "string" }
+      - { label: "Titre", name: "title", widget: "string" }
+      - {label: "Description", name: "excerpt", widget: "text"}
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string} }
+      - {label: "Sociales", name: "sociales", widget: "list", summary: "{{fields.author}}", collapsed: true,
+          fields: [
+            {label: "Nom", name: "name", widget: "string"},
+            {label: "Lien", name: "link", widget: "string"}]}
+      - { label: "Brouillon", name: "draft", widget: "boolean" }
+      - { label: "Contenu", name: "body", widget: "markdown" }      
   - label: Actualités # Label used in the UI for the collection
     label_singular: actualite # Label for singular post
     name: actualites # Name of the collection used for various functionality in the CMS
