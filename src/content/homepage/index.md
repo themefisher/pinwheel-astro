@@ -15,31 +15,49 @@ key_features:
   feature_list:
     - icon: "heart"  #icon package react-feather-icon [https://feathericons.com/]
       title: Bonne Santé et Bien-Être
-      content: 0%
+      percentage: 13
+      activities: 5
+      color: green-600
     - icon: "book"  #icon package react-feather-icon [https://feathericons.com/]
       title: Éducation de Qualité
-      content: 0%
+      percentage: 13
+      activities: 5
+      color: blue-100
     - icon: "users"  #icon package react-feather-icon [https://feathericons.com/]
       title: Inégalités Réduites
-      content: 0%
+      percentage: 10
+      activities: 4
+      color: purple-500
     - icon: "cloud"  #icon package react-feather-icon [https://feathericons.com/]
       title: Lutte contre les Changements Climati ues
-      content: 0%
+      percentage: 13
+      activities: 5
+      color: green-500
     - icon: "smile"  #icon package react-feather-icon [https://feathericons.com/]
       title: Paix, justice et institutions efficaces
-      content: 0%
+      percentage: 10
+      activities: 4
+      color: blue-900
     - icon: "droplet"  #icon package react-feather-icon [https://feathericons.com/]
       title: Partenariats pour la réalisation des objectifs
-      content: 0%
+      percentage: 10
+      activities: 4
+      color: blue-200
     - icon: "briefcase"  #icon package react-feather-icon [https://feathericons.com/]
       title: Travail Décent et Croissance Économique
-      content: 0%
+      percentage: 8
+      activities: 3
+      color: yellow-400
     - icon: "zap"  #icon package react-feather-icon [https://feathericons.com/]
       title: Vie Terrestre
-      content: 0%
+      percentage: 8
+      activities: 3
+      color: olive-500
     - icon: "home"  #icon package react-feather-icon [https://feathericons.com/]
       title: Villes et Communautés Durables
-      content: 0%
+      percentage: 13
+      activities: 5
+      color: gray-800
 
 #service
 service:
