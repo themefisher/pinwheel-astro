@@ -118,6 +118,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Membres Fondateurs", name: "features", widget: "object", collapsed: true,
               fields: [
                 {label: "Titre", name: "title", widget: "string"},
+                {label: "Description", name: "description", widget: "text"},
                 {label: "Bouton", name: "button", widget: "object", collapsed: true,
                 fields: [
                   {label: "Label", name: "label", widget: "string"},
