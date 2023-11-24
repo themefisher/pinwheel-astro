@@ -1,7 +1,8 @@
 ---
 banner:
   title: Collectif des Volontaires du Sénégal
-  content: S'unir pour un Sénégal meilleur par le volontariat et la citoyenneté active.
+  content: S’unir pour un Sénégal en route vers le progrès par le volontariat et
+    la dynamique sociale
   image: /images/banner-img.png
   button:
     label: Qui sommes nous
@@ -60,15 +61,14 @@ key_features:
 service:
   homepage_tab:
     title: Notre mission
-    description: Promouvoir et développer la citoyenneté active et le développement
-      des territoires à travers le volontariat et les activités de services à la
-      communauté.
+    description: Promouvoir la dynamique sociale et le développement des territoires
+      à travers le volontariat et les activités de services à la communauté.
     tab_list:
-      - title: Créer un impact positif en soutenant le développement local
+      - title: Stimuler un impact positif en soutenant le développement local
         icon: lock
         image: /images/sells-by-country.png
-      - title: Nous œuvrons pour l'éducation, la lutte contre la pauvreté, et bien plus
-          encore.
+      - title: Nous œuvrons pour l'éducation, l'inclusion, la cohésion, le vivre
+          ensemble, la décentralisation et bien plus encore.
         icon: clock
         image: /images/collaboration.png
       - title: Rejoignez-nous pour contribuer à un Sénégal plus fort, solidaire et
@@ -96,8 +96,9 @@ service:
         enable: true
 partner:
   title: Nos Partenaires Engagés
-  content: Nous collaborons avec des partenaires locaux et internationaux pour
-    renforcer notre impact. Ensemble, nous œuvrons pour un Sénégal meilleur.
+  content: Nous collaborons avec des partenaires institutionnels locaux et
+    internationaux pour renforcer notre impact. Ensemble, nous œuvrons pour un
+    Sénégal meilleur.
   image: /images/banner-partner.png
   button:
     label: Découvrir Nos Partenaires
