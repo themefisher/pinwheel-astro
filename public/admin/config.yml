@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github #git-gateway
   repo: senegalx/codevsn # Path to your Github repository
   branch: main # Branch to update (master by default)
 
@@ -56,18 +56,18 @@ collections: # A list of collections the CMS should be able to edit
                 fields: [
                   {label: "ODD", name: "tab_list", widget: "list", summary: "{{fields.title}}", fields: [
                     {label: "Titre", name: "title", widget: "string"},
-                    {label: "Description", name: "description", widget: "text"},
-                    {label: "Image", name: "image", widget: "image"},
+                    {label: "Description", name: "description", widget: "text", required: false},
+                    {label: "Image", name: "image", widget: "image", required: false},
                     {label: "Vision", name: "list", widget: "list", summary: "{{fields.title}}", field: {name: "title", widget: "string"}},
-                    {label: "Vidéo", name: "video", widget: "object", collapsed: true,
+                    {label: "Vidéo", name: "video", widget: "object", collapsed: true, required: false,
                       fields: [
-                        {label: "Image", name: "thumbnail", widget: "image"},
-                        {label: "video id", name: "video_id", widget: "string"}]},
-                    {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                        {label: "Image", name: "thumbnail", widget: "image", required: false},
+                        {label: "video id", name: "video_id", widget: "string", required: false}]},
+                    {label: "Bouton", name: "button", widget: "object", collapsed: true, required: false,
                       fields: [
-                        {label: "Label", name: "label", widget: "string"},
-                        {label: "Lien", name: "link", widget: "string"},
-                      {label: "Activation", name: "enable", widget: "boolean"}]}
+                        {label: "Label", name: "label", widget: "string", required: false},
+                        {label: "Lien", name: "link", widget: "string", required: false},
+                      {label: "Activation", name: "enable", widget: "boolean", required: false}]}
                     ]}]
                 }]
               }
@@ -165,16 +165,17 @@ collections: # A list of collections the CMS should be able to edit
     folder: /src/content/associations # Where each new post with .md should be saved
     create: true # Allows users to create new items in the collection
     fields:
-      - { label: "Nom", name: "name", widget: "string" }
-      - { label: "Titre", name: "title", widget: "string" }
-      - {label: "Description", name: "excerpt", widget: "text"}
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Nom", name: "name", widget: "string", required: false}
+      - { label: "Titre", name: "title", widget: "string"}
+      - { label: "Page Titre", name: "page_title", widget: "string", required: false}
+      - {label: "Description", name: "excerpt", widget: "text", required: false}
+      - { label: "Image", name: "image", widget: "image", required: false}
       - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string} }
       - {label: "Sociales", name: "sociales", widget: "list", summary: "{{fields.author}}", collapsed: true,
           fields: [
             {label: "Nom", name: "name", widget: "string"},
             {label: "Lien", name: "link", widget: "string"}]}
-      - { label: "Brouillon", name: "draft", widget: "boolean" }
+      - { label: "Brouillon", name: "draft", widget: "boolean", required: false}
       - { label: "Contenu", name: "body", widget: "markdown" }      
   - label: Actualités # Label used in the UI for the collection
     label_singular: actualite # Label for singular post
@@ -190,3 +191,42 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "À la une", name: "featured", widget: "boolean" }
       - { label: "Brouillon", name: "draft", widget: "boolean" }
       - { label: "Contenu", name: "body", widget: "markdown" }
+  - label: Configuration
+    name: config
+    files:
+      - label: Site
+        name: site
+        file: /src/config/config.json
+        fields:
+          - {label: "Site", name: "site", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Url de base", name: "base_url", widget: "string"},
+                {label: "path", name: "base_path", widget: "string"},
+                {label: "trailing", name: "trailing_slash", widget: "boolean"},
+                {label: "favicon", name: "favicon", widget: "image"},
+                {label: "logo", name: "logo", widget: "image"},
+                {label: "logo w", name: "logo_width", widget: "string"},
+                {label: "logo h", name: "logo_height", widget: "string"},
+                {label: "logo alt", name: "logo_text", widget: "string"}]}
+          - {label: "Site meta", name: "metadata", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "meta_author", widget: "string"},
+                {label: "image", name: "meta_image", widget: "image"},
+                {label: "Description", name: "meta_description", widget: "text"},]}
+          - {label: "Appel à l'action", name: "call_to_action", widget: "object", collapsed: true,
+              fields: [
+                {label: "Titre", name: "title", widget: "string"},
+                {label: "Description", name: "description", widget: "text"},
+                {label: "Bouton", name: "button", widget: "object", collapsed: true,
+                fields: [
+                  {label: "Label", name: "label", widget: "string"},
+                  {label: "Lien", name: "link", widget: "string"}]}]}
+          - {label: "Pied de page", name: "params", widget: "object", collapsed: true,
+              fields: [
+                {label: "Description", name: "footer_description", widget: "string"},
+                {label: "Email", name: "email", widget: "string"},
+                {label: "Adresse", name: "location", widget: "string"},
+                {label: "Téléphone", name: "phone", widget: "string"},
+                {label: "lien qction", name: "contact_form_action", widget: "string"},
+                {label: "copyright", name: "copyright", widget: "string"}]}
