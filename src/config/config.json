@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "143",
     "logo_height": "60",
-    "logo_text": "Pinwheel"
+    "logo_text": "Collectif des Volontaires du Sénégal"
   },
 
   "settings": {
@@ -18,7 +18,7 @@
   },
 
   "call_to_action": {
-    "title": "Devenez le Changement Devenez Volontaire !",
+    "title": "En route vers le Progrès Devenez Volontaire !",
     "description": "Prêt à agir ? Rejoignez-nous en tant que volontaire au CODEVS et faites la différence dans votre communauté. Ensemble, nous pouvons créer un avenir meilleur.",
     "button": {
       "label": "Devenir Volontaire",
