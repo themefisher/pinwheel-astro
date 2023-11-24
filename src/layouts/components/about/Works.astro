@@ -3,15 +3,16 @@ import { Image } from "@astrojs/image/components";
 import Button from "@shortcodes/Button";
 import { IoLogoSteam } from "react-icons/io5";
 const {
-  features: { title, button, features_list },
+  features: { title, description, button, features_list },
 } = Astro.props;
 ---
 
 <section class="section">
   <div class="container">
     <div class="row items-center justify-between">
-      <div class="md:col-5">
+      <div class="md:col-8">
         <h2 class="text-center md:text-left" set:html={title} />
+        <p set:html={description}/>
       </div>
       {
         button.enable && (
