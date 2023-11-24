@@ -151,4 +151,26 @@ testimonial:
       organization: Président Senvie association
       author: Michel Cedric Kiniffo
       avatar: /images/uploads/michel_cedric_kiniffo.png
+    - author: Christine Kitoko
+      avatar: /images/uploads/christine_kitoko.png
+      organization: Conseillère en protection de l’environnement et changement
+        climatique, Carrefour International
+      content: Mon expérience dans le volontariat au Sénégal a été enrichissante de
+        nombreuses manières. Elle m’a permis de faire la connaissance, en
+        premier lieu, de divers acteurs clés agissant dans le domaine, avec
+        lesquels j’ai pu identifier des points communs et tisser des liens
+        reposant sur l’amitié et la collaboration. Elle m’a apporté également
+        une meilleure compréhension du potentiel que comporte le volontariat, en
+        tant qu’instrument et force accélératrice pour le développement. En tant
+        que Canadienne, je suis fière de compter parmi les volontaires au
+        Sénégal, et ainsi, de pouvoir contribuer à cette dynamique.
+    - author: Yannick SOKENG
+      avatar: /images/uploads/yannick_sokeng.png
+      organization: Volontaire International au Ministère de la Jeunesse, Emploi et
+        Entreprenariat (MJEE) et Service Civique Nationale (SCN)
+      content: J'ai laissé mes privilèges dans mon pays d'origine pour m'engager comme
+        un volontaire indépendant à l'international. La Teranga m'a ouvert les
+        bras et le Ministère de la Jeunesse du Sénégal m'a donné de servir ma
+        nation africaine. Je me réalise sur la terre du Maître Cheikh Anta Diop.
+        Je ne peux que dire Merci!
 ---
