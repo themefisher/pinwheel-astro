@@ -69,8 +69,9 @@ features:
       content: Titre
 members:
   title: Bureau Exécutif
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie
-    ultricies ligula sed magna dictum
+  description: Le Bureau exécutif du CODEVS assure la réalisation et le suivi des
+    décisions prises par le Comité directeur. Il est élu pour un mandat unique
+    et non renouvelable de 3 ans.
   member_list:
     - name: Seydina Mouhamadou Ndiaye
       field: Président
