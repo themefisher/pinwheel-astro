@@ -7,7 +7,7 @@ date: 2021-02-27T22:00:30.750Z
 categories:
   - "Service à la communauté "
 featured: true
-draft: true
+draft: false
 ---
 Salut la famille du Collectif des Volontaires !
 
