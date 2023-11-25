@@ -1,0 +1,12 @@
+<!-- Scripts go here with is:inline directive so Astro does not optimize/modify them --><!-- More on template directives: https://docs.astro.build/en/reference/directives-reference/ --><!-- <script src="/path/to/script" is:inline></script> -->
+<script is:inline>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
