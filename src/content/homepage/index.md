@@ -17,47 +17,47 @@ key_features:
       title: Bonne Santé et Bien-Être
       percentage: 13
       activities: 5
-      color: green-600
+      color: bg-odd-3
     - icon: book
       title: Éducation de Qualité
       percentage: 13
       activities: 5
-      color: blue-100
+      color: bg-odd-4
     - icon: users
       title: Inégalités Réduites
       percentage: 10
       activities: 4
-      color: purple-500
+      color: bg-odd-10
     - icon: cloud
       title: Lutte contre les Changements Climati ues
       percentage: 13
       activities: 5
-      color: green-500
+      color: bg-odd-13
     - icon: smile
       title: Paix, justice et institutions efficaces
       percentage: 10
       activities: 4
-      color: blue-900
+      color: bg-odd-16
     - icon: droplet
       title: Partenariats pour la réalisation des objectifs
       percentage: 10
       activities: 4
-      color: blue-200
+      color: bg-odd-17
     - icon: briefcase
       title: Travail Décent et Croissance Économique
       percentage: 8
       activities: 3
-      color: yellow-400
+      color: bg-odd-8
     - icon: zap
       title: Vie Terrestre
       percentage: 8
       activities: 3
-      color: olive-500
+      color: bg-odd-15
     - icon: home
       title: Villes et Communautés Durables
       percentage: 13
       activities: 5
-      color: gray-800
+      color: bg-odd-11
 service:
   homepage_tab:
     title: Notre mission

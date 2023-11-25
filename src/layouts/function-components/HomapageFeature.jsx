@@ -20,7 +20,7 @@ const HomapageFeature = ({ feature_list }) => {
             </span>
             <div className="relative bg-gray-100 h-6 rounded-md mt-2">
                 <div
-                  className={`absolute h-full top-0 left-0 bg-${item.color || 'bg-blue-500'}`} // Utilisation de la couleur personnalisée ou bleu par défaut
+                  className={`absolute h-full top-0 left-0 ${item.color || 'bg-blue-500'}`} // Utilisation de la couleur personnalisée ou bleu par défaut
                   style={{ width: `${item.percentage}%` }}
                 ></div>
                 <div className="absolute bottom-0 right-0 h-full flex items-center pr-2">
