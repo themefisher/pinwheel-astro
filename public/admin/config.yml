@@ -231,3 +231,21 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Téléphone", name: "phone", widget: "string"},
                 {label: "lien qction", name: "contact_form_action", widget: "string"},
                 {label: "copyright", name: "copyright", widget: "string"}]}
+      - label: Menu
+        name: menu
+        file: /src/config/menu.json
+        fields:
+          - {label: "Menu Principal", name: "main", widget: "list", summary: "{{fields.name}}", collapsed: true,
+              fields: [
+                {label: "Nom", name: "name", widget: "string"},
+                {label: "Lien", name: "url", widget: "string"},
+                {label: "Sous-menu", name: "hasChildren", widget: "boolean", required: false},
+                {label: "Menus", name: "children", widget: "list", summary: "{{fields.name}}", collapsed: true, required: false,
+                  fields: [
+                    {label: "Nom", name: "name", widget: "string"},
+                    {label: "Lien", name: "url", widget: "string"},
+                  ]}]}
+          - {label: "Menu Pied de page", name: "footer", widget: "list", summary: "{{fields.name}}", collapsed: true,
+              fields: [
+                {label: "Nom", name: "name", widget: "string"},
+                {label: "Lien", name: "url", widget: "string"}]}
