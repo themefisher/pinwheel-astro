@@ -85,16 +85,16 @@
       "url": "/a-propos"
     },
     {
+      "name": "Associations",
+      "url": "/associations"
+    },
+    {
+      "name": "Volontaires",
+      "url": "/volontaires"
+    },
+    {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }
