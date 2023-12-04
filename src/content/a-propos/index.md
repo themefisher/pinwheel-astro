@@ -41,17 +41,17 @@ features:
     link: /associations
     enable: true
   features_list:
-    - logo: /images/about/fonder/marieme-soda-ndiaye.jpg
-      title: Marième Soda Ndiaye
+    - logo: /images/about/fonder/coumba-sarr.jpg
+      title: Coumba Sarr
       content: Cofondateur
     - logo: /images/about/fonder/djibbril-boccoum.jpg
-      title: Djibbril Boccoum
+      title: Djibril Bocoum
       content: Cofondateur
     - logo: /images/about/fonder/mouhammad-ciss.jpg
       title: Mouhammad Ciss
       content: Cofondateur
-    - logo: /images/about/fonder/coumba-sarr.jpg
-      title: Coumba Sarr
+    - logo: /images/about/fonder/marieme-soda-ndiaye.jpg
+      title: Marième Soda Ndiaye
       content: Cofondateur
     - logo: /images/about/fonder/alhassane-diagne.jpg
       title: Alhassane Diagne
