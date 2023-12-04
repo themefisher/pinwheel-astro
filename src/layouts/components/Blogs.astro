@@ -32,7 +32,7 @@ const { posts } = Astro.props;
               <a href={`/actualites/${item.slug}`}>{item.data.title}</a>
             </h3>
             <p class="mb-4 text-text">
-              {plainify(item.body?.slice(0, Number(summary_length)))}...
+              {plainify(item.body?.replace(/[*>#]/g, '').slice(0, Number(summary_length)))}...
             </p>
             <div class="card-footer mt-6 flex space-x-4">
               <span class="inline-flex items-center text-xs text-[#666]">
