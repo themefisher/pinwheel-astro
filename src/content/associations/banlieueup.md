@@ -1,9 +1,9 @@
 ---
-name: banlieueup
-title: Banlieueup
+name: banlieue up
+title: Banlieue up
 excerpt: Banlieue Up est un mouvement citoyen basé à Guédiawaye, en banlieue de Dakar, visant à améliorer le contexte économique, social et environnemental dans les banlieues
 image: "/images/about/logo/BANLIEUEUP.png"
-categories: ["Éducation à la citoyenneté active", "Développement communautaire"]
+categories: ["Administration", "Apprentissage", "Dynamisme", "Durabilité"]
 sociales:
   - name: facebook
     link: https://www.facebook.com/BanlieueUP/?locale=fr_FR

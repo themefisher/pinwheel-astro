@@ -3,7 +3,7 @@ name: team Niintche
 title: Team Niintche
 excerpt: Un groupe de jeunes dédié à la citoyenneté active et qui s'engage passionnément dans la promotion de l'éducation et la préservation de l'environnement.
 image: "/images/about/logo/TEAM-NIINTCHE.png"
-categories: ["Éducation", "Environnement", "Progrès social", "Développement communautaire"]
+categories: ["Apprentissage","Dynamisme"]
 sociales:
   - name: facebook
     link: https://facebook.com/teamniintche

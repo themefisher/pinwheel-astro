@@ -3,7 +3,7 @@ name: declic
 title: Declic
 excerpt: Une organisation de jeunes leaders motivés, passionnés et talentueux qui se battent pour la promotion de la jeunesse africaine.
 image: "/images/about/logo/DECLIC.png"
-categories: ["Éducation à la citoyenneté active", "Employabilité", "Insertion professionnelle", "Développement communautaire", "Paix", "cohésion sociale"]
+categories: ["Administration", "Apprentissage", "Dynamisme", "Durabilité"]
 sociales:
   - name: facebook
     link: https://www.facebook.com/DeclicSud

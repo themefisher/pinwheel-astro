@@ -3,7 +3,7 @@ name: convention des jeunes reporters du Sénégal
 title: Convention des Jeunes Reporters du Sénégal
 excerpt: Les jeunes reporters ont décidé de prendre en main leur propre destinée.
 image: "/images/about/logo/cjrs-logo.png"
-categories: ["Formation", "Information et sensibilisation"]
+categories: ["Administration", "Apprentissage", "Dynamisme", "Durabilité"]
 sociales:
   - name: facebook
     link: https://www.facebook.com/CoventionDesJeunesReportersDuSenegal

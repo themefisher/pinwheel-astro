@@ -3,7 +3,7 @@ name: corpsafricz
 title: Corpsafricz
 excerpt: En 2016, CorpsAfrica/Sénégal est devenu le centre du modèle CorpsAfrica en Afrique de l'Ouest, établissant le premier programme francophone.
 image: "/images/about/logo/CORPSAFRICZ.png"
-categories: ["Éducation à la citoyenneté active", "Formation", "Employabilité", "Développement communautaire"]
+categories: ["Administration", "Apprentissage", "Dynamisme", "Durabilité"]
 sociales:
   - name: facebook
     link: https://www.facebook.com/corpsafricasenegal

@@ -3,7 +3,7 @@ name: empire des enfants
 title: Empire des enfants
 excerpt: Nous sommes un Centre d'accueil dévoué à offrir un refuge chaleureux et sécurisé pour les enfants en situation vulnérable.
 image: "/images/about/logo/Empire-des-enfants.png"
-categories: ["Éducation", "Santé", "Développement communautaire"]
+categories: ["Administration","Apprentissage", "Dynamisme", "Durabilité"]
 sociales:
   - name: facebook
     link: https://www.facebook.com/Empiredenfants
