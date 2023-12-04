@@ -13,13 +13,13 @@ const { posts } = Astro.props;
     posts.map((item: any) => (
       <div class="mb-8 md:col-6 lg:col-4">
         <div class="card">
-          <Image
+          { item.data?.image && <Image
             class="card-img"
             width={335}
             height={210}
             src={item.data.image}
             alt=""
-          />
+          />}
           <div class="card-content">
             <div class="card-tags space-x-1">
               {item.data.categories.map((category: any) => (
