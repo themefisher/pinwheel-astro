@@ -1,6 +1,5 @@
 ---
 title: Vers de Nouveaux Horizons, Deuxième Édition Ndogou des Volontaires avec le REVOCAP
-image: "/images/posts/post-12.png"
 author: codevsn
 date: 2023-03-23T05:00:00Z
 categories: ["Service à la communauté"]

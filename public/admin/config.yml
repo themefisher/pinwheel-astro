@@ -18,7 +18,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allows users to create new items in the collection
     fields:
       - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Auteur", name: "author", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string} }
