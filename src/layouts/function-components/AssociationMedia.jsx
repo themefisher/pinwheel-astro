@@ -49,11 +49,6 @@ const IntegrateMedia = ({ integrations, categories }) => {
                   <img src={item.data.image} alt="" />
                   <div>
                     <h4 className="h4">{humanize(item.data.name)}</h4>
-                    {item.data.categories.map((category, i) => (
-                      <span className="font-medium" key={i}>
-                        {humanize(category)}
-                      </span>
-                    ))}
                   </div>
                 </div>
                 <div className="my-5 border-y border-border py-5">
@@ -70,7 +65,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
                   className="group inline-flex items-center font-semibold text-dark hover:text-primary"
                   href={`/associations/${item.slug}`}
                 >
-                  View integration
+                  en savoir plus
                   <AiOutlineArrowRight className="ml-1.5 text-xl font-bold duration-300 group-hover:ml-3" />
                 </a>
               </div>
