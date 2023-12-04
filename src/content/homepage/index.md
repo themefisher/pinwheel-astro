@@ -155,15 +155,7 @@ testimonial:
       avatar: /images/uploads/christine_kitoko.png
       organization: Conseillère en protection de l’environnement et changement
         climatique, Carrefour International
-      content: Mon expérience dans le volontariat au Sénégal a été enrichissante de
-        nombreuses manières. Elle m’a permis de faire la connaissance, en
-        premier lieu, de divers acteurs clés agissant dans le domaine, avec
-        lesquels j’ai pu identifier des points communs et tisser des liens
-        reposant sur l’amitié et la collaboration. Elle m’a apporté également
-        une meilleure compréhension du potentiel que comporte le volontariat, en
-        tant qu’instrument et force accélératrice pour le développement. En tant
-        que Canadienne, je suis fière de compter parmi les volontaires au
-        Sénégal, et ainsi, de pouvoir contribuer à cette dynamique.
+      content: Mon expérience dans le volontariat au Sénégal a été enrichissante. Elle m’a permis de faire la connaissance de divers acteurs clés avec lesquels j’ai pu identifier des points communs et tisser des liens d’amitié et de collaboration. Elle m’a apporté également une meilleure compréhension du potentiel du volontariat, en tant qu’accélérateur pour le développement. En tant que Canadienne, je suis fière d'être volontaire au Sénégal, et de pouvoir contribuer à cette dynamique.
     - author: Yannick SOKENG
       avatar: /images/uploads/yannick_sokeng.png
       organization: Volontaire International au Ministère de la Jeunesse, Emploi et
@@ -173,4 +165,8 @@ testimonial:
         bras et le Ministère de la Jeunesse du Sénégal m'a donné de servir ma
         nation africaine. Je me réalise sur la terre du Maître Cheikh Anta Diop.
         Je ne peux que dire Merci!
+    - author: Anna Matheijs
+      avatar: /images/uploads/anna_matheijs.png
+      organization: Programme Des Volontaires Nations Unies Sénégal
+      content: Le volontariat est une expérience enrichissante qui m’a permis d’élargir ma perspective sur le monde, de développer une plus grande empathie envers les autres, d’apprendre à comprendre des points de vue différents, et créer des liens significatifs avec des personnes de milieux divers. Cela m'a rappelé l'importance de la diversité, de l'inclusion et du partage d'expériences pour construire des communautés plus fortes et plus connectées.
 ---
