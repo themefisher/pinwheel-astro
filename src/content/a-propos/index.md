@@ -41,33 +41,42 @@ features:
     link: /associations
     enable: true
   features_list:
-    - logo: /images/about/fonder/djibbril-boccoum.jpg
-      title: Djibbril Boccoum
-      content: Titre
-    - logo: /images/about/fonder/mouhammad-ciss.jpg
-      title: Mouhammad Ciss
-      content: Titre
-    - logo: /images/about/fonder/alhassane-diagne.jpg
-      title: Alhassane Diagne
-      content: Titre
-    - logo: /images/about/fonder/mamadou-diakhate-niintche.jpg
-      title: Mamadou Diakhaté Niintche
-      content: Titre
-    - logo: /images/about/fonder/edouard-mendis.jpg
-      title: Edouard Mendis
-      content: Titre
-    - logo: /images/about/fonder/seydina-mouhamadou-ndiaye.jpg
-      title: Seydina Mouhamadou Ndiaye
-      content: Titre
     - logo: /images/about/fonder/marieme-soda-ndiaye.jpg
       title: Marième Soda Ndiaye
-      content: Titre
+      content: Cofondateur
+    - logo: /images/about/fonder/djibbril-boccoum.jpg
+      title: Djibbril Boccoum
+      content: Cofondateur
+    - logo: /images/about/fonder/mouhammad-ciss.jpg
+      title: Mouhammad Ciss
+      content: Cofondateur
     - logo: /images/about/fonder/coumba-sarr.jpg
       title: Coumba Sarr
-      content: Titre
+      content: Cofondateur
+    - logo: /images/about/fonder/alhassane-diagne.jpg
+      title: Alhassane Diagne
+      content: Cofondateur
+    - logo: /images/about/fonder/mamadou-diakhate-niintche.jpg
+      title: Mamadou Diakhaté Niintche
+      content: Cofondateur
     - logo: /images/about/fonder/yaye-fatou-k-sarr.jpg
       title: Yaye Fatou K. Sarr
-      content: Titre
+      content: Cofondateur
+    - logo: /images/about/fonder/edouard-mendis.jpg
+      title: Edouard Mendis
+      content: Cofondateur
+    - logo: /images/about/fonder/seydina-mouhamadou-ndiaye.jpg
+      title: Seydina Mouhamadou Ndiaye
+      content: Cofondateur
+    - logo: /images/about/fonder/seynabou-fall.jpg
+      title: Seynabou Fall
+      content: Cofondateur
+    - logo: /images/about/fonder/khadim-deme.jpg
+      title: Khadim Dème
+      content: Cofondateur
+    - logo: /images/about/fonder/mohamed-gorgui-ndoye.jpg
+      title: Mohamed Gorgui Ndoye
+      content: Cofondateur
 members:
   title: Bureau Exécutif
   description: Le Bureau exécutif du CODEVS assure la réalisation et le suivi des
