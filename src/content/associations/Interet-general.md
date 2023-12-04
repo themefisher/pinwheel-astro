@@ -2,7 +2,7 @@
 name: intrêt général
 title: Intérêt Général
 excerpt: We are looking for a personal financial planning pro Certified Financial Planner preferred  who will lead our client advising efforts. You will be a fiduciary who works
-image: "/images/about/logo/BANLIEUEUP.png"
+image: "/images/about/logo/interet-general.png"
 categories: ["Administration", "Apprentissage", "Dynamisme"]
 draft: false
 ---
