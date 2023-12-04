@@ -29,7 +29,7 @@ key_features:
       activities: 4
       color: bg-odd-10
     - icon: cloud
-      title: Lutte contre les Changements Climati ues
+      title: Lutte contre les Changements Climatiques
       percentage: 13
       activities: 5
       color: bg-odd-13
