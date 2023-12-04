@@ -3,8 +3,7 @@ title: "La Marche Rose : Un Pas Amical vers l'Espoir"
 image: /images/uploads/screenshot_20231123_214734_whatsapp.jpg
 author: Cœur d’or avec la participation de CODEVS
 date: 2023-10-15T22:17:00.000Z
-categories:
-  - "Service à la communauté "
+categories: ["Service à la communauté"]
 featured: true
 draft: false
 ---

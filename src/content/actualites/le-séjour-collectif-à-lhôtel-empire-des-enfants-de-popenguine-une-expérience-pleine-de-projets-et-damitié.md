@@ -4,8 +4,7 @@ title: "**Le Séjour Collectif à l'Hôtel Empire des Enfants de Popenguine : Un
 image: /images/uploads/social-impact-for-development-sidev-eng.pptx-2-1-_page18_image42.jpg
 author: CODEVS
 date: 2021-02-27T22:00:30.750Z
-categories:
-  - "Service à la communauté "
+categories: ["Service à la communauté"]
 featured: true
 draft: false
 ---
