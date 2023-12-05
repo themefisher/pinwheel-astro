@@ -59,13 +59,19 @@ const IntegrateMedia = ({ integrations, categories }) => {
                       ),
                     }}
                   />
+                  {item.data?.standard && <p className="py-4 flex flex-wrap">
+                    {item.data?.standard?.administration && <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Administration</span>}
+                    {item.data?.standard?.apprentissage && <span className="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">Apprentissage</span>}
+                    {item.data?.standard?.dynamisme && <span className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Dynamisme</span>}
+                    {item.data?.standard?.durabilite && <span className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Durabilité</span>}
+                  </p>}
                 </div>
 
                 <a
                   className="group inline-flex items-center font-semibold text-dark hover:text-primary"
                   href={`/associations/${item.slug}`}
                 >
-                  en savoir plus
+                  Découvrir
                   <AiOutlineArrowRight className="ml-1.5 text-xl font-bold duration-300 group-hover:ml-3" />
                 </a>
               </div>
