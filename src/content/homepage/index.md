@@ -66,11 +66,11 @@ service:
     tab_list:
       - title: Stimuler un impact positif en soutenant le développement local
         icon: lock
-        image: /images/sells-by-country.png
+        image: /images/vol1.png
       - title: Nous œuvrons pour l'éducation, l'inclusion, la cohésion, le vivre
           ensemble, la décentralisation et bien plus encore.
         icon: clock
-        image: /images/collaboration.png
+        image: /images/vol2.png
       - title: Rejoignez-nous pour contribuer à un Sénégal plus fort, solidaire et
           prospère.
         icon: bell
