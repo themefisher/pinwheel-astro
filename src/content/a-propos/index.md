@@ -24,7 +24,7 @@ counter:
     messurment: K
     color: "#faee48"
   - name: Volontaires Mobilisés
-    number: 300
+    number: 600
     messurment: K
     color: "#ec2b3d"
 gallery:
