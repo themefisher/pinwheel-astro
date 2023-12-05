@@ -3,7 +3,12 @@ name: royukaay
 title: Royukaay
 excerpt: Notre vision, outiller techniquement les jeunes pour réaliser une croissance économique inclusive.
 image: "/images/about/logo/ROYUKAAY.png"
-categories: ["Apprentissage"]
+categories: ["Éducation à la citoyenneté active", "Développement communautaire"]
+standard:
+  administration: false
+  apprentissage: true
+  dynamisme: false
+  durabilite: false
 sociales:
   - name: facebook
     link: https://m.facebook.com/Royukaa

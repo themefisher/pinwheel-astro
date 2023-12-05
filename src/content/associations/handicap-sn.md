@@ -3,7 +3,12 @@ name: handicap sn
 title: Handicap SN
 excerpt: L’association Handicap.sn s’est fixée comme mission de contribuer à la formation des acteurs aux nouvelles technologies de l’information et de la communication (NTIC)
 image: "/images/about/logo/LOGO-HANDICAP.SN_.jpg"
-categories: ["Administration", "Apprentissage", "Dynamisme", "Durabilité"]
+categories: ["Éducation", "Formation", "Inclusion", "Employabilité", "Insertion professionnelle"]
+standard:
+  administration: true
+  apprentissage: true
+  dynamisme: true
+  durabilite: true
 sociales:
   - name: facebook
     link: https://www.facebook.com/handicap.sn

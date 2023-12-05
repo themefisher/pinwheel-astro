@@ -3,7 +3,12 @@ name: SENVIE
 title: Senvie Association
 excerpt: Notre association est une organisation à but non lucratif qui a pour mission d’améliorer les conditions de vie des communautés.
 image: "/images/about/logo/SENVIE.png"
-categories: ["Apprentissage","Dynamisme"]
+categories: ["Éducation", "Environnement", "Progrès social", "Développement communautaire"]
+standard:
+  administration: false
+  apprentissage: true
+  dynamisme: true
+  durabilite: false
 sociales:
   - name: facebook
     link: https://www.facebook.com/Senvieassoc

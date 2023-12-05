@@ -3,7 +3,12 @@ name: divan citoyen
 title: Divan Citoyen
 excerpt: Nous sommes engagé-e-s auprès de nos communautés dans l’espoir de leur fournir les informations qui leur permettent une pleine participation à la gouvernance de leurs territoires.
 image: "/images/about/logo/Divan-Citoyen-HD.png"
-categories: ["Administration", "Apprentissage", "Dynamisme"]
+categories: ["Démocratie", "Bonne gouvernance", "citoyenneté active", "think thank"]
+standard:
+  administration: true
+  apprentissage: true
+  dynamisme: true
+  durabilite: false
 sociales:
   - name: facebook
     link: https://m.facebook.com/DivanCitoyen
