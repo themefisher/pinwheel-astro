@@ -1,47 +1,45 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "Welcome to Bare Bliss Nudist Group..."
+  content: "Where we embrace the freedom of being in the nude and celebrate the beauty of naturism in a welcoming and inclusive environment. Our community is founded on principles of respect, acceptance, and body positivity, creating a haven for those who seek a genuine connection with like-minded individuals."
   image: /images/banner-img.png
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Learn More
+    link: "/about"
     enable: true
+
+
+ 
+
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "At Bare Bliss, we believe in the liberating experience of shedding societal norms"
+  description: and embracing the simplicity of living clothes-free. Our community is diverse, bringing together people from various backgrounds, ages, and walks of life, united by a shared appreciation for the nudist lifestyle.
   feature_list:
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
+    - icon: "users"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Respect for Self and Others
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
+    - icon: "userPlus"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Body Positivity
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
+    - icon: "checkSquare"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Consent and Boundaries
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
+    - icon: "globe"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Environment Stewardship
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
+    - icon: "home"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Community Support
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
+    - icon: "cameraOff"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Discretion and Privacy
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
+    - icon: "bookOpen"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Education and Advocacy
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
+    - icon: "film"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Have Fun
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 #service
@@ -61,15 +59,11 @@ service:
           image: "/images/sells-by-country.png"
 
   our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+    - title: Our events and activities are carefully crafted to provide
+      description: opportunities for relaxation, recreation, and socializing. Whether it's basking in the sun by the pool, participating in nature excursions, engaging in yoga sessions, or simply enjoying friendly gatherings, Bare Bliss offers a range of experiences that allow our members to connect authentically.
       image: "/images/collaboration.png"
-      list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+    - title: In the spirit of fostering a sense of community
+      description: we prioritize creating a safe space where everyone can feel comfortable being themselves. Bare Bliss is a place where judgment is left at the door, and members are encouraged to embrace their individuality without fear of societal pressures.
       video:
         thumbnail: "/images/intro-thumbnail.png"
         video_id: "g3-VxLQO7do"
@@ -77,16 +71,19 @@ service:
         label: Know About Us
         link: "#"
         enable: true
+    - title: Join us at Bare Bliss Nudist Group
+      description: and discover the joy of living au naturel in the company of a supportive and open-minded community. Experience the freedom to be your authentic self, surrounded by individuals who share a common appreciation for the beauty of both the human body and the natural world. Welcome to Bare Bliss, where nudism is not just a lifestyle but a celebration of uninhibited, genuine connection.
+      image: "/images/collaboration.png"
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
+  title: What people think about Naturism / Nudism
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
     - author: David Cameron
       avatar: "/images/users/user-5.png"
       organization: meta limited
-      rating: four
+      rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
       avatar: "/images/users/user-6.png"

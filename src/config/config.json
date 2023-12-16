@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "Bare Bliss",
+    "base_url": "https://www.barebliss.co.za",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "logo": null,
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "BareBliss"
   },
 
   "settings": {
@@ -18,32 +18,44 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "At Bare Bliss",
+    "description": "we believe in the liberating experience of shedding societal norms and embracing the simplicity of living clothes-free. Our community is diverse, bringing together people from various backgrounds, ages, and walks of life, united by a shared appreciation for the nudist lifestyle.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Learn More",
+      "link": "/about"
     }
   },
 
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "barebliss-south-africa",
     "settings": {}
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
-    "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "footer_description": "Bare Bliss Nudist Group is a vibrant and inclusive community that celebrates the beauty of naturism and promotes a sense of freedom, self-acceptance, and harmony with nature.",
+    "email": "info@barebliss.co.za",
+    "location": "Pretoria, South Africa",
+    "phones": ["07-1863-1884", "067-034-9331"],
+    "contact_form_action": "mailto:info@mogen.co.za",
+    "copyright": "Copyright © 2023 Powered by [MogenPty](https://www.mogen.co.za)",
+    "locations": [
+      {
+        "area": "Gauteng, South Africa",
+        "phone": "071-863-1884",
+        "email": "gp@barebliss.co.za"
+      },
+      {
+        "area": "KwaZulu-Natal, South Africa",
+        "phone": "067-034-9331",
+        "email": "kzn@barebliss.co.za"
+      }
+    ]
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "MogenPty",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "Bare Bliss"
   }
 }
