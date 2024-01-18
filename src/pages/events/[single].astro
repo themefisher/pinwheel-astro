@@ -6,13 +6,13 @@ import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { humanize, markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
-const integraionsIndex = await getEntryBySlug<any, string>(
-  "integrations",
+const eventsIndex = await getEntryBySlug<any, string>(
+  "events",
   "-index"
 );
 export async function getStaticPaths() {
-  const integrations = await getSinglePage("integrations");
-  const paths = integrations.map((post) => ({
+  const events = await getSinglePage("events");
+  const paths = events.map((post) => ({
     params: {
       single: post.slug,
     },
@@ -25,7 +25,7 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 const page_data = {
   ...post.data,
-  index_title: integraionsIndex.data.title,
+  index_title: eventsIndex.data.title,
   slug: post.slug,
 };
 ---
