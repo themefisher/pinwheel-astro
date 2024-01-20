@@ -33,17 +33,17 @@ counter:
 gallery:
   title: Bare Bliss Nudist Group is a vibrant and inclusive community that celebrates the beauty of naturism
   images:
-    - "/images/about/gallery-img-1.png"
-    - "/images/about/gallery-img-3.png"
-    - "/images/about/gallery-img-2.png"
+    - "/images/about/matlapeng-2.png"
+    - "/images/about/matlapeng-3.png"
+    - "/images/about/matlapeng-1.png"
 
 ## our works
 features:
   title: The six pillars that <br /> drives everything we do
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+  #   label: Download The Theme
+  #   link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    enable: false
   features_list:
     - title: Accessibility
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
@@ -62,25 +62,13 @@ features:
 ## members
 members:
   title: This is who we are
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  description: Friends. Naturists. Tourists. Explorers. Family.
   member_list:
     - name: Solly M
       field: Marketing Manager
-      image: "/images/users/user-1.png"
+      image: "/images/users/sol-headshot.png"
     - name: Miss Vee
       field: Event Coordinator
-      image: "/images/users/user-2.png"
-    # - name: Ortrin Okaster
-    #   field: Software Engineer
-    #   image: "/images/users/user-3.png"
-    # - name: Eleanor Pena
-    #   field: Co-founder & COO
-    #   image: "/images/users/user-1.png"
-    # - name: Bukiakta Bansalo
-    #   field: Product Manager
-    #   image: "/images/users/user-2.png"
-    # - name: Ortrin Okaster
-    #   field: Software Engineer
-    #   image: "/images/users/user-3.png"
+      image: "/images/users/vee-headshot.png"
 ---
 is a vibrant and inclusive community that celebrates the beauty of naturism and promotes a sense of freedom, self-acceptance, and harmony with nature. Nestled in a serene and private setting, our group provides a safe haven for individuals who embrace the nudist lifestyle and seek to connect with like-minded souls.

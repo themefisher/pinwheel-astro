@@ -65,8 +65,8 @@ service:
     - title: In the spirit of fostering a sense of community
       description: we prioritize creating a safe space where everyone can feel comfortable being themselves. Bare Bliss is a place where judgment is left at the door, and members are encouraged to embrace their individuality without fear of societal pressures.
       video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
+        thumbnail: "https://i.ytimg.com/vi/f4cwUMP0_yU/hq2.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtCeOuQyRDTXpgkT64bQS0o0b69Q"
+        video_id: "f4cwUMP0_yU"
       button:
         label: Know About Us
         link: "#"
