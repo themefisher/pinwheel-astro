@@ -1,6 +1,6 @@
 import React from "react";
-import { BsPinAngleFill } from "react-icons/bs/index.js";
-import { humanize } from "@lib/utils/textConverter";
+import { BsPinAngleFill } from "react-icons/bs";
+import { humanize } from "@/lib/utils/textConverter";
 import * as Icon from "react-feather";
 
 const PricingCard = ({ item }) => {

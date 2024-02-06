@@ -1,6 +1,6 @@
 ---
-import Logo from "@components/Logo.astro";
-import menu from "@config/menu.json";
+import Logo from "@/components/Logo.astro";
+import menu from "@/config/menu.json";
 
 export interface ChildNavigationLink {
   name: string;
@@ -124,6 +124,7 @@ const { pathname } = Astro.url;
     </div>
   </nav>
 </header>
+
 <script is:inline>
   const button = document.getElementById("dropdown-button");
   button.addEventListener("click", () => {
@@ -132,13 +133,14 @@ const { pathname } = Astro.url;
   });
 
   //sticky header
-  const header = document.querySelector(".header");
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    if (scrollY > 0) {
-      header.classList.add("header-sticky");
-    } else {
-      header.classList.remove("header-sticky");
-    }
+  document.addEventListener("astro:page-load", () => {
+    const header = document.querySelector(".header");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 0) {
+        header.classList.add("header-sticky");
+      } else {
+        header.classList.remove("header-sticky");
+      }
+    });
   });
 </script>

@@ -1,9 +1,9 @@
 ---
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import Base from "@layouts/Base.astro";
-import Faq from "@layouts/function-components/Faq.jsx";
-import PricingCard from "@layouts/function-components/PricingCard.jsx";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import Faq from "@/layouts/function-components/Faq.jsx";
+import PricingCard from "@/layouts/function-components/PricingCard.jsx";
 import { getEntryBySlug } from "astro:content";
 
 const pricing = await getEntryBySlug("pricing", "index");

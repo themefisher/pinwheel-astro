@@ -1,10 +1,10 @@
 ---
-import Logo from "@components/Logo.astro";
-import Social from "@components/Social.astro";
-import config from "@config/config.json";
-import menu from "@config/menu.json";
-import social from "@config/social.json";
-import { markdownify } from "@lib/utils/textConverter";
+import Logo from "@/components/Logo.astro";
+import Social from "@/components/Social.astro";
+import config from "@/config/config.json";
+import menu from "@/config/menu.json";
+import social from "@/config/social.json";
+import { markdownify } from "@/lib/utils/textConverter";
 const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
@@ -43,11 +43,13 @@ const { copyright, location, email, phone, footer_description } = config.params;
           <li class="mb-2">{location}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
-              >{email}</a>
+              >{email}</a
+            >
           </li>
           <li>
             <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
-              >{phone}</a>
+              >{phone}</a
+            >
           </li>
         </ul>
       </div>

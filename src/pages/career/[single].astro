@@ -1,17 +1,17 @@
 ---
-import CareerSidebar from "@components/career/CareerSidebar.astro";
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import Base from "@layouts/Base.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import similerItems from "@lib/utils/similarItems";
+import CareerSidebar from "@/components/career/CareerSidebar.astro";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import similerItems from "@/lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 
 const careerIndex: any = await getEntryBySlug("careers", "-index");
 const careers = await getSinglePage("careers");
 export async function getStaticPaths() {
   const careers = await getSinglePage("careers");
-  const paths = careers.map((post) => ({
+  const paths = careers.map((post: any) => ({
     params: {
       single: post.slug,
     },

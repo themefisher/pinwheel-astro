@@ -1,14 +1,13 @@
 ---
-import Shape from "@components/Shape.astro";
-import config from "@config/config.json";
-import Base from "@layouts/Base.astro";
-import BlogSingle from "@layouts/BlogSingle.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import BlogSingle from "@/layouts/BlogSingle.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
 
 export async function getStaticPaths() {
   const posts = await getSinglePage(config.settings.blog_folder);
 
-  const paths = posts.map((post) => ({
+  const paths = posts.map((post: any) => ({
     params: {
       single: post.slug,
     },

@@ -1,11 +1,11 @@
 ---
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import CounterComponent from "@components/about/CounterComponent.astro";
-import Gallery from "@components/about/Gallery.astro";
-import OurMembers from "@components/about/OurMembers.astro";
-import Works from "@components/about/Works.astro";
-import Base from "@layouts/Base.astro";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import CounterComponent from "@/components/about/CounterComponent.astro";
+import Gallery from "@/components/about/Gallery.astro";
+import OurMembers from "@/components/about/OurMembers.astro";
+import Works from "@/components/about/Works.astro";
+import Base from "@/layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
 
 const about = await getEntryBySlug("about", "index");

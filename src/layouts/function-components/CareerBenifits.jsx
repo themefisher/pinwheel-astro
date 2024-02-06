@@ -1,5 +1,5 @@
 import * as Icon from "react-feather";
-import { humanize } from "@lib/utils/textConverter";
+import { humanize } from "@/lib/utils/textConverter";
 const CareerBenifits = ({ benifits: { title, description, benifit_list } }) => {
   return (
     <section className="section">
