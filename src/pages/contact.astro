@@ -1,8 +1,8 @@
 ---
-import { Image } from "@astrojs/image/components";
-import PageHeader from "@components/PageHeader.astro";
-import config from "@config/config.json";
-import Base from "@layouts/Base.astro";
+import PageHeader from "@/components/PageHeader.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { Image } from "astro:assets";
 import { getEntryBySlug } from "astro:content";
 
 const entry = await getEntryBySlug("contact", "index");

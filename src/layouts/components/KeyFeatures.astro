@@ -1,7 +1,7 @@
 ---
-import { markdownify } from "@lib/utils/textConverter";
-import { Image } from "@astrojs/image/components";
-import HomapageFeature from "@layouts/function-components/HomapageFeature";
+import { markdownify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
+import HomapageFeature from "@/layouts/function-components/HomapageFeature";
 const { key_features } = Astro.props;
 const { title, description, feature_list } = key_features;
 ---

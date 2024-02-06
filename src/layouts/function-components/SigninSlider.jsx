@@ -1,8 +1,9 @@
 import { marked } from "marked";
 import React, { useRef, useState } from "react";
-import SwiperCore, { Autoplay, Pagination } from "swiper";
+import SwiperCore from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const SigninSlider = ({ title }) => {
@@ -10,7 +11,7 @@ const SigninSlider = ({ title }) => {
   const [swiper, setSwiper] = useState(null);
   const paginationRef = useRef(null);
   return (
-    <div className="auth-banner bg-gradient flex hidden flex-col items-center justify-center py-16 lg:col-6 lg:block">
+    <div className="auth-banner bg-gradient flex flex-col items-center justify-center py-16 lg:col-6 lg:block">
       <img
         className="absolute left-0 top-0 h-full w-full"
         src="/images/login-banner-bg.png"

@@ -3,8 +3,8 @@
 <h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow"> 👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-pinwheel-astro-vercel-app/kmaxqwa7rx?form_factor=desktop"> Page Speed (95+) 🚀 </a>
 </h2>
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%402.0.11" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=2.0&color=000&logo=astro" />
+  <a href="https://github.com/withastro/astro/releases/tag/astro%404.3.2" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.3&color=000&logo=astro" />
   </a>
 
   <a href="https://github.com/themefisher/pinwheel-astro/blob/main/LICENSE">
@@ -25,19 +25,18 @@
 
 - 📄 17+ Pre-designed pages
 - 🎨 Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
--  🗃️ Taxonomy support
--  ⚡ Fast by default (95+ Google PageSpeed Score)
--  🔧 Netlify setting pre-configured
--  📝 Contact form support
--  🖼️ Support OG image
--  📝 Write and update content in Markdown / MDX
--  💻 MDX components auto import
--  📝 Includes draft pages and posts
--  🎨 Built with Tailwind CSS framework
--  📱 Fully responsive on desktops, tablets, and smartphones
--  🔍 SEO Friendly
--  💬 Disqus comment support
-
+- 🗃️ Taxonomy support
+- ⚡ Fast by default (95+ Google PageSpeed Score)
+- 🔧 Netlify setting pre-configured
+- 📝 Contact form support
+- 🖼️ Support OG image
+- 📝 Write and update content in Markdown / MDX
+- 💻 MDX components auto import
+- 📝 Includes draft pages and posts
+- 🎨 Built with Tailwind CSS framework
+- 📱 Fully responsive on desktops, tablets, and smartphones
+- 🔍 SEO Friendly
+- 💬 Disqus comment support
 
 ## 📄 17+ Pre-Designed Pages
 
@@ -60,7 +59,6 @@
 - 🔗 Integration Single
 - 📜 Terms and Conditions
 - 💡 Elements
-
 
 <!-- installation -->
 ## 🛠️ Installation
@@ -106,7 +104,7 @@ If your problem or idea has not been addressed yet, feel free to [open a new iss
 <!-- licence -->
 ## 📝 License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright (c) 2023 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/pinwheel-astro/blob/main/LICENSE) license.
 
@@ -117,7 +115,6 @@ Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://them
 Besides developing beautifully designed and blazing-fast themes, we help businesses create fast, performance-focused, scalable & secure websites based on NextJs, Hugo, Astro, etc.
 
 If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://themefisher.com/contact).
-
 
 ## 🔥 More Astro Themes By Themefisher
 

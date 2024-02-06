@@ -1,10 +1,10 @@
 ---
-import Base from "@layouts/Base.astro";
-import Banner from "@layouts/components/Banner.astro";
-import KeyFeatures from "@layouts/components/KeyFeatures.astro";
-import Testimonial from "@layouts/components/Testimonial.astro";
-import Service from "@layouts/components/Service.astro";
-import Cta from "@layouts/partials/Cta.astro";
+import Base from "@/layouts/Base.astro";
+import Banner from "@/layouts/components/Banner.astro";
+import KeyFeatures from "@/layouts/components/KeyFeatures.astro";
+import Testimonial from "@/layouts/components/Testimonial.astro";
+import Service from "@/layouts/components/Service.astro";
+import Cta from "@/layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 
 const homepage = await getEntryBySlug("homepage", "index");

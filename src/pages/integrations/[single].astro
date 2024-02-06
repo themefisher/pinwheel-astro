@@ -1,18 +1,20 @@
 ---
-import { Image } from "@astrojs/image/components";
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import Base from "@layouts/Base.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { humanize, markdownify } from "@lib/utils/textConverter";
+import { Image } from "astro:assets";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { humanize, markdownify } from "@/lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
-const integraionsIndex = await getEntryBySlug<any, string>(
+import type { TIntegrationsIndex } from "@/types";
+const integraionsIndex = (await getEntryBySlug<any, string>(
   "integrations",
-  "-index"
-);
+  "-index",
+)) as TIntegrationsIndex;
+
 export async function getStaticPaths() {
   const integrations = await getSinglePage("integrations");
-  const paths = integrations.map((post) => ({
+  const paths = integrations.map((post: any) => ({
     params: {
       single: post.slug,
     },

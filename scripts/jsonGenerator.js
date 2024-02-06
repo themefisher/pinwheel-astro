@@ -21,7 +21,7 @@ const getData = (folder) => {
     };
   });
   const publishedPages = getData.filter(
-    (page) => !page.frontmatter?.draft && page
+    (page) => !page.frontmatter?.draft && page,
   );
   return publishedPages;
 };
