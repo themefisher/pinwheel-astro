@@ -6,18 +6,18 @@ import Faq from "@layouts/function-components/Faq.jsx";
 import PricingCard from "@layouts/function-components/PricingCard.jsx";
 import { getEntryBySlug } from "astro:content";
 
-const pricing = await getEntryBySlug("pricing", "index");
+const membership = await getEntryBySlug("membership", "index");
 const page_data = {
-  ...pricing.data,
-  content: pricing.body,
+  ...membership.data,
+  content: membership.body,
 };
 ---
 
 <Base
-  title={pricing.data.title}
-  meta_title={pricing.data.meta_title}
-  description={pricing.data.description}
-  image={pricing.data.image}
+  title={membership.data.title}
+  meta_title={membership.data.meta_title}
+  description={membership.data.description}
+  image={membership.data.image}
 >
   <Shape />
   <section class="page-hero pb-14 pt-16">
@@ -30,12 +30,12 @@ const page_data = {
     <div class="container">
       <div class="row lg:px-10">
         {
-          pricing.data.pricing_card.map((item: any, i: number) => (
+          membership.data.pricing_card.map((item: any, i: number) => (
             <PricingCard item={item} client:load />
           ))
         }
       </div>
     </div>
   </section>
-  <Faq client:load data={pricing.data} />
+  <Faq client:load data={membership.data} />
 </Base>

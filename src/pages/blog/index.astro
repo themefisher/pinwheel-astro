@@ -22,8 +22,12 @@ const featuredPost = sortedPosts.filter((item) => item.data.featured);
 const recentPost = sortedPosts.filter((item) => !item.data.featured);
 const totalPages = Math.ceil(recentPost.length / config.settings.pagination);
 const currentPosts = recentPost.slice(0, config.settings.pagination);
+const blog = blogIndex.data;
+const page_data = {
+  ...blog,
+  content: blog.body,
+};
 ---
-
 <Base
   title={blogIndex.data.title}
   meta_title={blogIndex.data.meta_title}
@@ -33,7 +37,7 @@ const currentPosts = recentPost.slice(0, config.settings.pagination);
   <Shape />
   <section class="page-hero pt-16">
     <div class="container">
-      <PageHeader page_data={blogIndex.data} />
+      <PageHeader page_data={page_data} />
     </div>
   </section>
   <section class="section">
