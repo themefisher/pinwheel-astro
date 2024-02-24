@@ -78,7 +78,7 @@ service:
 #testimonial
 testimonial:
   title: What people think about Naturism / Nudism
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  description: Naturism in South Africa, like in many other countries, elicits a range of opinions and attitudes among the population. Here are some perspectives commonly found...
   testimonial_list:
     - author: Solly M
       avatar: "/images/users/sol-headshot.png"
