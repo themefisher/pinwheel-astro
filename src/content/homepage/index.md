@@ -80,49 +80,29 @@ testimonial:
   title: What people think about Naturism / Nudism
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-6.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Solly M
+      avatar: "/images/users/sol-headshot.png"
+      organization: private
+      rating: zero
+      content: Being a naturist has given me the chance to truly embrace myself without worrying about how others see me. It's like stepping into a world where I can find calmness and forget about the everyday pressures we face. Naturism lets me be at peace with who I am, away from the stress of modern life.
+    - author: Miss Vee
+      avatar: "/images/users/vee-headshot.png"
+      organization: private
+      rating: zero
+      content: Naturism is where I found meaning of life, in its simplest and liberate form. I finally let all ways down and embrace my love for the natural form on being.
+    - author: Chef Aza
+      avatar: "/images/users/user-anon.png"
+      organization: private
+      rating: zero
+      content: Some people might link naturism with sexual acts or showing off, which can create misunderstandings and negative ideas. It's important to teach everyone that naturism is not about that. It's more about accepting our bodies and living naturally. By spreading this message, we can help people see naturism in a positive light and understand its values better.
+    - author: Rori M
+      avatar: "/images/users/user-anon.png"
+      organization: private
+      rating: zero
+      content: The naturist tourism sector contributes to the local economy, particularly in coastal regions where nude beaches and resorts are popular destinations.
+    - author: Bra E
+      avatar: "/images/users/user-anon.png"
+      organization: private
+      rating: zero
+      content: South Africa has a diverse cultural landscape, and attitudes toward naturism can vary across different cultural groups. In some communities, nudity may be more culturally accepted or even practiced in certain rituals or ceremonies. However, in more conservative or traditional communities, naturism may be viewed with skepticism or disapproval.
 ---
