@@ -1,8 +1,8 @@
 ---
 banner:
-  title: "Welcome to Bare Bliss Nudist Group..."
+  title: "Welcome to Bare Bliss Nudist Group"
   content: "Where we embrace the freedom of being in the nude and celebrate the beauty of naturism in a welcoming and inclusive environment. Our community is founded on principles of respect, acceptance, and body positivity, creating a haven for those who seek a genuine connection with like-minded individuals."
-  image: /images/banner-img.png
+  image: /images/barebliss-logo-2.png
   button:
     label: Learn More
     link: "/about"
