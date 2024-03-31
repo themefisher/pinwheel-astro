@@ -7,7 +7,7 @@ date: 2024-03-31T03:08:28.120Z
 categories:
   - "Service à la communauté "
 featured: true
-draft: true
+draft: false
 ---
 Dans un pays où la cohésion sociale et la paix sont des valeurs essentielles, l'engagement des volontaires communautaires revêt une importance cruciale. C'est dans ce contexte que le Système des Nations Unies au Sénégal a lancé un programme conjoint visant à promouvoir la cohésion sociale et à prévenir les conflits, avec le soutien du gouvernement du Canada et des agences du SNU. Au cœur de cette initiative se trouve l'institutionnalisation des volontaires communautaires, qui jouent un rôle central dans la mobilisation et la participation citoyennes des communautés, en particulier des jeunes et des femmes.
 
