@@ -1,22 +1,20 @@
 {
   "site": {
-    "title": "Collectif des Volontaires du Sénégal - CODEVS",
-    "base_url": "https://pinwheel-astro.vercel.app",
-    "base_path": "/",
-    "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "base_url": "https://codevsn.org/",
+    "logo_text": "Collectif des Volontaires du Sénégal",
     "logo": "/images/logo.png",
     "logo_width": "143",
-    "logo_height": "60",
-    "logo_text": "Collectif des Volontaires du Sénégal"
+    "base_path": "/",
+    "favicon": "/images/favicon.png",
+    "title": "Collectif des Volontaires du Sénégal - CODEVS",
+    "trailing_slash": false,
+    "logo_height": "60"
   },
-
   "settings": {
     "pagination": 6,
     "summary_length": 100,
     "blog_folder": "actualites"
   },
-
   "call_to_action": {
     "title": "En route vers le Progrès Devenez Volontaire !",
     "description": "Prêt à agir ? Rejoignez-nous en tant que volontaire au CODEVS et faites la différence dans votre communauté. Ensemble, nous pouvons créer un avenir meilleur.",
@@ -25,13 +23,11 @@
       "link": "/contact"
     }
   },
-
   "disqus": {
     "enable": true,
     "shortname": "themefisher-template",
     "settings": {}
   },
-
   "params": {
     "footer_description": "Impact social pour le développement ! Enregistré sous le récépissé N°00021348",
     "email": "volontariat@codevsn.org",
@@ -40,10 +36,9 @@
     "contact_form_action": "#",
     "copyright": "Copyright © 2023"
   },
-
   "metadata": {
     "meta_author": "CODEVS",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Collectif des Volontaires du Sénégal"
+    "meta_description": "Collectif des Volontaires du Sénégal, promouvoir le volontariat, la dynamique et Progrès social au Sénégal "
   }
 }
