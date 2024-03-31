@@ -6,7 +6,7 @@ date: 2024-03-30T20:11:17.297Z
 categories:
   - "Service à la communauté "
 featured: true
-draft: false
+draft: true
 ---
 Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
 Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
