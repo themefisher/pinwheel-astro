@@ -6,8 +6,10 @@ date: 2024-03-30T20:32:40.522Z
 categories:
   - "Service à la communauté "
 featured: true
-draft: true
+draft: false
 ---
+!
+Salut à tous les amis de SUCO et des organisations partenaires ! Êtes-vous prêts à revivre une journée pleine de célébration, de réflexion et de partage ? Parce que le 7 mars est une date spéciale au Sénégal - c'est la Journée Nationale de Commémoration des Femmes de Nder !
 Salut à tous les amis de SUCO et des organisations partenaires ! Êtes-vous prêts à revivre une journée pleine de célébration, de réflexion et de partage ? Parce que le 7 mars est une date spéciale au Sénégal - c'est la Journée Nationale de Commémoration des Femmes de Nder !
 
 Imaginez-vous au cœur de l'action, entourés par les braves femmes de Nder dont l'héritage résonne encore aujourd'hui. Organisée par SUCO, cette journée a été un moment inoubliable pour tous ceux qui croient au pouvoir des femmes et à l'égalité Homme et Femme.
@@ -30,7 +32,7 @@ Plongez dans l'histoire avec une présentation des figures emblématiques, suivi
 Amusez-vous avec des jeux interactifs qui mettent en lumière les défis auxquels les femmes sont confrontées, tout en renforçant la solidarité entre les participants.
 Terminez la journée en beauté avec une réflexion collective sur le thème de la Journée des Femmes 2024, suivie d'une photo de groupe pour immortaliser ce moment unique.
 
-#Conclusion
+###Conclusion
 
 En célébrant la Journée des Femmes et en rendant hommage aux Femmes de Nder, nous avons honoré le passé tout en construisant un avenir plus juste et équitable pour tous. Rejoignez-nous dans cette aventure extraordinaire alors que nous nous engageons à créer un monde où le pouvoir des femmes est pleinement reconnu et célébré.
 
