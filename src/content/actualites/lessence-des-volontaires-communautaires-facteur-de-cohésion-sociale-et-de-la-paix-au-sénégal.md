@@ -11,7 +11,7 @@ draft: false
 ---
 Dans un pays où la cohésion sociale et la paix sont des valeurs essentielles, l'engagement des volontaires communautaires revêt une importance cruciale. C'est dans ce contexte que le Système des Nations Unies au Sénégal a lancé un programme conjoint visant à promouvoir la cohésion sociale et à prévenir les conflits, avec le soutien du gouvernement du Canada et des agences du SNU. Au cœur de cette initiative se trouve l'institutionnalisation des volontaires communautaires, qui jouent un rôle central dans la mobilisation et la participation citoyennes des communautés, en particulier des jeunes et des femmes.
 
-Le Recrutement et la Formation des Volontaires Communautaires
+ Le Recrutement et la Formation des Volontaires Communautaires
 
 Le processus de recrutement des volontaires communautaires s'inscrit dans une démarche inclusive et représentative. Issus du réseau de volontaires de l'Académie du Développement Local et Communautaire (ADLC) du Collectif des Volontaires du Sénégal (CODEVS), ces volontaires sont sélectionnés pour leur engagement, leur diversité et leur représentativité géographique. Après identification, ils sont orientés vers une session de formation et de validation de compétences, assurée par le Programme des Volontaires des Nations Unies Sénégal (PVNU) et le Programme des Nations Unies pour le Développement (PNUD) Sénégal. Cette formation vise à renforcer leurs capacités en matière de mobilisation communautaire, de dialogue citoyen et de promotion de la paix.
 
