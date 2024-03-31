@@ -20,7 +20,7 @@ Depuis 1961, SUCO se consacre à améliorer les conditions de vie des communaut�
 
 Notre objectif général est simple mais puissant : mettre en lumière l'importance de la Journée des Femmes et honorer l'héritage des Femmes de Nder. À travers des activités engageantes et des discussions stimulantes, nous visons à informer, à échanger et à inspirer.
 
-Activités:
+### Activités:
 
 Préparez-vous à une journée remplie d'événements captivants :
 Commencez la journée avec un accueil chaleureux et un délicieux petit-déjeuner, préparé avec amour par l'équipe de SUCO.
