@@ -1,7 +1,7 @@
 ---
 title: "Le Volontariat en Période Électorale : Un Pilier de la Démocratie au Sénégal"
 image: /images/uploads/20240324_183338.heic.jpg
-author: "CODEVS "
+author: CODEVS & Wa Mbedmi (SenegalVote)
 date: 2024-03-30T20:11:17.297Z
 categories:
   - "Service à la communauté "
