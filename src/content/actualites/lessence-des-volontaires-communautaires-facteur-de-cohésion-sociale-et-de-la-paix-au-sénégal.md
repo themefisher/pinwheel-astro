@@ -23,7 +23,7 @@ Une fois formés, les volontaires communautaires sont contractualisés pour une 
 
 L'engagement des volontaires communautaires s'inscrit pleinement dans l'Objectif de Développement Durable 16, qui vise à promouvoir des sociétés pacifiques et inclusives pour un développement durable. En renforçant la participation citoyenne, en promouvant la paix et en prévenant les conflits, les volontaires communautaires contribuent à la réalisation de cet objectif ambitieux. Leur rôle dans la mobilisation des communautés, la promotion du dialogue et la consolidation de la cohésion sociale est essentiel pour garantir un avenir pacifique et prospère pour tous.
 
- Nécessité d'Institutionnaliser l'Expérience des Volontaires Communautaires
+## Nécessité d'Institutionnaliser l'Expérience des Volontaires Communautaires
 
 Face à l'impact positif des volontaires communautaires dans la promotion de la cohésion sociale et de la paix, il est essentiel de pérenniser cette expérience. Cela passe notamment par le renforcement et l'appui à l'Institutionalisation de l'Académie du Développement Local et Communautaire du CODEVS. Cette institution joue un rôle crucial dans la formation et la préparation des volontaires, ainsi que dans la promotion d'une culture de l'engagement citoyen. En investissant dans cette institution, nous investissons dans l'avenir de notre société, en garantissant un cadre propice à la participation active et responsable de tous les citoyens.
 
