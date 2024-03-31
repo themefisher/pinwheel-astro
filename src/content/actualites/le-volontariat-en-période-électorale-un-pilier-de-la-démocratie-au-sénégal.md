@@ -18,7 +18,7 @@ Avant le jour du vote, les volontaires communautaires se mobilisent pour renforc
 
 La campagne d'inscription est un moment crucial où les volontaires se mobilisent pour encourager les citoyens éligibles à s'inscrire sur les listes électorales. À travers des actions de sensibilisation porte-à-porte, des séances d'information dans les quartiers et des activités de mobilisation communautaire, ils veillent à ce que chaque citoyen ait la possibilité de participer au processus démocratique.
 
-### Jour de Vote : Observateurs au Cœur des Bureaux de Vote
+### Jour de vote: Observateurs au Cœur des Bureaux de Vote
 
 Le jour du scrutin, les volontaires se transforment en observateurs dévoués, veillant au bon déroulement des opérations dans les bureaux de vote. Leur mission est de garantir l'intégrité du processus électoral en surveillant les différentes étapes, de l'ouverture des bureaux de vote à la proclamation des résultats.
 
