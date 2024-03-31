@@ -9,7 +9,7 @@ categories:
 featured: true
 draft: true
 ---
-U
+
 
 Dans le cadre des travaux de structuration du Plan Sénégal Emergent Priorité Jeunesse, le Consortium Jeunesse Sénégal s'est vu confier un rôle prépondérant en tant que Lab leader du groupe des réformes. Ce leadership a permis d'instaurer une dynamique autour des questions cruciales de la jeunesse, parmi lesquelles le volontariat occupe une place centrale. Dans cette note de synthèse, nous mettrons en lumière les grandes réformes relatives au volontariat prises en charge par la cellule juridique du Ministère de la Jeunesse, de l'Emploi et de l'Insertion Professionnelle dans le cadre de ces travaux.
 
