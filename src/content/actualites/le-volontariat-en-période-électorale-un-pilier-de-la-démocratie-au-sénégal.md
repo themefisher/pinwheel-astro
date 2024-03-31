@@ -8,11 +8,11 @@ categories:
 featured: true
 draft: false
 ---
-Le 
+Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
 Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
 Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
 
-Pré-Électorale : Mobilisation Communautaire pour la Cohésion Sociale
+## Pré-Électorale : Mobilisation Communautaire pour la Cohésion Sociale
 
 Avant le jour du vote, les volontaires communautaires se mobilisent pour renforcer la cohésion sociale au sein de leur communauté. À Ziguinchor, Kolda, Mbour, Fatick, Sedhiou, Médina Yoro Foula, Dakar et Pikine, ces volontaires organisent des séances de sensibilisation et de communication pour informer les citoyens sur l'importance du vote et les procédures à suivre pour s'inscrire sur les listes électorales.
 
