@@ -6,7 +6,7 @@ date: 2024-03-30T20:11:17.297Z
 categories:
   - "Service à la communauté "
 featured: true
-draft: true
+draft: false
 ---
 Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
 Les élections, moments cruciaux dans la vie d'une nation, sont des périodes où la participation citoyenne revêt une importance capitale. Au Sénégal, le volontariat joue un rôle essentiel dans le bon déroulement du processus électoral, garantissant ainsi la transparence, la légitimité et la démocratie du scrutin. Dans cet article, nous explorerons le rôle du volontariat à différentes étapes du cycle électoral et son impact sur la cohésion sociale et le développement communautaire.
@@ -30,7 +30,7 @@ Après la clôture des bureaux de vote, les volontaires poursuivent leur mission
 
 Le volontariat en période électorale ne se limite pas à la supervision du processus électoral. Il a également un impact profond sur la cohésion sociale et le développement communautaire. En encourageant la participation citoyenne, en renforçant le tissu social et en promouvant la transparence et la responsabilité, le volontariat contribue à bâtir des communautés plus fortes et plus résilientes.
 
-## # La Contribution des Volontaires Nationaux et de la Diaspora
+###  La Contribution des Volontaires Nationaux et de la Diaspora
 
 Au total, 72 volontaires nationaux et 37 volontaires de la diaspora se mobilisent pour soutenir le processus électoral au Sénégal. Leur engagement et leur dévouement sont essentiels pour garantir des élections libres, justes et transparentes, conformément à l'objectif de développement durable 16 des Nations Unies, qui vise à promouvoir la paix, la justice et des institutions efficaces.
 
