@@ -2,7 +2,7 @@
 title: "L'Essence des Volontaires Communautaires : Facteur de Cohésion Sociale
   et de la Paix au Sénégal"
 image: /images/uploads/gejj14xwgaai_wk-1-.jpeg
-author: CODEVS
+author: "CODEVS & PVNU Sénégal "
 date: 2024-03-31T03:08:28.120Z
 categories:
   - "Service à la communauté "
