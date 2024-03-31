@@ -1,7 +1,7 @@
 ---
 title: "Plongez dans la Célébration : La Journée des Femmes de Nder"
 image: /images/uploads/img_3690.heic.jpg
-author: "CODEVS "
+author: CODEVS & SUCO
 date: 2024-03-30T20:32:40.522Z
 categories:
   - "Service à la communauté "
@@ -12,11 +12,11 @@ Salut à tous les amis de SUCO et des organisations partenaires ! Êtes-vous pr�
 
 Imaginez-vous au cœur de l'action, entourés par les braves femmes de Nder dont l'héritage résonne encore aujourd'hui. Organisée par SUCO, cette journée a été un moment inoubliable pour tous ceux qui croient au pouvoir des femmes et à l'égalité Homme et Femme.
 
-Contexte et Raison d’Être
+### Contexte et Raison d’Être
 
 Depuis 1961, SUCO se consacre à améliorer les conditions de vie des communautés à travers le monde. Cette fois-ci, notre attention se tourne vers le Sénégal, où nous célébrons le courage et la force des femmes, en particulier celles de Nder, qui ont joué un rôle crucial dans l'histoire de leur pays.
 
-Objectifs
+### Objectifs
 
 Notre objectif général est simple mais puissant : mettre en lumière l'importance de la Journée des Femmes et honorer l'héritage des Femmes de Nder. À travers des activités engageantes et des discussions stimulantes, nous visons à informer, à échanger et à inspirer.
 
