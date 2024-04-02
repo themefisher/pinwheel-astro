@@ -5,7 +5,7 @@ image: /images/uploads/gejj14xwgaai_wk-1-.jpeg
 author: "CODEVS & PVNU Sénégal "
 date: 2024-03-31T03:08:28.120Z
 categories:
-  - "Service à la communauté "
+  - Service à la communauté
 featured: true
 draft: false
 ---
