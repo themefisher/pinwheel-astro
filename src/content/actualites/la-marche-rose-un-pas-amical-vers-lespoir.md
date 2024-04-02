@@ -3,8 +3,9 @@ title: "La Marche Rose : Un Pas Amical vers l'Espoir"
 image: /images/uploads/screenshot_20231123_214734_whatsapp.jpg
 author: Cœur d’or avec la participation de CODEVS
 date: 2023-10-15T22:17:00.000Z
-categories: ["Service à la communauté"]
-featured: true
+categories:
+  - Service à la communauté
+featured: false
 draft: false
 ---
 *Par l'Association CŒURS D’OR en Collaboration avec la Commission Sociale de la SICAP Liberté 5A, FAG Fondation Awa Gueye, Tamsir Sokhna Humanitaire et Le Collectif Des Volontaires Du Sénégal (CODEVS)*
