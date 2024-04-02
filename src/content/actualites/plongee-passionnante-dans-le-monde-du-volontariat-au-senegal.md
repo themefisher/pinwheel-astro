@@ -1,10 +1,12 @@
 ---
-title: Un Atelier Pas Comme les Autres, Plongée Passionnante dans le Monde du Volontariat au Sénégal !
-image: "/images/posts/plongee-passionnante-dans-le-monde-du-volontariat-au-senegal.jpg"
+title: Un Atelier Pas Comme les Autres, Plongée Passionnante dans le Monde du
+  Volontariat au Sénégal !
+image: /images/posts/plongee-passionnante-dans-le-monde-du-volontariat-au-senegal.jpg
 author: codevsn
-date: 2022-10-25T05:00:00Z
-categories: ["Pencum Mbedocratie"]
-featured: true
+date: 2022-10-25T05:00:00.000Z
+categories:
+  - Pencum Mbedocratie
+featured: false
 draft: false
 ---
 
