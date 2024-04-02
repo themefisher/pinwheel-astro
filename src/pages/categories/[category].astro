@@ -9,6 +9,7 @@ import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
 import taxonomyFilter from "@lib/utils/taxonomyFilter";
 import { slugify, humanize } from "@lib/utils/textConverter";
+import { sortByDate } from "@lib/utils/sortFunctions";
 
 const categories = await getTaxonomy(config.settings.blog_folder, "categories");
 export async function getStaticPaths() {
@@ -31,7 +32,8 @@ const { category } = Astro.params;
 const { item } = Astro.props;
 
 const posts = await getSinglePage(config.settings.blog_folder);
-const filterByTags = taxonomyFilter(posts, "categories", category);
+const sortedPosts = sortByDate(posts);
+const filterByTags = taxonomyFilter(sortedPosts, "categories", category);
 const page_data = {
   index_title: "Catégories",
   slug: item,
@@ -45,7 +47,9 @@ const page_data = {
       <div class="page-hero-content mx-auto max-w-[883px] text-center">
         <PageHeader page_data={page_data} />
         <h1 class="h2 mb-14 text-center">
-          Affichage des articles de la catégorie <span class="text-primary">{humanize(item)}</span>
+          Affichage des articles de la catégorie <span class="text-primary"
+            >{humanize(item)}</span
+          >
         </h1>
       </div>
     </div>

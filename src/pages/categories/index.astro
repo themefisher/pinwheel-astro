@@ -7,9 +7,11 @@ import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { getTaxonomy } from "@lib/taxonomyParser.astro";
+import { sortByDate } from "@lib/utils/sortFunctions";
 
 const { blog_folder } = config.settings;
 const posts = await getSinglePage(blog_folder);
+const sortedPosts = sortByDate(posts);
 const categories = await getTaxonomy(blog_folder, "categories");
 ---
 
@@ -23,7 +25,7 @@ const categories = await getTaxonomy(blog_folder, "categories");
   <section class="section">
     <div class="container">
       <BlogCategories categories={categories} />
-      <Blogs posts={posts} />
+      <Blogs posts={sortedPosts} />
     </div>
   </section>
 </Base>
