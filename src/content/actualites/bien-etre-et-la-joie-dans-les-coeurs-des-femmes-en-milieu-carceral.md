@@ -1,10 +1,11 @@
 ---
 title: Répandre le bien-être et la Joie dans les Cœurs des Femmes en milieu carcéral
-image: "/images/posts/femmes-en-milieu-carceral.jpeg"
+image: /images/posts/femmes-en-milieu-carceral.jpeg
 author: codevsn
-date: 2023-09-16T05:00:00Z
-categories: ["Service à la communauté"]
-featured: true
+date: 2023-09-16T05:00:00.000Z
+categories:
+  - Service à la communauté
+featured: false
 draft: false
 ---
 
