@@ -4,7 +4,7 @@ image: /images/uploads/20240324_183338.heic.jpg
 author: CODEVS & Wa Mbedmi (SenegalVote)
 date: 2024-03-30T20:11:17.297Z
 categories:
-  - "Service à la communauté "
+  - Service à la communauté
 featured: true
 draft: false
 ---
