@@ -4,7 +4,7 @@ image: /images/uploads/img_3690.heic.jpg
 author: CODEVS & SUCO
 date: 2024-03-30T20:32:40.522Z
 categories:
-  - "Service à la communauté "
+  - Service à la communauté
 featured: true
 draft: false
 ---
