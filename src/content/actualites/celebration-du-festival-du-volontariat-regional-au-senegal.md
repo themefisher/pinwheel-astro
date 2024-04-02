@@ -1,10 +1,12 @@
 ---
-title: Célébration du Festival du Volontariat Régional au Sénégal, Une Fête de l'Engagement et de l'Inspiration! 🎉
-image: "/images/posts/celebration-du-festival-du-volontariat-regional-au-senegal.jpg"
+title: Célébration du Festival du Volontariat Régional au Sénégal, Une Fête de
+  l'Engagement et de l'Inspiration! 🎉
+image: /images/posts/celebration-du-festival-du-volontariat-regional-au-senegal.jpg
 author: codevsn
-date: 2022-10-27T05:00:00Z
-categories: ["Pencum Mbedocratie"]
-featured: true
+date: 2022-10-27T05:00:00.000Z
+categories:
+  - Pencum Mbedocratie
+featured: false
 draft: false
 ---
 
