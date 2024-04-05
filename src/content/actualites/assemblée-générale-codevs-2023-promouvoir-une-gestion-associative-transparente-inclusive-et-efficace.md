@@ -6,7 +6,7 @@ author: "CODEVS "
 date: 2024-04-05T14:47:06.767Z
 categories:
   - "Pencum Mbedocratie "
-featured: false
+featured: true
 draft: false
 ---
 
