@@ -5,7 +5,7 @@ author: CODEVS & SUCO
 date: 2024-03-30T20:32:40.522Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 Salut à tous les amis de SUCO et des organisations partenaires ! Êtes-vous prêts à revivre une journée pleine de célébration, de réflexion et de partage ? Parce que le 7 mars est une date spéciale au Sénégal - c'est la Journée Nationale de Commémoration des Femmes de Nder !
