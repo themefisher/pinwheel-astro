@@ -1,8 +1,8 @@
 ---
-title: "#JIV2023 : Revivons la Semaine Nationale du #VolontariatSN au Sénégal "
+title: "#JIV2023: Revivons la Semaine nationale du #VolontariatSN au Sénégal "
 image: /images/uploads/a7408219.jpg
-author: CODEVS
-date: 2024-04-05T13:21:02.969Z
+author: "CODEVS "
+date: 2024-04-05T13:24:17.069Z
 categories:
   - "Service à la communauté "
 featured: true
