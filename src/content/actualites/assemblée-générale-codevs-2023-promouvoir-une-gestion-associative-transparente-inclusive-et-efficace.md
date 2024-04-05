@@ -6,7 +6,7 @@ author: "CODEVS "
 date: 2024-04-05T14:47:06.767Z
 categories:
   - "Pencum Mbedocratie "
-featured: true
+featured: false
 draft: false
 ---
 
@@ -15,6 +15,7 @@ L'année 2023 a été marquée par une série d'activités et de réformes admin
 ### Activités du CODEVS en 2023
 
 Le CODEVS a été impliqué dans une multitude d'activités visant à promouvoir le volontariat et à contribuer au développement communautaire. Parmi ces activités, on peut citer :
+
 <ul>
 <li><B>Service à la communauté</B> : Participation à des initiatives telles que la réfection d'un dispensaire, des séances de don de sang communautaire et des activités de sensibilisation à la santé publique dans les prisons.</li>
 
@@ -27,6 +28,7 @@ Le CODEVS a été impliqué dans une multitude d'activités visant à promouvoir
 ### Réformes Administratives et Gestion Financière
 
 Le CODEVS a également entrepris des réformes administratives visant à renforcer sa gouvernance et sa gestion financière. Ces réformes comprennent :
+
 <ul>
 <li><b>Stabilisation de la gouvernance :</b> Mise en place de structures telles que l'Assemblée Générale, le Comité Directeur, le Bureau Exécutif et la Coordination Technique pour assurer une gestion démocratique et transparente de l'association.</li>
 
@@ -34,7 +36,7 @@ Le CODEVS a également entrepris des réformes administratives visant à renforc
 
 <li><b>Participation aux politiques publiques liées au volontariat :</b> Contribution à des réformes telles que la réforme PSE-PJ et l'élaboration de la Stratégie Nationale de Volontariat, ainsi que la participation à des ateliers de consultation citoyenne et d'analyses situationnelles du volontariat au Sénégal.</li>
 
-<li><b> Bilan financier positif :</b>À la fin de l'année 2023, le CODEVS a enregistré un solde financier positif avec <b>3.977.000 Fcfa</b> de recettes issues de la cotisation annuelle des membres, de donations de la communauté et de participation financière d’organisations partenaires et associations membres pour la mise en œuvre et à la participation à 6 activités phares à hauteur de<b> 3.483.850 Fcfa </b>de dépenses courant décembre. Terminer l’année 2023 avec un solde positif de <b>493.150</b> montre la capacité du CODEVS à gérer efficacement ses ressources et à maintenir sa viabilité financière.</li></ul>
+<li><b> Bilan financier positif :</b>À la fin de l'année 2023, le CODEVS a enregistré un solde financier positif avec <b>3.977.000 Fcfa</b> de recettes issues de la cotisation annuelle des membres, de donations de la communauté et de participation financière d’organisations partenaires et associations membres pour la mise en œuvre et à la participation à 6 activités phares à hauteur de<b> 3.483.850 Fcfa </b>de dépenses courant décembre. Terminer l’année 2023 avec un solde positif de <b>493.150 Fcfa</b> montre la capacité du CODEVS à gérer efficacement ses ressources et à maintenir sa viabilité financière.</li></ul>
 
 ### Entrée des Nouveaux Membres à l'Assemblée Générale
 
@@ -42,7 +44,7 @@ L'Assemblée Générale 2023 a également été l'occasion d'accueillir de nouve
 
 ### Perspectives pour l'année 2024
 
-Pour l'année à venir, le CODEVS a défini un ensemble d'activités ambitieuses visant à renforcer son impact et son engagement envers les communautés locales. Ces activités incluent le service à la communauté, des événements sportifs et culturels, ainsi que la mise en place de l'Académie de Développement Locale et Communautaire et du Fonds de Développement de Projets Communautaires.
+Pour l'année à venir, le CODEVS a défini un ensemble d'activités ambitieuses visant à renforcer son impact et son engagement envers les communautés locales. Ces activités incluent le service à la communauté, des événements sportifs et culturels, ainsi que l’institutionnalisation du volontariat communautaire au Sénégal 🇸🇳.
 
 ### Liste des Membres de l'Assemblée Générale 2024 avec Droit de Vote
 
@@ -67,6 +69,7 @@ Ci-dessous la liste des 15 associations membres de l'Assemblée Générale 2024 
 ### Liste des Nouveaux Membres avec Droit de Vote
 
 Ci-dessous la liste des personnes ayant rejoint l'Assemblée Générale 2024 du CODEVS avec droit de vote :
+
 <ul>
 <li><b>C_001:</b> TALLA Khadim (HANDICAP SN)</li>
 <li><b>C_002:</b> COLY Ousmane (CODEVS)</li>
