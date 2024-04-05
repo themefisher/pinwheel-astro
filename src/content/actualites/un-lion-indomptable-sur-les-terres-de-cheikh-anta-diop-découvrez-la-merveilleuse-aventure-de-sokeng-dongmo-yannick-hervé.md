@@ -7,7 +7,7 @@ date: 2024-04-05T02:04:24.575Z
 categories:
   - "Retour d’expérience "
 featured: true
-draft: true
+draft: false
 ---
 ### Volontaire Africain Indépendant SCN & MJEE
 Je m'appelle SOKENG DONGMO Yannick Hervé, et je suis un fervent défenseur de l'unité africaine et de la solidarité entre les peuples du continent. En tant que volontaire international indépendant, j'ai la chance de vivre une expérience inoubliable au sein du Service Civique National du Sénégal, une expérience qui a profondément enrichi ma vie et m'a permis de contribuer au développement de mon continent.
