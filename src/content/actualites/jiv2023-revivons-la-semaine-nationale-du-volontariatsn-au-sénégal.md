@@ -5,12 +5,12 @@ author: "CODEVS "
 date: 2024-04-05T13:24:17.069Z
 categories:
   - "Service à la communauté "
-featured: true
+featured: false
 draft: false
 ---
 
 ### Introduction
-### Introduction
+#
 
 La célébration de la Journée Internationale du Volontariat (JIV) chaque 5 décembre est un événement majeur sur l'agenda des acteurs du volontariat à travers le monde. C'est une occasion de mettre en lumière l'importance du volontariat dans la réalisation des objectifs de développement durable et de sensibiliser le public à son impact positif.
 
