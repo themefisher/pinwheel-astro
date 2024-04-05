@@ -7,7 +7,7 @@ date: 2024-04-05T14:47:06.767Z
 categories:
   - "Pencum Mbedocratie "
 featured: true
-draft: true
+draft: false
 ---
 
 L'année 2023 a été marquée par une série d'activités et de réformes administratives au sein du Collectif Des Volontaires Du Sénégal (CODEVS). En tant qu'association jouant un rôle crucial dans la promotion du volontariat et du développement local, le CODEVS s'est engagé à respecter les normes et standards organisationnels tout en œuvrant pour le bien-être des communautés locales. Dans ce compte-rendu de l'Assemblée Générale 2023, nous mettrons en lumière les activités du CODEVS, ses réformes administratives, sa participation aux politiques publiques liées au volontariat, ainsi que son bilan financier positif.
