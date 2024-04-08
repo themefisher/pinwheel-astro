@@ -10,6 +10,7 @@ excerpt: >
   société civile, les partenaires internationaux et les acteurs privés, le CJS
   s'engage à structurer, renforcer et mettre en réseau les organisations locales
   de jeunes.
+image: /images/uploads/cjs_logo_official.png
 categories:
   - Education
   - Environnement
