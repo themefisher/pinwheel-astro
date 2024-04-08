@@ -12,6 +12,7 @@ button:
 categories:
   - Démocratie, Gouvernance et Paix Sociale
   - "Education "
+  - Développement Communautaire Durable
 sociales:
   - name: facebook
     link: https://m.facebook.com/DivanCitoyen
