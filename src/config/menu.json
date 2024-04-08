@@ -28,6 +28,10 @@
       "url": "/actualites"
     },
     {
+      "name": "Publications",
+      "url": "/publications"
+    },
+    {
       "name": "Contact",
       "url": "/contact"
     }
