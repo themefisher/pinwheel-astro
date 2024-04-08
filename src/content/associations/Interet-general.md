@@ -1,9 +1,14 @@
 ---
 name: Intérêt général
 title: Intérêt Général
-excerpt: Nous avons mis en place l’association INTERET GENERAL dans l'idéal d'apporter notre pierre à l’édifice pour la construction de notre cher pays, le Sénégal.
-image: "/images/about/logo/interet-general.png"
-categories: ["Citoyenneté active", "Économie solidaire", "Développement communautaire"]
+excerpt: Nous avons mis en place l’association INTERET GENERAL dans l'idéal
+  d'apporter notre pierre à l’édifice pour la construction de notre cher pays,
+  le Sénégal.
+image: /images/about/logo/interet-general.png
+categories:
+  - Education
+  - "Développement Communautaire Durable "
+  - "Environnement "
 standard:
   administration: true
   apprentissage: true
