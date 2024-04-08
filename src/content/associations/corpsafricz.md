@@ -9,10 +9,9 @@ button:
   label: Visite
   link: https://www.corpsafrica.org
 categories:
-  - Éducation à la citoyenneté active
-  - Formation
-  - Employabilité
-  - Développement communautaire
+  - "Education "
+  - "Environnement "
+  - "Développement Communautaire Durable "
 sociales:
   - name: facebook
     link: https://www.facebook.com/corpsafricasenegal
