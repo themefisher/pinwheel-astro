@@ -1,5 +1,5 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import Button from "@shortcodes/Button";
 import { IoLogoSteam } from "react-icons/io5";
 const {
@@ -12,7 +12,7 @@ const {
     <div class="row items-center justify-between">
       <div class="md:col-8">
         <h2 class="text-center md:text-left" set:html={title} />
-        <p set:html={description}/>
+        <p set:html={description} />
       </div>
       {
         button.enable && (
@@ -30,12 +30,7 @@ const {
           <div class="mb-8 sm:col-6 lg:col-4">
             <div class="rounded-xl bg-white p-6 shadow-lg lg:p-8">
               <div class="gradient-number relative inline-block">
-                <Image
-                  height={100}
-                  width={100}
-                  src={item.logo}
-                  alt=""
-                />
+                <Image height={100} width={100} src={item.logo} alt="" />
               </div>
               <h4 class="my-6">{item.title}</h4>
               <p>{item.content}</p>

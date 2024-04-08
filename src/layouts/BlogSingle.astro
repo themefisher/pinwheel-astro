@@ -1,5 +1,5 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import dateFormat from "@lib/utils/dateFormat";
 import readingTime from "@lib/utils/readingTime";
 import Disqus from "./function-components/Disqus";
@@ -20,13 +20,17 @@ const { Content } = await post.render();
   <div class="container">
     <div class="row justify-center">
       <div class="lg:col-10">
-        { post.data?.image && <Image
-          class="w-full rounded-xl"
-          src={post.data.image}
-          alt=""
-          width={920}
-          height={450}
-        />}
+        {
+          post.data?.image && (
+            <Image
+              class="w-full rounded-xl"
+              src={post.data.image}
+              alt=""
+              width={920}
+              height={450}
+            />
+          )
+        }
       </div>
       <div class="mt-10 max-w-[810px] lg:col-9">
         <h1 class="h2">

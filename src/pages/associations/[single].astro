@@ -1,5 +1,5 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import Social from "@components/Social.astro";
@@ -67,13 +67,26 @@ post.data.sociales?.forEach(({ name, link }) => {
               <!-- <h1 class="mt-6">{post.data.title}</h1> -->
               <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
               <div class="mt-0">
-                {socialJson && <Social source={socialJson} className="social-icons mt-2 lg:mt-4" />}
+                {
+                  socialJson && (
+                    <Social
+                      source={socialJson}
+                      className="social-icons mt-2 lg:mt-4"
+                    />
+                  )
+                }
               </div>
-              {post.data.button && 
-                <a class="btn btn-primary mt-8 px-10" href={post.data.button.link} target="_blank">
-                  {humanize(post.data.button.label)}
-                  {humanize(post.data.name)}
-                </a>
+              {
+                post.data.button && (
+                  <a
+                    class="btn btn-primary mt-8 px-10"
+                    href={post.data.button.link}
+                    target="_blank"
+                  >
+                    {humanize(post.data.button.label)}
+                    {humanize(post.data.name)}
+                  </a>
+                )
               }
             </div>
             <div class="content"><Content /></div>

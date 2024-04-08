@@ -1,5 +1,5 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import config from "@config/config.json";
 import dateFormat from "@lib/utils/dateFormat";
 import readingTime from "@lib/utils/readingTime";
@@ -14,13 +14,15 @@ const { posts } = Astro.props;
     posts.map((post: any) => (
       <div class="mb-8 md:col-6">
         <div class="card">
-          {post.data?.image && <Image
-            class="card-img"
-            width={235}
-            height={304}
-            src={post.data.image}
-            alt={post.data.title}
-          />}
+          {post.data?.image && (
+            <Image
+              class="card-img"
+              width={235}
+              height={304}
+              src={post.data.image}
+              alt={post.data.title}
+            />
+          )}
           <div class="card-content">
             <div class="card-tags space-x-1">
               {post.data.categories.map((category: any) => (
@@ -33,7 +35,12 @@ const { posts } = Astro.props;
               <a href={`/actualites/${post.slug}`}>{post.data.title}</a>
             </h3>
             <p class="mb-4 text-text">
-              {plainify(post.body?.replace(/[*>#]/g, '').slice(0, Number(summary_length)))}...
+              {plainify(
+                post.body
+                  ?.replace(/[*>#]/g, "")
+                  .slice(0, Number(summary_length))
+              )}
+              ...
             </p>
             <div class="card-footer mt-6 flex space-x-4">
               <span class="inline-flex items-center text-xs text-[#666]">
