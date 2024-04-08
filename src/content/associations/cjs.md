@@ -1,5 +1,5 @@
 ---
-name: CJS
+name: ""
 title: CJS
 excerpt: >
   Le Consortium Jeunesse Sénégal (CJS) est bien plus qu'une simple association
