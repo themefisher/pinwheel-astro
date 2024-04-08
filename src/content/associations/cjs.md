@@ -20,6 +20,7 @@ sociales:
     link: https://www.facebook.com/consortiumjeunessesn/
   - name: linkedin
     link: https://www.linkedin.com/company/consortium-jeunesse-s%C3%A9n%C3%A9gal/
+draft: true
 ---
 La mission du CJS est claire et ambitieuse : œuvrer pour que les jeunes les plus exclus aient accès à des informations utiles et fiables, à des opportunités d'apprentissage et d'emploi, ainsi qu'à des services administratifs et judiciaires transparents, justes et efficaces. Dans cet esprit, le CJS vise à fournir aux jeunes les outils nécessaires pour s'insérer dans le monde professionnel, acquérir les compétences adéquates et obtenir ou créer un emploi décent où ils seront protégés contre les traitements abusifs.
 
