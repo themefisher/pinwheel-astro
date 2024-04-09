@@ -1,5 +1,5 @@
 ---
-name: ""
+name: DECLIC
 title: Declic
 excerpt: Une organisation de jeunes leaders motivés, passionnés et talentueux
   qui se battent pour la promotion de la jeunesse africaine.
