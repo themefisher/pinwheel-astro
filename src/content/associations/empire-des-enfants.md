@@ -1,5 +1,5 @@
 ---
-name: empire des enfants
+name: Empire Des Enfants
 title: Empire des enfants
 excerpt: Nous sommes un Centre d'accueil dévoué à offrir un refuge chaleureux et
   sécurisé pour les enfants en situation vulnérable.
@@ -9,9 +9,9 @@ button:
   label: Visite
   link: https://empiredesenfants.sn
 categories:
+  - Développement Communautaire
   - Education
   - Santé Publique
-  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/Empiredenfants

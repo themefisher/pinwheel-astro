@@ -5,9 +5,9 @@ excerpt: Notre association est une organisation à but non lucratif qui a pour
   mission d’améliorer les conditions de vie des communautés.
 image: /images/about/logo/SENVIE.png
 categories:
+  - Développement Communautaire
   - Education
-  - "Environnement"
-  - "Développement Communautaire Durable"
+  - Environnement
 sociales:
   - name: facebook
     link: https://www.facebook.com/Senvieassoc

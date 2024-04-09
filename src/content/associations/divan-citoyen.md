@@ -1,5 +1,5 @@
 ---
-name: divan citoyen
+name: Divan Citoyen
 title: Divan Citoyen
 excerpt: Nous sommes engagé-e-s auprès de nos communautés dans l’espoir de leur
   fournir les informations qui leur permettent une pleine participation à la
@@ -10,9 +10,9 @@ button:
   label: Visite
   link: https://www.divancitoyen.com
 categories:
-  - Démocratie, Gouvernance et Paix Sociale
-  - "Education"
-  - Développement Communautaire Durable
+  - Développement Communautaire
+  - Démocratie et Paix
+  - Education
 sociales:
   - name: facebook
     link: https://m.facebook.com/DivanCitoyen

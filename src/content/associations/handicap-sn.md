@@ -10,8 +10,8 @@ button:
   label: Visite
   link: https://www.handicap.sn
 categories:
+  - Développement Communautaire
   - Education
-  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/handicap.sn

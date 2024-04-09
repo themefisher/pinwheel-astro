@@ -1,5 +1,5 @@
 ---
-name: Teranga Lab
+name: ""
 title: Teranga Lab
 excerpt: Teranga Lab, la fabrique citoyenne et écologique, est bien plus qu'une
   simple association au Sénégal. Fondée en 2016 et basée à Rufisque, cette
@@ -9,15 +9,15 @@ excerpt: Teranga Lab, la fabrique citoyenne et écologique, est bien plus qu'une
   s'engager activement dans des actions pour un avenir durable.
 image: /images/uploads/teranga_lab.png
 categories:
-  - Environnement
+  - Développement Communautaire
   - Education
-  - "Développement Communautaire Durable"
+  - Environnement
 sociales:
-  - name: "Facebook "
+  - name: facebook
     link: https://www.facebook.com/TerangaLab/
-  - name: Twitter
+  - name: twitter
     link: https://twitter.com/terangalab
-draft: true
+draft: false
 ---
 À travers ses projets de développement, Teranga Lab intervient dans plusieurs régions du Sénégal, mettant en œuvre des initiatives novatrices pour promouvoir l'éducation environnementale et encourager l'engagement citoyen. En mettant l'accent sur la convergence des consciences, Teranga Lab vise à rassembler et à relier les individus et les collectifs partageant une vision commune de société plus juste et plus durable.
 

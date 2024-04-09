@@ -1,12 +1,12 @@
 ---
-name: royukaay
+name: Royukaay
 title: Royukaay
 excerpt: Notre vision, outiller techniquement les jeunes pour réaliser une
   croissance économique inclusive.
 image: /images/about/logo/ROYUKAAY.png
 categories:
-  - "Education"
-  - "Développement Communautaire Durable"
+  - Développement Communautaire
+  - Education
 sociales:
   - name: facebook
     link: https://m.facebook.com/Royukaa
