@@ -6,9 +6,9 @@ excerpt: Banlieue Up est un mouvement citoyen basé à Guédiawaye, en banlieue 
   dans les banlieues
 image: /images/about/logo/BANLIEUEUP.png
 categories:
+  - "Développement Communautaire "
   - Education
   - Environnement
-  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/BanlieueUP/?locale=fr_FR
