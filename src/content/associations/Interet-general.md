@@ -6,7 +6,7 @@ excerpt: Nous avons mis en place l’association INTERET GENERAL dans l'idéal
   le Sénégal.
 image: /images/about/logo/interet-general.png
 categories:
-  - "Développement Communautaire "
+  - Développement Communautaire
   - Education
   - Environnement
 standard:
