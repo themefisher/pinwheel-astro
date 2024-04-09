@@ -11,11 +11,11 @@ excerpt: >
   participation citoyenne.
 image: /images/uploads/wambedmi.jpg
 categories:
-  - Démocratie, Gouvernance et Paix Sociale
+  - Développement Communautaire
+  - Démocratie et Paix
   - Education
-  - "Développement Communautaire Durable"
 sociales:
-  - name: "facebook"
+  - name: facebook
     link: https://www.facebook.com/wambedmi/
 draft: false
 ---
