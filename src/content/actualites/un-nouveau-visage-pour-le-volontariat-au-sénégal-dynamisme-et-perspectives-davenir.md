@@ -5,7 +5,7 @@ image: /images/uploads/img-20231020-wa0064.jpg
 author: CODEVS
 date: 2024-03-31T01:59:55.741Z
 categories:
-  - "Pencum Mbedocratie "
+  - "Pencum Mbedocratie"
 featured: false
 draft: false
 ---

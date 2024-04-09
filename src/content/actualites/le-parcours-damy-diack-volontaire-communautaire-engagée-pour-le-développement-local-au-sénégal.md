@@ -5,7 +5,7 @@ image: /images/uploads/img-20240404-wa0013.jpg
 author: "CODEVS & Wa Mbedmi "
 date: 2024-04-05T01:00:27.084Z
 categories:
-  - "Retour d’expérience "
+  - "Retour d’expérience"
 featured: true
 draft: false
 ---

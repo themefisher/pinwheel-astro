@@ -5,7 +5,7 @@ image: /images/uploads/img-20240404-wa0025.jpg
 author: CODEVS & SCN & MJEE
 date: 2024-04-05T02:04:24.575Z
 categories:
-  - "Retour d’expérience "
+  - "Retour d’expérience"
 featured: true
 draft: false
 ---

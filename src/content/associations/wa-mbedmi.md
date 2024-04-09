@@ -15,9 +15,9 @@ categories:
   - Education
   - "Développement Communautaire Durable"
 sociales:
-  - name: "Facebook "
+  - name: "facebook"
     link: https://www.facebook.com/wambedmi/
-draft: true
+draft: false
 ---
 Depuis ses débuts, Wa Mbedmi s'est impliqué dans diverses activités visant à informer, sensibiliser et mobiliser les citoyens sénégalais. Sa plateforme numérique, notamment le programme Sénégal Vote, a joué un rôle essentiel dans la sensibilisation des citoyens au processus électoral lors de l'élection présidentielle de 2019. En mettant en ligne des guides de l'électeur et des cartes interactives des centres de vote, Wa Mbedmi a contribué à renforcer la participation démocratique et à éclairer les électeurs sur leurs droits et responsabilités.
 

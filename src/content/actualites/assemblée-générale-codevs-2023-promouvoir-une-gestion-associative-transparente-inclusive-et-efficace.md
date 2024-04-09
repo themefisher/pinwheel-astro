@@ -5,7 +5,7 @@ image: /images/uploads/dscf0038.jpg
 author: "CODEVS "
 date: 2024-04-05T14:47:06.767Z
 categories:
-  - "Pencum Mbedocratie "
+  - "Pencum Mbedocratie"
 featured: true
 draft: false
 ---

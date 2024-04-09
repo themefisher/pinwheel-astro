@@ -13,11 +13,11 @@ categories:
   - Education
   - "Développement Communautaire Durable"
 sociales:
-  - name: "Facebook "
+  - name: "facebook"
     link: https://www.facebook.com/TerangaLab/
-  - name: Twitter
+  - name: twitter
     link: https://twitter.com/terangalab
-draft: true
+draft: false
 ---
 À travers ses projets de développement, Teranga Lab intervient dans plusieurs régions du Sénégal, mettant en œuvre des initiatives novatrices pour promouvoir l'éducation environnementale et encourager l'engagement citoyen. En mettant l'accent sur la convergence des consciences, Teranga Lab vise à rassembler et à relier les individus et les collectifs partageant une vision commune de société plus juste et plus durable.
 
