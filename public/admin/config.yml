@@ -15,14 +15,14 @@ collections: # A list of collections the CMS should be able to edit
     label_singular: actualite # Label for singular post
     name: actualites # Name of the collection used for various functionality in the CMS
     folder: /src/content/actualites # Where each new post with .md should be saved
-    sortable_fields: ['date']
+    sortable_fields: ['date', 'title', 'author']
     create: true # Allows users to create new items in the collection
     fields:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Auteur", name: "author", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string} }
+      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string, default: ["Pencum Mbedocratie","Retour d’expérience","Service à la communauté"]} }
       - { label: "À la une", name: "featured", widget: "boolean" }
       - { label: "Brouillon", name: "draft", widget: "boolean" }
       - { label: "Contenu", name: "body", widget: "markdown" }
@@ -186,7 +186,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Page Titre", name: "page_title", widget: "string", required: false}
       - {label: "Description", name: "excerpt", widget: "text", required: false}
       - { label: "Image", name: "image", widget: "image", required: false}
-      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string} }
+      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string, default: ["Développement Communautaire Durable", "Démocratie, Gouvernance et Paix Sociale", "Education", "Environnement", "Santé Publique", "Sports et Culture"]} }
       - {label: "Sociales", name: "sociales", widget: "list", summary: "{{fields.author}}", collapsed: true,
           fields: [
             {label: "Nom", name: "name", widget: "string"},
@@ -201,7 +201,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Titre", name: "title", widget: "string"}
       - { label: "Page Titre", name: "page_title", widget: "string", required: false}
       - { label: "Image", name: "image", widget: "image", required: false}
-      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string}, required: false }
+      - { label: "Catégories", name: "categories", widget: "list", summary: '{{fields.categorie}}', field: {label: nom, name: categorie, widget: string, default: ["Volontaires Communautaires", "Volontaires Internationaux", "Volontaires Institutionnels"]}, required: false }
       - { label: "Brouillon", name: "draft", widget: "boolean", required: false}
       - { label: "Contenu", name: "body", widget: "markdown" }
   - label: Configuration
