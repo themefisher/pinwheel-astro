@@ -1,5 +1,5 @@
 ---
-name: Wa Mbedmi
+name: ""
 title: "Wa Mbedmi "
 excerpt: >
   Wa Mbedmi est bien plus qu'une simple association à but non lucratif au
