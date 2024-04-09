@@ -1,5 +1,5 @@
 ---
-name: empire des enfants
+name: ""
 title: Empire des enfants
 excerpt: Nous sommes un Centre d'accueil dévoué à offrir un refuge chaleureux et
   sécurisé pour les enfants en situation vulnérable.
