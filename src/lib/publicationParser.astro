@@ -1,0 +1,36 @@
+---
+import { contentfulClient } from "./api/contentful";
+import type { PublicationPost } from "./api/contentful";
+import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
+
+export const getPublications = async () => {
+  const entries = await contentfulClient.getEntries<PublicationPost>({
+    content_type: "publications",
+  });
+
+  const posts = entries.items.map((item) => {
+    const {
+      titre,
+      description,
+      document,
+      dateDePublication,
+      categories,
+      photo,
+      contenu,
+      slug,
+    } = item.fields;
+    return {
+      titre,
+      description,
+      document,
+      dateDePublication,
+      categories,
+      photo,
+      contenu: documentToHtmlString(contenu),
+      slug,
+    };
+  });
+
+  return posts;
+};
+---
