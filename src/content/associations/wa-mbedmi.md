@@ -9,7 +9,7 @@ excerpt: >
   communauté de la rue publique », reflète son désir de rassembler les citoyens
   autour de questions cruciales liées au fonctionnement des institutions et à la
   participation citoyenne.
-image: /images/uploads/wambedmi.jpg
+image: /images/uploads/317932953_5462523600537348_1032511356028821809_n.jpg
 categories:
   - Développement Communautaire
   - Démocratie et Paix
