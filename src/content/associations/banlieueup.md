@@ -1,5 +1,5 @@
 ---
-name: ""
+name: Banlieue Up
 title: Banlieue up
 excerpt: Banlieue Up est un mouvement citoyen basé à Guédiawaye, en banlieue de
   Dakar, visant à améliorer le contexte économique, social et environnemental
