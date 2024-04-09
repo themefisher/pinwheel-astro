@@ -9,9 +9,9 @@ button:
   label: Visite
   link: https://empiredesenfants.sn
 categories:
+  - Développement Communautaire
   - Education
   - Santé Publique
-  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/Empiredenfants
