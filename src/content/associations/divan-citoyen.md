@@ -10,7 +10,7 @@ button:
   label: Visite
   link: https://www.divancitoyen.com
 categories:
-  - "Développement Communautaire "
+  - Développement Communautaire
   - Démocratie et Paix
   - Education
 sociales:
