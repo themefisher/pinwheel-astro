@@ -1,5 +1,5 @@
 ---
-name: convention des jeunes reporters du Sénégal
+name: ""
 title: Convention des Jeunes Reporters du Sénégal
 excerpt: Les jeunes reporters ont décidé de prendre en main leur propre destinée.
 image: /images/about/logo/cjrs-logo.png
