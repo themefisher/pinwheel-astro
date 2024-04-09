@@ -1,5 +1,5 @@
 ---
-name: divan citoyen
+name: Divan Citoyen
 title: Divan Citoyen
 excerpt: Nous sommes engagé-e-s auprès de nos communautés dans l’espoir de leur
   fournir les informations qui leur permettent une pleine participation à la
