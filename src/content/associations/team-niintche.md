@@ -1,5 +1,5 @@
 ---
-name: team Niintche
+name: ""
 title: Team Niintche
 excerpt: Un groupe de jeunes dédié à la citoyenneté active et qui s'engage
   passionnément dans la promotion de l'éducation et la préservation de
