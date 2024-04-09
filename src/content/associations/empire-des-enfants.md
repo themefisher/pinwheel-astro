@@ -11,7 +11,7 @@ button:
 categories:
   - Education
   - Santé Publique
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/Empiredenfants

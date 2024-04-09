@@ -13,7 +13,7 @@ image: /images/uploads/wambedmi.jpg
 categories:
   - Démocratie, Gouvernance et Paix Sociale
   - Education
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: "Facebook "
     link: https://www.facebook.com/wambedmi/

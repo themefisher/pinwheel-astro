@@ -7,8 +7,8 @@ excerpt: Nous avons mis en place l’association INTERET GENERAL dans l'idéal
 image: /images/about/logo/interet-general.png
 categories:
   - Education
-  - "Développement Communautaire Durable "
-  - "Environnement "
+  - "Développement Communautaire Durable"
+  - "Environnement"
 standard:
   administration: true
   apprentissage: true

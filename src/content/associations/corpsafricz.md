@@ -9,9 +9,9 @@ button:
   label: Visite
   link: https://www.corpsafrica.org
 categories:
-  - "Education "
-  - "Environnement "
-  - "Développement Communautaire Durable "
+  - "Education"
+  - "Environnement"
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/corpsafricasenegal

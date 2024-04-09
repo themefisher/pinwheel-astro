@@ -8,7 +8,7 @@ image: /images/about/logo/TEAM-NIINTCHE.png
 categories:
   - Education
   - Environnement
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://facebook.com/teamniintche
