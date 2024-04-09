@@ -1,5 +1,5 @@
 ---
-name: royukaay
+name: ""
 title: Royukaay
 excerpt: Notre vision, outiller techniquement les jeunes pour réaliser une
   croissance économique inclusive.
