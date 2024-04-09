@@ -10,9 +10,9 @@ button:
   label: Visite
   link: https://www.divancitoyen.com
 categories:
-  - Démocratie, Gouvernance et Paix Sociale
-  - "Education"
-  - Développement Communautaire Durable
+  - "Développement Communautaire "
+  - Démocratie et Paix
+  - Education
 sociales:
   - name: facebook
     link: https://m.facebook.com/DivanCitoyen
