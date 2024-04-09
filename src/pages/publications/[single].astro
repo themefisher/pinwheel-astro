@@ -1,17 +1,17 @@
 ---
-import CareerSidebar from "@components/career/CareerSidebar.astro";
+import { Image } from "astro:assets";
+import { getPublications } from "../../lib/publicationParser.astro";
+import PublicationSidebar from "@components/publication/PublicationSidebar.astro";
 import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import similerItems from "@lib/utils/similarItems";
+// import similerItems from "@lib/utils/similarItems";
 import { getEntryBySlug } from "astro:content";
 
 const careerIndex: any = await getEntryBySlug("publications", "-index");
-const careers = await getSinglePage("publications");
 export async function getStaticPaths() {
-  const careers = await getSinglePage("publications");
-  const paths = careers.map((post) => ({
+  const publications = await getPublications();
+  const paths = publications.map((post) => ({
     params: {
       single: post.slug,
     },
@@ -20,20 +20,21 @@ export async function getStaticPaths() {
   return paths;
 }
 const { post } = Astro.props;
-const { Content } = await post.render();
-const similarPosts = similerItems(post, careers, post.slug);
+const { fileName, url } = post.photo.fields.file;
+
+// const similarPosts = similerItems(post, careers, post.slug);
 const page_data = {
   index_title: careerIndex.data.title,
-  page_title: post.data.title,
+  page_title: post.titre,
   slug: post.slug,
 };
 ---
 
 <Base
-  title={post.data.title}
-  meta_title={post.data.meta_title}
-  description={post.data.description}
-  image={post.data.image}
+  title={post.titre}
+  meta_title={post.titre}
+  description={post.description}
+  image={url}
 >
   <Shape />
   <section class="page-hero pb-14 pt-16">
@@ -50,12 +51,23 @@ const page_data = {
           <div
             class="content lg:py-[60px] rounded-xl bg-white p-7 shadow-lg lg:px-12"
           >
-            <Content />
+            {
+              post.photo?.fields && (
+                <Image
+                  class="w-full rounded-xl"
+                  src={url}
+                  alt={fileName}
+                  width="680"
+                  height="400"
+                />
+              )
+            }
+            <article set:html={post?.contenu} />
           </div>
         </div>
-        <CareerSidebar
-          posts={similarPosts[0]}
-          sidebar_content={careerIndex.data.sidebar_content}
+        <PublicationSidebar
+          posts={[]}
+          sidebar_content={post}
         />
       </div>
     </div>
