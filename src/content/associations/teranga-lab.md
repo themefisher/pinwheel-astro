@@ -9,11 +9,11 @@ excerpt: Teranga Lab, la fabrique citoyenne et écologique, est bien plus qu'une
   s'engager activement dans des actions pour un avenir durable.
 image: /images/uploads/teranga_lab.png
 categories:
-  - Environnement
+  - Développement Communautaire
   - Education
-  - "Développement Communautaire Durable"
+  - Environnement
 sociales:
-  - name: "facebook"
+  - name: facebook
     link: https://www.facebook.com/TerangaLab/
   - name: twitter
     link: https://twitter.com/terangalab
