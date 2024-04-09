@@ -6,9 +6,9 @@ excerpt: Un groupe de jeunes dédié à la citoyenneté active et qui s'engage
   l'environnement.
 image: /images/about/logo/TEAM-NIINTCHE.png
 categories:
+  - Développement Communautaire
   - Education
   - Environnement
-  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://facebook.com/teamniintche
