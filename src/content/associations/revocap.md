@@ -1,5 +1,5 @@
 ---
-name: ""
+name: "REVOCAP "
 title: Revocap
 excerpt: Le REVOCAP est une plateforme de volontaires communautaires d’appui au
   service de la santé publique au Sénégal.
