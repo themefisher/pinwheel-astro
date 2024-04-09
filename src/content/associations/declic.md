@@ -5,9 +5,9 @@ excerpt: Une organisation de jeunes leaders motivés, passionnés et talentueux
   qui se battent pour la promotion de la jeunesse africaine.
 image: /images/about/logo/DECLIC.png
 categories:
-  - "Education"
-  - "Développement Communautaire Durable"
-  - Démocratie, Gouvernance et Paix Sociale
+  - "Développement Communautaire "
+  - Education
+  - Démocratie et Paix Sociale
 sociales:
   - name: facebook
     link: https://www.facebook.com/DeclicSud
