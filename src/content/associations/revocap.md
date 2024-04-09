@@ -5,9 +5,9 @@ excerpt: Le REVOCAP est une plateforme de volontaires communautaires d’appui a
   service de la santé publique au Sénégal.
 image: /images/about/logo/REVOCAP.png
 categories:
-  - "Santé Publique "
+  - "Santé Publique"
   - Education
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: twitter
     link: https://twitter.com/REVOCAP

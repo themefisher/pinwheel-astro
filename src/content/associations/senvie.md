@@ -6,8 +6,8 @@ excerpt: Notre association est une organisation à but non lucratif qui a pour
 image: /images/about/logo/SENVIE.png
 categories:
   - Education
-  - "Environnement "
-  - "Développement Communautaire Durable "
+  - "Environnement"
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/Senvieassoc

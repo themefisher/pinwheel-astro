@@ -5,8 +5,8 @@ excerpt: Une organisation de jeunes leaders motivés, passionnés et talentueux
   qui se battent pour la promotion de la jeunesse africaine.
 image: /images/about/logo/DECLIC.png
 categories:
-  - "Education "
-  - "Développement Communautaire Durable "
+  - "Education"
+  - "Développement Communautaire Durable"
   - Démocratie, Gouvernance et Paix Sociale
 sociales:
   - name: facebook

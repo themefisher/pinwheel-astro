@@ -11,7 +11,7 @@ button:
   link: https://www.handicap.sn
 categories:
   - Education
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/handicap.sn

@@ -8,8 +8,8 @@ button:
   label: Visite
   link: https://www.cjrs.sn
 categories:
-  - "Education "
-  - "Développement Communautaire Durable "
+  - "Education"
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/CoventionDesJeunesReportersDuSenegal

@@ -8,7 +8,7 @@ image: /images/about/logo/BANLIEUEUP.png
 categories:
   - Education
   - Environnement
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://www.facebook.com/BanlieueUP/?locale=fr_FR

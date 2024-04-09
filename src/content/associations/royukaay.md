@@ -5,8 +5,8 @@ excerpt: Notre vision, outiller techniquement les jeunes pour réaliser une
   croissance économique inclusive.
 image: /images/about/logo/ROYUKAAY.png
 categories:
-  - "Education "
-  - "Développement Communautaire Durable "
+  - "Education"
+  - "Développement Communautaire Durable"
 sociales:
   - name: facebook
     link: https://m.facebook.com/Royukaa

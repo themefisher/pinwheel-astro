@@ -11,7 +11,7 @@ button:
   link: https://www.divancitoyen.com
 categories:
   - Démocratie, Gouvernance et Paix Sociale
-  - "Education "
+  - "Education"
   - Développement Communautaire Durable
 sociales:
   - name: facebook

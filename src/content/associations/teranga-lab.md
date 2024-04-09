@@ -11,7 +11,7 @@ image: /images/uploads/teranga_lab.png
 categories:
   - Environnement
   - Education
-  - "Développement Communautaire Durable "
+  - "Développement Communautaire Durable"
 sociales:
   - name: "Facebook "
     link: https://www.facebook.com/TerangaLab/
