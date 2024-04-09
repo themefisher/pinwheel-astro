@@ -7,7 +7,7 @@ image: /images/about/logo/DECLIC.png
 categories:
   - "Développement Communautaire "
   - Education
-  - Démocratie et Paix Sociale
+  - Démocratie et Paix
 sociales:
   - name: facebook
     link: https://www.facebook.com/DeclicSud
