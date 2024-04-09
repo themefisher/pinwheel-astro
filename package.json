@@ -13,8 +13,10 @@
   "dependencies": {
     "@astrojs/mdx": "^2.2.4",
     "@astrojs/rss": "^4.0.5",
+    "@contentful/rich-text-html-renderer": "^16.3.5",
     "astro": "^4.5.16",
     "astro-auto-import": "^0.3.1",
+    "contentful": "^10.8.7",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",
