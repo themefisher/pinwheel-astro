@@ -1,5 +1,5 @@
 ---
-name: Teranga Lab
+name: ""
 title: Teranga Lab
 excerpt: Teranga Lab, la fabrique citoyenne et écologique, est bien plus qu'une
   simple association au Sénégal. Fondée en 2016 et basée à Rufisque, cette
