@@ -8,7 +8,7 @@ button:
   label: Visite
   link: https://www.cjrs.sn
 categories:
-  - "Développement Communautaire "
+  - Développement Communautaire
   - Education
 sociales:
   - name: facebook
