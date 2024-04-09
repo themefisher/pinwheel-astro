@@ -1,5 +1,5 @@
 ---
-name: ""
+name: SENVIE
 title: Senvie Association
 excerpt: Notre association est une organisation à but non lucratif qui a pour
   mission d’améliorer les conditions de vie des communautés.
