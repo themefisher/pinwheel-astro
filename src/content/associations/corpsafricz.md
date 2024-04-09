@@ -1,5 +1,5 @@
 ---
-name: ""
+name: Corps Africa
 title: "Corps Africa "
 excerpt: En 2016, CorpsAfrica/Sénégal est devenu le centre du modèle CorpsAfrica
   en Afrique de l'Ouest, établissant le premier programme francophone.
