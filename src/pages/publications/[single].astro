@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { getPublications } from "../../lib/publicationParser.astro";
 import PublicationSidebar from "@components/publication/PublicationSidebar.astro";
+import PdfViewer from "@components/publication/pdfViewer";
 import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
@@ -63,12 +64,16 @@ const page_data = {
               )
             }
             <article set:html={post?.contenu} />
+            {
+              post?.document && (
+                <div class="border border-black border-opacity-30 h-screen">
+                  <PdfViewer file={post?.document.fields.file} client:load />
+                </div>
+              )
+            }
           </div>
         </div>
-        <PublicationSidebar
-          posts={[]}
-          sidebar_content={post}
-        />
+        <PublicationSidebar posts={[]} sidebar_content={post} />
       </div>
     </div>
   </section>
