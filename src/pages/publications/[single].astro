@@ -1,7 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import { getPublications } from "../../lib/publicationParser.astro";
-import PublicationSidebar from "@components/publication/PublicationSidebar.astro";
+import PublicationSidebar from "@components/publication/PublicationSidebar.jsx";
+import PublicationDownload from "@components/publication/PublicationDownload.astro";
 import PdfViewer from "@components/publication/pdfViewer";
 import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
@@ -73,7 +74,10 @@ const page_data = {
             }
           </div>
         </div>
-        <PublicationSidebar posts={[]} sidebar_content={post} />
+        <div class="career-single-sidebar mt-8 lg:col-4 lg:mt-0">
+          <PublicationDownload sidebar_content={post} />
+          <PublicationSidebar client:load categories={post?.categories} />
+        </div>
       </div>
     </div>
   </section>
