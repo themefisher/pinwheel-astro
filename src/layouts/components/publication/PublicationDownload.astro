@@ -1,0 +1,19 @@
+---
+const { sidebar_content } = Astro.props;
+---
+  
+{
+  sidebar_content.document.fields.file && (
+    <div class="mb-8 rounded-xl bg-white px-7 py-10 shadow-lg">
+      <h5 class="h5">{sidebar_content.titre}</h5>
+      <p class="mt-4">{sidebar_content.description}</p>
+      <a
+        class="btn btn-primary mt-6 block w-full"
+        target="_blank"
+        href={sidebar_content.document.fields.file.url}
+      >
+        Télécharger
+      </a>
+    </div>
+  )
+}
