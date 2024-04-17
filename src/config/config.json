@@ -24,7 +24,7 @@
     }
   },
   "disqus": {
-    "enable": false,
+    "enable": true,
     "shortname": "seydinamouhamadoun",
     "settings": {}
   },
