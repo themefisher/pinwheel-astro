@@ -24,8 +24,8 @@
     }
   },
   "disqus": {
-    "enable": false,
-    "shortname": "themefisher-template",
+    "enable": true,
+    "shortname": "seydinamouhamadoun",
     "settings": {}
   },
   "params": {

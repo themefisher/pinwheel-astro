@@ -18,7 +18,7 @@ const { main }: { main: NavigationLink[] } = menu;
 const { pathname } = Astro.url;
 ---
 
-<header class="header">
+<>
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
@@ -123,22 +123,4 @@ const { pathname } = Astro.url;
       <a class="btn btn-white btn-sm" href="/contact"> Devenir Volontaire</a>
     </div>
   </nav>
-</header>
-<script is:inline>
-  const button = document.getElementById("dropdown-button");
-  button.addEventListener("click", () => {
-    const dropdown = document.getElementById("dropdown");
-    dropdown.classList.toggle(dropdown.style === "hidden" ? "block" : "hidden");
-  });
-
-  //sticky header
-  const header = document.querySelector(".header");
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    if (scrollY > 0) {
-      header.classList.add("header-sticky");
-    } else {
-      header.classList.remove("header-sticky");
-    }
-  });
-</script>
+</>

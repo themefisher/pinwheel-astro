@@ -1,0 +1,84 @@
+---
+import { Image } from "astro:assets";
+import { getPublications } from "../../lib/publicationParser.astro";
+import PublicationSidebar from "@components/publication/PublicationSidebar.jsx";
+import PublicationDownload from "@components/publication/PublicationDownload.astro";
+import PdfViewer from "@components/publication/pdfViewer";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import Base from "@layouts/Base.astro";
+// import similerItems from "@lib/utils/similarItems";
+import { getEntryBySlug } from "astro:content";
+
+const careerIndex: any = await getEntryBySlug("publications", "-index");
+export async function getStaticPaths() {
+  const publications = await getPublications();
+  const paths = publications.map((post) => ({
+    params: {
+      single: post.slug,
+    },
+    props: { post },
+  }));
+  return paths;
+}
+const { post } = Astro.props;
+const { fileName, url } = post.photo.fields.file;
+
+// const similarPosts = similerItems(post, careers, post.slug);
+const page_data = {
+  index_title: careerIndex.data.title,
+  page_title: post.titre,
+  slug: post.slug,
+};
+---
+
+<Base
+  title={post.titre}
+  meta_title={post.titre}
+  description={post.description}
+  image={url}
+>
+  <Shape />
+  <section class="page-hero pb-14 pt-16">
+    <div class="container">
+      <div class="page-hero-content mx-auto max-w-[883px] text-center">
+        <PageHeader page_data={page_data} />
+      </div>
+    </div>
+  </section>
+  <section class="section career-single pt-0">
+    <div class="container">
+      <div class="lg:gx-4 row">
+        <div class="lg:col-8">
+          <div
+            class="content lg:py-[60px] rounded-xl bg-white p-7 shadow-lg lg:px-12"
+          >
+            {
+              post.photo?.fields && (
+                <Image
+                  class="w-full rounded-xl"
+                  src={url}
+                  alt={fileName}
+                  width="680"
+                  height="400"
+                />
+              )
+            }
+            <article set:html={post?.contenu} />
+            {
+              post?.document && (
+                <div class="border border-black border-opacity-30 h-screen">
+                  <PdfViewer file={post?.document.fields.file} client:load />
+                </div>
+              )
+            }
+          </div>
+        </div>
+        <div class="career-single-sidebar mt-8 lg:col-4 lg:mt-0">
+          <PublicationDownload sidebar_content={post} />
+          <PublicationSidebar client:load categories={post?.categories} />
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
