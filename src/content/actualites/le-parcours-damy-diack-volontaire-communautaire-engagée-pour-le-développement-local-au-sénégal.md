@@ -5,8 +5,8 @@ image: /images/uploads/img-20240404-wa0013.jpg
 author: "CODEVS & Wa Mbedmi "
 date: 2024-04-05T01:00:27.084Z
 categories:
-  - "Retour d’expérience"
-featured: true
+  - Retour d’expérience
+featured: false
 draft: false
 ---
 Amy Diack, née le 03/04/1988 à Médina Gounass et cadette de sa famille, incarne la détermination et l'engagement en faveur du développement communautaire au Sénégal. Passionnée par les initiatives visant à améliorer le bien-être de sa communauté, Amy s'est rapidement engagée dans le volontariat dès son plus jeune âge.
