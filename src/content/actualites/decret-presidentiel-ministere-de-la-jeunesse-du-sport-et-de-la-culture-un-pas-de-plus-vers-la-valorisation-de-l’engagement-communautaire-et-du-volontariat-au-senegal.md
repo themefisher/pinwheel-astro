@@ -1,6 +1,6 @@
 ---
-title: "Decret Presidentiel: un pas de plus vers la valorisation de l’Engagement
-  Communautaire et du Volontariat au Senegal "
+title: "Decret Presidentiel: Promotion de l’Engagement Communautaire et du
+  Volontariat au Senegal "
 image: /images/uploads/khady-diene-gaye-3.jpg
 author: CODEVS
 date: 2024-04-21T21:36:24.768Z
