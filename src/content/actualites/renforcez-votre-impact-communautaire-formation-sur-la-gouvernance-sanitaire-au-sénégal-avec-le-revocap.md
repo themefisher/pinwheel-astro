@@ -1,6 +1,6 @@
 ---
 title: "Renforcez Votre Impact Communautaire : Formation sur la Gouvernance
-  Sanitaire au Sénégal avec le REVOCAP"
+  Sanitaire au Senegal avec le REVOCAP"
 image: /images/uploads/img-20240421-wa0015.jpg
 author: "CODEVS & REVOCAP "
 date: 2024-04-22T20:04:38.581Z
