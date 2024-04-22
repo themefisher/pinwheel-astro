@@ -5,7 +5,7 @@ image: /images/uploads/img-20240421-wa0015.jpg
 author: "CODEVS & REVOCAP "
 date: 2024-04-22T20:13:48.181Z
 categories:
-  - "Service à la communauté "
+  - Service à la communauté
 featured: true
 draft: false
 ---
