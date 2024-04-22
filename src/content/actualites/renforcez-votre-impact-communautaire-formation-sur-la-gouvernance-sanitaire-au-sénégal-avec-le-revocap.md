@@ -7,7 +7,7 @@ date: 2024-04-22T20:04:38.581Z
 categories:
   - Service à la communauté
 featured: true
-draft: true
+draft: false
 ---
 Le développement de nos communautés passe incontestablement par une meilleure compréhension et une action concertée dans le domaine de la santé publique. C'est dans cette optique que le Réseau des Volontaires pour la Santé Communautaire au Sénégal (REVOCAP-Sénégal) à travers le  Programme d'Échange Réciproque du YALI offre une opportunité inestimable aux volontaires et aux acteurs communautaires du Sénégal : une formation intensive sur la gouvernance sanitaire.
 
