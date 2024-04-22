@@ -5,8 +5,8 @@ image: /images/uploads/img-20240404-wa0025.jpg
 author: CODEVS & SCN & MJEE
 date: 2024-04-05T02:04:24.575Z
 categories:
-  - "Retour d’expérience"
-featured: true
+  - Retour d’expérience
+featured: false
 draft: false
 ---
 ### Volontaire Africain Indépendant SCN & MJEE
