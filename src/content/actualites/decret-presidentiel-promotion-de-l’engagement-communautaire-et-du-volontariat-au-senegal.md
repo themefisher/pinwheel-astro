@@ -7,7 +7,7 @@ date: 2024-04-22T00:38:03.623Z
 categories:
   - Pencum Mbedocratie
 featured: true
-draft: true
+draft: false
 ---
 Dans un pays où la jeunesse représente l'avenir, où le sport est une passion nationale et où la culture est un pilier de l'identité, le nouveau décret relatif aux attributions du Ministère de la Jeunesse, des Sports et de la Culture au Sénégal marque une étape décisive dans la promotion de <B> l'engagement communautaire et du volontariat</B>.En effet, ce décret, promulgué le 8 avril 2024, redéfinit les missions et les objectifs de ce ministère stratégique, mettant l'accent sur des aspects essentiels tels que le volontariat, <B>l'encadrement des organisations de jeunesse et le service civique</B>.
 
