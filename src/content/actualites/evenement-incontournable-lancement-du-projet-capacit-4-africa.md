@@ -1,5 +1,6 @@
 ---
 title: "Evenement Incontournable : Lancement du Projet CapacIT 4 AFRICA"
+image: /images/uploads/img_5532-min-1-.jpg
 author: "CODEVS & CJS & Simplon "
 date: 2024-04-25T17:48:20.492Z
 categories:
