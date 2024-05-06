@@ -6,8 +6,8 @@ author: "CODEVS & Ndiaffate Volunteers "
 date: 2024-05-06T16:48:34.617Z
 categories:
   - Service à la communauté
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Ndiaffate Volunteers, une organisation à but non lucratif basée à Ndiaffate, au Sénégal, s'est engagée à améliorer [les conditions de vie des communautés locales](https://codevsn.org/categories/service-%C3%A0-la-communaut%C3%A9/). Fondée sur les principes du volontariat et du développement durable, cette association travaille activement dans les domaines de l'éducation, de la santé, de l'environnement et du développement économique. Mobilisant à la fois des volontaires locaux et internationaux, Ndiaffate Volunteers met en œuvre des projets et des initiatives visant à autonomiser les populations et à favoriser un changement positif dans la région.
 
