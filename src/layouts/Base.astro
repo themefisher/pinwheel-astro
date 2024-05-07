@@ -146,6 +146,21 @@ const { title, meta_title, description, image, noindex, canonical } =
       src="https://identity.netlify.com/v1/netlify-identity-widget.js"
       is:inline
     ></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      type="text/partytown"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M1179NPCW1"
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-M1179NPCW1");
+    </script>
   </head>
   <body>
     <TwSizeIndicator />
