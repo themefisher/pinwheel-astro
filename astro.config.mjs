@@ -8,9 +8,11 @@ import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 
+import partytown from "@astrojs/partytown";
+
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
+  site: config.site.base_url ? config.site.base_url : "https://codevsn.org",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
@@ -18,43 +20,21 @@ export default defineConfig({
       entrypoint: 'astro/assets/services/sharp'
     }
   },
-  integrations: [
-    react(),
-    sitemap(),
-    tailwind({
-      config: {
-        applyBaseStyles: false,
-      },
-    }),
-    AutoImport({
-      imports: [
-        "@shortcodes/Button",
-        "@shortcodes/Accordion",
-        "@shortcodes/Notice",
-        "@shortcodes/Video",
-        "@shortcodes/Youtube",
-        "@shortcodes/Blockquote",
-        "@shortcodes/Badge",
-        "@shortcodes/ContentBlock",
-        "@shortcodes/Changelog",
-      ],
-    }),
-    mdx(),
-  ],
+  integrations: [react(), sitemap(), tailwind({
+    config: {
+      applyBaseStyles: false
+    }
+  }), AutoImport({
+    imports: ["@shortcodes/Button", "@shortcodes/Accordion", "@shortcodes/Notice", "@shortcodes/Video", "@shortcodes/Youtube", "@shortcodes/Blockquote", "@shortcodes/Badge", "@shortcodes/ContentBlock", "@shortcodes/Changelog"]
+  }), mdx(), partytown({ config: { forward: ["dataLayer.push"] }})],
   markdown: {
-    remarkPlugins: [
-      remarkToc,
-      [
-        remarkCollapse,
-        {
-          test: "Table of contents",
-        },
-      ],
-    ],
+    remarkPlugins: [remarkToc, [remarkCollapse, {
+      test: "Table of contents"
+    }]],
     shikiConfig: {
       theme: "one-dark-pro",
-      wrap: true,
+      wrap: true
     },
-    extendDefaultPlugins: true,
-  },
+    extendDefaultPlugins: true
+  }
 });

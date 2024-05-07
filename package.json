@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^2.2.4",
+    "@astrojs/partytown": "^2.1.0",
     "@astrojs/rss": "^4.0.5",
     "@contentful/rich-text-html-renderer": "^16.3.5",
     "@react-pdf-viewer/core": "3.12.0",
