@@ -1,6 +1,6 @@
 ---
 title: "Promouvoir la Transparence Budgetaire : Session de Formation du
-  Programme d’Appui a la Societe Civile"
+  Programme d’Appui a la Societe Civile (PASC)"
 image: /images/uploads/img_20220310_154616_908.jpg
 author: Enda EcoPop & CODEVS & CJS
 date: 2024-05-08T23:54:52.274Z
