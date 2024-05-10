@@ -6,7 +6,7 @@ date: 2024-05-10T10:08:49.317Z
 categories:
   - Retour d’expérience
 featured: true
-draft: true
+draft: false
 ---
 Je m'appelle Massar Sarr, né le 04 Janvier 1996 à Guédiawaye dans la commune de Wakhinane Nimzatt. Mon parcours est marqué par un engagement précoce dans le domaine communautaire, une quête perpétuelle de développement personnel et un amour profond pour mon pays, le Sénégal.
 
