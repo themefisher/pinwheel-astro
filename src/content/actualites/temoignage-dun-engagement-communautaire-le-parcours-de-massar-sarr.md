@@ -1,7 +1,7 @@
 ---
 title: "Temoignage d'un Engagement Communautaire: Le Parcours de Massar Sarr"
 image: /images/uploads/screenshot_20240510_042455_docs.jpg
-author: CODEVS
+author: "CODEVS & Banlieue Up "
 date: 2024-05-10T10:08:49.317Z
 categories:
   - Retour d’expérience
