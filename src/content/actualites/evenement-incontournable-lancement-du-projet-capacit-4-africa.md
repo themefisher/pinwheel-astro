@@ -5,7 +5,7 @@ author: "CODEVS & CJS & Simplon "
 date: 2024-04-25T17:48:20.492Z
 categories:
   - Pencum Mbedocratie
-featured: true
+featured: false
 draft: false
 ---
 Le domaine du numérique ne cesse de croître, offrant de nouvelles opportunités pour l'inclusion sociale et professionnelle. C'est dans ce contexte que Simplon Africa annonce avec enthousiasme le lancement du projet CAPAC’IT 4 AFRICA, une initiative novatrice visant à renforcer les capacités des organismes de formation professionnelle en Afrique subsaharienne dans le secteur du numérique. 
