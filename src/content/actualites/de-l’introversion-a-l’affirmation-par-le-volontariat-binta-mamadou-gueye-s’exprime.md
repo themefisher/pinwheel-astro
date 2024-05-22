@@ -1,7 +1,7 @@
 ---
 title: De l’introversion a l’affirmation par le volontariat, Binta Mamadou Gueye
   s’exprime...
-image: /images/uploads/img-20240512-wa0024.jpg
+image: /images/uploads/img-20231027-wa0018.jpg
 author: CODEVS & Banlieue Up
 date: 2024-05-22T17:45:12.499Z
 categories:
