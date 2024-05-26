@@ -6,7 +6,7 @@ author: Enda EcoPop & CODEVS & CJS
 date: 2024-05-08T23:54:52.274Z
 categories:
   - Pencum Mbedocratie
-featured: true
+featured: false
 draft: false
 ---
 Dans le cadre du Programme d’Appui à la Société Civile pour une Meilleure Gouvernance (PASC), financé par l’Union Européenne et soutenu par le Ministère des Finances du Sénégal, [une session de formation sur la transparence, l’analyse budgétaire et le suivi des dépenses publiques est prévue du 13 au 15 mai 2024 à Sedhiou](https://codevsn.org/publications/session-de-formation-sur-la-transparence-lanalyse-budgetaire-et-le-suivi-des/), dans le sud du Sénégal. Cette initiative vise à renforcer le rôle de la société civile dans la gouvernance des finances publiques au Sénégal, conformément aux objectifs de l’Objectif de Développement Durable (ODD) 16.
