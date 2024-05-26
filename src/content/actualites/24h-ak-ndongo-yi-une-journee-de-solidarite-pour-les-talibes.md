@@ -6,7 +6,7 @@ date: 2024-05-26T08:55:45.931Z
 categories:
   - Service à la communauté
 featured: true
-draft: true
+draft: false
 ---
 ### Introduction 
 
