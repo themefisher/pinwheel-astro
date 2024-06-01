@@ -7,7 +7,7 @@ date: 2024-06-01T01:00:08.948Z
 categories:
   - Pencum Mbedocratie
 featured: true
-draft: true
+draft: false
 ---
 ## Contexte et Justification
 
