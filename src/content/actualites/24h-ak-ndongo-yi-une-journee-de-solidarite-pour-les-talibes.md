@@ -5,7 +5,7 @@ author: CODEVS & EAT
 date: 2024-05-26T08:55:45.931Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 ### Introduction 
