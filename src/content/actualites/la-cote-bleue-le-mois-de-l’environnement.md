@@ -6,7 +6,7 @@ date: 2024-06-03T10:58:10.577Z
 categories:
   - Service à la communauté
 featured: true
-draft: true
+draft: false
 ---
 Au Sénégal, les associations locales de base jouent un rôle crucial dans le développement communautaire. Cependant, elles rencontrent souvent des défis majeurs en matière de gouvernance, de gestion financière et de durabilité organisationnelle. Pour pallier ces lacunes, le Collectif des Volontaires du Sénégal (CODEVS) a lancé l’Académie de Développement Local et Communautaire (ADLC). Cette académie se consacre à offrir une assistance technique et un appui organisationnelle aux associations locales de base ainsi qu’aux volontaires communautaires, renforçant ainsi leurs dispositions à stimuler 
 la marche vers le progrès social et le développement local durable.
