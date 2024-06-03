@@ -6,7 +6,7 @@ author: CODEVS & Banlieue Up
 date: 2024-05-22T17:45:12.499Z
 categories:
   - Retour d’expérience
-featured: true
+featured: false
 draft: false
 ---
 Bonjour à tous,
