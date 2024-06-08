@@ -12,21 +12,21 @@ buttons:
 
 # counter
 counter:
-  - name: "Customers"
-    number: 25
-    messurment: M
-    color: "#A3A1FB"
-  - name: "Customers"
+  - name: "Photoshoots"
     number: 440
     messurment: M
     color: "#5EE2A0"
-  - name: "Customers"
-    number: 50
-    messurment: K
+  - name: "Followers"
+    number: 500
+    messurment: M
     color: "#FE6019"
-  - name: "Customers"
-    number: 20
-    messurment: K
+  - name: "Naturists Friends"
+    number: 25
+    messurment: M
+    color: "#A3A1FB"
+  - name: "Events"
+    number: 2
+    messurment: U
     color: "#FEC163"
     
 # Gallery
