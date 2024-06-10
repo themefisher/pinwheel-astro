@@ -6,7 +6,7 @@ author: "Article19 & CJS & CODEVS "
 date: 2024-06-01T01:14:45.051Z
 categories:
   - Pencum Mbedocratie
-featured: true
+featured: false
 draft: false
 ---
 ## Contexte et Justification 
