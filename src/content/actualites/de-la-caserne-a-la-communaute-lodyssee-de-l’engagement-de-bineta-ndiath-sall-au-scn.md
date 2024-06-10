@@ -7,7 +7,7 @@ date: 2024-06-10T20:09:14.032Z
 categories:
   - Retour d’expérience
 featured: true
-draft: true
+draft: false
 ---
 Le service civique national au Sénégal est une expérience transformative pour de nombreux jeunes, leur offrant une formation complète qui couvre à la fois les aspects militaires et professionnels. Parmi ces jeunes volontaires, Bineta Ndiath Sall a partagé son témoignage, illustrant comment cette expérience a façonné son parcours et son engagement envers [le développement communautaire](https://codevsn.org/categories/service-%C3%A0-la-communaut%C3%A9/). Dans cet article, nous explorerons son apprentissage militaire et professionnel, ses contributions en tant que volontaire, et les leçons précieuses qu'elle a tirées de cette expérience.
 
