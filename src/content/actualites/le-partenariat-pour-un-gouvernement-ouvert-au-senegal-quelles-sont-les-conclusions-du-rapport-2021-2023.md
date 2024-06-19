@@ -1,13 +1,13 @@
 ---
-title: " Le Partenariat pour un Gouvernement Ouvert au Senegal : Quelles sont
-  Les Conclusions du Rapport 2021-2023 ?"
+title: " Partenariat pour un Gouvernement Ouvert au Senegal : Que Retenir du
+  Rapport 2021-2023 ?"
 image: /images/uploads/directeurregionalongarticle19alfrednkulubulakali.jpg
 author: CODEVS & OGP
 date: 2024-06-19T21:55:54.191Z
 categories:
   - Pencum Mbedocratie
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Le Sénégal s'est engagé dans le Partenariat pour un Gouvernement Ouvert (PGO) avec un plan d'action ambitieux pour la période 2021-2023. Ce plan visait à renforcer la transparence, améliorer l'accès aux services publics et encourager la participation citoyenne. Cependant, malgré les bonnes intentions et les objectifs bien définis, le plan d'action n'a pas produit les résultats escomptés. Cet article se penche sur les raisons de cet échec, évalue les objectifs initiaux, propose des solutions pour l'avenir et met en lumière l'importance d'une inclusion plus large des acteurs locaux et d'une volonté politique manifeste.
 
