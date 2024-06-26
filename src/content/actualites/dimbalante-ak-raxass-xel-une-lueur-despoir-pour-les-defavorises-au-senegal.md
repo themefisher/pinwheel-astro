@@ -5,7 +5,7 @@ author: "CODEVS & DIMBALANTE "
 date: 2024-06-11T21:08:49.232Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 Depuis sa création en 2016, **DIMBALANTE AK RAXASS XEL** a émergé comme une force motrice dans l'humanitaire au Sénégal. Officiellement reconnue par le gouvernement avec le numéro d'identification nationale des entreprises et associations (NINEA) 008442303, l'association s'engage à aider les personnes les plus vulnérables de la société, y compris les malades mentaux, les sans-abri, les enfants de la rue et les familles démunies.
