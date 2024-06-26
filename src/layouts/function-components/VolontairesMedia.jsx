@@ -7,7 +7,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
   const [tab, setTab] = useState("");
   const filterPost = !tab
     ? integrations
-    : integrations.filter((post) => post.data.categories.includes(tab));
+    : integrations.filter((post) => post.types_volontaire.nom.includes(tab));
   return (
     <section className="section pt-0">
       <div className="container">
@@ -46,9 +46,9 @@ const IntegrateMedia = ({ integrations, categories }) => {
             >
               <div className="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
                 <div className="integration-card-head flex items-center space-x-4">
-                  <img src={item.data.image} alt="" />
+                  <img src={item.avatar_url} alt="" />
                   <div>
-                    <h4 className="h4">{humanize(item.data.title)}</h4>
+                    <h4 className="h4">{humanize(item.full_name)}</h4>
                   </div>
                 </div>
               </div>

@@ -4,15 +4,18 @@ import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import VolontairesMedia from "@layouts/function-components/VolontairesMedia";
 import Cta from "@layouts/partials/Cta.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { getTaxonomy } from "@lib/taxonomyParser.astro";
+import {
+  fetchVolontaires,
+  fetchTypesvolontaire,
+} from "@lib/contentFetch.astro";
 import { getEntryBySlug } from "astro:content";
 const integraionsIndex = await getEntryBySlug<any, string>(
   "volontaires",
   "-index"
 );
-const categories = await getTaxonomy("volontaires", "categories");
-const integrations = await getSinglePage("volontaires");
+
+const volontairesData = await fetchVolontaires();
+const volontairesTypes = await fetchTypesvolontaire();
 const page_data = {
   ...integraionsIndex.data,
   content: integraionsIndex.body,
@@ -33,8 +36,8 @@ const page_data = {
   </section>
   <VolontairesMedia
     client:load
-    integrations={integrations}
-    categories={categories}
+    integrations={volontairesData}
+    categories={volontairesTypes}
   />
   <Cta />
 </Base>
