@@ -1,0 +1,50 @@
+---
+import { apiSupabase } from "./api/supabase";
+
+export const fetchVolontaires = async () => {
+  const query = `
+    query getVolontaires {
+      volontairesCollection {
+        edges {
+          node {
+            id
+            full_name
+            types_volontaire {
+              nom
+            }
+            avatar_url
+          }
+        }
+      }
+    }
+  `;
+
+  const json = await apiSupabase(query);
+  const volontaires = json.data.volontairesCollection.edges
+    .map((edge: any) => edge.node)
+    .filter(
+      (node: any) => node.types_volontaire && node.types_volontaire != null
+    );
+  return volontaires;
+};
+
+export const fetchTypesvolontaire = async () => {
+  const query = `
+    query getTypesvolontaire {
+        types_volontaireCollection{
+            edges{
+            node{
+                nom
+            }
+            }
+        }
+    }
+  `;
+
+  const json = await apiSupabase(query);
+  const types = json.data.types_volontaireCollection.edges
+    .map((edge: any) => edge.node)
+    .map((type: any) => type.nom);
+  return types;
+};
+---
