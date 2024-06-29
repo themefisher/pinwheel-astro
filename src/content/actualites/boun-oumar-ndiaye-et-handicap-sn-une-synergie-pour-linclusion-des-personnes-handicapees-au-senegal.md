@@ -7,7 +7,7 @@ date: 2024-06-29T12:39:48.456Z
 categories:
   - Retour d’expérience
 featured: true
-draft: true
+draft: false
 ---
 Depuis sa création en avril 2008, [l'association Handicap.sn](https://codevsn.org/associations/handicap-sn/) s'est imposée comme une force incontournable pour le soutien et l'inclusion des personnes en situation de handicap au Sénégal. Un de ses membres les plus emblématiques, Boun Oumar Ndiaye, incarne parfaitement l'esprit de l'association à travers son engagement et ses contributions significatives.
 
