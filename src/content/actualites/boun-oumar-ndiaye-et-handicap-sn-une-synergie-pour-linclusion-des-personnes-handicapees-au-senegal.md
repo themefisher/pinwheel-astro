@@ -5,7 +5,7 @@ image: /images/uploads/picoumar.jpg
 author: "CODEVS & Handicap.sn "
 date: 2024-06-29T12:50:58.449Z
 categories:
-  - Retour d'Expérience
+  - Retour d'expérience
 featured: true
 draft: false
 ---
