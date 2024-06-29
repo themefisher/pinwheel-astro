@@ -1,7 +1,7 @@
 ---
 title: " Boun Oumar Ndiaye et Handicap.sn : Une Synergie pour l'Inclusion des
   Personnes Handicapees au Senegal"
-image: /images/uploads/img-20240629-wa0000.jpg
+image: /images/uploads/oumar.jpg
 author: "CODEVS & Handicap.sn "
 date: 2024-06-29T12:50:58.449Z
 categories:
