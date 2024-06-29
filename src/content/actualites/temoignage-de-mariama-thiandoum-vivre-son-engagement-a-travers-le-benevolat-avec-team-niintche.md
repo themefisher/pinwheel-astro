@@ -6,8 +6,8 @@ author: "CODEVS & Team Niintche "
 date: 2024-06-29T22:36:03.125Z
 categories:
   - Retour d’expérience
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Depuis 2021, je fais partie de l'association Team Niintche, une organisation dédiée à la reconstruction des écoles et à la diminution des abris provisoires au Sénégal. La mission principale de l'association est de fournir des environnements éducatifs sûrs et adéquats pour les enfants dans les régions les plus reculées du pays. En tant que membre de cette association, j'ai eu l'occasion de participer à des projets significatifs qui ont profondément influencé ma vie et celle des communautés locales.
 
