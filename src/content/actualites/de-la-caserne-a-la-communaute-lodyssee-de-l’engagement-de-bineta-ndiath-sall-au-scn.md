@@ -1,7 +1,7 @@
 ---
 title: "De la Caserne a la Communaute : L'odyssee de l’engagement de Bineta
   Ndiath Sall au SCN"
-image: /images/uploads/img-20240608-wa0026.jpg
+image: /images/uploads/scn.jpg
 author: CODEVS & SCN
 date: 2024-06-10T20:09:14.032Z
 categories:
