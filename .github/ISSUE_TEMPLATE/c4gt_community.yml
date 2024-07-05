@@ -73,13 +73,7 @@ body:
       description: Enter Organisation Name
       multiple: false
       options:
-        - C4GT
-        - Dhiway
-        - FIDE
-        - SamagraX
-        - ShikshaLokam
-        - Tech4Dev
-        - Tibil
+        - Piramal Swasthya Management Research Institute
     validations:
       required: true
 
