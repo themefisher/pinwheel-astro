@@ -6,8 +6,8 @@ author: CODEVS & Endeavour
 date: 2024-07-08T18:22:30.313Z
 categories:
   - Service à la communauté
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Endeavour Mining, leader de l'industrie minière en Afrique de l'Ouest, a une vision claire : allier croissance économique et responsabilité sociale. Le rapport de développement durable 2023 d'Endeavour Mining illustre bien cette ambition, mettant en lumière les initiatives entreprises pour soutenir les communautés locales et promouvoir des pratiques durables. Voici un aperçu détaillé de ces efforts, en se concentrant sur les Objectifs de Développement Durable (ODD) et la Responsabilité Sociétale des Entreprises (RSE), tout en soulignant l'importance d'une collaboration continue avec les acteurs locaux et les associations de base.
 
