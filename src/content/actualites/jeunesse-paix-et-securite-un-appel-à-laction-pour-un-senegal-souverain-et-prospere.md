@@ -1,13 +1,13 @@
 ---
 title: "Jeunesse, Paix et Securite : Un Appel à l'Action pour un Senegal
   Souverain et Prospere"
-image: ""
+image: /images/uploads/screenshot_20240711-003836_onedrive-min.jpg
 author: CODEVS
 date: 2024-07-11T01:40:37.344Z
 categories:
   - Pencum Mbedocratie
 featured: true
-draft: true
+draft: false
 ---
 Le Sénégal, avec une population jeune dynamique et ambitieuse, se trouve à un carrefour crucial de son histoire. L'Agenda Jeunesse, Paix et Sécurité (JPS), basé sur la Résolution 2250 (2015) du Conseil de Sécurité des Nations Unies, ouvre la voie à une participation active et significative des jeunes dans la construction d'un avenir pacifique et sécurisé pour tous.
 
