@@ -6,7 +6,7 @@ author: "CODEVS & Orange Sonatel "
 date: 2024-06-26T14:08:48.333Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 Orange Sonatel, un acteur majeur des télécommunications en Afrique de l’Ouest, a publié [son rapport RSE (Responsabilité Sociétale des Entreprises) pour l’année 2023](https://codevsn.org/publications/rapport-rse-sonatel-2023/). Ce document présente les initiatives de l’entreprise en matière de développement durable, de soutien aux communautés locales et de protection de l’environnement. Le rapport montre des progrès significatifs dans divers domaines, mais révèle aussi certaines lacunes, notamment en ce qui concerne l'accompagnement des associations locales de base. Cet article propose une analyse détaillée du rapport, en mettant en avant les réussites de l’entreprise ainsi que les domaines nécessitant des améliorations.
