@@ -6,7 +6,7 @@ author: "Aude Darnal & CODEVS "
 date: 2024-04-28T22:03:53.995Z
 categories:
   - Pencum Mbedocratie
-featured: true
+featured: false
 draft: false
 ---
 Dans un monde confronté à des défis humanitaires et environnementaux sans précédent, le système d'aide internationale est à un tournant. Malgré les discours sur la localisation, à peine 1,2 % de l'aide humanitaire internationale parvient directement aux acteurs locaux. Ce constat alarmant soulève des questions cruciales sur la transparence et la prise de conscience dans les cercles politiques internationaux quant à la façon dont les fonds circulent des donateurs au terrain.
