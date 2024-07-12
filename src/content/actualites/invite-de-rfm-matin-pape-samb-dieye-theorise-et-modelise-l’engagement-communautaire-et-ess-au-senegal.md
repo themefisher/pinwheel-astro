@@ -6,7 +6,7 @@ author: "CODEVS & Intérêt Général "
 date: 2024-07-07T18:24:28.208Z
 categories:
   - Pencum Mbedocratie
-featured: true
+featured: false
 draft: false
 ---
 Invité de l'émission RFM Matin ce Vendredi 05 Juillet, en prélude à la journée "Settal Sunu Rew" (rendre propre notre pays) lancée par le Président de la République du Sénégal, Son Excellence M. Faye, Pape Samb Dieye, Président de l'association locale de base Intérêt Général et membre actif du Collectif des Volontaires du Sénégal (CODEVS), a théorisé et modélisé l'engagement communautaire et l'économie sociale et solidaire (ESS) sous un prisme endogène, local et culturel. Il a rappelé que ces valeurs sont innées au pays de la Teranga. Découvrez les grands axes de son intervention avec le journaliste Babacar Fall de la radio RFM.
