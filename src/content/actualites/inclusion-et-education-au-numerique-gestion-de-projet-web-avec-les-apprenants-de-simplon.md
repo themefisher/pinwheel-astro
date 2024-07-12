@@ -7,7 +7,7 @@ date: 2024-07-12T16:22:45.615Z
 categories:
   - Service à la communauté
 featured: true
-draft: true
+draft: false
 ---
 Le 5 juillet 2024, le Collectif des Volontaires du Sénégal (CODEVS), en partenariat avec Simplon Sénégal, a facilité une session de gestion de projet Web pour les apprenants en développement Web et mobile de Simplon Sénégal. Cet événement, qui s'est déroulé de 15h à 17h30 à la fabrique de Simplon située à Sacré-Cœur, a rassemblé au moins 25 participants. La session a été animée par Seydina Mouhamadou Ndiaye, co-fondateur du CODEVS et analyste sur les questions politiques et économiques liées au numérique. 
 
