@@ -6,8 +6,8 @@ author: CODEVS & CJS
 date: 2024-07-24T15:08:37.024Z
 categories:
   - Retour d’expérience
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Dans un monde en constante évolution, où les défis sociétaux et économiques sont nombreux, le volontariat émerge comme une voie puissante pour l'intégration africaine et le développement communautaire. Richard Honoré Badiel, un jeune engagé de 26 ans, incarne cet esprit de service et de dévouement. Résidant à Dakar depuis plus d'un an, Richard est devenu un pilier du Consortium Jeunesse Sénégal, forgeant des liens solides entre les différentes communautés du continent. Son parcours est une source d'inspiration, démontrant que servir l'Afrique n'est pas seulement un devoir, mais une vocation qui transcende les frontières.
 
