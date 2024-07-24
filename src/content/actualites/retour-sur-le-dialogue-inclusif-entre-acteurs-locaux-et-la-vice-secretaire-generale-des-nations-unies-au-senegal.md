@@ -1,5 +1,5 @@
 ---
-title: Dialogue inclusif au Senegal entre la communauté et la Vice-Secretaire
+title: Dialogue inclusif au Senegal entre la communaute et la Vice-Secretaire
   Generale des Nations Unies
 image: /images/uploads/inshot_20240719_135153573-min.jpg
 author: "CODEVS & PNUD Sénégal "
