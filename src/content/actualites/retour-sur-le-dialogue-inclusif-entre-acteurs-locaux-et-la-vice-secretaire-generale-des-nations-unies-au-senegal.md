@@ -1,6 +1,6 @@
 ---
-title: Retour sur le dialogue inclusif entre acteurs locaux et la
-  Vice-Secretaire Generale des Nations Unies au Senegal.
+title: Dialogue inclusif au Senegal entre la communauté et la Vice-Secretaire
+  Generale des Nations Unies
 image: /images/uploads/inshot_20240719_135153573-min.jpg
 author: "CODEVS & PNUD Sénégal "
 date: 2024-07-24T13:33:26.412Z
