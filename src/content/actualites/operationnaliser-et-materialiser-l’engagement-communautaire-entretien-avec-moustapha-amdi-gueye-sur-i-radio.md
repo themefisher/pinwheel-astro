@@ -6,8 +6,8 @@ author: "Team Niintche & CODEVS "
 date: 2024-07-29T19:33:26.805Z
 categories:
   - Pencum Mbedocratie
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Dans l’émission Pencum Ndaw yi (le grand place des jeunes) sur I-Radio, Moustapha Amdi Gueye, co-fondateur, coordinateur de la Team Niintche et membre du Collectif des Volontaires du Sénégal (CODEVS), a été interviewé par Cheikh Hassana Fall. Il a partagé sa vision sur l’engagement communautaire, en l'illustrant par des exemples concrets et pratiques. Voici les points clés de son intervention.
 
