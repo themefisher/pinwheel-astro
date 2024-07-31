@@ -6,8 +6,8 @@ author: CODEVS & IAG
 date: 2024-07-31T16:50:21.452Z
 categories:
   - Pencum Mbedocratie
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 L'inclusion des jeunes dans l'élaboration des politiques publiques au Sénégal est essentielle pour assurer un avenir durable et équitable. Les jeunes constituent une partie importante de la population sénégalaise, et leur implication dans le processus décisionnel est cruciale pour exploiter pleinement leur potentiel et répondre aux défis socio-économiques actuels. [L'atelier Jootay](https://codevsn.org/publications/jootay-de-linstitut-africain-de-la-gouvernance-iag/), organisé par l'Institut Africain de la Gouvernance, se veut une plateforme inclusive et diversifiée pour aborder cette problématique et proposer des solutions concrètes.
 
