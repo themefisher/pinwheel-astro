@@ -5,8 +5,8 @@ author: "CODEVS & Eusebio "
 date: 2024-07-31T13:35:56.469Z
 categories:
   - Service à la communauté
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Le football est bien plus qu'un simple sport. C'est une passion universelle qui transcende les frontières et les cultures. Il joue un rôle crucial dans le développement personnel et collectif des jeunes, en leur offrant des compétences essentielles qui vont bien au-delà du terrain de jeu. Le tournoi « FAIR-PLAY-GAME YOUNG-BOYS », initié par Bakary Badji, illustre parfaitement comment le football peut être un puissant facteur de développement social et personnel. 
 
