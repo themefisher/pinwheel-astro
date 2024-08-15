@@ -1,7 +1,7 @@
 {
-  "name": "pinwheel-astro",
+  "name": "barebliss-web",
   "version": "1.0.0",
-  "author": "themefisher",
+  "authors": ["mogenpty", "themefisher"],
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "scripts": {
