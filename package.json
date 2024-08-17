@@ -15,7 +15,7 @@
     "@astrojs/mdx": "^0.19.7",
     "@astrojs/rss": "^2.4.4",
     "astro": "^2.10.15",
-    "astro-auto-import": "^0.3.2",
+    "astro-auto-import": "^0.4.2",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.1",
     "disqus-react": "^1.1.5",
