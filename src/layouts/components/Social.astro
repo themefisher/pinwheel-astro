@@ -2,42 +2,48 @@
 const { source, className } = Astro.props;
 
 import {
-  IoCall,
-  IoGlobeOutline,
-  IoLocation,
-  IoLogoBehance,
-  IoLogoBitbucket,
-  IoLogoCodepen,
-  IoLogoDiscord,
-  IoLogoDribbble,
-  IoLogoFacebook,
-  IoLogoFoursquare,
-  IoLogoGithub,
-  IoLogoGitlab,
-  IoLogoInstagram,
-  IoLogoLinkedin,
-  IoLogoMastodon,
-  IoLogoMedium,
-  IoLogoPinterest,
-  IoLogoReddit,
-  IoLogoRss,
-  IoLogoSkype,
-  IoLogoSlack,
-  IoLogoSnapchat,
-  IoLogoSoundcloud,
-  IoLogoTiktok,
-  IoLogoTumblr,
-  IoLogoTwitter,
-  IoLogoVimeo,
-  IoLogoVk,
-  IoLogoWhatsapp,
-  IoLogoYoutube,
-  IoMail,
-} from "react-icons/io5/index.js";
+  FaTelegram,
+  FaPhone,
+  FaGlobe,
+  FaLocationPin,
+  FaBehance,
+  FaBitbucket,
+  FaCodepen,
+  FaDiscord,
+  FaDribbble,
+  FaFacebook,
+  FaFoursquare,
+  FaGithub,
+  FaGitlab,
+  FaInstagram,
+  FaLinkedin,
+  FaMastodon,
+  FaMedium,
+  FaPinterest,
+  FaReddit,
+  FaRss,
+  FaSkype,
+  FaSlack,
+  FaSnapchat,
+  FaSoundcloud,
+  FaTiktok,
+  FaTumblr,
+  FaTwitter,
+  FaVimeo,
+  FaVk,
+  FaWhatsapp,
+  FaYoutube,
+  FaEnvelope,
+  FaXTwitter,
+  FaPatreon
+} from "react-icons/fa6/index.js";
 
 const {
   facebook,
   twitter,
+  patreon,
+  "x-twitter": xTwitter,
+  telegram,
   mastodon,
   instagram,
   youtube,
@@ -80,7 +86,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoFacebook />
+          <FaFacebook />
         </a>
       </li>
     )
@@ -94,7 +100,21 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoTwitter />
+          <FaTwitter />
+        </a>
+      </li>
+    )
+  }
+  {
+    xTwitter && (
+      <li class="inline-block">
+        <a
+          aria-label="x-twitter"
+          href={xTwitter}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <FaXTwitter />
         </a>
       </li>
     )
@@ -108,7 +128,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoMastodon />
+          <FaMastodon />
         </a>
       </li>
     )
@@ -122,7 +142,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoInstagram />
+          <FaInstagram />
         </a>
       </li>
     )
@@ -136,7 +156,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoYoutube />
+          <FaYoutube />
         </a>
       </li>
     )
@@ -150,7 +170,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoLinkedin />
+          <FaLinkedin />
         </a>
       </li>
     )
@@ -164,7 +184,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoGithub />
+          <FaGithub />
         </a>
       </li>
     )
@@ -178,7 +198,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoGitlab />
+          <FaGitlab />
         </a>
       </li>
     )
@@ -192,7 +212,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoDiscord />
+          <FaDiscord />
         </a>
       </li>
     )
@@ -206,7 +226,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoSlack />
+          <FaSlack />
         </a>
       </li>
     )
@@ -220,7 +240,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoMedium />
+          <FaMedium />
         </a>
       </li>
     )
@@ -234,7 +254,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoCodepen />
+          <FaCodepen />
         </a>
       </li>
     )
@@ -248,7 +268,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoBitbucket />
+          <FaBitbucket />
         </a>
       </li>
     )
@@ -262,7 +282,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoDribbble />
+          <FaDribbble />
         </a>
       </li>
     )
@@ -276,7 +296,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoBehance />
+          <FaBehance />
         </a>
       </li>
     )
@@ -290,7 +310,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoPinterest />
+          <FaPinterest />
         </a>
       </li>
     )
@@ -304,7 +324,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoSoundcloud />
+          <FaSoundcloud />
         </a>
       </li>
     )
@@ -318,7 +338,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoTumblr />
+          <FaTumblr />
         </a>
       </li>
     )
@@ -332,7 +352,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoReddit />
+          <FaReddit />
         </a>
       </li>
     )
@@ -346,7 +366,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoVk />
+          <FaVk />
         </a>
       </li>
     )
@@ -360,7 +380,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoWhatsapp />
+          <FaWhatsapp />
         </a>
       </li>
     )
@@ -374,7 +394,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoSnapchat />
+          <FaSnapchat />
         </a>
       </li>
     )
@@ -388,7 +408,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoVimeo />
+          <FaVimeo />
         </a>
       </li>
     )
@@ -402,7 +422,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoTiktok />
+          <FaTiktok />
         </a>
       </li>
     )
@@ -416,7 +436,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoFoursquare />
+          <FaFoursquare />
         </a>
       </li>
     )
@@ -430,7 +450,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoSkype />
+          <FaSkype />
         </a>
       </li>
     )
@@ -444,7 +464,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoGlobeOutline />
+          <FaGlobe />
         </a>
       </li>
     )
@@ -458,7 +478,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoRss />
+          <FaRss />
         </a>
       </li>
     )
@@ -467,7 +487,7 @@ const {
     email && (
       <li class="inline-block">
         <a aria-label="email" href={`mailto:${email}`}>
-          <IoMail />
+          <FaEnvelope />
         </a>
       </li>
     )
@@ -476,7 +496,7 @@ const {
     phone && (
       <li class="inline-block">
         <a aria-label="telephone" href={`tel:${phone}`}>
-          <IoCall />
+          <FaPhone />
         </a>
       </li>
     )
@@ -490,7 +510,7 @@ const {
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLocation />
+          <FaLocationPin />
         </a>
       </li>
     )
