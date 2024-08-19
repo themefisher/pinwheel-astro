@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Welcome to Bare Bliss Nudist Group"
+  title: "Welcome to Bare Bliss Naturists Group"
   content: "Where we embrace the freedom of being in the nude and celebrate the beauty of naturism in a welcoming and inclusive environment. Our community is founded on principles of respect, acceptance, and body positivity, creating a haven for those who seek a genuine connection with like-minded individuals."
   image: /images/barebliss-logo-2.png
   button:
@@ -40,7 +40,7 @@ key_features:
       content: I commit to promoting understanding and dispelling misconceptions about naturism. I will actively engage in educating others about the values of Bare Bliss and advocating for a more accepting and open-minded society.
     - icon: "film"  #icon package react-feather-icon [https://feathericons.com/]
       title: Have Fun
-      content: I join the Bare Bliss Nudist Group with the intention of creating a space where individuals can experience the joy of naturism in a supportive and respectful community.
+      content: I join the Bare Bliss Naturists Group with the intention of creating a space where individuals can experience the joy of naturism in a supportive and respectful community.
 
 #service
 service:

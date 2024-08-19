@@ -1,6 +1,6 @@
 ---
 title: "About"
-page_title: "Bare Bliss Nudist Group"
+page_title: "Bare Bliss Naturists Group"
 buttons:
   - label: Learn More
     link: "/blog"
@@ -31,7 +31,7 @@ counter:
     
 # Gallery
 gallery:
-  title: Bare Bliss Nudist Group is a vibrant and inclusive community that celebrates the beauty of naturism
+  title: Bare Bliss Naturists Group is a vibrant and inclusive community that celebrates the beauty of naturism
   images:
     - "/images/about/matlapeng-2.png"
     - "/images/about/matlapeng-3.png"
@@ -40,23 +40,24 @@ gallery:
 ## our works
 features:
   title: The six pillars that <br /> drives everything we do
+  subtitle: By prioritizing these pillars, we ensure that Bare Bliss Naturists Group remains a dynamic, inclusive, and forward-thinking community dedicated to promoting the benefits of naturism for all.
   button:
   #   label: Download The Theme
   #   link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: false
   features_list:
     - title: Accessibility
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Empowerement
-      content: Aims to create a supportive environment where individuals feel confident and comfortable in their own skin.
+      content: We believe that everyone should have the opportunity to experience the freedom and joy of naturism. We strive to create an inclusive environment where people of all backgrounds, abilities, and ages feel welcome and comfortable.
     - title: Innovation
-      content: Focuses on introducing creative and unique experiences within the nudist community.
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+      content: We are committed to pushing boundaries and exploring new ways to enhance the nudist experience. Whether it's through the use of technology, creative event planning, or unique programming, we seek to continuously innovate and evolve.
+    - title: Empowerment
+      content: We empower individuals to embrace their bodies, shed societal norms, and embrace self-confidence. Through education, support, and community engagement, we aim to empower our members to live authentically and fearlessly.
+    - title: Respect
+      content: Respect forms the foundation of our community. We respect each other's boundaries, privacy, and individual choices. We cultivate an environment of mutual respect, where all members feel valued and heard.
+    - title: Sustainability
+      content: We recognize the importance of preserving the natural environment and minimizing our ecological footprint. We are committed to sustainable practices in our operations and events, striving to protect and respect the natural world that surrounds us.
+    - title: Community
+      content: At the heart of Bare Bliss Naturists Group is a vibrant and supportive community. We foster meaningful connections, camaraderie, and a sense of belonging among our members. Together, we celebrate our shared passion for naturism and embrace the joy of social nudity.
     
 
 ## members
