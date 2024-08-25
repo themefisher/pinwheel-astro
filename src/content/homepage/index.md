@@ -83,12 +83,12 @@ testimonial:
     - author: Solly M
       avatar: "/images/users/sol-headshot.png"
       organization: private
-      rating: zero
+      rating: four
       content: Being a naturist has given me the chance to truly embrace myself without worrying about how others see me. It's like stepping into a world where I can find calmness and forget about the everyday pressures we face. Naturism lets me be at peace with who I am, away from the stress of modern life.
     - author: Miss Vee
       avatar: "/images/users/vee-headshot.png"
       organization: private
-      rating: zero
+      rating: five
       content: Naturism is where I found meaning of life, in its simplest and liberate form. I finally let all ways down and embrace my love for the natural form on being.
     - author: Chef Aza
       avatar: "/images/users/user-anon.png"

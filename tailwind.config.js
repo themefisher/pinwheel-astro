@@ -8,31 +8,27 @@ let h4 = h5 * font_scale;
 let h3 = h4 * font_scale;
 let h2 = h3 * font_scale;
 let h1 = h2 * font_scale;
-let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
+
+let fontPrimaryType, fontSecondaryType;
 if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
   fontPrimaryType = theme.fonts.font_family.primary_type;
 }
 if (theme.fonts.font_family.secondary) {
-  fontSecondary = theme.fonts.font_family.secondary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
   fontSecondaryType = theme.fonts.font_family.secondary_type;
 }
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  safelist: [{ pattern: /^swiper-/ }],
   darkMode: "class",
   theme: {
     screens: {
-      sm: "576px",
+      sm: "540px",
       md: "768px",
-      lg: "992px",
-      xl: "1200px",
-      "2xl": "1400px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
     container: {
       center: true,
@@ -63,14 +59,24 @@ module.exports = {
         h6: h6 + "rem",
       },
       fontFamily: {
-        primary: [fontPrimary, fontPrimaryType],
-        secondary: [fontSecondary, fontSecondaryType],
+        primary: ["var(--font-primary)", fontPrimaryType],
+        secondary: ["var(--font-secondary)", fontSecondaryType],
       },
     },
   },
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
-    require("tailwind-bootstrap-grid")({ generateContainer: false }),
+    require("tailwind-bootstrap-grid")({
+      generateContainer: false,
+      gridGutterWidth: "2rem",
+      gridGutters: {
+        1: "0.25rem",
+        2: "0.5rem",
+        3: "1rem",
+        4: "1.5rem",
+        5: "3rem",
+      },
+    }),
   ],
 };

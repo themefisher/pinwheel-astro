@@ -1,12 +1,12 @@
 ---
-import Logo from "@components/Logo.astro";
-import Social from "@components/Social.astro";
-import config from "@config/config.json";
-import menu from "@config/menu.json";
-import social from "@config/social.json";
-import { markdownify } from "@lib/utils/textConverter";
+import Logo from "@/components/Logo.astro";
+import Social from "@/components/Social.astro";
+import config from "@/config/config.json";
+import menu from "@/config/menu.json";
+import social from "@/config/social.json";
+import { markdownify } from "@/lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phones, footer_description, locations } = config.params;
+const { copyright, location, locations, email, phones, footer_description } = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
@@ -43,29 +43,28 @@ const { copyright, location, email, phones, footer_description, locations } = co
           <li class="mb-2">{location}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
-              >{email}</a>
+              >{email}</a
+            >
           </li>
-          
-            <!-- {console.log(phones.length)}
-            {phones.map((phone) => (
-              <li><a class="hover:text-primary hover:underline" href={`tel:${phone}`}>{phone}</a></li>
-            ))} -->
-          
+          <!-- <li>
+            <a aria-label=`BareBliss Phone Number for ${location}` class="hover:text-primary hover:underline" href={`tel:${phone}`}
+              >{phone}</a
+            >
+          </li> -->
         </ul>
-          {locations.map((loc) => (
-              <div class="col-12 mt-3">
-                <p class="text-bold"><strong>{loc.area}</strong></p>
-                <ul>
-                  {loc.email && <li>
-                    <a class="hover:text-primary" href={`mailto:${loc.email}`}
-                      >{loc.email}</a>
-                  </li>}
-                  {loc.phone && <li><a class="hover:text-primary hover:underline" href={`tel:${loc.phone}`}>{loc.phone}</a></li>}
-                </ul>
-              </div>
-            ))}
+        {locations.map((loc) => (
+          <div class="col-12 mt-3">
+            <p class="text-bold"><strong>{loc.area}</strong></p>
+            <ul>
+              {loc.email && <li>
+                <a class="hover:text-primary" href={`mailto:${loc.email}`}
+                  >{loc.email}</a>
+              </li>}
+              {loc.phone && <li><a class="hover:text-primary hover:underline" href={`tel:${loc.phone}`}>{loc.phone}</a></li>}
+            </ul>
+          </div>
+        ))}
       </div>
-      
     </div>
   </div>
   <div class="container max-w-[1440px]">

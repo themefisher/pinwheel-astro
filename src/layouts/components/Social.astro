@@ -36,7 +36,7 @@ import {
   FaEnvelope,
   FaXTwitter,
   FaPatreon
-} from "react-icons/fa6/index.js";
+} from "react-icons/fa6";
 
 const {
   facebook,
@@ -143,6 +143,20 @@ const {
           rel="noopener noreferrer nofollow"
         >
           <FaInstagram />
+        </a>
+      </li>
+    )
+  }
+  {
+    telegram && (
+      <li class="inline-block">
+        <a
+          aria-label="telegram"
+          href={telegram}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <FaTelegram />
         </a>
       </li>
     )
@@ -451,6 +465,20 @@ const {
           rel="noopener noreferrer nofollow"
         >
           <FaSkype />
+        </a>
+      </li>
+    )
+  }
+  {
+    patreon && (
+      <li class="inline-block">
+        <a
+          aria-label="patreon"
+          href={patreon}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <FaPatreon />
         </a>
       </li>
     )

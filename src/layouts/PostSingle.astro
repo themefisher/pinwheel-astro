@@ -1,10 +1,10 @@
 ---
-import { Image } from "@astrojs/image/components";
-import Share from "@components/Share.astro";
-import config from "@config/config.json";
-import { getSinglePage } from "@lib/contentParser.astro";
-import dateFormat from "@lib/utils/dateFormat";
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+import { Image } from "astro:assets";
+import Share from "@/components/Share.astro";
+import config from "@/config/config.json";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import dateFormat from "@/lib/utils/dateFormat";
+import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 const { blog_folder } = config.settings;
 
 const allAuthors = await getSinglePage("authors");

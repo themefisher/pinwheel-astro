@@ -1,0 +1,41 @@
+---
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import IntegrateMedia from "@/layouts/function-components/IntegrateMedia";
+import Cta from "@/layouts/partials/Cta.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
+import type { TIntegrationsIndex } from "@/types";
+import { getEntryBySlug } from "astro:content";
+const integraionsIndex = (await getEntryBySlug<any, string>(
+  "integrations",
+  "-index",
+)) as TIntegrationsIndex;
+const categories = await getTaxonomy("integrations", "categories");
+const integrations = await getSinglePage("integrations");
+const page_data = {
+  ...integraionsIndex.data,
+  content: integraionsIndex.body,
+};
+---
+
+<Base
+  title={integraionsIndex.data.title}
+  meta_title={integraionsIndex.data.meta_title}
+  description={integraionsIndex.data.description}
+  image={integraionsIndex.data.image}
+>
+  <Shape />
+  <section class="page-hero pb-14 pt-16">
+    <div class="container">
+      <PageHeader page_data={page_data} />
+    </div>
+  </section>
+  <IntegrateMedia
+    client:load
+    integrations={integrations}
+    categories={categories}
+  />
+  <Cta />
+</Base>

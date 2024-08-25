@@ -1,16 +1,16 @@
 ---
-import { Image } from "@astrojs/image/components";
-import dateFormat from "@lib/utils/dateFormat";
-import readingTime from "@lib/utils/readingTime";
+import dateFormat from "@/lib/utils/dateFormat";
+import readingTime from "@/lib/utils/readingTime";
 import Disqus from "./function-components/Disqus";
 
-import { humanize, slugify } from "@lib/utils/textConverter";
+import { humanize, slugify } from "@/lib/utils/textConverter";
 import {
   FaRegCalendarAlt,
   FaRegClock,
   FaRegFolder,
   FaRegUserCircle,
-} from "react-icons/fa/index.js";
+} from "react-icons/fa";
+import { Image } from "astro:assets";
 
 const { post } = Astro.props;
 const { Content } = await post.render();
