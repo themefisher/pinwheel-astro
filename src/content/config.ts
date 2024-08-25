@@ -28,8 +28,20 @@ const pagesCollection = defineCollection({
   }),
 });
 
+const merchCollection = defineCollection({
+  schema: z.object({
+    id: z.string().optional(),
+    title: z.string(),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    price: z.number().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 // Export collections
 export const collections = {
   blog: blogCollection,
   pages: pagesCollection,
+  merches: merchCollection,
 };

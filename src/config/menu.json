@@ -9,6 +9,10 @@
       "url":"/about"
     },
     {
+      "name": "Merch",
+      "url":"/merch"
+    },
+    {
       "name": "Rules & Regulations",
       "url": "/rules-and-regulations"
     },
@@ -30,6 +34,10 @@
     {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "Merch",
+      "url": "/merch"
     },
     {
       "name": "Rules & Regulations",

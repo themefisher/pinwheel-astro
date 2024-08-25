@@ -44,8 +44,7 @@ const currentPosts = recentPost.slice(0, config.settings.pagination);
     <div class="container">
       <FeaturedBlog posts={featuredPost} />
       <BlogCategories categories={categories} />
-      <h2 class="h4 mb-4">Recent Posts</h2>
-      <Blogs posts={currentPosts} />
+      <Blogs title="Other Posts" posts={currentPosts} />
       <Pagination
         section={blog_folder}
         currentPage={1}

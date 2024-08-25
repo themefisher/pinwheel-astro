@@ -1,0 +1,13 @@
+---
+import Base from "@/layouts/Base.astro";
+import Merchandises from "@/layouts/components/Merchandises.astro";
+import { getEntryBySlug } from "astro:content";
+
+
+const merchandise = await getEntryBySlug("merchandise", "index");
+const { banner, main_feature, service, testimonial } = merchandise.data
+---
+
+<Base>
+    <Merchandises main_feature={main_feature} />
+</Base>

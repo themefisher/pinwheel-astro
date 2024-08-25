@@ -5,9 +5,10 @@ import dateFormat from "@/lib/utils/dateFormat";
 import readingTime from "@/lib/utils/readingTime";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 const { summary_length } = config.settings;
-const { posts } = Astro.props;
+const { title, posts } = Astro.props;
 ---
 
+<h2 class="h4 mb-4">{title ?? "Posts"}</h2>
 <div class="row">
   {
     posts.map((item: any) => (
