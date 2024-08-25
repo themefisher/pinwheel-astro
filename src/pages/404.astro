@@ -1,9 +1,9 @@
 ---
-import Base from "@layouts/Base.astro";
-import { markdownify } from "@lib/utils/textConverter";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
 import { getEntryBySlug } from "astro:content";
-import { Image } from "@astrojs/image/components";
-import config from "@config/config.json";
+import config from "@/config/config.json";
 
 const { logo } = config.site;
 const entry = await getEntryBySlug("pages", "404");

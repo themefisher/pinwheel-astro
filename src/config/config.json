@@ -27,7 +27,7 @@
   },
 
   "disqus": {
-    "enable": true,
+    "enable": false,
     "shortname": "barebliss-south-africa",
     "settings": {}
   },

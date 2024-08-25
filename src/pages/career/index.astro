@@ -1,16 +1,21 @@
 ---
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import Base from "@layouts/Base.astro";
-import Cta from "@layouts/partials/Cta.astro";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import Cta from "@/layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
-// import CareerBenifits from "@components/career/CareerBenifits.astro";
-import { Image } from "@astrojs/image/components";
-import CareerBenifits from "@layouts/function-components/CareerBenifits";
-import JobPosts from "@layouts/function-components/JobPosts";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { getTaxonomy } from "@lib/taxonomyParser.astro";
-const careerIndex = await getEntryBySlug<any, string>("careers", "-index");
+// import CareerBenifits from "@/components/career/CareerBenifits.astro";
+import { Image } from "astro:assets";
+import CareerBenifits from "@/layouts/function-components/CareerBenifits";
+import JobPosts from "@/layouts/function-components/JobPosts";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
+import type { TCareerIndex } from "@/types";
+
+const careerIndex = (await getEntryBySlug<any, string>(
+  "careers",
+  "-index",
+)) as TCareerIndex;
 const { benifits, career, image } = careerIndex.data;
 const categories = await getTaxonomy("careers", "categories");
 const jobposts = await getSinglePage("careers");

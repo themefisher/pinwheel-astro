@@ -1,6 +1,6 @@
 ---
-import { Image } from "@astrojs/image/components";
-import { AiFillCheckCircle } from "react-icons/ai/index.js";
+import { Image } from "astro:assets";
+import { AiFillCheckCircle } from "react-icons/ai";
 const { feature_service } = Astro.props;
 ---
 
@@ -45,7 +45,7 @@ const { feature_service } = Astro.props;
               >
                 {button.label}
               </a>
-            )
+            ),
         )
       }
     </div>

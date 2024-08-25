@@ -1,4 +1,4 @@
-import { markdownify } from "@lib/utils/textConverter";
+import { markdownify } from "@/lib/utils/textConverter";
 
 const ContentBlock = ({
   title,

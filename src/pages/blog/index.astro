@@ -1,20 +1,24 @@
 ---
-import Blogs from "@components/Blogs.astro";
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import BlogCategories from "@components/blog/BlogCategories.astro";
-import FeaturedBlog from "@components/blog/FeaturedBlog.astro";
-import config from "@config/config.json";
-import Base from "@layouts/Base.astro";
-import Pagination from "@layouts/components/Pagination.astro";
-import Cta from "@layouts/partials/Cta.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { getTaxonomy } from "@lib/taxonomyParser.astro";
-import { sortByDate } from "@lib/utils/sortFunctions";
+import Blogs from "@/components/Blogs.astro";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import BlogCategories from "@/components/blog/BlogCategories.astro";
+import FeaturedBlog from "@/components/blog/FeaturedBlog.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import Pagination from "@/layouts/components/Pagination.astro";
+import Cta from "@/layouts/partials/Cta.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+import type { TIndexData } from "@/types";
 import { getEntryBySlug } from "astro:content";
 
 const { blog_folder } = config.settings;
-const blogIndex = await getEntryBySlug<any, string>(blog_folder, "-index");
+const blogIndex = (await getEntryBySlug<any, string>(
+  blog_folder,
+  "-index",
+)) as TIndexData;
 const posts = await getSinglePage(blog_folder);
 const categories = await getTaxonomy(config.settings.blog_folder, "categories");
 const sortedPosts = sortByDate(posts);
@@ -22,12 +26,8 @@ const featuredPost = sortedPosts.filter((item) => item.data.featured);
 const recentPost = sortedPosts.filter((item) => !item.data.featured);
 const totalPages = Math.ceil(recentPost.length / config.settings.pagination);
 const currentPosts = recentPost.slice(0, config.settings.pagination);
-const blog = blogIndex.data;
-const page_data = {
-  ...blog,
-  content: blog.body,
-};
 ---
+
 <Base
   title={blogIndex.data.title}
   meta_title={blogIndex.data.meta_title}
@@ -37,14 +37,14 @@ const page_data = {
   <Shape />
   <section class="page-hero pt-16">
     <div class="container">
-      <PageHeader page_data={page_data} />
+      <PageHeader page_data={blogIndex.data} />
     </div>
   </section>
   <section class="section">
     <div class="container">
       <FeaturedBlog posts={featuredPost} />
       <BlogCategories categories={categories} />
-      <h2 class="h4 mb-4">Other Posts</h2>
+      <h2 class="h4 mb-4">Recent Posts</h2>
       <Blogs posts={currentPosts} />
       <Pagination
         section={blog_folder}

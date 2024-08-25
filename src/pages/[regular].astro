@@ -1,14 +1,14 @@
 ---
-import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
-import Base from "@layouts/Base.astro";
-import Default from "@layouts/Default.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import Default from "@/layouts/Default.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
 
 export async function getStaticPaths() {
   const pages = await getSinglePage("pages");
 
-  const paths = pages.map((page) => ({
+  const paths = pages.map((page: any) => ({
     params: {
       regular: page.slug,
     },

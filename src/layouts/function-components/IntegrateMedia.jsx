@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { humanize } from "@lib/utils/textConverter";
+import { humanize } from "@/lib/utils/textConverter";
 import { marked } from "marked";
-import { AiOutlineArrowRight } from "react-icons/ai/index.js";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const IntegrateMedia = ({ integrations, categories }) => {
   const [tab, setTab] = useState("");
@@ -60,7 +60,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
                   <p
                     dangerouslySetInnerHTML={{
                       __html: marked.parseInline(
-                        item.data.excerpt.slice(0, 80)
+                        item.data.excerpt.slice(0, 80),
                       ),
                     }}
                   />
