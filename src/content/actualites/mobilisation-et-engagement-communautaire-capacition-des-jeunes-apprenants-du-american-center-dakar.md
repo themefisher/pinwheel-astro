@@ -6,7 +6,7 @@ author: CODEVS
 date: 2024-07-19T03:27:44.437Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 Le mardi 16 juillet 2024, une session de renforcement organisée par l’ambassade des États-Unis au Sénégal a eu lieu au American Center Dakar. Seydina Mouhamadou Ndiaye, Co-Fondateur et Président du Collectif des Volontaires du Sénégal (CODEVS), a été invité en tant que facilitateur pour partager ses connaissances et son expérience avec les jeunes apprenants du centre. Seynabou Fall, Co-Fondatrice et Coordinatrice du CODEVS, et Pape Samb Dieye, Président d’intérêt général et membre actif du CODEVS, étaient également présents pour enrichir la session avec leurs perspectives uniques.
