@@ -7,7 +7,7 @@ date: 2024-08-31T14:36:02.152Z
 categories:
   - Service à la communauté
 featured: true
-draft: false
+draft: true
 ---
 L'importance du volontariat communautaire en tant que catalyseur du développement social et économique ne peut être surestimée. À Mbour, au Sénégal, le lancement récent du **Programme de Volontariat Communautaire (PVC)** par **Wa Mbedmi** à travers son Centre d’Innovation Sociale et Environnementale (CISEM) dans le cadre du projet Wa Mbedmi Tech Hub en collaboration avec le **Collectif des Volontaires du Sénégal (CODEVS)** témoigne du potentiel des programmes de volontariat structurés pour favoriser l'engagement communautaire, la dynamique sociale et le développement durable. Le programme est financé par **l’Ambassade de Suisse** à hauteur de **5 000 000 FCFA** pour les frais de **coordination**, **logistique**, **activité**, **marketing** et l’expérimentation du [Fonds d’Appui au Projet Communautaire(FAPC)](https://codevsn.org/actualites/questionner-laide-internationale-au-developpement-une-alternative-avec-le-modele-du-codevs/).
 
