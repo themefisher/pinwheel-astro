@@ -11,13 +11,13 @@
     "format": "prettier -w ."
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.2.4",
-    "@astrojs/partytown": "^2.1.0",
-    "@astrojs/rss": "^4.0.5",
+    "@astrojs/mdx": "3.1.5",
+    "@astrojs/partytown": "2.1.2",
+    "@astrojs/rss": "4.0.7",
     "@contentful/rich-text-html-renderer": "^16.3.5",
     "@react-pdf-viewer/core": "3.12.0",
     "@react-pdf-viewer/toolbar": "^3.12.0",
-    "astro": "^4.5.16",
+    "astro": "4.15.2",
     "astro-auto-import": "^0.3.1",
     "contentful": "^10.8.7",
     "date-fns": "^2.30.0",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@astrojs/react": "^3.1.1",
-    "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/sitemap": "3.1.6",
     "@astrojs/tailwind": "^5.1.0",
     "@tailwindcss/forms": "^0.5.6",
     "@tailwindcss/typography": "^0.5.10",
@@ -53,6 +53,7 @@
     "react-dom": "^18.2.0",
     "sass": "^1.67.0",
     "tailwind-bootstrap-grid": "^5.0.1",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.5.4"
   }
 }
