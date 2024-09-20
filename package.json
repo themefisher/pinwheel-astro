@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^2.1.1",
-    "@astrojs/rss": "^4.0.4",
     "@astrojs/react": "^3.0.9",
+    "@astrojs/rss": "^4.0.4",
     "@astrojs/sitemap": "^3.0.5",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.3.2",
@@ -39,17 +39,17 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/marked": "^5.0.2",
     "@types/react": "^18.2.54",
-    "postcss": "^8.4.34",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "autoprefixer": "^10.4.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.70.0",
     "sharp": "0.33.1",
     "tailwind-bootstrap-grid": "^5.1.0",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.12",
     "typescript": "5.3.3"
   }
 }
