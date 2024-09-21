@@ -28,16 +28,16 @@
       "url": "/about"
     },
     {
+      "name": "Documentation",
+      "url": "/how-it-works"
+    },
+    {
+      "name": "Products",
+      "url": "/blog"
+    },
+    {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }
