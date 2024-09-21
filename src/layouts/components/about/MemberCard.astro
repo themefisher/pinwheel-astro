@@ -20,19 +20,21 @@ const {
         <div class="row">
           {
             member_list.map((item: any) => (
-              <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
-                <div class="member-avatar inline-flex justify-center">
+              <div class="mb-6 flex text-center sm:col-6 lg:col-4 sm:items-center">
+                 <div class="w-full flex flex-col rounded-lg bg-white border border-gray-300 shadow-lg p-6 justify-center items-center">
+                <div class="member-avatar w-full flex justify-center">
                   <Image
-                    height={112}
-                    width={112}
-                    class="rouded-full h-28 w-28"
+                    height={200}
+                    width={200}
+                    class="h-full w-full object-cover"
                     src={item.image}
                     alt=""
                   />
                 </div>
-                <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
-                  <h5 class="font-primary">{item.name}</h5>
-                  <p class="mt-1.5">{item.field}</p>
+                <div class="w-full flex flex-col justify-center p-4">
+                  <h5 class="font-primary text-lg">{item.name}</h5>
+                  <p class="mt-1.5 text-sm">{item.field}</p>
+                </div>
                 </div>
               </div>
             ))

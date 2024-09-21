@@ -3,7 +3,7 @@ import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import CounterComponent from "@/components/about/CounterComponent.astro";
 import Gallery from "@/components/about/Gallery.astro";
-import OurMembers from "@/components/about/OurMembers.astro";
+import MemberCard from "@/layouts/components/about/MemberCard.astro";
 import Works from "@/components/about/Works.astro";
 import Base from "@/layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
@@ -35,7 +35,7 @@ const page_data = {
       <!-- our works -->
       <Works features={features} />
       <!-- our members -->
-      <OurMembers members={members} />
+      <MemberCard members={members} />
     </div>
   </section>
 </Base>
