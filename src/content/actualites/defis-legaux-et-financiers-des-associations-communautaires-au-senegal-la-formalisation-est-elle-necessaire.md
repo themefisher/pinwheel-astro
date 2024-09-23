@@ -7,7 +7,7 @@ date: 2024-09-23T16:22:04.619Z
 categories:
   - Pencum Mbedocratie
 featured: true
-draft: true
+draft: false
 ---
 Les associations communautaires jouent un rôle essentiel dans le développement local au Sénégal, en particulier dans les zones rurales et les zones défavorisées. Ces organisations, souvent informelles, sont les moteurs des communautés, abordant des défis sociaux, économiques et environnementaux. Elles organisent des projets communautaires pour promouvoir le progrès et le développement, en se basant sur une connaissance approfondie des besoins locaux. Cependant, l'absence de reconnaissance légale et les infrastructures financières inadéquates créent des obstacles majeurs pour ces mouvements communautaires. Cela soulève une question fondamentale : la formalisation est-elle vraiment nécessaire pour [les associations communautaires au Sénégal](https://codevsn.org/associations/) afin d'être efficaces ?
 
