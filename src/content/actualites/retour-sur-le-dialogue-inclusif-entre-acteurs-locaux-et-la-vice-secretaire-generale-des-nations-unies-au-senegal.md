@@ -6,7 +6,7 @@ author: "CODEVS & PNUD Sénégal "
 date: 2024-07-24T13:33:26.412Z
 categories:
   - Pencum Mbedocratie
-featured: true
+featured: false
 draft: false
 ---
 Les 16 et 17 juillet 2024, la visite de la Vice-Secrétaire Générale des Nations Unies, Amina J. Mohammed, au Sénégal a marqué un tournant significatif dans le dialogue entre les acteurs locaux et la communauté internationale. Son interaction avec le président M. Faye, le Premier ministre M. Sonko, ainsi qu’avec des femmes, des jeunes, et des associations locales, a mis en lumière les enjeux cruciaux de l’auto-determination, l’autonomisation et du développement durable. À travers ce moment important, se dessine une question fondamentale : comment le Sénégal peut-il tirer parti de son potentiel humain et de son partenariat avec les Nations Unies pour bâtir un avenir prospère et équitable ?
