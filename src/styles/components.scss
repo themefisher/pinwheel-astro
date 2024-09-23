@@ -8,6 +8,10 @@
   @apply mx-auto max-w-[1202px] px-3;
 }
 
+form { 
+  margin: 0 auto; 
+}
+
 // form style
 .form-inputs * {
   @apply mb-5 leading-10;
