@@ -1,4 +1,4 @@
-import contentful from "contentful";
+import * as contentful from "contentful";
 import type { EntryFieldTypes } from "contentful";
 
 export interface PublicationPost {
