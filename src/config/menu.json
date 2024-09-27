@@ -9,12 +9,50 @@
       "url": "/about"
     },
     {
-      "name": "Products",
-      "url": "/blog"
-    },
-    {
       "name": "Documentation",
       "url": "/how-it-works"
+    },
+    {
+      "name":"Programs",
+      "url":"/programs"
+    },
+    {
+      "name": "Products",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "HWC (web and mobile flavours)",
+          "url": "/career"
+        },
+
+        {
+          "name": "MMU",
+          "url": "/integrations"
+        },
+
+        {
+          "name": "FLW Mobile app",
+          "url": "/pricing"
+        },
+        {
+          "name": "104 HIHL",
+          "url": "/signin"
+        },
+
+        {
+          "name": "1097 HIHL",
+          "url": "/elements"
+        },
+        {
+          "name": "ECD",
+          "url": "/changelog"
+        }
+      ]
+    },
+    {
+      "name": "Partnership",
+      "url": "/contact"
     },
     {
       "name": "Contact",
