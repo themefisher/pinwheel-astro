@@ -2,12 +2,12 @@
 title: "Gouvernance locale et inclusion communautaire dans le processus de prise
   de decision publique : Une etude de cas de Sicap Liberté 5"
 image: /images/uploads/screenshot_20240927_134238_gallery.jpg
-author: "CODEVS "
+author: CODEVS & CDQ liberté 5
 date: 2024-09-27T15:36:37.953Z
 categories:
   - Pencum Mbedocratie
 featured: true
-draft: true
+draft: false
 ---
 Aujourd'hui, l'importance de la gouvernance participative est indéniable. Lorsque les citoyens participent activement aux processus de décision, en particulier au niveau local, cela conduit à une société plus inclusive et démocratique. La gouvernance locale devient le pilier du développement et de l'engagement communautaire, offrant aux citoyens le pouvoir d'influencer les politiques qui affectent directement leur quotidien.
 
