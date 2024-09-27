@@ -1,10 +1,10 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 const Button = ({ 
-  href = "#", 
-  style = "secondary", 
-  children = "Click Me", 
-  rel = "noopener noreferrer" 
+  href, 
+  style, 
+  children,
+  rel 
 }) => {
   const buttonStyles = {
     primary: "bg-palette-blue text-white border border-palette-navy hover:text-palette-lightBlue",
@@ -24,6 +24,19 @@ const Button = ({
       {children}
     </a>
   );
+};
+
+Button.propTypes = {
+  href: PropTypes.string,
+  style: PropTypes.oneOf(["primary", "secondary"]),
+  children: PropTypes.node,
+  rel: PropTypes.string,
+};
+Button.defaultProps = {
+  href: "/",
+  style: "secondary",
+  children: "Click Me",
+  rel: "noopener noreferrer",
 };
 
 export default Button;
