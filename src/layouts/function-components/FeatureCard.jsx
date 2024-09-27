@@ -1,5 +1,5 @@
-
-const FeatureCard = ({ feature_list, cardHeight = "h-[250px]", cardShadow = "shadow-sm" , background = "bg-white" }) => {
+import PropTypes from 'prop-types';
+const FeatureCard = ({ feature_list, cardHeight, cardShadow , background }) => {
   return (
     <div className="key-feature-grid mt-10 grid grid-cols-2 gap-7 md:grid-cols-3 xl:grid-cols-4">
       {feature_list.map((item, i) => {
@@ -16,6 +16,23 @@ const FeatureCard = ({ feature_list, cardHeight = "h-[250px]", cardShadow = "sha
       })}
     </div>
   );
+};
+FeatureCard.propTypes = {
+  feature_list: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      content: PropTypes.string,
+    })
+  ),
+  cardHeight: PropTypes.string,
+  cardShadow: PropTypes.string,
+  background: PropTypes.string,
+};
+FeatureCard.defaultProps = {
+  feature_list: [],
+  cardHeight: "h-[250px]",
+  cardShadow: "shadow-sm",
+  background: "bg-white",
 };
 
 export default FeatureCard;
