@@ -6,7 +6,7 @@ author: "Team Niintche & CODEVS "
 date: 2024-10-01T16:29:57.087Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 
