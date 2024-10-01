@@ -6,8 +6,8 @@ author: "Team Niintche & CODEVS "
 date: 2024-10-01T16:29:57.087Z
 categories:
   - Service à la communauté
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 
 Le projet de rénovation de l’école publique Taiba à Grand Dakar est une illustration exemplaire de ce que peut accomplir une mobilisation communautaire efficace. Grâce à la collaboration entre les associations locales, la mairie, les volontaires, et les membres de la communauté, une transformation significative a été opérée dans cette école publique, créant un environnement plus propice à l'apprentissage pour les élèves et les enseignants.
