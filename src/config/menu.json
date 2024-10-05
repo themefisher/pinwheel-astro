@@ -9,54 +9,50 @@
       "url": "/about"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "How It Works",
+      "name": "Documentation",
       "url": "/how-it-works"
     },
     {
-      "name": "Pages",
+      "name":"Programs",
+      "url":"/programs"
+    },
+    {
+      "name": "Products",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Career",
+          "name": "HWC (web and mobile flavours)",
           "url": "/career"
         },
 
         {
-          "name": "Integrations",
+          "name": "MMU",
           "url": "/integrations"
         },
 
         {
-          "name": "Pricing",
+          "name": "FLW Mobile app",
           "url": "/pricing"
         },
         {
-          "name": "Sign In",
+          "name": "104 HIHL",
           "url": "/signin"
         },
 
         {
-          "name": "Elements",
+          "name": "1097 HIHL",
           "url": "/elements"
         },
         {
-          "name": "Changelog",
+          "name": "ECD",
           "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
         }
       ]
+    },
+    {
+      "name": "Partnership",
+      "url": "/contact"
     },
     {
       "name": "Contact",
@@ -70,16 +66,16 @@
       "url": "/about"
     },
     {
+      "name": "Documentation",
+      "url": "/how-it-works"
+    },
+    {
+      "name": "Products",
+      "url": "/blog"
+    },
+    {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }

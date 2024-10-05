@@ -13,37 +13,46 @@ key_features:
   title: "The Highlighting Part Of Our Solution"
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   feature_list:
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 1
+      icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 2
+      icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 3
+      icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 4
+      icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 5
+      icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 6
+      icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 7
+      icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 8
+      icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 9
+      icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
+    - id: 10
+      icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
 #service
 service:
   homepage_tab:

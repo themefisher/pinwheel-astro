@@ -43,6 +43,13 @@ module.exports = {
         secondary: theme.colors.default.theme_color.secondary,
         body: theme.colors.default.theme_color.body,
         border: theme.colors.default.theme_color.border,
+        palette: {
+          blue: "#007cba",   // HEX: #007cba, Pantone: 7461 C
+          orange: "#f88d2b", // HEX: #f88d2b, Pantone: 715 C
+          green: "#3dae2b",  // HEX: #3dae2b, Pantone: 361 C
+          navy: "#1c355e",   // HEX: #1c355e, Pantone: 534 C
+          lightBlue: "#b8d8eb" // HEX: #b8d8eb, Pantone: 290 C
+        },
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
       },
