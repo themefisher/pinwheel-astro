@@ -6,7 +6,7 @@ author: CODEVS
 date: 2024-10-15T15:23:02.022Z
 categories:
   - Service à la communauté
-featured: false
+featured: true
 draft: false
 ---
 Les associations locales de base jouent un rôle clé dans le développement communautaire au Sénégal, particulièrement dans les zones populaires et rurales. Cependant, ces organisations se heurtent souvent à des obstacles liés à leur structure informelle, leur manque de ressources, et l'absence de cadre juridique adéquat pour les soutenir. Face à ces défis, le **Collectif des Volontaires du Sénégal (CODEVS)** a pris l'initiative de créer un cadre normatif et un système de classification pour mieux organiser ces associations, en s'appuyant sur la transformation digitale.
