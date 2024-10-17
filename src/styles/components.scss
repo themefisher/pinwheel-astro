@@ -436,10 +436,12 @@ select:invalid {
 }
 
 //gradient-number
+
 .gradient-number {
   span {
-    @apply bg-clip-text font-primary text-4xl font-bold leading-none;
+    @apply bg-clip-text font-primary text-6xl font-bold leading-none;
     -webkit-text-fill-color: transparent;
+    opacity: 0.5;
   }
 }
 

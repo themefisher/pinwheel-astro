@@ -48,24 +48,4 @@ const { title, index_title, page_title, slug, content } = page_data || {};
     )}
   />
   <p set:html={markdownify(content)} />
-
-  {
-    page_data.buttons && (
-      <div class="mt-11 justify-center sm:flex">
-        {page_data.buttons.map(
-          (button: any) =>
-            button?.enable && (
-              <a
-                class={`btn m-3 block sm:inline-block ${
-                  button?.outline ? "btn-outline-primary" : "btn-primary"
-                } `}
-                href={button?.link}
-              >
-                {button?.label}
-              </a>
-            )
-        )}
-      </div>
-    )
-  }
 </div>
