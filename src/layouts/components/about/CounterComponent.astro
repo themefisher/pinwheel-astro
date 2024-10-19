@@ -3,16 +3,16 @@ const { counter } = Astro.props;
 ---
 
 <div class="counter mt-16">
-  <div class="row mx-0 rounded-[20px] bg-white px-10 shadow-lg lg:py-10">
+  <div class="flex flex-wrap justify-between rounded-[20px] bg-white px-4 lg:px-10 shadow-sm py-8 lg:py-10">
     {
       counter.map((item: any) => (
-        <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
+        <div class="w-full sm:w-1/2 lg:w-1/5 px-4 py-6 text-center border-b sm:border-r lg:border-b-0 lg:border-r last:border-none">
           <h2>
-            <span class="count" aria-valuenow={item.number}>
+            <span class="count" data-unit={item.messurment} aria-valuenow={item.number}>
               0
             </span>
             <span
-              class={"text-primary"}
+              class="text-palette-orange"
               style={{
                 color: item.color,
               }}
@@ -36,13 +36,14 @@ const { counter } = Astro.props;
       const animate = () => {
         const value = +counter.getAttribute("aria-valuenow");
         const data = +counter.innerText;
+        const unit = counter.getAttribute("data-unit") || "";
 
         const time = value / speed;
         if (data < value) {
           counter.innerText = Math.ceil(data + time);
           setTimeout(animate, 1);
         } else {
-          counter.innerText = value;
+          counter.innerText = value.toLocaleString() + unit;
         }
       };
 

@@ -1,10 +1,11 @@
 ---
 import { Image } from "astro:assets";
+import { Linkedin } from "react-feather";
 const {
   members: { title, description, member_list },
 } = Astro.props;
----
 
+---
 <section class="section">
   <div class="container">
     <div class="row">
@@ -18,27 +19,32 @@ const {
     <div class="row mt-12 justify-center">
       <div class="lg:col-10">
         <div class="row">
-          {
-            member_list.map((item: any) => (
+          {member_list.map((item: any) => {
+            return (
               <div class="mb-6 flex text-center sm:col-6 lg:col-4 sm:items-center">
-                 <div class="w-full flex flex-col rounded-lg bg-white border border-gray-300 shadow-lg p-6 justify-center items-center">
-                <div class="member-avatar w-full flex justify-center">
-                  <Image
-                    height={200}
-                    width={200}
-                    class="h-full w-full object-cover"
-                    src={item.image}
-                    alt=""
-                  />
-                </div>
-                <div class="w-full flex flex-col justify-center p-4">
-                  <h5 class="font-primary text-lg">{item.name}</h5>
-                  <p class="mt-1.5 text-sm">{item.field}</p>
-                </div>
+                <div class="w-full h-full flex flex-col rounded-lg bg-white border border-gray-300 shadow-lg p-6 justify-center items-center">
+                  <div class="member-avatar w-full flex justify-center" style={{ width: '200px', height: '200px' }}>
+                    <Image
+                      height={200}
+                      width={200}
+                      class="object-cover"
+                      src={item.image}
+                      alt=""
+                    />
+                  </div>
+                  <div class="w-full flex flex-col justify-center p-4">
+                    <h5 class="font-primary text-lg">{item.name}</h5>
+                    <p class="mt-1.5 text-sm">{item.field}</p>
+                    <span class="icon mt-4">
+                      <a href={item.link} target="_blank" rel="noreferrer">
+                        <Linkedin />
+                      </a>
+                    </span>
+                  </div>
                 </div>
               </div>
-            ))
-          }
+            );
+          })}
         </div>
       </div>
     </div>
