@@ -7,30 +7,29 @@ import { getEntryBySlug } from "astro:content";
 // import CareerBenifits from "@/components/career/CareerBenifits.astro";
 import { Image } from "astro:assets";
 import HWCBenifits from "@/layouts/function-components/HWCBenifits";
-import JobPosts from "@/layouts/function-components/JobPosts";
+import Products from "@/layouts/function-components/Products";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import type { TCareerIndex } from "@/types";
 
-const careerIndex = (await getEntryBySlug<any, string>(
-  "careers",
+const productIndex = (await getEntryBySlug<any, string>(
+  "products",
   "-index"
 )) as TCareerIndex;
-const { benifits, career, image } = careerIndex.data;
-const categories = await getTaxonomy("careers", "categories");
-const jobposts = await getSinglePage("careers");
+const { benifits, career, image } = productIndex.data;
+const jobposts = await getSinglePage("products");
 const page_data = {
-  title: careerIndex.data.title,
-  page_title: careerIndex.data.page_title,
-  content: careerIndex.body,
+  title: productIndex.data.title,
+  page_title: productIndex.data.page_title,
+  content: productIndex.body,
 };
 ---
 
 <Base
-  title={careerIndex.data.title}
-  meta_title={careerIndex.data.meta_title}
-  description={careerIndex.data.description}
-  image={careerIndex.data.image}
+  title={productIndex.data.title}
+  meta_title={productIndex.data.meta_title}
+  description={productIndex.data.description}
+  image={productIndex.data.image}
 >
   <Shape />
 
@@ -66,11 +65,6 @@ const page_data = {
   </section>
   <!-- <CareerBenifits benifits={benifits} /> -->
   <HWCBenifits benifits={benifits} client:load />
-  <JobPosts
-    client:load
-    categories={categories}
-    career={career}
-    posts={jobposts}
-  />
+  <Products client:load product={career} posts={jobposts} />
   <Cta />
 </Base>

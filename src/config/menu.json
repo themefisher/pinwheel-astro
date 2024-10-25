@@ -13,8 +13,8 @@
       "url": "/how-it-works"
     },
     {
-      "name":"Programs",
-      "url":"/programs"
+      "name": "Programs",
+      "url": "/programs"
     },
     {
       "name": "Products",
@@ -23,30 +23,30 @@
       "children": [
         {
           "name": "HWC (web and mobile flavours)",
-          "url": "/hwc"
+          "url": "/products/hwc"
         },
 
         {
           "name": "MMU",
-          "url": "/integrations"
+          "url": "/products/mmu"
         },
 
         {
           "name": "FLW Mobile app",
-          "url": "/pricing"
+          "url": "/products/flw"
         },
         {
           "name": "104 HIHL",
-          "url": "/signin"
+          "url": "/products/104-hihl"
         },
 
         {
           "name": "1097 HIHL",
-          "url": "/elements"
+          "url": "/products/1097-hihl"
         },
         {
           "name": "ECD",
-          "url": "/changelog"
+          "url": "/products/ecd"
         }
       ]
     },
