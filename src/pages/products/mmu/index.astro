@@ -1,0 +1,70 @@
+---
+import PageHeader from "@/components/PageHeader.astro";
+import Shape from "@/components/Shape.astro";
+import Base from "@/layouts/Base.astro";
+import Cta from "@/layouts/partials/Cta.astro";
+import { getEntryBySlug } from "astro:content";
+// import CareerBenifits from "@/components/career/CareerBenifits.astro";
+import { Image } from "astro:assets";
+import HWCBenifits from "@/layouts/function-components/HWCBenifits";
+import Products from "@/layouts/function-components/Products";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getTaxonomy } from "@/lib/taxonomyParser.astro";
+import type { TCareerIndex } from "@/types";
+
+const productIndex = (await getEntryBySlug<any, string>(
+  "products",
+  "-index"
+)) as TCareerIndex;
+const { benifits, career, image } = productIndex.data;
+const jobposts = await getSinglePage("products");
+const page_data = {
+  title: productIndex.data.title,
+  page_title: productIndex.data.page_title,
+  content: productIndex.body,
+};
+---
+
+<Base
+  title={productIndex.data.title}
+  meta_title={productIndex.data.meta_title}
+  description={productIndex.data.description}
+  image={productIndex.data.image}
+>
+  <Shape />
+
+  <section class="page-hero pb-14 pt-16">
+    <div class="container">
+      <PageHeader page_data={page_data} />
+      <div class="col-12 mt-14">
+        <div class="relative">
+          <Image
+            src={image}
+            alt=""
+            height={532}
+            width={1044}
+            class="w-full rounded"
+          />
+          <Image
+            class="lg:h-[150px] lg:w-[150px] absolute -left-[8%] bottom-[12%] z-[-1] h-20 w-20 -rotate-90 lg:-left-8 lg:bottom-4"
+            src="/images/shape.png"
+            height={130}
+            width={130}
+            alt=""
+          />
+          <Image
+            class="absolute -bottom-4 -right-4 z-[-1] h-16 w-16 -rotate-90"
+            src="/images/shape.png"
+            alt=""
+            height={64}
+            width={64}
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <CareerBenifits benifits={benifits} /> -->
+  <HWCBenifits benifits={benifits} client:load />
+  <Products client:load product={career} posts={jobposts} />
+  <Cta />
+</Base>

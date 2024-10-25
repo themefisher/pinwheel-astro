@@ -7,9 +7,10 @@ import MemberCard from "@/layouts/components/about/MemberCard.astro";
 import Works from "@/components/about/Works.astro";
 import Base from "@/layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
+import RoadMap from "@/components/about/RoadMap.astro";
 
 const about = await getEntryBySlug("about", "index");
-const { counter, gallery, features, members } = about.data;
+const { counter, gallery, features, members, roadmap } = about.data;
 const page_data = {
   ...about.data,
   content: about.body,
@@ -35,6 +36,8 @@ const page_data = {
       <Works features={features} />
       <!-- our members -->
       <MemberCard members={members} />
+
+      <RoadMap roadmap={roadmap} />
     </div>
   </section>
 </Base>

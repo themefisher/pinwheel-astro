@@ -30,7 +30,7 @@ counter:
     number: 160
     messurment: M
     color: "#FEC163"
-    
+
 # Gallery
 gallery:
   title: We started with one single goal Empower entrepreneurs
@@ -41,12 +41,10 @@ gallery:
     - "/images/Gallery/pt8.jpeg"
     - "/images/Gallery/img8.jpg"
     - "/images/Gallery/img9.jpg"
-    
-   
 
 ## our works
 features:
-  title: Transforming Healthcare with AMRIT <br /> 
+  title: Transforming Healthcare with AMRIT <br />
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -55,7 +53,7 @@ features:
     - title: Scaling Reach Across India
       subtitle: 16 States, 46 Facilities, 489 Unique Users
       content: AMRIT is expanding its presence, currently implemented across 16 states, in 46 healthcare facilities, with 489 unique users engaging in its services
-    - title:  Empowering Beneficiaries
+    - title: Empowering Beneficiaries
       subtitle: 22.64 L Unique Beneficiaries & 21.31 L Revisit Beneficiaries
       content: Over 22.64 lakh unique beneficiaries have registered for AMRIT, with 21.31 lakh returning for ongoing care, showcasing the platform's commitment to improving healthcare access.
     - title: Comprehensive Health Data Collection
@@ -70,7 +68,6 @@ features:
     - title: Driving Integration & Efficiency
       subtitle: Integration with External Health Systems & Reduction in Manual Records
       content: AMRIT integrates with multiple external health systems and national programs, reducing manual record use and enhancing service delivery efficiency across healthcare facilities.
-    
 
 ## members
 members:
@@ -135,5 +132,32 @@ members:
     - name: Virendra Kumar
       field: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mi dui
       image: "/images/Team/Virendra.jpeg"
+
+roadmap:
+  title: RoadMap
+  description: Our team consists of experts at the intersection of digital health, public health, technology, and leadership, dedicated to developing innovative and scalable health solutions that align with both national and global health objectives.
+  events:
+    - tag: The origin
+      date: May, 2020
+      title: Acme was founded in Milan, Italy
+      description: Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.
+      image: /images/Gallery/pt3.jpeg
+    - tag: The origin
+      date: May, 2020
+      title: Acme was founded in Milan, Italy
+      description: Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum     morbi blandit cursus risus.
+    - tag: The origin
+      date: May, 2020
+      title: Acme was founded in Milan, Italy
+      description: Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum     morbi blandit cursus risus.
+    - tag: The origin
+      date: May, 2020
+      title: Acme was founded in Milan, Italy
+      description: Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum     morbi blandit cursus risus.
+    - tag: The origin
+      date: May, 2020
+      title: Acme was founded in Milan, Italy
+      description: Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum     morbi blandit cursus risus.
 ---
+
 AMRIT, developed by Piramal Swasthya, is a health tech platform integrated with ABDM. Supporting ABHA creation, verification, and secure, consent-based access to electronic medical records, ensuring a unified health data presence nationwide through unique beneficiary IDs.
