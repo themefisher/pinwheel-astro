@@ -6,7 +6,7 @@ import Cta from "@/layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 // import CareerBenifits from "@/components/career/CareerBenifits.astro";
 import { Image } from "astro:assets";
-import CareerBenifits from "@/layouts/function-components/CareerBenifits";
+import HWCBenifits from "@/layouts/function-components/HWCBenifits";
 import JobPosts from "@/layouts/function-components/JobPosts";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { getTaxonomy } from "@/lib/taxonomyParser.astro";
@@ -14,7 +14,7 @@ import type { TCareerIndex } from "@/types";
 
 const careerIndex = (await getEntryBySlug<any, string>(
   "careers",
-  "-index",
+  "-index"
 )) as TCareerIndex;
 const { benifits, career, image } = careerIndex.data;
 const categories = await getTaxonomy("careers", "categories");
@@ -65,7 +65,7 @@ const page_data = {
     </div>
   </section>
   <!-- <CareerBenifits benifits={benifits} /> -->
-  <CareerBenifits benifits={benifits} client:load />
+  <HWCBenifits benifits={benifits} client:load />
   <JobPosts
     client:load
     categories={categories}

@@ -24,7 +24,7 @@ const { posts, sidebar_content } = Astro.props;
         <h5 class="h5">{item.data.title}</h5>
         <p class="mt-6">{item.data.excerpt}</p>
         <ul class="text-dark mt-6 flex flex-wrap items-center">
-          <li class="my-1 mr-8 inline-flex items-center">
+          {/* <li class="my-1 mr-8 inline-flex items-center">
             <svg
               class="mr-1"
               width="16"
@@ -56,11 +56,11 @@ const { posts, sidebar_content } = Astro.props;
             </svg>
 
             {item.data.location}
-          </li>
+          </li> */}
           <li class="my-1 mr-8">
             <a
               class="text-primary inline-flex items-center font-semibold"
-              href={`/career/${item.slug}`}
+              href={`/hwc/${item.slug}`}
             >
               Read More
               <AiOutlineArrowRight className="ml-1.5 text-xl font-bold" />

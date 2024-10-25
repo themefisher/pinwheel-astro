@@ -19,7 +19,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
               dangerouslySetInnerHTML={{ __html: marked.parseInline(subtitle) }}
             />
 
-            <ul className="filter-list mt-8 flex flex-wrap items-center justify-center">
+            {/* <ul className="filter-list mt-8 flex flex-wrap items-center justify-center">
               <li>
                 <span
                   className={`filter-btn ${
@@ -41,17 +41,17 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                   </span>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="row mt-12">
           {filterPost.map((post, i) => (
             <div className="mb-8 md:col-6" key={`post-${i}`}>
-              <div className="rounded-xl bg-white p-5 shadow-lg lg:p-10">
+              <div className="rounded-xl bg-white p-5 shadow-lg lg:p-10 h-full">
                 <h3 className="h4">{post.data.title}</h3>
                 <p className="mt-6">{post.data.excerpt}</p>
                 <ul className="mt-6 flex flex-wrap items-center text-dark">
-                  <li className="my-1 mr-8 inline-flex items-center">
+                  {/* <li className="my-1 mr-8 inline-flex items-center">
                     <svg
                       className="mr-1"
                       width="16"
@@ -82,11 +82,11 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                       />
                     </svg>
                     {post.data.location}
-                  </li>
+                  </li> */}
                   <li className="my-1 mr-8">
                     <a
                       className="inline-flex items-center font-semibold text-primary"
-                      href={`/career/${post.slug}`}
+                      href={`/hwc/${post.slug}`}
                     >
                       Read More
                       <AiOutlineArrowRight className="ml-1.5 text-xl font-bold" />

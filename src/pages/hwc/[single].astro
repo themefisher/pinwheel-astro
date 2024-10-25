@@ -1,5 +1,5 @@
 ---
-import CareerSidebar from "@/components/career/CareerSidebar.astro";
+import HWCSidebar from "@/components/hwc/HWCSidebar.astro";
 import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
@@ -53,7 +53,7 @@ const page_data = {
             <Content />
           </div>
         </div>
-        <CareerSidebar
+        <HWCSidebar
           posts={similarPosts[0]}
           sidebar_content={careerIndex.data.sidebar_content}
         />
