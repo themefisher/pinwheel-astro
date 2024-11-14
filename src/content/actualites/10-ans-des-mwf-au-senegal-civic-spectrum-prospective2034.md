@@ -5,8 +5,8 @@ author: "CODEVS & MWF Sénégal "
 date: 2024-11-14T20:08:47.651Z
 categories:
   - Pencum Mbedocratie
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 Alors que le réseau YALI Mandela Washington Fellowship au Sénégal célèbre une décennie de progrès, il est temps de jeter un regard vers l'avenir, avec une vision dynamique pour les dix prochaines années. Le projet Prospective2034, qui s'aligne sur la Stratégie Nationale de Transformation SNT2050 du Sénégal, adopte une approche visant à intégrer les objectifs du fellowship avec ceux du développement national. En mettant en avant les associations communautaires de base, Prospective2034 cherche à transformer durablement l'engagement communautaire, l'équité sociale et la croissance économique au Sénégal.
 
