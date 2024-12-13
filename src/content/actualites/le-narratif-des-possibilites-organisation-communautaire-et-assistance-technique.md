@@ -6,7 +6,7 @@ author: "CODEVS & TerangaLab & Wa Mbedmi & Simplon "
 date: 2024-11-13T22:05:39.673Z
 categories:
   - Service à la communauté
-featured: true
+featured: false
 draft: false
 ---
 Dans un contexte où les modèles de développement traditionnels négligent souvent les organisations/associations communautaires, le Collectif des Volontaires du Sénégal (CODEVS) repense la manière dont les communautés s'engagent dans leur propre progrès. Par de nouveaux types de partenariat, une assistance technique, et un engagement profond envers le développement communautaire durable, le CODEVS ambitionne d'avoir un impact durable dans les communautés du Sénégal, les aidant à prendre en main leur avenir. De la surveillance de la qualité de l'air à Sébikotane à la formation aux compétences numériques et au soutien aux actions de plaidoyer, le CODEVS souhaite autonomiser des organisations locales, en réduisant la fracture numérique et en établissant des cadres de changement social durable.
