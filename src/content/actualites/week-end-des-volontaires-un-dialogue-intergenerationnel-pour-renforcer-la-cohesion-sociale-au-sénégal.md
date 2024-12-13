@@ -7,7 +7,7 @@ date: 2024-12-13T12:23:49.912Z
 categories:
   - Service à la communauté
 featured: true
-draft: true
+draft: false
 ---
 Le **30 novembre 2024**, l’Empire des Enfants à Dakar a accueilli un événement phare du **Collectif des Volontaires du Sénégal (CODEVS)** : le **Week-end des Volontaires** dans le cadre de la célébration de la journée internationale des volontaires #JIV2024. Organisé sous le thème **« Renforcement de la cohésion et dynamique sociale : quel pont pour un dialogue et une transmission intergénérationnels »**, cet événement a réuni des participants issus de plusieurs régions pour un dialogue constructif entre générations.  
 
