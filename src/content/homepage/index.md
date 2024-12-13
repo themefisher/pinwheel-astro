@@ -89,7 +89,7 @@ service:
       description: Connection, Engagement et Progrès
       video:
         thumbnail: /images/intro-thumbnail.png
-        video_id: eltkdTn3UZg
+        video_id: YBEKkDJtY2s
       button:
         label: Connaissez-nous
         link: /a-propos
