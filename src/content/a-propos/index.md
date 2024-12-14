@@ -11,12 +11,12 @@ buttons:
     enable: true
 counter:
   - name: Régions (Dakar, Fatick, Saint-Louis, Ziguinchor et Popenguine)
-    number: 5
+    number: 6
     messurment: M
     color: "#187ab6"
   - name: Ateliers de formation sur la citoyenneté active et l’engagement
       communautaire
-    number: 7
+    number: 11
     messurment: M
     color: "#008956"
   - name: Personnes formées sur la citoyenneté active et l’engagement communautaire
@@ -35,7 +35,11 @@ gallery:
     - /images/about/gallery-img-2.png
 features:
   title: Membres Fondateurs
-  description: Le Comité Directeur du CODEVS assure la gestion courante et l'administration de l'association. Il dispose des pouvoirs les plus étendus pour faire ou autoriser tous actes qui ne sont pas réservés à l'Assemblée Générale. Il est élu par AG pour un mandat de 3 ans et remplacé au ⅔ à la fin du mandat.
+  description: Le Comité Directeur du CODEVS assure la gestion courante et
+    l'administration de l'association. Il dispose des pouvoirs les plus étendus
+    pour faire ou autoriser tous actes qui ne sont pas réservés à l'Assemblée
+    Générale. Il est élu par AG pour un mandat de 3 ans et remplacé au ⅔ à la
+    fin du mandat.
   button:
     label: Liste des membres
     link: /associations
