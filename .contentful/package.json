@@ -1,0 +1,18 @@
+{
+  "name": "contentful",
+  "version": "1.0.0",
+  "description": "migration to contentful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@dofbi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "contentful": "^11.3.3",
+    "contentful-management": "^11.40.2",
+    "dotenv": "^16.4.7",
+    "gray-matter": "^4.0.3"
+  }
+}
