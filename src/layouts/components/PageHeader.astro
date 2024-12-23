@@ -1,7 +1,8 @@
 ---
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+import { humanize, markdownify, slugi } from "@lib/utils/textConverter";
 const { page_data } = Astro.props || {};
 const { title, index_title, page_title, slug, content } = page_data || {};
+console.log(index_title, slugi(index_title));
 ---
 
 <div class="text-center">
@@ -30,7 +31,7 @@ const { title, index_title, page_title, slug, content } = page_data || {};
         index_title ? (
           <span class="text-sm leading-none">
             /{" "}
-            <a href={`/${slugify(index_title)}`} class="text-primary">
+            <a href={`/${slugi(index_title)}`} class="text-primary">
               {index_title}
             </a>{" "}
             / {page_title ? page_title : humanize(slug.replace("page /", ""))}

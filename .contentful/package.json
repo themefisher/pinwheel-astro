@@ -9,10 +9,12 @@
   "author": "@dofbi",
   "license": "MIT",
   "dependencies": {
+    "@contentful/rich-text-from-markdown": "^16.0.0",
     "axios": "^1.7.9",
     "contentful": "^11.3.3",
     "contentful-management": "^11.40.2",
     "dotenv": "^16.4.7",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "slugify": "^1.6.6"
   }
 }

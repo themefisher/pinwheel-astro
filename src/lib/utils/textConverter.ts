@@ -1,11 +1,11 @@
-import { slug } from 'github-slugger';
+import slugify from '@sindresorhus/slugify';
 import { marked } from "marked";
 
 // slugify
-export const slugify = (content: string) => {
+export const slugi = (content: string) => {
   if (!content) return null;
 
-  return slug(content);
+  return slugify(content);
 };
 
 // markdownify

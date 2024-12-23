@@ -1,6 +1,21 @@
 import * as contentful from "contentful";
 import type { EntryFieldTypes } from "contentful";
 
+export interface ArticlePost {
+  contentTypeId: "article",
+  fields: {
+    title: EntryFieldTypes.Symbol,
+    image: EntryFieldTypes.AssetLink,
+    author: EntryFieldTypes.Symbol,
+    date: EntryFieldTypes.Date,
+    categories: EntryFieldTypes.Array<EntryFieldTypes.Symbol>,
+    featured: EntryFieldTypes.Boolean,
+    draft: EntryFieldTypes.Boolean,
+    contenu: EntryFieldTypes.RichText,
+    slug: EntryFieldTypes.Text
+  }
+}
+
 export interface PublicationPost {
   contentTypeId: "publications",
   fields: {

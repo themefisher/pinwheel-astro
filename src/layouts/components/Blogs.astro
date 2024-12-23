@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import config from "@config/config.json";
 import dateFormat from "@lib/utils/dateFormat";
 import readingTime from "@lib/utils/readingTime";
-import { humanize, plainify, slugify } from "@lib/utils/textConverter";
+import { humanize, plainify, slugi } from "@lib/utils/textConverter";
 const { summary_length } = config.settings;
 const { posts } = Astro.props;
 ---
@@ -13,31 +13,30 @@ const { posts } = Astro.props;
     posts.map((item: any) => (
       <div class="mb-8 md:col-6 lg:col-4">
         <div class="card">
-          {item.data?.image && (
+          {item.image?.fields.file && (
             <Image
               class="card-img"
               width={335}
               height={210}
-              src={item.data.image}
-              alt=""
+              src={item.image.fields.file.url}
+              alt={item.image.fields.file.fileName}
             />
           )}
           <div class="card-content">
             <div class="card-tags space-x-1">
-              {item.data.categories.map((category: any) => (
-                <a class="tag" href={`/categories/${slugify(category)}`}>
+              {item.categories.map((category: any) => (
+                <a class="tag" href={`/categories/${slugi(category)}`}>
                   {humanize(category)}
                 </a>
               ))}
             </div>
             <h3 class="h4 card-title">
-              <a href={`/actualites/${item.slug}`}>{item.data.title}</a>
+              <a href={`/actualites/${item.slug}`}>{item.title}</a>
             </h3>
             <p class="mb-4 text-text">
               {plainify(
-                item.body
-                  ?.replace(/[*>#]/g, "")
-                  .slice(0, Number(summary_length))
+                item.contenu
+                  ?.slice(0, Number(summary_length))
               )}
               ...
             </p>
@@ -56,7 +55,7 @@ const { posts } = Astro.props;
                     fill="#939393"
                   />
                 </svg>
-                {dateFormat(item.data.date)}
+                {dateFormat(item.date)}
               </span>
               <span class="inline-flex items-center text-xs text-[#666]">
                 <svg
@@ -72,7 +71,7 @@ const { posts } = Astro.props;
                     fill="#939393"
                   />
                 </svg>
-                {readingTime(item.body)}
+                {readingTime(item.contenu)}
               </span>
             </div>
           </div>

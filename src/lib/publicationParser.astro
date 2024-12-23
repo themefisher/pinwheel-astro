@@ -1,11 +1,12 @@
 ---
 import { contentfulClient } from "./api/contentful";
-import type { PublicationPost } from "./api/contentful";
+import type { PublicationPost, ArticlePost } from "./api/contentful";
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
 export const getPublications = async () => {
   const entries = await contentfulClient.getEntries<PublicationPost>({
     content_type: "publications",
+    order: '-fields.dateDePublication'
   });
 
   const posts = entries.items.map((item) => {
@@ -32,5 +33,70 @@ export const getPublications = async () => {
   });
 
   return posts;
+};
+
+export const getCategories = async () => {
+  const entries = await contentfulClient.getEntries<ArticlePost>({
+    content_type: "article",
+    select: "fields.categories",
+    'sys.publishedAt[exists]': true,
+  });
+
+  const categories = entries.items
+    .flatMap(item => item.fields.categories)
+    .filter((value, index, self) => self.indexOf(value) === index)
+    .sort();
+
+  return categories;
+};
+
+export const getArticles = async () => {
+  const entries = await contentfulClient.getEntries<ArticlePost>({
+    content_type: "article",
+    'sys.publishedAt[exists]': true,
+    order: '-fields.date'
+  });
+
+  const articles = entries.items.map((item) => {
+    const {
+      title,
+      image,
+      author,
+      date,
+      categories,
+      featured,
+      draft,
+      contenu,
+      slug,
+    } = item.fields;
+    return {
+      title,
+      image,
+      author,
+      date,
+      categories,
+      featured,
+      draft,
+      contenu: documentToHtmlString(contenu),
+      slug,
+    };
+  });
+
+  return articles;
+};
+
+export const getFeaturedArticles = async () => {
+  const articles = await getArticles();
+  return articles.filter((article) => article.featured);
+};
+
+export const getRecentdArticles = async () => {
+  const articles = await getArticles();
+  return articles.filter((article) => !article.featured);
+};
+
+export const getArticlesByCategories = async (category: string) => {
+  const articles = await getArticles();
+  return articles.filter((article) => article.categories.includes(category));
 };
 ---

@@ -8,20 +8,17 @@ import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import Pagination from "@layouts/components/Pagination.astro";
 import Cta from "@layouts/partials/Cta.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { getTaxonomy } from "@lib/taxonomyParser.astro";
-import { sortByDate } from "@lib/utils/sortFunctions";
 import { getEntryBySlug } from "astro:content";
+import { getArticles, getCategories, getFeaturedArticles, getRecentdArticles } from "../../lib/publicationParser.astro";
 
 const { blog_folder } = config.settings;
 const blogIndex = await getEntryBySlug<any, string>(blog_folder, "-index");
-const posts = await getSinglePage(blog_folder);
-const categories = await getTaxonomy(config.settings.blog_folder, "categories");
-const sortedPosts = sortByDate(posts);
-const featuredPost = sortedPosts.filter((item) => item.data.featured);
-const recentPost = sortedPosts.filter((item) => !item.data.featured);
+const posts = await getArticles();
+const featuredPost = await getFeaturedArticles();
+const recentPost = await getRecentdArticles();
 const totalPages = Math.ceil(recentPost.length / config.settings.pagination);
 const currentPosts = recentPost.slice(0, config.settings.pagination);
+const categories = await getCategories();
 ---
 
 <Base

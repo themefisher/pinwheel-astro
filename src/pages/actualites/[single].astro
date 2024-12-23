@@ -3,10 +3,10 @@ import Shape from "@components/Shape.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import BlogSingle from "@layouts/BlogSingle.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
+import { getArticles } from "../../lib/publicationParser.astro";
 
 export async function getStaticPaths() {
-  const posts = await getSinglePage(config.settings.blog_folder);
+  const posts = await getArticles();
 
   const paths = posts.map((post) => ({
     params: {
@@ -17,15 +17,17 @@ export async function getStaticPaths() {
   return paths;
 }
 
+// console.log(articles);
 const { post } = Astro.props;
-const { title, meta_title, description, image } = post.data;
+const { title, description } = post;
+const { url } = post.image.fields.file;
 ---
 
 <Base
   title={title}
-  meta_title={meta_title}
+  meta_title={title}
   description={description}
-  image={image}
+  image={url}
 >
   <BlogSingle post={post} />
 </Base>

@@ -1,5 +1,5 @@
 ---
-import { humanize, slugify } from "@lib/utils/textConverter";
+import { humanize, slugi } from "@lib/utils/textConverter";
 const { categories } = Astro.props;
 const params = Astro.params;
 ---
@@ -19,11 +19,11 @@ const params = Astro.params;
         <li>
           <a
             class={`filter-btn ${
-              params.category === slugify(category)
+              params.category === slugi(category)
                 ? "filter-btn-active"
                 : undefined
             } btn btn-sm`}
-            href={`/categories/${slugify(category)}`}
+            href={`/categories/${slugi(category)}`}
           >
             {humanize(category)}
           </a>

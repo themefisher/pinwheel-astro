@@ -5,20 +5,14 @@ import PageHeader from "@components/PageHeader.astro";
 import Shape from "@components/Shape.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { getTaxonomy } from "@lib/taxonomyParser.astro";
-import taxonomyFilter from "@lib/utils/taxonomyFilter";
-import { slugify, humanize } from "@lib/utils/textConverter";
-import { sortByDate } from "@lib/utils/sortFunctions";
+import { slugi, humanize } from "@lib/utils/textConverter";
+import { getCategories, getArticlesByCategories } from "../../lib/publicationParser.astro";
 
-const categories = await getTaxonomy(config.settings.blog_folder, "categories");
+const categories = await getCategories();
 export async function getStaticPaths() {
-  const categories = await getTaxonomy(
-    config.settings.blog_folder,
-    "categories"
-  );
+  const categories = await getCategories();
   return categories.map((item) => {
-    const category = slugify(item);
+    const category = slugi(item);
     return {
       params: { category },
       props: {
@@ -31,9 +25,7 @@ export async function getStaticPaths() {
 const { category } = Astro.params;
 const { item } = Astro.props;
 
-const posts = await getSinglePage(config.settings.blog_folder);
-const sortedPosts = sortByDate(posts);
-const filterByTags = taxonomyFilter(sortedPosts, "categories", category);
+const filterByTags = await getArticlesByCategories(item);
 const page_data = {
   index_title: "Catégories",
   slug: item,
