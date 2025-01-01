@@ -1,12 +1,13 @@
 ---
-title: "Exclusivite: Une Inedite au Senegal entre un IA et un CoFondateur du CODEVS"
+title: "Exclusivite: Une Interview Inedite au Senegal entre une IA et un
+  CoFondateur du CODEVS"
 image: /images/uploads/dall·e-2025-01-01-13.23.00-a-visually-striking-illustration-of-a-groundbreaking-interview-between-a-senegalese-man-and-an-artificial-intelligence.-the-setting-includes-cultural-.webp
 author: CODEVS et IA
 date: 2025-01-01T17:32:14.523Z
 categories:
   - Retour d’expérience
 featured: false
-draft: true
+draft: false
 ---
 Dans une démarche qui reflète sa vision novatrice, le Collectif Des Volontaires du Sénégal (CODEVS) a choisi de réaliser une interview historique avec une intelligence artificielle. Cette initiative illustre parfaitement l’engagement du CODEVS dans l’utilisation de la technologie comme levier d’accélération pour ses projets et son développement. Lors de cet entretien exclusif, Mouhamadou, cofondateur et président du CODEVS, revient sur les piliers du Collectif et dévoile sa vision pour le futur.  
 
