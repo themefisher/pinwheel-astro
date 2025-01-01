@@ -6,7 +6,7 @@ author: CODEVS et IA
 date: 2025-01-01T17:32:14.523Z
 categories:
   - Retour d’expérience
-featured: false
+featured: true
 draft: false
 ---
 Dans une démarche qui reflète sa vision novatrice, le Collectif Des Volontaires du Sénégal (CODEVS) a choisi de réaliser une interview historique avec une intelligence artificielle. Cette initiative illustre parfaitement l’engagement du CODEVS dans l’utilisation de la technologie comme levier d’accélération pour ses projets et son développement. Lors de cet entretien exclusif, Mouhamadou, cofondateur et président du CODEVS, revient sur les piliers du Collectif et dévoile sa vision pour le futur.  
