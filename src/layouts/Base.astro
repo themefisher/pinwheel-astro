@@ -129,17 +129,13 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- og-image -->
     <meta
       property="og:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={`${image && image.includes('https') ? image : config.site.base_url + (image ? image : config.metadata.meta_image)}`}
     />
 
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={`${image && image.includes('https') ? image : config.site.base_url + (image ? image : config.metadata.meta_image)}`}
     />
     <meta name="twitter:card" content="summary_large_image" />
     <script

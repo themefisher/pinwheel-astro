@@ -27,7 +27,7 @@ const { url } = post.image.fields.file;
   title={title}
   meta_title={title}
   description={description}
-  image={url}
+  image={`https:${url}`}
 >
   <BlogSingle post={post} />
 </Base>
