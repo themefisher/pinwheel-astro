@@ -1,5 +1,10 @@
 ---
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  categories: CollectionEntry<"blog">["data"]["categories"];
+};
 const { categories } = Astro.props;
 const params = Astro.params;
 ---
@@ -15,7 +20,7 @@ const params = Astro.params;
       >
     </li>
     {
-      categories.map((category: any) => (
+      categories.map((category) => (
         <li>
           <a
             class={`filter-btn ${

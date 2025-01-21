@@ -1,5 +1,11 @@
 ---
 import { markdownify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  gallery: CollectionEntry<"about">["data"]["gallery"];
+};
+
 const { gallery } = Astro.props;
 const { title, images } = gallery;
 ---
@@ -15,7 +21,7 @@ const { title, images } = gallery;
     <div class="relative">
       <div class="row" id="photo-gallery">
         {
-          images.map((image: any) => (
+          images.map((image) => (
             <div class="picture-item col-6 mt-12">
               {" "}
               <img class="w-full" src={image} alt="" />
@@ -41,12 +47,28 @@ const { title, images } = gallery;
 
 <script>
   import Shuffle from "shufflejs";
-  const element = document.getElementById("photo-gallery");
-  const sizer = element.querySelector(".js-shuffle-sizer");
-  // Assumes you're using the UMD version of Shuffle (for example, from unpkg.com).
-  const shuffleInstance = new Shuffle(element, {
-    itemSelector: ".picture-item",
-    sizer: sizer,
-    columnWidth: 1,
-  });
+
+  function shuffle() {
+    const element = document.getElementById("photo-gallery") as HTMLElement;
+
+    if (element) {
+      const sizer = element.querySelector(
+        ".js-shuffle-sizer"
+      ) as HTMLElement | null;
+
+      if (sizer) {
+        const shuffleInstance = new Shuffle(element, {
+          itemSelector: ".picture-item",
+          sizer: sizer,
+          columnWidth: 1,
+        });
+      } else {
+        console.error("Sizer element not found");
+      }
+    } else {
+      console.error("Photo gallery element not found");
+    }
+  }
+
+  document.addEventListener("astro:page-load", shuffle);
 </script>

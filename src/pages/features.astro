@@ -1,12 +1,16 @@
 ---
 import FeatureBanner from "@/components/features/FeatureBanner.astro";
-import ProjecManagement from "@/components/features/ProjecManagement.astro";
+import ProjectManagement from "@/components/features/ProjectManagement.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
 import Cta from "@/layouts/partials/Cta.astro";
-import { getEntryBySlug } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 
-const features = await getEntryBySlug("features", "index");
+const features = (await getEntry(
+  "features",
+  "-index"
+)) as CollectionEntry<"features">;
 ---
 
 <Base
@@ -17,6 +21,6 @@ const features = await getEntryBySlug("features", "index");
 >
   <Shape />
   <FeatureBanner features={features.data} />
-  <ProjecManagement features={features.data} />
+  <ProjectManagement features={features.data} />
   <Cta />
 </Base>

@@ -4,16 +4,22 @@ import readingTime from "@/lib/utils/readingTime";
 import Disqus from "./function-components/Disqus";
 
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 import {
   FaRegCalendarAlt,
   FaRegClock,
   FaRegFolder,
   FaRegUserCircle,
 } from "react-icons/fa";
-import { Image } from "astro:assets";
+
+type Props = {
+  post: CollectionEntry<"blog">;
+};
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <section class="section blog-single">
@@ -21,8 +27,8 @@ const { Content } = await post.render();
     <div class="row justify-center">
       <div class="lg:col-10">
         <Image
-          class="w-full rounded-xl"
-          src={post.data.image}
+          class="rounded-xl aspect-video object-contain"
+          src={post.data.image!}
           alt=""
           width={920}
           height={450}
@@ -36,21 +42,27 @@ const { Content } = await post.render();
           <ul class="mb-4">
             <li class="mr-4 inline-block">
               <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
-              {humanize(post.data.author)}
+              {humanize(post.data.author!)}
             </li>
 
             <li class="mr-4 inline-block">
               <FaRegCalendarAlt className={"mr-2 -mt-1 inline-block"} />
-              {dateFormat(post.data.date)}
+              {dateFormat(post.data.date!)}
             </li>
-            <li class="mr-4 inline-block">
-              <FaRegClock className={"mr-2 -mt-1 inline-block"} />
-              {readingTime(post.body)}
-            </li>
+
+            {
+              post.body && (
+                <li class="mr-4 inline-block">
+                  <FaRegClock className={"mr-2 -mt-1 inline-block"} />
+                  {readingTime(post.body)}
+                </li>
+              )
+            }
+
             <li class="mr-4 inline-block">
               <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
               {
-                post.data.categories.map((category: string, index: number) => (
+                post.data.categories.map((category, index) => (
                   <a
                     href={`/categories/${slugify(category)}`}
                     class="hover:text-primary"

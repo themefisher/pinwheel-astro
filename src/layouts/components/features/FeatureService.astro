@@ -1,6 +1,11 @@
 ---
 import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
 import { AiFillCheckCircle } from "react-icons/ai";
+
+type Props = {
+  feature_service: CollectionEntry<"features">["data"]["project_management"]["feature_service"];
+};
 const { feature_service } = Astro.props;
 ---
 
@@ -23,7 +28,7 @@ const { feature_service } = Astro.props;
       <ul class="mt-6 text-dark lg:-ml-4">
         {
           feature_service.list &&
-            feature_service.list.map((list: any) => (
+            feature_service.list.map((list) => (
               <li class="mb-2 flex items-center rounded px-4">
                 <AiFillCheckCircle className="mr-3 fill-primary text-white" />
                 {list}
@@ -35,7 +40,7 @@ const { feature_service } = Astro.props;
     <div class="mt-11 flex flex-wrap">
       {
         feature_service.buttons.map(
-          (button: any) =>
+          (button) =>
             button.enable && (
               <a
                 class={`btn m-3 ml-0 block sm:inline-block ${
@@ -45,7 +50,7 @@ const { feature_service } = Astro.props;
               >
                 {button.label}
               </a>
-            ),
+            )
         )
       }
     </div>

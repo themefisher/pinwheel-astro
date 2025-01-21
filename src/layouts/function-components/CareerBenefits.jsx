@@ -1,6 +1,7 @@
-import * as Icon from "react-feather";
 import { humanize } from "@/lib/utils/textConverter";
-const CareerBenifits = ({ benifits: { title, description, benifit_list } }) => {
+import * as Icon from "react-feather";
+const CareerBenefits = ({ benefits }) => {
+  const { title, description, benefit_list } = benefits;
   return (
     <section className="section">
       <div className="container">
@@ -11,7 +12,7 @@ const CareerBenifits = ({ benifits: { title, description, benifit_list } }) => {
           </div>
         </div>
         <div className="row mt-14 text-center">
-          {benifit_list.map((item, i) => {
+          {benefit_list.map((item, i) => {
             const FeatherIcon = Icon[humanize(item.icon)];
 
             return (
@@ -46,4 +47,4 @@ const CareerBenifits = ({ benifits: { title, description, benifit_list } }) => {
   );
 };
 
-export default CareerBenifits;
+export default CareerBenefits;

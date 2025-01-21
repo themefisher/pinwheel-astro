@@ -1,11 +1,17 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import { AiOutlineArrowRight } from "react-icons/ai";
+
+type Props = {
+  posts: CollectionEntry<"careers">[];
+  sidebar_content: CollectionEntry<"careers">["data"]["sidebar_content"];
+};
 const { posts, sidebar_content } = Astro.props;
 ---
 
 <div class="career-single-sidebar mt-8 lg:col-4 lg:mt-0">
   {
-    sidebar_content.enable && (
+    sidebar_content && sidebar_content.enable && (
       <div class="mb-8 rounded-xl bg-white px-7 py-10 shadow-lg">
         <h5 class="h5">{sidebar_content.title}</h5>
         <p class="mt-4">{sidebar_content.content}</p>
@@ -19,7 +25,7 @@ const { posts, sidebar_content } = Astro.props;
     )
   }
   {
-    posts.slice(0, 2).map((item: any) => (
+    posts?.slice(0, 2).map((item) => (
       <div class="mb-8 rounded-xl bg-white px-7 py-10 shadow-lg">
         <h5 class="h5">{item.data.title}</h5>
         <p class="mt-6">{item.data.excerpt}</p>
@@ -60,7 +66,7 @@ const { posts, sidebar_content } = Astro.props;
           <li class="my-1 mr-8">
             <a
               class="text-primary inline-flex items-center font-semibold"
-              href={`/career/${item.slug}`}
+              href={`/careers/${item.id}`}
             >
               Read More
               <AiOutlineArrowRight className="ml-1.5 text-xl font-bold" />

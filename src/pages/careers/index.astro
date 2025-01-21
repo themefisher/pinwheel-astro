@@ -2,23 +2,23 @@
 import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
-import Cta from "@/layouts/partials/Cta.astro";
-import { getEntryBySlug } from "astro:content";
-// import CareerBenifits from "@/components/career/CareerBenifits.astro";
-import { Image } from "astro:assets";
-import CareerBenifits from "@/layouts/function-components/CareerBenifits";
+import CareerBenefits from "@/layouts/function-components/CareerBenefits";
 import JobPosts from "@/layouts/function-components/JobPosts";
+import Cta from "@/layouts/partials/Cta.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { getTaxonomy } from "@/lib/taxonomyParser.astro";
-import type { TCareerIndex } from "@/types";
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 
-const careerIndex = (await getEntryBySlug<any, string>(
+const careerIndex = (await getEntry(
   "careers",
-  "-index",
-)) as TCareerIndex;
-const { benifits, career, image } = careerIndex.data;
+  "-index"
+)) as CollectionEntry<"careers">;
+
+const { benefits, career, image } = careerIndex.data;
 const categories = await getTaxonomy("careers", "categories");
-const jobposts = await getSinglePage("careers");
+const jobPosts = await getSinglePage("careers");
 const page_data = {
   title: careerIndex.data.title,
   page_title: careerIndex.data.page_title,
@@ -40,7 +40,7 @@ const page_data = {
       <div class="col-12 mt-14">
         <div class="relative">
           <Image
-            src={image}
+            src={image!}
             alt=""
             height={532}
             width={1044}
@@ -64,13 +64,12 @@ const page_data = {
       </div>
     </div>
   </section>
-  <!-- <CareerBenifits benifits={benifits} /> -->
-  <CareerBenifits benifits={benifits} client:load />
+  <CareerBenefits benefits={benefits} client:load />
   <JobPosts
     client:load
     categories={categories}
     career={career}
-    posts={jobposts}
+    posts={jobPosts}
   />
   <Cta />
 </Base>

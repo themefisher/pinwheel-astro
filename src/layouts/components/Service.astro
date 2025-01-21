@@ -3,6 +3,11 @@ import HomepageTab from "@/layouts/function-components/HomepageTab";
 import VideoComponent from "@/layouts/function-components/VideoComponent";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  service: CollectionEntry<"homepage">["data"]["service"];
+};
 const { service } = Astro.props;
 const { homepage_tab, our_service } = service;
 ---
@@ -11,7 +16,7 @@ const { homepage_tab, our_service } = service;
   <div class="container">
     <HomepageTab client:load homepage_tab={homepage_tab} />
     {
-      our_service.map((item: any, index: number) => (
+      our_service.map((item, index) => (
         <div class="gx-5 row mt-12 items-center lg:mt-0">
           <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
@@ -60,7 +65,7 @@ const { homepage_tab, our_service } = service;
               )}
               <ul class="mt-6 text-dark lg:-ml-4">
                 {item.list &&
-                  item.list.map((list: any) => (
+                  item.list.map((list) => (
                     <li class="mb-2 flex items-center rounded px-4">
                       <AiFillCheckCircle className="mr-3 fill-primary text-white" />
                       {list}

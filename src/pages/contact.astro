@@ -3,14 +3,18 @@ import PageHeader from "@/components/PageHeader.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import { Image } from "astro:assets";
-import { getEntryBySlug } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 
-const entry = await getEntryBySlug("contact", "index");
+const entry = (await getEntry(
+  "contact",
+  "-index"
+)) as CollectionEntry<"contact">;
 const { contact_form_action } = config.params;
 const contact = entry.data;
 const page_data = {
   ...contact,
-  content: contact.body,
+  content: entry.body,
 };
 ---
 
@@ -21,7 +25,9 @@ const page_data = {
   image={contact.image}
 >
   <section class="page-hero pb-6 pt-16">
-    <div class="container"><PageHeader page_data={page_data} /></div>
+    <div class="container">
+      <PageHeader page_data={page_data} />
+    </div>
   </section>
 
   <section class="section pt-0">

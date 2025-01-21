@@ -1,5 +1,11 @@
 ---
 import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  members: CollectionEntry<"about">["data"]["members"];
+};
+
 const {
   members: { title, description, member_list },
 } = Astro.props;
@@ -19,7 +25,7 @@ const {
       <div class="lg:col-10">
         <div class="row">
           {
-            member_list.map((item: any) => (
+            member_list.map((item) => (
               <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
                 <div class="member-avatar inline-flex justify-center">
                   <Image

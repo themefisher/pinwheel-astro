@@ -68,7 +68,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
 
                 <a
                   className="group inline-flex items-center font-semibold text-dark hover:text-primary"
-                  href={`/integrations/${item.slug}`}
+                  href={`/integrations/${item.id}`}
                 >
                   View integration
                   <AiOutlineArrowRight className="ml-1.5 text-xl font-bold duration-300 group-hover:ml-3" />
