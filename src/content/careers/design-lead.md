@@ -1,5 +1,7 @@
 ---
 title: "Design Lead"
+meta_title: ""
+description: ""
 excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
 job_nature: "Full Time"
 location: San Francisco

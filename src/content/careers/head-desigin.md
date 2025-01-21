@@ -1,5 +1,7 @@
 ---
 title: "Head Design"
+meta_title: ""
+description: ""
 excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
 job_nature: "Remote"
 location: San Francisco

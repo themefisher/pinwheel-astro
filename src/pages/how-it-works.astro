@@ -1,14 +1,18 @@
 ---
-import { Image } from "astro:assets";
 import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
 import Cta from "@/layouts/partials/Cta.astro";
-import { getEntryBySlug } from "astro:content";
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 import { AiFillCheckCircle } from "react-icons/ai";
 
-const how_it_works = await getEntryBySlug("how-it-works", "index");
-const { perfomance, our_works } = how_it_works.data;
+const how_it_works = (await getEntry(
+  "how-it-works",
+  "-index"
+)) as CollectionEntry<"how-it-works">;
+const { performance, our_works } = how_it_works.data;
 const page_data = {
   ...how_it_works.data,
   content: how_it_works.body,
@@ -30,11 +34,11 @@ const page_data = {
 
       <div class="row mt-14">
         {
-          perfomance.map((item: any, i: number) => (
+          performance.map((item, i) => (
             <div class="mt-10 text-center sm:col-6 md:col-4 md:mb-0">
               <div
                 class={`relative mx-auto mb-8 flex h-[184px] w-[184px] items-center justify-center rounded-xl bg-white p-4 shadow-lg ${
-                  perfomance.length - 1 !== i
+                  performance.length - 1 !== i
                     ? "after:absolute after:-right-4 after:-z-[1] after:hidden after:w-full after:translate-x-full after:border-b-2 after:border-dashed after:border-primary/50 after:content-[''] md:after:block"
                     : undefined
                 }`}
@@ -53,7 +57,7 @@ const page_data = {
   <section>
     <div class="container">
       {
-        our_works.map((item: any, index: number) => (
+        our_works.map((item, index) => (
           <div class="gx-5 row mt-16 items-center first:mt-12">
             <div
               class={`lg:col-7 ${
@@ -78,14 +82,16 @@ const page_data = {
               <div class="text-container">
                 <h2 class="lg:text-4xl">{item.title}</h2>
 
-                <ul class="mt-6 text-dark lg:-ml-4">
-                  {item.list.map((list: any) => (
-                    <li class="mb-2 flex items-center rounded px-4">
-                      <AiFillCheckCircle className="mr-3 fill-primary text-white" />
-                      {list}
-                    </li>
-                  ))}
-                </ul>
+                {item.list && (
+                  <ul class="mt-6 text-dark lg:-ml-4">
+                    {item.list.map((list) => (
+                      <li class="mb-2 flex items-center rounded px-4">
+                        <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                        {list}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           </div>

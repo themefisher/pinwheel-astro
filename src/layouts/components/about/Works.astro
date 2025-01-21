@@ -1,5 +1,10 @@
 ---
 import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  features: CollectionEntry<"about">["data"]["features"];
+};
 const {
   features: { title, button, features_list },
 } = Astro.props;
@@ -23,7 +28,7 @@ const {
     </div>
     <div class="row mt-14">
       {
-        features_list.map((item: any, i: number) => (
+        features_list.map((item, i) => (
           <div class="mb-8 sm:col-6 lg:col-4">
             <div class="rounded-xl bg-white p-6 shadow-lg lg:p-8">
               <div class="gradient-number relative inline-block">

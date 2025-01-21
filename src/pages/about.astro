@@ -6,9 +6,10 @@ import Gallery from "@/components/about/Gallery.astro";
 import OurMembers from "@/components/about/OurMembers.astro";
 import Works from "@/components/about/Works.astro";
 import Base from "@/layouts/Base.astro";
-import { getEntryBySlug } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
 
-const about = await getEntryBySlug("about", "index");
+const about = (await getEntry("about", "-index")) as CollectionEntry<"about">;
 const { counter, gallery, features, members } = about.data;
 const page_data = {
   ...about.data,
@@ -29,12 +30,8 @@ const page_data = {
         <PageHeader page_data={page_data} />
       </div>
       <CounterComponent counter={counter} />
-      <!-- benifit -->
-      <!-- gellary -->
       <Gallery gallery={gallery} />
-      <!-- our works -->
       <Works features={features} />
-      <!-- our members -->
       <OurMembers members={members} />
     </div>
   </section>

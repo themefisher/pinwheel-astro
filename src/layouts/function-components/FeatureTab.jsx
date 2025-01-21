@@ -16,7 +16,7 @@ const FeatureTab = ({ feature_tab }) => {
         {feature_tab.list.map((item, index) => (
           <div
             key={`item-${index}`}
-            className={`features-tab-penel ${
+            className={`features-tab-panel ${
               tab === index ? "active" : undefined
             } relative`}
           >

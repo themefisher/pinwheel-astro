@@ -1,22 +1,22 @@
 ---
-import { Image } from "astro:assets";
 import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { humanize, markdownify } from "@/lib/utils/textConverter";
-import { getEntryBySlug } from "astro:content";
-import type { TIntegrationsIndex } from "@/types";
-const integraionsIndex = (await getEntryBySlug<any, string>(
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { getEntry, render } from "astro:content";
+const integrationsIndex = (await getEntry(
   "integrations",
-  "-index",
-)) as TIntegrationsIndex;
+  "-index"
+)) as CollectionEntry<"integrations">;
 
 export async function getStaticPaths() {
   const integrations = await getSinglePage("integrations");
-  const paths = integrations.map((post: any) => ({
+  const paths = integrations.map((post) => ({
     params: {
-      single: post.slug,
+      single: post.id,
     },
     props: { post },
   }));
@@ -24,11 +24,11 @@ export async function getStaticPaths() {
 }
 const { post } = Astro.props;
 
-const { Content } = await post.render();
+const { Content } = await render(post);
 const page_data = {
   ...post.data,
-  index_title: integraionsIndex.data.title,
-  slug: post.slug,
+  index_title: integrationsIndex.data.title,
+  slug: post.id,
 };
 ---
 
@@ -54,19 +54,28 @@ const page_data = {
             <div class="mb-8 px-4 text-center">
               <Image
                 class="mx-auto"
-                src={post.data.image}
+                src={post.data.image!}
                 alt=""
                 height={80}
                 width={80}
               />
               <h1 class="mt-6">{post.data.title}</h1>
-              <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
-              <a class="btn btn-primary mt-8 px-10" href={post.data.button.link}
-                >{humanize(post.data.button.label)}
-                {humanize(post.data.name)}</a
-              >
+              <p class="mt-6" set:html={markdownify(post.data.excerpt!)} />
+              {
+                post.data.button && (
+                  <a
+                    class="btn btn-primary mt-8 px-10"
+                    href={post.data.button.link!}
+                  >
+                    {humanize(post?.data.button.label!)}
+                    {humanize(post.data.name!)}
+                  </a>
+                )
+              }
             </div>
-            <div class="content"><Content /></div>
+            <div class="content">
+              <Content />
+            </div>
           </div>
         </div>
       </div>

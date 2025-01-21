@@ -1,6 +1,9 @@
 ---
 title: "About"
 page_title: "About our company"
+meta_title: ""
+description: ""
+image: ""
 buttons:
   - label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -14,21 +17,21 @@ buttons:
 counter:
   - name: "Customers"
     number: 25
-    messurment: M
+    measurement: M
     color: "#A3A1FB"
   - name: "Customers"
     number: 440
-    messurment: M
+    measurement: M
     color: "#5EE2A0"
   - name: "Customers"
     number: 50
-    messurment: K
+    measurement: K
     color: "#FE6019"
   - name: "Customers"
     number: 20
-    messurment: K
+    measurement: K
     color: "#FEC163"
-    
+
 # Gallery
 gallery:
   title: We started with one single goal Empower entrepreneurs
@@ -57,7 +60,6 @@ features:
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
     - title: Innovation
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    
 
 ## members
 members:
@@ -83,4 +85,5 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
+
 Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
