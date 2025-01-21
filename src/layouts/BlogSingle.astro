@@ -1,7 +1,6 @@
 ---
 import dateFormat from "@/lib/utils/dateFormat";
 import readingTime from "@/lib/utils/readingTime";
-import Disqus from "./function-components/Disqus";
 
 import { humanize, slugify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
@@ -79,7 +78,6 @@ const { Content } = await render(post);
         <div class="content">
           <Content />
         </div>
-        <Disqus client:load />
       </div>
     </div>
   </div>

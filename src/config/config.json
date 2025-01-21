@@ -25,12 +25,6 @@
     }
   },
 
-  "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
-    "settings": {}
-  },
-
   "params": {
     "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
     "email": "info@andromeda.io",
