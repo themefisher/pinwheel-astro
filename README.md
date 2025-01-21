@@ -37,7 +37,6 @@
 - 🎨 Built with Tailwind CSS framework
 - 📱 Fully responsive on desktops, tablets, and smartphones
 - 🔍 SEO Friendly
-- 💬 Disqus comment support
 
 ## 📄 17+ Pre-Designed Pages
 
