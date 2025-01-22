@@ -10,7 +10,7 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
         <div class="min-h-[980px] bg-white py-10 lg:col-6 lg:py-[114px]">
           <div class="mx-auto w-full max-w-[480px]">
             <img class="mb-8" src="/images/flower.png" alt="" />
-            <h1 class="mb-4">Sing Up</h1>
+            <h1 class="mb-4">Sign Up</h1>
             <p>Donec sollicitudin molestie malesda sollitudin</p>
             <div class="signin-options mt-10">
               <a class="btn btn-outline-white block w-full text-dark" href="#"
@@ -36,7 +36,7 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
                 />
               </div>
               <div class="form-group mt-4">
-                <label for="email" class="form-label">Email Adrdess</label>
+                <label for="email" class="form-label">Email Address</label>
                 <input
                   type="email"
                   id="email"
@@ -59,7 +59,11 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
                 value="Sign Up"
               />
             </form>
-          </div>
+            <p class="mt-6 text-center">
+              Already have an account?
+              <a class="text-dark" href="/signin">Sign in</a>.
+            </p>
+        </div>
         </div>
         <SigninSlider
           client:load
