@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { humanize } from "@/lib/utils/textConverter";
+import { useState } from "react";
 import * as Icon from "react-feather";
 
 const HomepageTab = ({ homepage_tab }) => {
@@ -26,7 +26,7 @@ const HomepageTab = ({ homepage_tab }) => {
         <div className="text-container">
           <h2 className="lg:text-4xl">{title}</h2>
           <p className="mt-4">{description}</p>
-          <ul className="tab-nav !mt-8 border-b-0">
+          <ul className="tab-nav mt-8! border-b-0">
             {tab_list.map((item, index) => {
               const FeatherIcon = Icon[humanize(item.icon)];
               return (
@@ -38,7 +38,6 @@ const HomepageTab = ({ homepage_tab }) => {
                   onClick={() => setTab(index)}
                 >
                   <span className="tab-icon mr-3">
-                    {" "}
                     <FeatherIcon />
                   </span>
                   {item.title}

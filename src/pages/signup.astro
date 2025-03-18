@@ -1,11 +1,11 @@
 ---
 import Base from "@/layouts/Base.astro";
-import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
+import { markdownify } from "@/lib/utils/textConverter";
 ---
 
 <Base>
   <section>
-    <div class="container max-w-full">
+    <div class="px-4 max-w-full">
       <div class="row">
         <div class="min-h-[980px] bg-white py-10 lg:col-6 lg:py-[114px]">
           <div class="mx-auto w-full max-w-[480px]">
@@ -13,8 +13,9 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
             <h1 class="mb-4">Sign Up</h1>
             <p>Donec sollicitudin molestie malesda sollitudin</p>
             <div class="signin-options mt-10">
-              <a class="btn btn-outline-white block w-full text-dark" href="#"
-                >Sign Up With Google</a
+              <a
+                class="btn btn-outline-white block w-full text-text-dark"
+                href="#">Sign Up With Google</a
               >
             </div>
             <div
@@ -61,15 +62,94 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
             </form>
             <p class="mt-6 text-center">
               Already have an account?
-              <a class="text-dark" href="/signin">Sign in</a>.
+              <a class="text-text-dark" href="/signin">Sign in</a>.
             </p>
+          </div>
         </div>
+
+        <!-- Swiper Section -->
+        <div
+          class="auth-banner bg-gradient flex flex-col items-center justify-center py-16 lg:col-6 lg:block overflow-hidden"
+        >
+          <img
+            class="absolute left-0 top-0 h-full w-full"
+            src="/images/login-banner-bg.png"
+            alt="bg-image"
+          />
+          <div class="w-full text-center">
+            <h2
+              class="h3 text-white"
+              set:html={markdownify(
+                "A suite product accelerate <br /> your career design"
+              )}
+            />
+            <div class="auth-banner-carousel">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      width="667"
+                      height="557"
+                      class="mx-auto"
+                      src="/images/signup-carousel-img-1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      width="667"
+                      height="557"
+                      class="mx-auto"
+                      src="/images/signup-carousel-img-1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      width="667"
+                      height="557"
+                      class="mx-auto"
+                      src="/images/signup-carousel-img-1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="relative flex justify-center">
+                  <div class="pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <SigninSlider
-          client:load
-          title="A suite product accelerate <br /> your career design"
-        />
       </div>
     </div>
   </section>
 </Base>
+
+<script>
+  import { Swiper } from "swiper";
+  import "swiper/css";
+  import "swiper/css/pagination";
+  import { Autoplay, Pagination } from "swiper/modules";
+
+  // Astro: Page load event to initialize Swiper
+  document.addEventListener("astro:page-load", () => {
+    new Swiper(".swiper-container", {
+      modules: [Pagination, Autoplay],
+      spaceBetween: 24,
+      loop: true,
+      centeredSlides: true,
+      pagination: {
+        el: ".pagination",
+        type: "bullets",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 1,
+        },
+      },
+    });
+  });
+</script>

@@ -1,0 +1,34 @@
+/* navbar toggler */
+input#nav-toggle:checked ~ label#show-button {
+  @apply hidden;
+}
+
+input#nav-toggle:checked ~ label#hide-button {
+  @apply flex lg:hidden;
+}
+
+input#nav-toggle:checked ~ #nav-menu {
+  @apply block lg:flex;
+}
+
+/* form style */
+.form-input {
+  @apply w-full rounded border-transparent bg-light px-6 py-4 text-text-dark placeholder:text-text-light focus:border-primary;
+}
+
+.form-label {
+  @apply mb-4 block font-secondary text-base font-normal text-text-dark;
+}
+
+.form-inputs * {
+  @apply mb-5 leading-10;
+}
+
+.form-control,
+.form-select {
+  @apply py-4 w-full !rounded-lg !border-border text-text-dark placeholder:text-[#B0B0B0] focus:border-primary! focus:ring-transparent!;
+}
+
+.form-label {
+  @apply mb-2 block font-secondary text-[#555];
+}

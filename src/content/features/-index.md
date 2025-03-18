@@ -20,22 +20,22 @@ project_management:
     projects:
       - title: Reduce friction
         content: Encourage frequent & timely recognition integrating with communication tools
-        icon: lock #icon package react-feather-icon [https://feathericons.com/]
+        icon: lock #icon package react-feather-icon
       - title: Reduce friction
         content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tv #icon package react-feather-icon [https://feathericons.com/]
+        icon: tv #icon package react-feather-icon
       - title: Reduce friction
         content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tool #icon package react-feather-icon [https://feathericons.com/]
+        icon: tool #icon package react-feather-icon
       - title: Reduce friction
         content: Encourage frequent & timely recognition integrating with communication tools
-        icon: lock #icon package react-feather-icon [https://feathericons.com/]
+        icon: lock #icon package react-feather-icon
       - title: Reduce friction
         content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tv #icon package react-feather-icon [https://feathericons.com/]
+        icon: tv #icon package react-feather-icon
       - title: Reduce friction
         content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tool #icon package react-feather-icon [https://feathericons.com/]
+        icon: tool #icon package react-feather-icon
   feature_service:
     title: Accept payments from devices any country in this universe
     description: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed

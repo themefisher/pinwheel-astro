@@ -1,9 +1,9 @@
 ---
 import HomepageTab from "@/layouts/function-components/HomepageTab";
 import VideoComponent from "@/layouts/function-components/VideoComponent";
-import { AiFillCheckCircle } from "react-icons/ai";
 import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 type Props = {
   service: CollectionEntry<"homepage">["data"]["service"];
@@ -63,11 +63,11 @@ const { homepage_tab, our_service } = service;
                   {item.button.label}
                 </a>
               )}
-              <ul class="mt-6 text-dark lg:-ml-4">
+              <ul class="mt-6 text-text-dark lg:-ml-4">
                 {item.list &&
                   item.list.map((list) => (
                     <li class="mb-2 flex items-center rounded px-4">
-                      <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                      <AiFillCheckCircle className="mr-3 fill-(--color-primary) text-white" />
                       {list}
                     </li>
                   ))}

@@ -1,7 +1,7 @@
-import React from "react";
-import { BsPinAngleFill } from "react-icons/bs";
 import { humanize } from "@/lib/utils/textConverter";
+import React from "react";
 import * as Icon from "react-feather";
+import { BsPinAngleFill } from "react-icons/bs";
 
 const PricingCard = ({ item }) => {
   const FeatherIcon = Icon[humanize(item.icon)];
@@ -15,7 +15,7 @@ const PricingCard = ({ item }) => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="h3">{item.title}</h2>
-            <p className="mt-3 text-2xl text-dark">
+            <p className="mt-3 text-2xl text-text-dark">
               {item.pre_currency} {item.price}.00 {item.post_currency}
             </p>
           </div>
@@ -23,7 +23,7 @@ const PricingCard = ({ item }) => {
             className={`inline-flex h-16 w-16 items-center justify-center rounded-full font-bold ${
               item.featured
                 ? "bg-gradient text-white"
-                : "bg-theme-light text-dark"
+                : "bg-light text-text-dark"
             }`}
           >
             <FeatherIcon className="font-semibold" />
@@ -58,7 +58,7 @@ const PricingCard = ({ item }) => {
             {item.buttons.buy_now.label}
           </a>
           <a
-            className="mt-6 inline-flex items-center text-dark"
+            className="mt-6 inline-flex items-center text-text-dark"
             href={item.buttons.free_trial.link}
           >
             {item.buttons.free_trial.label}

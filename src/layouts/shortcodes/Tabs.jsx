@@ -39,7 +39,7 @@ const Tabs = ({ children }) => {
 
   return (
     <div className="tab">
-      <ul className="tab-nav">
+      <ul className="tab-nav my-0 list-none">
         {tabLinks.map((item, index) => (
           <li
             key={index}
