@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { humanize } from "@/lib/utils/textConverter";
 import { marked } from "marked";
+import { useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 const JobPosts = ({ posts, categories, career }) => {
   const [tab, setTab] = useState("");
@@ -52,7 +52,7 @@ const JobPosts = ({ posts, categories, career }) => {
               <div className="rounded-xl bg-white p-5 shadow-lg lg:p-10">
                 <h3 className="h4">{post.data.title}</h3>
                 <p className="mt-6">{post.data.excerpt}</p>
-                <ul className="mt-6 flex flex-wrap items-center text-dark">
+                <ul className="mt-6 flex flex-wrap items-center text-text-dark">
                   <li className="my-1 mr-8 inline-flex items-center">
                     <svg
                       className="mr-1"

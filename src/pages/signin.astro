@@ -1,11 +1,11 @@
 ---
+import { markdownify } from "@/lib/utils/textConverter";
 import Base from "@/layouts/Base.astro";
-import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
 ---
 
 <Base>
   <section>
-    <div class="container max-w-full">
+    <div class="px-4 max-w-full">
       <div class="row">
         <div class="min-h-[980px] bg-white py-10 lg:col-6 lg:py-[114px]">
           <div class="mx-auto w-full max-w-[480px]">
@@ -13,8 +13,9 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
             <h1 class="mb-4">Sign In</h1>
             <p>Donec sollicitudin molestie malesda sollitudin</p>
             <div class="signin-options mt-10">
-              <a class="btn btn-outline-white block w-full text-dark" href="#"
-                >Sign In With Google</a
+              <a
+                class="btn btn-outline-white block w-full text-text-dark"
+                href="#">Sign In With Google</a
               >
             </div>
             <div
@@ -51,17 +52,100 @@ import SigninSlider from "@/layouts/function-components/SigninSlider.jsx";
               />
               <p class="mt-6 text-center">
                 Trouble signing in?
-                <a class="text-dark" href="/password-reset">Reset your password</a>.
-                <br/>Or <a class="text-dark" href="/signup">Sign up</a> to create an account.
+                <a class="text-text-dark" href="/password-reset"
+                  >Reset your password</a
+                >.
+                <br />Or <a class="text-text-dark" href="/signup">Sign up</a> to
+                create an account.
               </p>
             </form>
           </div>
         </div>
-        <SigninSlider
-          client:load
-          title="Turn your All ideas into<br /> your reality"
-        />
+
+        <!-- Swiper Section -->
+        <div
+          class="auth-banner bg-gradient flex flex-col items-center justify-center py-16 lg:col-6 lg:block overflow-hidden"
+        >
+          <img
+            class="absolute left-0 top-0 h-full w-full"
+            src="/images/login-banner-bg.png"
+            alt="bg-image"
+          />
+          <div class="w-full text-center">
+            <h2
+              class="h3 text-white"
+              set:html={markdownify(
+                "Turn your All ideas into<br /> your reality"
+              )}
+            />
+            <div class="auth-banner-carousel">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- Static Image Slides for Demo -->
+                  <div class="swiper-slide">
+                    <img
+                      width="667"
+                      height="557"
+                      class="mx-auto"
+                      src="/images/signup-carousel-img-1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      width="667"
+                      height="557"
+                      class="mx-auto"
+                      src="/images/signup-carousel-img-1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      width="667"
+                      height="557"
+                      class="mx-auto"
+                      src="/images/signup-carousel-img-1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="relative flex justify-center">
+                  <div class="pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 </Base>
+
+<script>
+  import { Swiper } from "swiper";
+  import "swiper/css";
+  import "swiper/css/pagination";
+  import { Autoplay, Pagination } from "swiper/modules";
+
+  // Astro: Page load event to initialize Swiper
+  document.addEventListener("astro:page-load", () => {
+    new Swiper(".swiper-container", {
+      modules: [Pagination, Autoplay],
+      spaceBetween: 24,
+      loop: true,
+      centeredSlides: true,
+      pagination: {
+        el: ".pagination",
+        type: "bullets",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 1,
+        },
+      },
+    });
+  });
+</script>

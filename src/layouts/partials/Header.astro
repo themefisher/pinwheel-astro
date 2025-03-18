@@ -58,7 +58,7 @@ const { pathname } = Astro.url;
         main.map((menu) => (
           <>
             {menu.hasChildren ? (
-              <li class="nav-item nav-dropdown group relative cursor-pointer  dropdown-button">
+              <li class="nav-item nav-dropdown group relative cursor-pointer dropdown-button">
                 <span
                   class={`nav-link inline-flex items-center ${
                     menu.children?.map(({ url }) => url).includes(pathname) ||
@@ -121,17 +121,16 @@ const { pathname } = Astro.url;
 </header>
 
 <script is:inline>
-  document.querySelectorAll(".dropdown-button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      const dropdown = e.target.nextElementSibling;
-      dropdown.classList.toggle(
-        dropdown.style === "hidden" ? "block" : "hidden"
-      );
-    });
-  });
-
-  //sticky header
   document.addEventListener("astro:page-load", () => {
+    document.querySelectorAll(".dropdown-button").forEach((button) => {
+      button.addEventListener("click", (e) => {
+        const dropdown = e.target.nextElementSibling;
+
+        dropdown.classList.toggle("hidden");
+      });
+    });
+
+    // Sticky header functionality
     const header = document.querySelector(".header");
     window.addEventListener("scroll", () => {
       if (window.scrollY > 0) {

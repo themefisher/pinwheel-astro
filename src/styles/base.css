@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  @apply bg-body bg-[url('/images/body-bg.svg')] bg-repeat font-primary font-normal leading-relaxed text-text;
+  @apply bg-body bg-[url('/images/body-bg.svg')] bg-repeat font-primary font-normal leading-relaxed text-text overflow-x-hidden;
 }
 
 h1,
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary font-bold leading-tight text-dark;
+  @apply font-secondary font-bold leading-tight text-text-dark;
 }
 
 h1,
@@ -43,4 +43,12 @@ h5,
 h6,
 .h6 {
   @apply text-h6;
+}
+
+b,
+strong {
+  @apply font-semibold;
+}
+code {
+  @apply after:border-none;
 }

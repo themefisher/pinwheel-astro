@@ -6,13 +6,13 @@
         "secondary": "#FEE140",
         "body": "#fafafa",
         "border": "#EBEBEB",
-        "theme_light": "#E5E5E5",
-        "theme_dark": "#1a202c"
+        "light": "#E5E5E5",
+        "dark": "#1a202c"
       },
       "text_color": {
-        "default": "#888888",
-        "dark": "#222",
-        "light": "#ceced0"
+        "text": "#888888",
+        "text-dark": "#222",
+        "text-light": "#ceced0"
       }
     }
   },
@@ -26,7 +26,7 @@
     },
     "font_size": {
       "base": "16",
-      "scale": "1.24571"
+      "scale": "1.2"
     }
   }
 }

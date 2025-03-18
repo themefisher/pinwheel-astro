@@ -83,10 +83,10 @@ const page_data = {
                 <h2 class="lg:text-4xl">{item.title}</h2>
 
                 {item.list && (
-                  <ul class="mt-6 text-dark lg:-ml-4">
+                  <ul class="mt-6 text-text-dark lg:-ml-4">
                     {item.list.map((list) => (
                       <li class="mb-2 flex items-center rounded px-4">
-                        <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                        <AiFillCheckCircle className="mr-3 fill-(--color-primary) text-white" />
                         {list}
                       </li>
                     ))}

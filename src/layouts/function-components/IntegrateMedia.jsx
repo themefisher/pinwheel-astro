@@ -1,6 +1,6 @@
-import React, { useState } from "react";
 import { humanize } from "@/lib/utils/textConverter";
 import { marked } from "marked";
+import React, { useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const IntegrateMedia = ({ integrations, categories }) => {
@@ -67,7 +67,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
                 </div>
 
                 <a
-                  className="group inline-flex items-center font-semibold text-dark hover:text-primary"
+                  className="group inline-flex items-center font-semibold text-text-dark hover:text-primary"
                   href={`/integrations/${item.id}`}
                 >
                   View integration

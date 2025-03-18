@@ -42,10 +42,10 @@ const TestimonialSlider = ({ list }) => {
                 <img src={item.avatar} alt="" />
               </div>
               <h4 className="mb-2">{item.author}</h4>
-              <p className="mb-4 text-[#666]">{item.organization}</p>
+              <p className="mb-4 text-text-dark/80">{item.organization}</p>
               <p>{item.content}</p>
               <div
-                className={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}  `}
+                className={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}`}
               >
                 <Star />
                 <Star />
@@ -57,7 +57,7 @@ const TestimonialSlider = ({ list }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="relative flex justify-center">
+      <div className="relative flex justify-center testimonial-slider-pagination">
         <div
           width="100%"
           className="swiper-pagination reviews-carousel-pagination !bottom-0"
