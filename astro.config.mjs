@@ -1,8 +1,6 @@
-import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
-import AutoImport from "astro-auto-import";
 import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
@@ -24,9 +22,7 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), AutoImport({
-    imports: ["@shortcodes/Button", "@shortcodes/Accordion", "@shortcodes/Notice", "@shortcodes/Video", "@shortcodes/Youtube", "@shortcodes/Blockquote", "@shortcodes/Badge", "@shortcodes/ContentBlock", "@shortcodes/Changelog"]
-  }), mdx(), partytown({ config: { forward: ["dataLayer.push"] }})],
+  }), partytown({ config: { forward: ["dataLayer.push"] }})],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, {
       test: "Table of contents"

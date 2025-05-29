@@ -27,3 +27,7 @@ pnpm-lock.yaml
 
 # ignore .astro directory
 .astro
+
+# dev 
+.idx/dev.nix
+.idx/integrations.json

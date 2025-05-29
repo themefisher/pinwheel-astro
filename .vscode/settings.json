@@ -1,5 +1,7 @@
 {
   "files.associations": {
     "*.mdx": "markdown"
-  }
+  },
+  "IDX.aI.enableInlineCompletion": true,
+  "IDX.aI.enableCodebaseIndexing": true
 }
