@@ -8,14 +8,17 @@ import { getEntryBySlug } from "astro:content";
 import { Image } from "astro:assets";
 import CareerBenifits from "@layouts/function-components/CareerBenifits";
 import PublicationPosts from "@layouts/function-components/PublicationPosts";
-const careerIndex = await getEntryBySlug<any, string>("publications", "-index");
-const { benifits, career, image, categories } = careerIndex.data;
+import config from "@config/config.json";
+const publicationsIndex = await getEntryBySlug<any, string>("publications", "-index");
+  const careerIndex = await getEntryBySlug<any, string>("publications", "-index");
+const { benifits, career, image, categories } = publicationsIndex.data;
 const page_data = {
   title: careerIndex.data.title,
   page_title: careerIndex.data.page_title,
   content: careerIndex.body,
 };
 const publications = await getPublications();
+const postsPerPage = config.settings.pagination;
 ---
 
 <Base
@@ -62,6 +65,7 @@ const publications = await getPublications();
     categories={categories}
     career={career}
     posts={publications}
+    postsPerPage={postsPerPage}
   />
   <Cta />
 </Base>

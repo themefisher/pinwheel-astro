@@ -1,0 +1,12 @@
+---
+import config from "@config/config.json";
+import FeaturedBlogSlider from "./FeaturedBlogSlider.jsx"; // Import the new React component
+
+const { summary_length } = config.settings;
+const { posts } = Astro.props;
+---
+
+<h2 class="h4 mb-4">À la une</h2>
+
+<!-- Use the React component for the slider -->
+<FeaturedBlogSlider posts={posts} summaryLength={summary_length} client:load />
