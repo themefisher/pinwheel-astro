@@ -7,10 +7,28 @@ import Service from "@layouts/components/Service.astro";
 import PartnerBanner from "@components/features/PartnerBanner.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
-import Logo from "@components/Logo.astro";
+
+// Blog and Publication section imports
+import Blogs from "@components/Blogs.astro";
+import FeaturedBlog from "@components/blog/FeaturedBlogUne.astro";
+import Publications from "@layouts/components/Publications.astro";
+import { getArticles, getCategories, getFeaturedArticles, getRecentdArticles, getPublications } from "../lib/publicationParser.astro";
 
 const homepage = await getEntryBySlug("homepage", "index");
 const { banner, key_features, service, partner, testimonial } = homepage.data;
+
+// Blog section data fetching
+const featuredPost = await getFeaturedArticles();
+const recentPost = await getRecentdArticles();
+const numberOfRecentPosts = 3;
+const currentPosts = recentPost.slice(0, numberOfRecentPosts);
+// categories are fetched but not used in the current layout for simplicity
+const categories = await getCategories();
+
+// Publications section data fetching
+const latestPublications = await getPublications();
+const numberOfLatestPublications = 3;
+const currentPublications = latestPublications.slice(0, numberOfLatestPublications);
 ---
 
 <Base>
@@ -20,6 +38,37 @@ const { banner, key_features, service, partner, testimonial } = homepage.data;
   <KeyFeatures key_features={key_features} />
   <!-- service -->
   <Service service={service} />
+
+  <!-- Latest Publications Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="h2 mb-8 text-center">Dernières Publications</h2>
+      {currentPublications && currentPublications.length > 0 && (
+        <Publications publications={currentPublications} />
+      )}
+      <div class="mt-8 text-center">
+        <a href="/publications" class="btn btn-primary">Voir toutes les publications</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest News Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="h2 mb-8 text-center">Actualités</h2>
+      {featuredPost && featuredPost.length > 0 && <FeaturedBlog posts={featuredPost} />}
+      {currentPosts && currentPosts.length > 0 && (
+        <>
+          {featuredPost && featuredPost.length > 0 && <div class="mt-12"></div>}
+          <Blogs posts={currentPosts} />
+        </>
+      )}
+       <div class="mt-8 text-center">
+        <a href="/actualites" class="btn btn-primary">Voir toutes les actualités</a>
+      </div>
+    </div>
+  </section>
+
   <!-- Partner -->
   <PartnerBanner partner={partner} />
   <!-- testimonial -->
