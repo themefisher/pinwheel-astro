@@ -1,13 +1,33 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { humanize } from "@lib/utils/textConverter";
 import dateFormat from "@lib/utils/dateFormat";
 import { marked } from "marked";
-import { AiOutlineArrowRight } from "react-icons/ai/index.js";
-const PublicationPosts = ({ posts, categories, career: { title, subtitle } }) => {
+import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai/index.js";
+
+const PublicationPosts = ({ posts, categories, career: { title, subtitle }, postsPerPage }) => {
   const [tab, setTab] = useState("");
-  const filterPost = !tab
-    ? posts
-    : posts.filter((post) => post.categories.includes(tab));
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const filterPost = useMemo(() => {
+    setCurrentPage(1); // Reset page when filter changes
+    return !tab
+      ? posts
+      : posts.filter((post) => post.categories.includes(tab));
+  }, [posts, tab]);
+
+  // Pagination logic
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = filterPost.slice(indexOfFirstPost, indexOfLastPost);
+  const totalPages = Math.ceil(filterPost.length / postsPerPage);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  // Generate page numbers for pagination controls
+  const pageNumbers = [];
+  for (let i = 1; i <= totalPages; i++) {
+    pageNumbers.push(i);
+  }
 
   return (
     <section className="section">
@@ -46,9 +66,18 @@ const PublicationPosts = ({ posts, categories, career: { title, subtitle } }) =>
           </div>
         </div>
         <div className="row mt-12">
-          {filterPost.map((post, i) => (
+          {currentPosts.map((post, i) => (
             <div className="mb-8 md:col-6" key={`post-${i}`}>
               <div className="rounded-xl bg-white p-5 shadow-lg lg:p-10">
+                 {post.photo?.fields.file && (
+                  <img
+                    className="card-img mb-4"
+                    src={post.photo.fields.file.url}
+                    alt={post.photo.fields.file.fileName}
+                    width={335} // Added width for better rendering, adjust as needed
+                    height={210} // Added height for better rendering, adjust as needed
+                  />
+                )}
                 <h3 className="h4">{post.titre}</h3>
                 <p className="mt-6">{post.description}</p>
                 <ul className="mt-6 flex flex-wrap items-center text-dark">
@@ -82,6 +111,42 @@ const PublicationPosts = ({ posts, categories, career: { title, subtitle } }) =>
             </div>
           ))}
         </div>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <nav className="mb-4 mt-14 flex items-center justify-center" aria-label="Pagination">
+            {/* Previous button */}
+            <button
+              onClick={() => paginate(currentPage - 1)}
+              disabled={currentPage === 1}
+              className={`mr-5 flex items-center rounded-full border px-4 py-2 text-dark hover:shadow-lg md:px-6 md:py-3 ${currentPage === 1 ? 'opacity-50 cursor-not-allowed' : ''}`}
+            >
+               <AiOutlineArrowLeft className="mr-1.5 text-xl font-bold" />
+              Précédent
+            </button>
+
+            {/* Page numbers */}
+            {pageNumbers.map(number => (
+              <button
+                key={number}
+                onClick={() => paginate(number)}
+                className={`mx-1 flex h-10 w-10 items-center justify-center rounded-full border md:h-12 md:w-12 ${currentPage === number ? 'bg-primary text-white' : 'bg-white text-dark hover:bg-primary hover:text-white'}`}
+              >
+                {number}
+              </button>
+            ))}
+
+            {/* Next button */}
+            <button
+              onClick={() => paginate(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className={`ml-5 flex items-center rounded-full border px-4 py-2 text-dark hover:shadow-lg md:px-6 md:py-3 ${currentPage === totalPages ? 'opacity-50 cursor-not-allowed' : ''}`}
+            >
+              Suivant
+              <AiOutlineArrowRight className="ml-1.5 text-xl font-bold" />
+            </button>
+          </nav>
+        )}
       </div>
     </section>
   );

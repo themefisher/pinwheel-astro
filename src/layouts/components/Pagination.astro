@@ -1,5 +1,5 @@
 ---
-const { section, currentPage, totalPages } = Astro.props;
+const { section, currentPage, totalPages, category } = Astro.props;
 const indexPageLink = currentPage === 2;
 const hasPrevPage = currentPage > 1;
 const hasNextPage = totalPages > currentPage;
@@ -7,6 +7,15 @@ let pageList = [];
 for (let i = 1; i <= totalPages; i++) {
   pageList.push(i);
 }
+
+// Function to generate pagination link based on section and category
+const generateLink = (page) => {
+  if (category) {
+    return `/${section}/page/${page}`;
+  } else {
+    return page === 1 ? `/${section}` : `/${section}/page/${page}`;
+  }
+};
 ---
 
 {
@@ -18,11 +27,7 @@ for (let i = 1; i <= totalPages; i++) {
       {/* previous */}
       {hasPrevPage ? (
         <a
-          href={
-            indexPageLink
-              ? `${section ? "/" + section : "/"}`
-              : `${section ? "/" + section : ""}/page/${currentPage - 1}`
-          }
+          href={generateLink(currentPage - 1)}
           class="mr-5 flex items-center rounded-full border px-4 py-2 text-dark hover:shadow-lg md:px-6 md:py-3"
         >
           <svg
@@ -70,11 +75,7 @@ for (let i = 1; i <= totalPages; i++) {
           </span>
         ) : (
           <a
-            href={
-              i === 0
-                ? `${section ? "/" + section : "/"}`
-                : `${section ? "/" + section : ""}/page/${pagination}`
-            }
+            href={generateLink(pagination)}
             aria-current="page"
             class={`mx-1 flex h-10 w-10 items-center justify-center rounded-full border bg-white text-dark hover:bg-primary hover:text-white md:h-12 md:w-12 `}
           >
@@ -86,7 +87,7 @@ for (let i = 1; i <= totalPages; i++) {
       {/* next page */}
       {hasNextPage ? (
         <a
-          href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
+          href={generateLink(currentPage + 1)}
           class="ml-5 flex items-center rounded-full border px-4 py-2 text-dark hover:shadow-lg md:px-6 md:py-3"
         >
           <span>Next</span>
