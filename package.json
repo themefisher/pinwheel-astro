@@ -7,7 +7,7 @@
   "packageManager": "yarn@1.22.19",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
