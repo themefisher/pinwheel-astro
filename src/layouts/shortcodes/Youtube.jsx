@@ -1,13 +1,16 @@
-import React from "react";
-import LiteYouTubeEmbed from "react-lite-youtube-embed";
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+import { useEffect } from "react";
 
 const Youtube = ({ id, title, ...rest }) => {
+  useEffect(() => {
+    import("@justinribeiro/lite-youtube");
+  }, []);
+
+  // @ts-ignore
   return (
-    <LiteYouTubeEmbed
-      wrapperClass="yt-lite rounded-md"
-      id={id}
-      title={title}
+    <lite-youtube
+      class="rounded-md"
+      videoid={id}
+      videotitle={title}
       {...rest}
     />
   );

@@ -28,7 +28,7 @@ const { Content } = await render(post);
         <Image
           class="rounded-xl aspect-video object-contain"
           src={post.data.image!}
-          alt=""
+          alt={post.data.title}
           width={920}
           height={450}
         />

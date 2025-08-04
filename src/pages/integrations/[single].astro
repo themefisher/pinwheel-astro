@@ -14,29 +14,29 @@ const integrationsIndex = (await getEntry(
 
 export async function getStaticPaths() {
   const integrations = await getSinglePage("integrations");
-  const paths = integrations.map((post) => ({
+  const paths = integrations.map((integration) => ({
     params: {
-      single: post.id,
+      single: integration.id,
     },
-    props: { post },
+    props: { integration: integration },
   }));
   return paths;
 }
-const { post } = Astro.props;
+const { integration } = Astro.props;
 
-const { Content } = await render(post);
+const { Content } = await render(integration);
 const page_data = {
-  ...post.data,
+  ...integration.data,
   index_title: integrationsIndex.data.title,
-  slug: post.id,
+  slug: integration.id,
 };
 ---
 
 <Base
-  title={post.data.title}
-  meta_title={post.data.meta_title}
-  description={post.data.description}
-  image={post.data.image}
+  title={integration.data.title}
+  meta_title={integration.data.meta_title}
+  description={integration.data.description}
+  image={integration.data.image}
 >
   <Shape />
   <section class="page-hero pb-8 pt-16">
@@ -54,21 +54,24 @@ const page_data = {
             <div class="mb-8 px-4 text-center">
               <Image
                 class="mx-auto"
-                src={post.data.image!}
+                src={integration.data.image!}
                 alt=""
                 height={80}
                 width={80}
               />
-              <h1 class="mt-6">{post.data.title}</h1>
-              <p class="mt-6" set:html={markdownify(post.data.excerpt!)} />
+              <h1 class="mt-6">{integration.data.title}</h1>
+              <p
+                class="mt-6"
+                set:html={markdownify(integration.data.excerpt!)}
+              />
               {
-                post.data.button && (
+                integration.data.button && (
                   <a
                     class="btn btn-primary mt-8 px-10"
-                    href={post.data.button.link!}
+                    href={integration.data.button.link!}
                   >
-                    {humanize(post?.data.button.label!)}
-                    {humanize(post.data.name!)}
+                    {humanize(integration?.data.button.label!)}
+                    {humanize(integration.data.name!)}
                   </a>
                 )
               }

@@ -16,6 +16,11 @@
     "summary_length": 100
   },
 
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+
   "call_to_action": {
     "title": "Helping teams in the world with focus",
     "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
