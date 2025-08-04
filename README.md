@@ -1,10 +1,10 @@
 <h1 align=center>Pinwheel Astro</h1>
-<p align=center>Pinwheel is a free multipurpose SaaS theme built with Astro, TailwindCSS and TypeScript with 17+ pre-designed pages.</p>
+<p align=center>Pinwheel is a free multipurpose SaaS theme built with Astro, TailwindCSS, and TypeScript with 17+ pre-designed pages.</p>
 <h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow"> 👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-pinwheel-astro-vercel-app/kmaxqwa7rx?form_factor=desktop"> Page Speed (95+) 🚀 </a>
 </h2>
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.5.2" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.5&color=000&logo=astro" />
+  <a href="https://github.com/withastro/astro/releases/tag/astro%405.12.8" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.12&color=000&logo=astro" />
   </a>
 
   <a href="https://github.com/themefisher/pinwheel-astro/blob/main/LICENSE">
@@ -54,7 +54,7 @@
 - 💰 Pricing
 - 📜 Changelog
 - 🔑 Sign In
-- 🔑 Sing Up
+- 🔑 Sign Up
 - 🔗 Integrations
 - 🔗 Integration Single
 - 📜 Terms and Conditions
@@ -64,7 +64,7 @@
 
 ## 🛠️ Installation
 
-After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+After downloading the template, you need to install some prerequisites. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
 
 ### Install prerequisites (once for a machine)
 
@@ -100,7 +100,7 @@ npm run build
 
 ## 🐞 Reporting Issues
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/themefisher/pinwheel-astro/issues). It’s possible someone has already reported the same problem.
+We use GitHub Issues as the official bug tracker for this Template. Please search [existing issues](https://github.com/themefisher/pinwheel-astro/issues). It’s possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/pinwheel-astro/issues).
 
 <!-- licence -->
@@ -111,13 +111,13 @@ Copyright (c) 2023 - Present, Designed & Developed by [Themefisher](https://them
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/pinwheel-astro/blob/main/LICENSE) license.
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+**Image license:** The images are only for demonstration purposes. They have their license, and we don't have permission to share those images.
 
 ## 💻 Need Custom Development Services?
 
-Besides developing beautifully designed and blazing-fast themes, we help businesses create fast, performance-focused, scalable & secure websites based on NextJs, Hugo, Astro, etc.
+Besides developing beautifully designed and blazing-fast themes, we help businesses create fast, performance-focused, scalable & secure websites based on NextJS, Hugo, Astro, etc.
 
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://themefisher.com/contact).
+If you need custom theme development, theme customization, or complete website development services from scratch, you can [Hire Us](https://themefisher.com/contact).
 
 ## 🔥 More Astro Themes By Themefisher
 
