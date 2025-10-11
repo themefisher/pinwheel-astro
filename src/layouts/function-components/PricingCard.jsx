@@ -1,10 +1,7 @@
-import { humanize } from "@/lib/utils/textConverter";
+import DynamicIcon from "@/helpers/DynamicIcon";
 import React from "react";
-import * as Icon from "react-feather";
-import { BsPinAngleFill } from "react-icons/bs";
 
 const PricingCard = ({ item }) => {
-  const FeatherIcon = Icon[humanize(item.icon)];
   return (
     <div className="mt-8 px-3 md:col-6 lg:col-4 lg:mt-0" key={item.title}>
       <div
@@ -26,7 +23,7 @@ const PricingCard = ({ item }) => {
                 : "bg-light text-text-dark"
             }`}
           >
-            <FeatherIcon className="font-semibold" />
+            <DynamicIcon icon={item.icon} className="h-8 w-8 font-semibold" />
           </span>
         </div>
         <p className="mt-6">{item.description}</p>
@@ -36,13 +33,21 @@ const PricingCard = ({ item }) => {
           <ul className="mt-6">
             {item.services.list.map((service, i) => (
               <li className="mb-3 text-sm" key={`service-${i}`}>
-                <span className="mr-2">
-                  <BsPinAngleFill
-                    className={`mr-1 inline h-[14px] w-[14px] ${
-                      item.featured ? "text-primary" : undefined
-                    }`}
-                  />
-                </span>
+                <svg
+                  className={`mr-2 inline h-[14px] w-[14px] ${
+                    item.featured ? "text-primary" : "text-text-light"
+                  }`}
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 16 16"
+                  class="mr-1 inline h-[14px] w-[14px] text-primary"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146"></path>
+                </svg>
                 {service}
               </li>
             ))}

@@ -9,7 +9,7 @@ const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
 
-<footer class="footer bg-[#F1F1F1]">
+<footer class="footer bg-light">
   <div class="container">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
@@ -21,7 +21,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <h6>Socials</h6>
 
-        <Social source={social} className="social-icons mt-4 lg:mt-6" />
+        <Social source={social.main} className="social-icons mt-4 lg:mt-6" />
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <h6>Quick Links</h6>

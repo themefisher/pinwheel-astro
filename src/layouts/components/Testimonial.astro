@@ -1,5 +1,6 @@
 ---
 import TestimonialSlider from "@/layouts/function-components/TestimonialSlider";
+import { markdownify } from "@/lib/utils/textConverter";
 const { testimonial } = Astro.props;
 ---
 
@@ -7,12 +8,10 @@ const { testimonial } = Astro.props;
   <div class="container">
     <div class="row justify-between">
       <div class="lg:col-6">
-        <h2>{testimonial.title}</h2>
+        <h2 set:html={markdownify(testimonial.title)} />
       </div>
       <div class="lg:col-4">
-        <p>
-          {testimonial.description}
-        </p>
+        <p set:html={markdownify(testimonial.description)} />
       </div>
     </div>
     <div class="row mt-10">

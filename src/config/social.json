@@ -1,30 +1,24 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
-  "instagram": "",
-  "youtube": "",
-  "linkedin": "https://linkedin.com/",
-  "github": "",
-  "gitlab": "",
-  "medium": "",
-  "codepen": "",
-  "bitbucket": "",
-  "dribbble": "",
-  "behance": "",
-  "pinterest": "",
-  "soundcloud": "",
-  "tumblr": "",
-  "reddit": "",
-  "vk": "",
-  "whatsapp": "",
-  "snapchat": "",
-  "vimeo": "",
-  "tiktok": "",
-  "foursquare": "",
-  "rss": "",
-  "email": "",
-  "phone": "",
-  "address": "",
-  "skype": "https://skype.com/",
-  "website": ""
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "FiFacebook",
+      "link": "https://www.facebook.com/"
+    },
+    {
+      "name": "Instagram",
+      "icon": "FiInstagram",
+      "link": "https://www.instagram.com/"
+    },
+    {
+      "name": "github",
+      "icon": "FiGithub",
+      "link": "https://www.github.com/"
+    },
+    {
+      "name": "linkedin",
+      "icon": "FiLinkedin",
+      "link": "https://www.linkedin.com/"
+    }
+  ]
 }

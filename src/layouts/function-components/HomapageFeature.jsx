@@ -1,11 +1,10 @@
+import DynamicIcon from "@/helpers/DynamicIcon";
 import { humanize } from "@/lib/utils/textConverter";
-import * as Icon from "react-feather";
 
 const HomapageFeature = ({ feature_list }) => {
   return (
     <div className="key-feature-grid mt-10 grid grid-cols-2 gap-7 md:grid-cols-3 xl:grid-cols-4">
       {feature_list.map((item, i) => {
-        const FeatherIcon = Icon[humanize(item.icon)];
         return (
           <div
             key={i}
@@ -16,7 +15,10 @@ const HomapageFeature = ({ feature_list }) => {
               <p>{item.content}</p>
             </div>
             <span className="icon mt-4">
-              <FeatherIcon />
+              <DynamicIcon
+                icon={item.icon}
+                className="mt-4 w-6 h-6 text-primary"
+              />
             </span>
           </div>
         );

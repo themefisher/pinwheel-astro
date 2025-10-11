@@ -3,8 +3,8 @@
 <h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow"> 👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-pinwheel-astro-vercel-app/kmaxqwa7rx?form_factor=desktop"> Page Speed (95+) 🚀 </a>
 </h2>
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.12.8" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.12&color=000&logo=astro" />
+  <a href="https://github.com/withastro/astro/releases/tag/astro%405.14.1" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.14&color=000&logo=astro" />
   </a>
 
   <a href="https://github.com/themefisher/pinwheel-astro/blob/main/LICENSE">

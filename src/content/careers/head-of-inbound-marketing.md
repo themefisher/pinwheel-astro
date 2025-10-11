@@ -6,7 +6,7 @@ excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem am
 job_nature: "Full Time"
 location: San Francisco
 categories: ["marketing"]
-date: 2021-07-12
+date: 2025-07-12
 draft: false
 ---
 

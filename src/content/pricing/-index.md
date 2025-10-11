@@ -9,7 +9,7 @@ pricing_card:
     pre_currency: $
     post_currency: usd
     price: 29
-    icon: box #icon package react-feather-icon
+    icon: FiBox #icon package react-icons
     description: Lorem ipsum dolor sit amet, secteturi adipiscing elit at sem ipsum.
     featured: false
     buttons:
@@ -31,7 +31,7 @@ pricing_card:
     pre_currency: $
     post_currency: usd
     price: 59
-    icon: table #icon package react-feather-icon
+    icon: FiTable #icon package react-icons
     description: Lorem ipsum dolor sit amet, secteturi adipiscing elit at sem ipsum.
     featured: true
     buttons:
@@ -52,7 +52,7 @@ pricing_card:
     pre_currency: $
     post_currency: usd
     price: 99
-    icon: briefcase #icon package react-feather-icon
+    icon: FiBriefcase #icon package react-icons
     description: Lorem ipsum dolor sit amet, secteturi adipiscing elit at sem ipsum.
     featured: false
     buttons:

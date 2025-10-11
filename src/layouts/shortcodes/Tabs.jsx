@@ -1,11 +1,6 @@
 import { marked } from "marked";
 import React, { useEffect, useRef, useState } from "react";
 
-marked.use({
-  mangle: false,
-  headerIds: false,
-});
-
 const Tabs = ({ children }) => {
   const [active, setActive] = useState(0);
   const [defaultFocus, setDefaultFocus] = useState(false);
@@ -13,7 +8,6 @@ const Tabs = ({ children }) => {
   const tabRefs = useRef([]);
   useEffect(() => {
     if (defaultFocus) {
-      //@ts-ignore
       tabRefs.current[active]?.focus();
     } else {
       setDefaultFocus(true);
@@ -22,7 +16,7 @@ const Tabs = ({ children }) => {
 
   const tabLinks = Array.from(
     children.props.value.matchAll(
-      /<div\s+data-name="([^"]+)"[^>]*>(.*?)<\/div>/gs,
+      /<div\s+data-name="([^"]+)"[^>]*>((?:.|\n)*?)<\/div>/g,
     ),
     (match) => ({ name: match[1], children: match[0] }),
   );
@@ -39,7 +33,7 @@ const Tabs = ({ children }) => {
 
   return (
     <div className="tab">
-      <ul className="tab-nav my-0 list-none">
+      <ul className="tab-nav">
         {tabLinks.map((item, index) => (
           <li
             key={index}

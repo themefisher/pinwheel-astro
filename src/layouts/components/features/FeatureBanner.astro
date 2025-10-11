@@ -1,4 +1,5 @@
 ---
+import { markdownify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 
 const {
@@ -36,12 +37,8 @@ const {
             <span class="text-sm leading-none">/ {title}</span>
           </li>
         </ul>
-        <h1>
-          {banner.title}
-        </h1>
-        <p class="mt-6">
-          {banner.content}
-        </p>
+        <h1 set:html={markdownify(banner.title)} />
+        <p class="mt-6" set:html={markdownify(banner.content)} />
         {
           banner.button.enable && (
             <a class="btn btn-primary mt-6" href={banner.button.link}>

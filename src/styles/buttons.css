@@ -19,7 +19,7 @@
 }
 
 .btn-white {
-  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-text-dark shadow-lg hover:shadow;
+  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-text-dark! shadow-lg hover:shadow;
 }
 
 .btn-sm {

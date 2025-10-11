@@ -1,5 +1,5 @@
+import DynamicIcon from "@/helpers/DynamicIcon";
 import { useRef, useState } from "react";
-import { Star } from "react-feather";
 import SwiperCore from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -47,11 +47,9 @@ const TestimonialSlider = ({ list }) => {
               <div
                 className={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}`}
               >
-                <Star />
-                <Star />
-                <Star />
-                <Star />
-                <Star />
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <DynamicIcon icon="FiStar" className="w-6 h-6" key={star} />
+                ))}
               </div>
             </div>
           </SwiperSlide>

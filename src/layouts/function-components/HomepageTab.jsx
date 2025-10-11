@@ -1,13 +1,13 @@
-import { humanize } from "@/lib/utils/textConverter";
+import DynamicIcon from "@/helpers/DynamicIcon";
+import { markdownify } from "@/lib/utils/textConverter";
 import { useState } from "react";
-import * as Icon from "react-feather";
 
 const HomepageTab = ({ homepage_tab }) => {
   const { title, description, tab_list } = homepage_tab;
 
   const [tab, setTab] = useState(0);
   return (
-    <div className="tab gx-5 row items-center">
+    <div className="tab gx-5 row items-center py-10">
       <div className="lg:col-7 lg:order-2">
         <div className="tab-content">
           {tab_list.map((item, index) => (
@@ -24,11 +24,17 @@ const HomepageTab = ({ homepage_tab }) => {
       </div>
       <div className="mt-6 lg:col-5 lg:order-1 lg:mt-0">
         <div className="text-container">
-          <h2 className="lg:text-4xl">{title}</h2>
-          <p className="mt-4">{description}</p>
-          <ul className="tab-nav mt-8! border-b-0">
+          <h2
+            className="lg:text-4xl"
+            dangerouslySetInnerHTML={{ __html: markdownify(title) }}
+          />
+          <p
+            className="mt-4 mb-8"
+            dangerouslySetInnerHTML={{ __html: markdownify(description) }}
+          />
+
+          <ul className="tab-nav border-b-0">
             {tab_list.map((item, index) => {
-              const FeatherIcon = Icon[humanize(item.icon)];
               return (
                 <li
                   key={index}
@@ -37,9 +43,10 @@ const HomepageTab = ({ homepage_tab }) => {
                   }`}
                   onClick={() => setTab(index)}
                 >
-                  <span className="tab-icon mr-3">
-                    <FeatherIcon />
-                  </span>
+                  <DynamicIcon
+                    icon={item.icon}
+                    className="mr-3 text-primary h-6 w-4"
+                  />
                   {item.title}
                 </li>
               );
