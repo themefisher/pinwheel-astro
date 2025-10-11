@@ -1,5 +1,6 @@
 ---
 import config from "@/config/config.json";
+import { markdownify } from "@/lib/utils/textConverter";
 
 const {
   call_to_action: {
@@ -18,12 +19,12 @@ const {
       <div class="lg:col-11">
         <div class="row">
           <div class="lg:col-7">
-            <h2 class="h1 text-white">{title}</h2>
+            <h2 class="h1 text-white" set:html={markdownify(title)} />
             <a class="btn btn-white mt-8" href={link}>{label}</a>
           </div>
           <div class="mt-8 lg:col-5 lg:mt-0">
             <p class="text-white">
-              {description}
+              {description && <span set:html={markdownify(description)} />}
             </p>
           </div>
         </div>

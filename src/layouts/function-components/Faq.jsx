@@ -29,10 +29,10 @@ const Faq = ({ data }) => {
                   onClick={() => accordionHandler(i)}
                   key={`item-${i}`}
                 >
-                  <div className="accordion-header relative pl-6 text-lg font-semibold text-text-dark">
+                  <div className="accordion-header bg-transparent relative pl-6 text-lg font-semibold text-text-dark">
                     {item.title}
                     <svg
-                      className="accordion-icon absolute left-0 top-[22px]"
+                      className="accordion-icon"
                       x="0px"
                       y="0px"
                       viewBox="0 0 512 512"

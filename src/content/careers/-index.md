@@ -9,30 +9,29 @@ benefits:
   description: Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque
   benefit_list:
     - title: Competitive salary
-      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit
-      amet aliuam vel"
+      content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
       color: "#24A1FF"
-      icon: briefcase #icon package react-feather-icon
+      icon: FiBriefcase #icon package react-icons
     - title: 100% remote
       content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
       color: "#7B5AFF"
-      icon: aperture #icon package react-feather-icon
+      icon: FiAperture #icon package react-icons
     - title: Unlimited PTO
       content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
       color: "#FDC528"
-      icon: umbrella  #icon package react-feather-icon
+      icon: FiUmbrella #icon package react-icons
     - title: Flexible HOURS
       content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
       color: "#FF5874"
-      icon: clock  #icon package react-feather-icon
+      icon: FiClock #icon package react-icons
     - title: Medical insurance
       content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
       color: "#12E189"
-      icon: plusSquare  #icon package react-feather-icon
+      icon: FiPlusSquare #icon package react-icons
     - title: Career growth
       content: "Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel"
       color: "#E545FF"
-      icon: barChart  #icon package react-feather-icon
+      icon: FiBarChart #icon package react-icons
 # career single sidebar
 sidebar_content:
   enable: true
@@ -42,7 +41,6 @@ sidebar_content:
     enable: true
     label: Apply Now
     link: "#"
-
 
 # career page
 career:

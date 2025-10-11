@@ -13,34 +13,34 @@ key_features:
   title: "The Highlighting Part Of Our Solution"
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   feature_list:
-    - icon: "map" #icon package react-feather-icon
+    - icon: "FiMap" #icon package react-icons
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock" #icon package react-feather-icon
+    - icon: "FiLock" #icon package react-icons
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon
+    - icon: "FiLink" #icon package react-icons
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon
+    - icon: "FiBell" #icon package react-icons
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon
+    - icon: "FiMonitor" #icon package react-icons
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon
+    - icon: "FiMap" #icon package react-icons
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon
+    - icon: "FiLink" #icon package react-icons
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon
+    - icon: "FiBell" #icon package react-icons
       title: Sound Amplifier
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon
+    - icon: "FiMap" #icon package react-icons
       title: Smart Reply
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon
+    - icon: "FiMonitor" #icon package react-icons
       title: Live Caption
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -51,13 +51,13 @@ service:
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
       - title: Habit building essential choose habit
-        icon: "lock" #icon package react-feather-icon
+        icon: "FiLock" #icon package react-icons
         image: "/images/sells-by-country.png"
       - title: Get an overview of Habit Calendars.
-        icon: "clock" #icon package react-feather-icon
+        icon: "FiClock" #icon package react-icons
         image: "/images/collaboration.png"
       - title: Start building with Habitify platform
-        icon: "bell" #icon package react-feather-icon
+        icon: "FiBell" #icon package react-icons
         image: "/images/sells-by-country.png"
 
   our_service:

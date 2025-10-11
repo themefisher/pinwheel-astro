@@ -2,13 +2,13 @@
 import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
-import Default from "@/layouts/Default.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
+import { render } from "astro:content";
 
 export async function getStaticPaths() {
   const pages = await getSinglePage("pages");
 
-  const paths = pages.map((page: any) => ({
+  const paths = pages.map((page) => ({
     params: {
       regular: page.slug,
     },
@@ -19,9 +19,7 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 const { title, meta_title, description, image } = page.data;
-const page_data = {
-  ...page.data,
-};
+const { Content } = await render(page);
 ---
 
 <Base
@@ -34,9 +32,16 @@ const page_data = {
   <section class="page-hero pb-14 pt-16">
     <div class="container">
       <div class="page-hero-content mx-auto max-w-[883px] text-center">
-        <PageHeader page_data={page_data} />
+        <PageHeader page_data={{ ...page.data }} />
       </div>
     </div>
   </section>
-  <Default data={page} />
+
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <Content />
+      </div>
+    </div>
+  </section>
 </Base>

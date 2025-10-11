@@ -6,7 +6,7 @@ excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem am
 job_nature: "Remote"
 location: San Francisco
 categories: ["developer"]
-date: 2021-07-13
+date: 2025-07-13
 draft: false
 ---
 

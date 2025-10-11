@@ -4,16 +4,11 @@ const Accordion = ({ title, children, className }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className={`rounded border border-border ${className}`}>
-      <button
-        className="relative block w-full  bg-light px-4 py-3 text-left text-text-dark"
-        onClick={() => setShow(!show)}
-      >
+    <div className={`accordion ${className}`}>
+      <button className="accordion-header" onClick={() => setShow(!show)}>
         {title}
         <svg
-          className={`absolute right-4 top-1/2 m-0 h-4 w-4 -translate-y-1/2 ${
-            show && "rotate-180"
-          }`}
+          className={`accordion-icon ${show && "rotate-180"}`}
           x="0px"
           y="0px"
           viewBox="0 0 512.011 512.011"

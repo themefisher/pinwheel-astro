@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader.astro";
 import Shape from "@/components/Shape.astro";
 import Base from "@/layouts/Base.astro";
 import Cta from "@/layouts/partials/Cta.astro";
+import { markdownify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
@@ -45,8 +46,8 @@ const page_data = {
               >
                 <Image height={122} width={144} src={item.image} alt="" />
               </div>
-              <h2 class="h5">{item.title}</h2>
-              <p class="mt-4">{item.description}</p>
+              <h2 class="h5" set:html={markdownify(item.title)} />
+              <p class="mt-4" set:html={markdownify(item.description)} />
             </div>
           ))
         }
@@ -80,7 +81,7 @@ const page_data = {
               }`}
             >
               <div class="text-container">
-                <h2 class="lg:text-4xl">{item.title}</h2>
+                <h2 class="lg:text-4xl" set:html={markdownify(item.title)} />
 
                 {item.list && (
                   <ul class="mt-6 text-text-dark lg:-ml-4">
