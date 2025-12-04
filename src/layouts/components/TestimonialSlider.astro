@@ -1,0 +1,54 @@
+---
+import DynamicIcon from "@/helpers/DynamicIcon";
+import { Swiper, SwiperWrapper, SwiperSlide, SwiperPagination, } from "astro-swiper";
+import type { SwiperOptions } from "swiper/types";
+
+const { list } = Astro.props;
+
+const swiperOptions: SwiperOptions = {
+  pagination: {
+    el: ".testimonial-slider-pagination",
+    type: "bullets",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  slidesPerView: 1,
+  breakpoints: {
+    992: {
+      slidesPerView: 2,
+    },
+    1200: {
+      slidesPerView: 3,
+    },
+  },
+};
+---
+
+<div>
+  <Swiper options={swiperOptions} class="reviews-carousel relative">
+    <SwiperWrapper>
+      {
+        list.map((item) => (
+          <SwiperSlide>
+            <div class="review">
+              <div class="review-author-avatar bg-gradient">
+                <img src={item.avatar} alt="" />
+              </div>
+              <h4 class="mb-2">{item.author}</h4>
+              <p class="mb-4 text-text-dark/80">{item.organization}</p>
+              <p>{item.content}</p>
+              <div
+                class={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}`}
+              >
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <DynamicIcon icon="FiStar" className="w-6 h-6" key={star} />
+                ))}
+              </div>
+            </div>
+          </SwiperSlide>
+        ))
+      }
+    </SwiperWrapper>
+    <SwiperPagination class="testimonial-slider-pagination"/>
+  </Swiper>
+</div>
