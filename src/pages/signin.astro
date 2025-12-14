@@ -1,6 +1,25 @@
 ---
 import { markdownify } from "@/lib/utils/textConverter";
 import Base from "@/layouts/Base.astro";
+
+import { Swiper, SwiperWrapper, SwiperSlide, SwiperPagination } from "astro-swiper";
+import type { SwiperOptions } from 'swiper/types'
+
+const swiperOptions: SwiperOptions = {
+  spaceBetween: 24,
+  loop: true,
+  pagination: {
+    el: ".pagination",
+    type: "bullets",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+    },
+  },
+}
+
 ---
 
 <Base>
@@ -79,10 +98,10 @@ import Base from "@/layouts/Base.astro";
               )}
             />
             <div class="auth-banner-carousel">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
+              <Swiper options={swiperOptions} class="swiper-container">
+                <SwiperWrapper>
                   <!-- Static Image Slides for Demo -->
-                  <div class="swiper-slide">
+                  <SwiperSlide>
                     <img
                       width="667"
                       height="557"
@@ -90,8 +109,8 @@ import Base from "@/layouts/Base.astro";
                       src="/images/signup-carousel-img-1.png"
                       alt=""
                     />
-                  </div>
-                  <div class="swiper-slide">
+                  </SwiperSlide>
+                  <SwiperSlide>
                     <img
                       width="667"
                       height="557"
@@ -99,8 +118,8 @@ import Base from "@/layouts/Base.astro";
                       src="/images/signup-carousel-img-1.png"
                       alt=""
                     />
-                  </div>
-                  <div class="swiper-slide">
+                  </SwiperSlide>
+                  <SwiperSlide>
                     <img
                       width="667"
                       height="557"
@@ -108,13 +127,11 @@ import Base from "@/layouts/Base.astro";
                       src="/images/signup-carousel-img-1.png"
                       alt=""
                     />
-                  </div>
-                </div>
+                  </SwiperSlide>
+                </SwiperWrapper>
 
-                <div class="relative flex justify-center">
-                  <div class="pagination"></div>
-                </div>
-              </div>
+                <SwiperPagination class="relative flex justify-center pagination" />
+              </Swiper>
             </div>
           </div>
         </div>
@@ -122,30 +139,3 @@ import Base from "@/layouts/Base.astro";
     </div>
   </section>
 </Base>
-
-<script>
-  import { Swiper } from "swiper";
-  import "swiper/css";
-  import "swiper/css/pagination";
-  import { Autoplay, Pagination } from "swiper/modules";
-
-  // Astro: Page load event to initialize Swiper
-  document.addEventListener("astro:page-load", () => {
-    new Swiper(".swiper-container", {
-      modules: [Pagination, Autoplay],
-      spaceBetween: 24,
-      loop: true,
-      centeredSlides: true,
-      pagination: {
-        el: ".pagination",
-        type: "bullets",
-        clickable: true,
-      },
-      breakpoints: {
-        768: {
-          slidesPerView: 1,
-        },
-      },
-    });
-  });
-</script>
