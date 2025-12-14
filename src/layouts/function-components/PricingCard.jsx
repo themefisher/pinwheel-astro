@@ -1,5 +1,4 @@
 import DynamicIcon from "@/helpers/DynamicIcon";
-import React from "react";
 
 const PricingCard = ({ item }) => {
   return (
@@ -34,14 +33,14 @@ const PricingCard = ({ item }) => {
             {item.services.list.map((service, i) => (
               <li className="mb-3 text-sm" key={`service-${i}`}>
                 <svg
-                  className={`mr-2 inline h-[14px] w-[14px] ${
+                  className={`mr-2 inline size-3.5 ${
                     item.featured ? "text-primary" : "text-text-light"
                   }`}
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 16 16"
-                  class="mr-1 inline h-[14px] w-[14px] text-primary"
+                  class="mr-1 inline size-3.5 text-primary"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +56,7 @@ const PricingCard = ({ item }) => {
           <a
             className={`btn ${
               item.featured ? "btn-primary" : "btn-outline-white"
-            } block h-[48px] w-full rounded-[50px] leading-[30px]`}
+            } block h-12 w-full rounded-[50px] leading-7.5`}
             href={item.buttons.buy_now.link}
           >
             {item.buttons.buy_now.label}
