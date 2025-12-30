@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-astro" alt="contributors"></a>
 </p>
 
-![pinwheel](https://demo.themefisher.com/thumbnails/pinwheel.png)
+![pinwheel](https://assets.teamosis.com/thumbs/pinwheel.png)
 
 <!-- small description -->
 
@@ -121,6 +121,6 @@ If you need custom theme development, theme customization, or complete website d
 
 ## 🔥 More Astro Themes By Themefisher
 
-| [![Bigpsring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://themefisher.com/products/bigspring-light-astro) | [![Andromeda](https://demo.gethugothemes.com/thumbnails/andromeda.png)](https://themefisher.com/products/andromeda-astro) | [![Bookwrom](https://demo.gethugothemes.com/thumbnails/bookworm.png)](https://themefisher.com/products/bookworm-astro) |
+| [![Bigpsring](https://assets.teamosis.com/thumbs/bigspring.png)](https://themefisher.com/products/bigspring-light-astro) | [![Andromeda](https://assets.teamosis.com/thumbs/andromeda.png)](https://themefisher.com/products/andromeda-astro) | [![Bookwrom](https://assets.teamosis.com/thumbs/bookworm.png)](https://themefisher.com/products/bookworm-astro) |
 | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
 |                                                       **Bigpsring Light**                                                       |                                                       **Andromeda**                                                       |                                                   **Bookwom Light**                                                    |
