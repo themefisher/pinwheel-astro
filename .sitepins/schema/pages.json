@@ -1,0 +1,29 @@
+{
+  "file": "src/content/pages/terms-and-conditions.md",
+  "name": "pages",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "Terms & Condition Of Pinwheel",
+      "defaultValue": ""
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "type": "string",
+      "value": "Donec sollicitudin molestie malesda. Donec sollitudin molestie male <br /> suada Mauris pellentesque nec egestas non nisi Cras",
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    }
+  ]
+}
