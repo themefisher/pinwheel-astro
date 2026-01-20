@@ -1,0 +1,72 @@
+{
+  "file": "src/content/careers/design-lead.md",
+  "name": "careers",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "Design Lead",
+      "defaultValue": "Design Lead"
+    },
+    {
+      "name": "meta_title",
+      "label": "Meta Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "type": "string",
+      "value": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet",
+      "defaultValue": ""
+    },
+    {
+      "name": "job_nature",
+      "label": "Job Nature",
+      "type": "string",
+      "value": "Full Time",
+      "defaultValue": ""
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "type": "string",
+      "value": "San Francisco",
+      "defaultValue": ""
+    },
+    {
+      "name": "categories",
+      "label": "Categories",
+      "type": "Array",
+      "value": [],
+      "defaultValue": ""
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "2025-07-11T00:00:00.000Z",
+      "defaultValue": "2025-07-11T00:00:00.000Z",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    }
+  ]
+}
