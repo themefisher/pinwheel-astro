@@ -1,0 +1,65 @@
+{
+  "file": "src/content/blog/post-1.md",
+  "name": "blog",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "How Video Analytics Can Help Understand and Increase",
+      "defaultValue": "How Video Analytics Can Help Understand and Increase"
+    },
+    {
+      "name": "subtitle",
+      "label": "Subtitle",
+      "type": "string",
+      "value": "Mauris blandit aliquet elit, eget tincidunt nibh dolor sit amet,",
+      "defaultValue": "Mauris blandit aliquet elit, eget tincidunt nibh dolor sit amet,"
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "/images/posts/post-5.png",
+      "defaultValue": "/images/posts/post-5.png"
+    },
+    {
+      "name": "author",
+      "label": "Author",
+      "type": "string",
+      "value": "Abdullah Al Shifat",
+      "defaultValue": "Abdullah Al Shifat"
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "2025-04-04T05:00:00.000Z",
+      "defaultValue": "2025-04-04T05:00:00.000Z",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "categories",
+      "label": "Categories",
+      "type": "Array",
+      "value": [],
+      "defaultValue": ""
+    },
+    {
+      "name": "featured",
+      "label": "Featured",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    }
+  ]
+}
