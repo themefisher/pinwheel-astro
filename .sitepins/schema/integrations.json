@@ -1,0 +1,72 @@
+{
+  "file": "src/content/integrations/facebook.md",
+  "name": "integrations",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "string",
+      "value": "facebook",
+      "defaultValue": ""
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "Facebook Integrations",
+      "defaultValue": ""
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "type": "string",
+      "value": "We are looking for a personal financial planning pro Certified Financial Planner preferred  who will lead our client advising efforts. You will be a fiduciary who works",
+      "defaultValue": ""
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "/images/integrations/facebook.png",
+      "defaultValue": "/images/integrations/facebook.png"
+    },
+    {
+      "name": "categories",
+      "label": "Categories",
+      "type": "Array",
+      "value": [],
+      "defaultValue": ""
+    },
+    {
+      "name": "button",
+      "label": "Button",
+      "type": "object",
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "label",
+          "label": "Label",
+          "type": "string",
+          "value": "integrate",
+          "defaultValue": ""
+        },
+        {
+          "name": "link",
+          "label": "Link",
+          "type": "string",
+          "value": "#",
+          "defaultValue": ""
+        }
+      ]
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    }
+  ]
+}
