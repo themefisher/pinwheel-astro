@@ -57,7 +57,7 @@ const { title, images } = gallery;
       ) as HTMLElement | null;
 
       if (sizer) {
-        const shuffleInstance = new Shuffle(element, {
+        new Shuffle(element, {
           itemSelector: ".picture-item",
           sizer: sizer,
           columnWidth: 1,
