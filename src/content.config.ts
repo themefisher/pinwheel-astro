@@ -1,5 +1,6 @@
 import { glob } from "astro/loaders";
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { z } from "astro/zod";
 
 // Homepage Collection Schema
 const homepageCollection = defineCollection({
@@ -160,10 +161,10 @@ const blogCollection = defineCollection({
     subtitle: z.string().optional(),
     meta_title: z.string().optional(),
     description: z.string().optional(),
-    date: z.date().optional(),
+    date: z.coerce.date().optional(),
     image: z.string().optional(),
     author: z.string().optional(),
-    categories: z.array(z.string()).default(["others"]),
+    categories: z.array(z.string()).default(() => ["others"]),
     draft: z.boolean().optional(),
     featured: z.boolean().optional(),
   }),
@@ -242,6 +243,7 @@ const featuresCollection = defineCollection({
 
 // How It Works Collection Schema
 const howItWorksCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/how-it-works" }),
   schema: z.object({
     title: z.string(),
     page_title: z.string(),
@@ -271,6 +273,7 @@ const howItWorksCollection = defineCollection({
 
 // Contact collection schema
 const contactCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/contact" }),
   schema: z.object({
     title: z.string(),
     meta_title: z.string().optional(),
@@ -326,8 +329,8 @@ const careersCollection = defineCollection({
     excerpt: z.string().optional(),
     job_nature: z.string().optional(),
     location: z.string().optional(),
-    categories: z.array(z.string()).default(["developer"]),
-    date: z.date().optional(),
+    categories: z.array(z.string()).default(() => ["developer"]),
+    date: z.coerce.date().optional(),
     draft: z.boolean().default(false),
   }),
 });
@@ -342,7 +345,7 @@ const integrationsCollection = defineCollection({
     name: z.string().optional(),
     excerpt: z.string().optional(),
     image: z.string().optional(),
-    categories: z.array(z.string()).default(["social media"]).optional(),
+    categories: z.array(z.string()).default(() => ["social media"]).optional(),
     button: z
       .object({
         label: z.string(),
@@ -354,6 +357,7 @@ const integrationsCollection = defineCollection({
 });
 
 const pricingCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/pricing" }),
   schema: z.object({
     title: z.string(),
     page_title: z.string(),
@@ -400,8 +404,8 @@ const pricingCollection = defineCollection({
 
 // Pages collection schema
 const pagesCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/pages" }),
   schema: z.object({
-    id: z.string().optional(),
     title: z.string(),
     meta_title: z.string().optional(),
     description: z.string().optional(),
