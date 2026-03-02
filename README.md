@@ -3,8 +3,8 @@
 <h2 align="center"><a target="_blank" href="https://pinwheel-astro.vercel.app/" rel="nofollow"> 👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-pinwheel-astro-vercel-app/kmaxqwa7rx?form_factor=desktop"> Page Speed (95+) 🚀 </a>
 </h2>
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.14.1" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.14&color=000&logo=astro" />
+  <a href="https://github.com/withastro/astro/releases/tag/astro%406.0.0-beta.17" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=6.0%20beta&color=000&logo=astro" />
   </a>
 
   <a href="https://github.com/themefisher/pinwheel-astro/blob/main/LICENSE">
@@ -13,12 +13,10 @@
   <img src="https://img.shields.io/github/languages/code-size/themefisher/pinwheel-astro" alt="code size">
 
   <a href="https://github.com/themefisher/pinwheel-astro/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-astro" alt="contributors"></a>
+    <img src="https://img.shields.io/github/contributors/themefisher/pinwheel-astro" alt="contributors"></a>
 </p>
 
 ![pinwheel](https://assets.teamosis.com/thumbs/pinwheel.png)
-
-<!-- small description -->
 
 <!-- key features -->
 
@@ -122,5 +120,5 @@ If you need custom theme development, theme customization, or complete website d
 ## 🔥 More Astro Themes By Themefisher
 
 | [![Bigpsring](https://assets.teamosis.com/thumbs/bigspring.png)](https://themefisher.com/products/bigspring-light-astro) | [![Andromeda](https://assets.teamosis.com/thumbs/andromeda.png)](https://themefisher.com/products/andromeda-astro) | [![Bookwrom](https://assets.teamosis.com/thumbs/bookworm.png)](https://themefisher.com/products/bookworm-astro) |
-| :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
-|                                                       **Bigpsring Light**                                                       |                                                       **Andromeda**                                                       |                                                   **Bookwom Light**                                                    |
+| :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+|                                                   **Bigpsring Light**                                                    |                                                   **Andromeda**                                                    |                                                **Bookwom Light**                                                |
